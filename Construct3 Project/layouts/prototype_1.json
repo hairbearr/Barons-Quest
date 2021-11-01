@@ -258,7 +258,9 @@
 						"live-preview": false
 					},
 					"uid": 7,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"SwitchNumber": 0
+					},
 					"behaviors": {},
 					"world": {
 						"x": 720,

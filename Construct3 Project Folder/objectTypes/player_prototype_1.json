@@ -1,0 +1,116 @@
+{
+	"name": "Player_Prototype_1",
+	"plugin-id": "Sprite",
+	"sid": 370411824440666,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "isAttacking_Melee",
+			"type": "boolean",
+			"desc": "",
+			"sid": 564854664445253
+		},
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "",
+			"sid": 697362707245031
+		},
+		{
+			"name": "AttackPower_Melee",
+			"type": "number",
+			"desc": "",
+			"sid": 522429368967385
+		},
+		{
+			"name": "HasMeleeWeapon",
+			"type": "boolean",
+			"desc": "",
+			"sid": 204419798760992
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 690457550348923
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7601772,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 585387158066091,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 16,
+						"originX": 0.25,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4270517,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.5,
+								0.8125,
+								0.8125,
+								0.8125,
+								0.8125,
+								1,
+								0.5,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.5,
+								"y": 0.875
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 477939003665875,
+				"name": "SwingSword",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

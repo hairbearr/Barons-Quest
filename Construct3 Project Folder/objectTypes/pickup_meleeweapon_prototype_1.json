@@ -1,0 +1,49 @@
+{
+	"name": "PickUp_MeleeWeapon_Prototype_1",
+	"plugin-id": "Sprite",
+	"sid": 665469550459277,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 15,
+						"height": 9,
+						"originX": 0.26666666666666666,
+						"originY": 0.5555555555555556,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5644676,
+						"collisionPoly": {
+							"points": [
+								0.26666666666666666,
+								0.3888888888888889,
+								0.9333333333333333,
+								0.3888888888888889,
+								0.9333333333333333,
+								0.7222222222222222,
+								0.26666666666666666,
+								0.7222222222222222
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 596205581498688,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

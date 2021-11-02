@@ -85,6 +85,14 @@
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
 		}
 	],
 	"uniqueId": "urkcz5zusxa",
@@ -93,7 +101,10 @@
 			"Mouse",
 			"Keyboard",
 			"Browser",
-			"Chest"
+			"Chest",
+			"ColorPuzzle_Switch",
+			"ChestOverlay",
+			"DestructableBox"
 		],
 		"subfolders": [
 			{

@@ -53,18 +53,54 @@
 					}
 				}
 			],
-			"actions": [
+			"actions": [],
+			"sid": 995095669629791,
+			"children": [
 				{
-					"id": "set-boolean-instvar",
-					"objectClass": "Moveable_Door_Prototype_1",
-					"sid": 608317258709883,
-					"parameters": {
-						"instance-variable": "isOpen",
-						"value": "true"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 668151427555441,
+							"parameters": {
+								"instance-variable": "SwitchOpen"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 741843124876767,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Switch_Prototype_1",
+									"sid": 541486248964061,
+									"parameters": {
+										"instance-variable": "SwitchNumber",
+										"comparison": 0,
+										"value": "Moveable_Door_Prototype_1.DoorNumber"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-instvar",
+									"objectClass": "Moveable_Door_Prototype_1",
+									"sid": 165951180548907,
+									"parameters": {
+										"instance-variable": "isOpen",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 338145888379240
+						}
+					]
 				}
 			],
-			"sid": 995095669629791,
 			"isOrBlock": true
 		},
 		{
@@ -89,18 +125,45 @@
 					"isInverted": true
 				}
 			],
-			"actions": [
+			"actions": [],
+			"sid": 632995003060150,
+			"children": [
 				{
-					"id": "set-boolean-instvar",
-					"objectClass": "Moveable_Door_Prototype_1",
-					"sid": 683623409854261,
-					"parameters": {
-						"instance-variable": "isOpen",
-						"value": "false"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 156722734315276,
+							"parameters": {
+								"instance-variable": "SwitchOpen"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Switch_Prototype_1",
+							"sid": 231982811763028,
+							"parameters": {
+								"instance-variable": "SwitchNumber",
+								"comparison": 0,
+								"value": "Moveable_Door_Prototype_1.DoorNumber"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 440870219109227,
+							"parameters": {
+								"instance-variable": "isOpen",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 366087306375259
 				}
-			],
-			"sid": 632995003060150
+			]
 		},
 		{
 			"eventType": "block",
@@ -112,25 +175,34 @@
 					"parameters": {
 						"instance-variable": "isOpen"
 					}
-				},
-				{
-					"id": "trigger-once-while-true",
-					"objectClass": "System",
-					"sid": 626441509243799
 				}
 			],
-			"actions": [
+			"actions": [],
+			"sid": 733748499555496,
+			"children": [
 				{
-					"id": "set-animation",
-					"objectClass": "Moveable_Door_Prototype_1",
-					"sid": 674633890608244,
-					"parameters": {
-						"animation": "\"Opening\"",
-						"from": "beginning"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 745740843028636
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 106772404528740,
+							"parameters": {
+								"animation": "\"Opening\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 795623419509903
 				}
-			],
-			"sid": 733748499555496
+			]
 		},
 		{
 			"eventType": "block",
@@ -177,18 +249,36 @@
 							}
 						}
 					],
-					"actions": [
+					"actions": [],
+					"sid": 326677036046822,
+					"children": [
 						{
-							"id": "simulate-control",
-							"objectClass": "Player_Prototype_1",
-							"sid": 248972782368710,
-							"behaviorType": "8Direction",
-							"parameters": {
-								"control": "up"
-							}
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "key-is-down",
+									"objectClass": "Keyboard",
+									"sid": 295096163418592,
+									"parameters": {
+										"key": 83
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "Player_Prototype_1",
+									"sid": 140797601339263,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"control": "up"
+									}
+								}
+							],
+							"sid": 459417234991113
 						}
-					],
-					"sid": 326677036046822
+					]
 				},
 				{
 					"eventType": "block",
@@ -284,6 +374,14 @@
 							"sid": 483991534357322,
 							"parameters": {
 								"key": 32
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player_Prototype_1",
+							"sid": 487312497778919,
+							"parameters": {
+								"instance-variable": "HasMeleeWeapon"
 							}
 						}
 					],
@@ -407,6 +505,27 @@
 						}
 					],
 					"sid": 391353112777446
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "HurtBox_Prototype_1",
+							"sid": 961187707501451,
+							"parameters": {
+								"object": "DestructableBox"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "DestructableBox",
+							"sid": 878501324523846
+						}
+					],
+					"sid": 978290395622941
 				}
 			],
 			"sid": 875137525741233
@@ -484,6 +603,117 @@
 				}
 			],
 			"sid": 578538354045620
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Player",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [],
+			"sid": 170771879147877
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player_Prototype_1",
+					"sid": 975836802136481,
+					"parameters": {
+						"object": "ChestOverlay"
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 548393544659520,
+					"parameters": {
+						"key": 69
+					}
+				}
+			],
+			"actions": [],
+			"sid": 533815009735330,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "ChestOverlay",
+							"sid": 291003918253042,
+							"parameters": {
+								"instance-variable": "ChestNumber",
+								"comparison": 0,
+								"value": "Chest.ChestNumber"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 460160506748359,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "Chest",
+									"sid": 454349875797971
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "PickUp_MeleeWeapon_Prototype_1",
+									"sid": 553786474314388,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-collisions-enabled",
+									"objectClass": "PickUp_MeleeWeapon_Prototype_1",
+									"sid": 257572613138182,
+									"parameters": {
+										"collisions": "enabled"
+									}
+								}
+							],
+							"sid": 940188369064048
+						}
+					]
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player_Prototype_1",
+					"sid": 577938942412668,
+					"parameters": {
+						"object": "PickUp_MeleeWeapon_Prototype_1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "PickUp_MeleeWeapon_Prototype_1",
+					"sid": 667343012844764
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Player_Prototype_1",
+					"sid": 374033290168401,
+					"parameters": {
+						"instance-variable": "HasMeleeWeapon",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 704211571461395
 		}
 	],
 	"sid": 674804497733104

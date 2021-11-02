@@ -1,27 +1,14 @@
 {
-	"name": "Chest",
+	"name": "DestructableBox",
 	"plugin-id": "Sprite",
-	"sid": 557191232422525,
+	"sid": 722179886709718,
 	"isGlobal": false,
-	"instanceVariables": [
-		{
-			"name": "OpenDoor",
-			"type": "boolean",
-			"desc": "",
-			"sid": 164317075088494
-		},
-		{
-			"name": "ChestNumber",
-			"type": "number",
-			"desc": "",
-			"sid": 132148761298737
-		}
-	],
+	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 410011358230698
+			"sid": 851409182451006
 		}
 	],
 	"effectTypes": [],
@@ -37,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5600176,
+						"imageSpriteId": 9074062,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 284926049895038,
+				"sid": 377934860581728,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -28,7 +28,7 @@
 							"height": 60,
 							"max-width": 159,
 							"max-height": 90,
-							"data": "31x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,28x49,2x1,59x49,1,49,29x1,9509x49"
+							"data": "31x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,24,2x2,25x24,2x1,59x24,1,24,2x2,25x24,2x1,59x24,1,24,2x2,25x24,2x1,59x24,1,24,2x2,25x24,2x1,59x24,1,24,2x2,25x24,2x1,59x24,1,24,2x2,25x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,24,29x1,9509x24"
 						},
 						"tile-width": 16,
 						"tile-height": 16,
@@ -83,7 +83,7 @@
 							"height": 60,
 							"max-width": 106,
 							"max-height": 60,
-							"data": "30x1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,4x1,3x0,9x1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,2x1,3x0,25x1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,3x0,26x1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,30x1,3150x0"
+							"data": "30x1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,4x1,3x0,9x1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,1,14x0,1,13x0,1,30x0,2x1,3x0,25x1,30x0,1,23x0,6x1,30x0,1,23x0,6x1,30x0,1,23x0,6x1,30x0,1,23x0,6x1,30x0,1,23x0,6x1,30x0,1,23x0,6x1,30x0,1,26x0,3x1,30x0,1,26x0,3x1,30x0,1,23x0,6x1,30x0,1,23x0,6x1,30x0,1,23x0,6x1,30x0,1,23x0,6x1,30x0,1,23x0,6x1,30x0,1,23x0,6x1,30x0,1,3x0,26x1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,1,28x0,1,30x0,30x1,3150x0"
 						},
 						"tile-width": 16,
 						"tile-height": 16,
@@ -120,7 +120,10 @@
 					"uid": 8,
 					"instanceVariables": {
 						"isOpen": false,
-						"DoorNumber": 0
+						"DoorNumber": 0,
+						"ColorPuzzleOpen": false,
+						"ChestOpen": false,
+						"SwitchOpen": true
 					},
 					"behaviors": {
 						"Solid": {
@@ -131,8 +134,8 @@
 						}
 					},
 					"world": {
-						"x": 616,
-						"y": 40.686188456211866,
+						"x": 495.2775935899924,
+						"y": 392.3557938094724,
 						"width": 68.0925611256578,
 						"height": 16,
 						"originX": 0.5,
@@ -143,7 +146,7 @@
 							1,
 							1
 						],
-						"angle": 1.5707963267948966,
+						"angle": 0,
 						"zElevation": 0
 					}
 				},
@@ -172,6 +175,11 @@
 								"directions": "dir-4",
 								"set-angle": "interval-90",
 								"default-controls": true,
+								"enabled": true
+							}
+						},
+						"ScrollTo": {
+							"properties": {
 								"enabled": true
 							}
 						}
@@ -328,8 +336,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 506.3791171519699,
-						"y": 42.162930340955654,
+						"x": 499.0891172099057,
+						"y": 416.3829347826943,
 						"width": 15,
 						"height": 9,
 						"originX": 0.26666666666666666,
@@ -354,11 +362,21 @@
 						"live-preview": false
 					},
 					"uid": 13,
-					"instanceVariables": {},
-					"behaviors": {},
+					"instanceVariables": {
+						"OpenDoor": true,
+						"ChestNumber": 1
+					},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
-						"x": 504.08793798013846,
-						"y": 40.77699111065874,
+						"x": 496.7979380380742,
+						"y": 414.9969955523974,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
@@ -374,7 +392,110 @@
 					}
 				},
 				{
-					"type": "Moveable_Boulder_Prototype_1",
+					"type": "ChestOverlay",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 20,
+					"instanceVariables": {
+						"ChestNumber": 1
+					},
+					"behaviors": {},
+					"world": {
+						"x": 496.862872253304,
+						"y": 403.04559041203504,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "DestructableBox",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 15,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 184.248741212769,
+						"y": 77.72525614084867,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "DestructableBox",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 17,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 184.248741212769,
+						"y": 96.73901196835263,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "DestructableBox",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -393,8 +514,116 @@
 						}
 					},
 					"world": {
-						"x": 521.2016906196284,
-						"y": 145.96828796037926,
+						"x": 202.32837148380708,
+						"y": 77.72525614084867,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "DestructableBox",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 16,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 202.32837148380708,
+						"y": 96.73901196835263,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "DestructableBox",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 18,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 165.73865425144714,
+						"y": 77.72525614084867,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "DestructableBox",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 19,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 165.73865425144714,
+						"y": 96.73901196835263,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,

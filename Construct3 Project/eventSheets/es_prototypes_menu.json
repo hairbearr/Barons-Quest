@@ -39,17 +39,6 @@
 					"parameters": {
 						"layout": "Prototype_2_Switches"
 					}
-				},
-				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 657570577666950,
-					"parameters": {
-						"audio-file": "48941__chipfork71__thunder",
-						"loop": "not-looping",
-						"volume": "0",
-						"tag-optional": "\"\""
-					}
 				}
 			],
 			"sid": 740403574007005
@@ -70,17 +59,6 @@
 					"sid": 375274739481866,
 					"parameters": {
 						"layout": "Prototype_3_Puzzle_Match"
-					}
-				},
-				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 649402668802612,
-					"parameters": {
-						"audio-file": "Test",
-						"loop": "not-looping",
-						"volume": "0",
-						"tag-optional": "\"\""
 					}
 				}
 			],

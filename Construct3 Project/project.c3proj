@@ -8,16 +8,24 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "Tilemap",
-			"name": "Tilemap",
+			"id": "Sprite",
+			"name": "Sprite",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
-			"id": "Sprite",
-			"name": "Sprite",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Tilemap",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -119,7 +127,22 @@
 					"HurtBox_Prototype_1",
 					"PickUp_MeleeWeapon_Prototype_1"
 				],
-				"subfolders": [],
+				"subfolders": [
+					{
+						"items": [
+							"Mana",
+							"Stone",
+							"Log",
+							"Tree_Bottom",
+							"Tree_Top",
+							"Butterfly",
+							"Grass_Texture",
+							"Tree_Z_Complete"
+						],
+						"subfolders": [],
+						"name": "Sprites"
+					}
+				],
 				"name": "Prototype_1"
 			}
 		]

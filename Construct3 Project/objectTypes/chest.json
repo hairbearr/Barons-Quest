@@ -1,0 +1,56 @@
+{
+	"name": "Chest",
+	"plugin-id": "Sprite",
+	"sid": 557191232422525,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "OpenDoor",
+			"type": "boolean",
+			"desc": "",
+			"sid": 164317075088494
+		},
+		{
+			"name": "ChestNumber",
+			"type": "number",
+			"desc": "",
+			"sid": 132148761298737
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 410011358230698
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5600176,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 284926049895038,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

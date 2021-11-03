@@ -2,26 +2,6 @@
 	"name": "ES_Prototype_1_Combat",
 	"events": [
 		{
-			"eventType": "variable",
-			"name": "TotalMatchObjects",
-			"type": "number",
-			"initialValue": "0",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 303362140104914
-		},
-		{
-			"eventType": "variable",
-			"name": "NextMatchObject",
-			"type": "number",
-			"initialValue": "1",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 456066994794005
-		},
-		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Player",
@@ -331,36 +311,18 @@
 									}
 								}
 							],
-							"actions": [],
-							"sid": 723467487349565,
-							"children": [
+							"actions": [
 								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "key-is-down",
-											"objectClass": "Keyboard",
-											"sid": 198096037736594,
-											"parameters": {
-												"key": 83
-											},
-											"isInverted": true
-										}
-									],
-									"actions": [
-										{
-											"id": "simulate-control",
-											"objectClass": "Player_Prototype_1",
-											"sid": 931008924094230,
-											"behaviorType": "8Direction",
-											"parameters": {
-												"control": "up"
-											}
-										}
-									],
-									"sid": 143803074227382
+									"id": "simulate-control",
+									"objectClass": "Player_Prototype_1",
+									"sid": 245519429954869,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"control": "up"
+									}
 								}
-							]
+							],
+							"sid": 723467487349565
 						},
 						{
 							"eventType": "block",

@@ -1,5 +1,430 @@
 {
 	"name": "ES_Prototype_3_Puzzle_Match",
-	"events": [],
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "TotalPuzzleObjects",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 144100363714878
+		},
+		{
+			"eventType": "variable",
+			"name": "NextPuzzleObjectInSequence",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 466480026879819
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Bu_Menu",
+					"sid": 782441269279035
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 644838673530555,
+					"parameters": {
+						"layout": "Menu"
+					}
+				}
+			],
+			"sid": 592790109990604
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 372647541841714
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 441225524081025,
+					"parameters": {
+						"variable": "TotalPuzzleObjects",
+						"value": "ColorPuzzle_Switch.Count"
+					}
+				}
+			],
+			"sid": 606876672570978
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 229279802591201
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 631499035229139,
+					"parameters": {
+						"variable": "NextPuzzleObjectInSequence",
+						"value": "Player_Prototype_1.PuzzleSequence"
+					}
+				}
+			],
+			"sid": 352080426451533
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Puzzle Character Controller",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 514015314805410,
+							"parameters": {
+								"key": 87
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player_Prototype_1",
+							"sid": 368429839883313,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "up"
+							}
+						}
+					],
+					"sid": 519917870345934
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 159255339281752,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player_Prototype_1",
+							"sid": 342101847237700,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "left"
+							}
+						}
+					],
+					"sid": 210362792674715
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 241514702193247,
+							"parameters": {
+								"key": 83
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player_Prototype_1",
+							"sid": 670950024088069,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "down"
+							}
+						}
+					],
+					"sid": 995016790071231
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 501320829156008,
+							"parameters": {
+								"key": 68
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player_Prototype_1",
+							"sid": 887452408219035,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "right"
+							}
+						}
+					],
+					"sid": 944123547936024
+				}
+			],
+			"sid": 242289065136055
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Sequence Puzzle",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player_Prototype_1",
+							"sid": 973527928965830,
+							"parameters": {
+								"object": "ColorPuzzle_Switch"
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 781120176410429,
+							"parameters": {
+								"instance-variable": "isOpen"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [],
+					"sid": 230480280558654,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "ColorPuzzle_Switch",
+									"sid": 172013173079478,
+									"parameters": {
+										"instance-variable": "PuzzlePosition",
+										"comparison": 0,
+										"value": "NextPuzzleObjectInSequence"
+									}
+								},
+								{
+									"id": "trigger-once-while-true",
+									"objectClass": "System",
+									"sid": 688283644541850
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-instvar",
+									"objectClass": "Player_Prototype_1",
+									"sid": 619087890505322,
+									"parameters": {
+										"instance-variable": "PuzzleSequence",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 884318653811351
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "ColorPuzzle_Switch",
+									"sid": 234387806673438,
+									"parameters": {
+										"instance-variable": "PuzzlePosition",
+										"comparison": 1,
+										"value": "NextPuzzleObjectInSequence"
+									}
+								},
+								{
+									"id": "trigger-once-while-true",
+									"objectClass": "System",
+									"sid": 954955661997137
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Player_Prototype_1",
+									"sid": 473270371229000,
+									"parameters": {
+										"instance-variable": "PuzzleSequence",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 129462659863649
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 135862304810119,
+							"parameters": {
+								"variable": "NextPuzzleObjectInSequence",
+								"comparison": 4,
+								"value": "TotalPuzzleObjects"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 253626857682072,
+							"parameters": {
+								"instance-variable": "isOpen",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 999442059384888
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 744880004058376,
+							"parameters": {
+								"variable": "NextPuzzleObjectInSequence",
+								"comparison": 3,
+								"value": "TotalPuzzleObjects"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 639790433395069,
+							"parameters": {
+								"instance-variable": "isOpen",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 968335719102684
+				}
+			],
+			"sid": 473933137265086
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Doors",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 370654333394575,
+							"parameters": {
+								"instance-variable": "isOpen"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 722283083454190,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "trigger-once-while-true",
+									"objectClass": "System",
+									"sid": 678594182766341
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "Moveable_Door_Prototype_1",
+									"sid": 882306766239695,
+									"parameters": {
+										"animation": "\"Opening\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 140981958987792
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 334428438471304,
+							"parameters": {
+								"instance-variable": "isOpen"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 198452470854111,
+							"parameters": {
+								"animation": "\"Closed\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 822823470179586
+				}
+			],
+			"sid": 586016499300134
+		}
+	],
 	"sid": 693508415933579
 }

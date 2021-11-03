@@ -122,7 +122,8 @@
 						"isAttacking_Melee": false,
 						"Health": 0,
 						"AttackPower_Melee": 1,
-						"HasMeleeWeapon": false
+						"HasMeleeWeapon": false,
+						"PuzzleSequence": 1
 					},
 					"behaviors": {
 						"8Direction": {

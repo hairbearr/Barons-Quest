@@ -9,6 +9,12 @@
 			"type": "string",
 			"desc": "",
 			"sid": 398858067449357
+		},
+		{
+			"name": "PuzzlePosition",
+			"type": "number",
+			"desc": "",
+			"sid": 141787772044144
 		}
 	],
 	"behaviorTypes": [],

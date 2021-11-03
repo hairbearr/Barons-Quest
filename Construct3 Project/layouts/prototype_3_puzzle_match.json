@@ -6,25 +6,42 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Bu_Prototype_1_Combat",
+					"type": "TiM_Background_Prototype_1",
 					"properties": {
-						"type": "button",
-						"text": "Prototype 1",
-						"tooltip": "",
 						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0,
+						"tile-x-drawing-offset": 0,
+						"tile-y-drawing-offset": 0,
+						"drawing-mode": "top-to-right"
 					},
-					"uid": 6,
+					"uid": 36,
 					"instanceVariables": {},
 					"behaviors": {},
+					"ownData": {
+						"tilemapData": {
+							"width": 106,
+							"height": 60,
+							"max-width": 159,
+							"max-height": 90,
+							"data": "31x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,2x24,2x6,24x24,2x1,59x24,1,2x24,2x6,24x24,2x1,59x24,1,2x24,2x9,24x24,2x1,59x24,1,2x24,2x9,24x24,2x1,59x24,1,2x24,2x15,24x24,2x1,59x24,1,2x24,2x15,24x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,24,2x2,25x24,2x1,59x24,1,24,2x2,25x24,2x1,59x24,1,24,2x2,25x24,2x1,59x24,1,24,2x2,25x24,2x1,59x24,1,24,2x2,25x24,2x1,59x24,1,24,2x2,25x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,28x24,2x1,59x24,1,24,29x1,9509x24"
+						},
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0
+					},
 					"world": {
-						"x": 382.7669809115363,
-						"y": 194,
-						"width": 87.42997197757758,
-						"height": 29.143323992525858,
+						"x": 0,
+						"y": 0,
+						"width": 1708,
+						"height": 960,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -32,59 +49,96 @@
 							1,
 							1,
 							1
-						]
+						],
+						"zElevation": 0
 					}
 				},
 				{
-					"type": "Bu_Prototype_2_Switches",
+					"type": "Moveable_Door_Prototype_1",
 					"properties": {
-						"type": "button",
-						"text": "Prototype 2",
-						"tooltip": "",
 						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
+						"initial-animation": "Closed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
-					"uid": 7,
-					"instanceVariables": {},
-					"behaviors": {},
+					"uid": 29,
+					"instanceVariables": {
+						"isOpen": false,
+						"DoorNumber": 0,
+						"ColorPuzzleOpen": false,
+						"ChestOpen": false,
+						"SwitchOpen": true
+					},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
-						"x": 382.7669809115363,
-						"y": 225.42620034442245,
-						"width": 87.42997197757758,
-						"height": 29.143323992525858,
-						"originX": 0,
-						"originY": 0,
+						"x": 487.7415771484375,
+						"y": 106.51435089111328,
+						"width": 68.1732564485551,
+						"height": 13.997473529252176,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
 							1,
 							1
-						]
+						],
+						"angle": 4.71238898038469,
+						"zElevation": 0
 					}
 				},
 				{
-					"type": "Bu_Prototype_3_Puzzle_Match",
+					"type": "TiM_Walls_Prototype_1",
 					"properties": {
-						"type": "button",
-						"text": "Prototype 3",
-						"tooltip": "",
 						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0,
+						"tile-x-drawing-offset": 0,
+						"tile-y-drawing-offset": 0,
+						"drawing-mode": "top-to-right"
 					},
 					"uid": 8,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"ownData": {
+						"tilemapData": {
+							"width": 106,
+							"height": 60,
+							"max-width": 106,
+							"max-height": 60,
+							"data": "29x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,5x1,3x0,21x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,1,21x0,7x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,31x0,29x1,2131x0"
+						},
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0
+					},
 					"world": {
-						"x": 382.7669809115363,
-						"y": 257,
-						"width": 87.42997197757758,
-						"height": 29.143323992525858,
+						"x": 0,
+						"y": 0,
+						"width": 1708,
+						"height": 960,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -92,7 +146,156 @@
 							1,
 							1,
 							1
-						]
+						],
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ColorPuzzle_Switch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Blue",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 30,
+					"instanceVariables": {
+						"Color": "",
+						"PuzzlePosition": 1
+					},
+					"behaviors": {},
+					"world": {
+						"x": 248.06458902023212,
+						"y": 183.53680155485455,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ColorPuzzle_Switch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Red",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 34,
+					"instanceVariables": {
+						"Color": "",
+						"PuzzlePosition": 3
+					},
+					"behaviors": {},
+					"world": {
+						"x": 302.1296595484325,
+						"y": 206.02877193347945,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ColorPuzzle_Switch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Green",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 35,
+					"instanceVariables": {
+						"Color": "",
+						"PuzzlePosition": 2
+					},
+					"behaviors": {},
+					"world": {
+						"x": 248.5236077978416,
+						"y": 230.904533759039,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Player_Prototype_1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 37,
+					"instanceVariables": {
+						"isAttacking_Melee": false,
+						"Health": 0,
+						"AttackPower_Melee": 1,
+						"HasMeleeWeapon": false,
+						"PuzzleSequence": 1
+					},
+					"behaviors": {
+						"8Direction": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 500,
+								"directions": "dir-4",
+								"set-angle": "interval-90",
+								"default-controls": true,
+								"enabled": true
+							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 121.75707244873047,
+						"y": 201.7181396484375,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 4.71238898038469,
+						"zElevation": 0
 					}
 				}
 			],
@@ -114,6 +317,68 @@
 			"isTransparent": false,
 			"parallaxX": 1,
 			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "UI",
+			"overriden": 0,
+			"instances": [
+				{
+					"type": "Bu_Menu",
+					"properties": {
+						"type": "button",
+						"text": "MENU",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 7,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 0,
+						"y": 0,
+						"width": 72,
+						"height": 24,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				}
+			],
+			"sid": 483033920259558,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 0,
+			"parallaxY": 0,
 			"scaleRate": 1,
 			"forceOwnTexture": false,
 			"renderingMode": "3d",

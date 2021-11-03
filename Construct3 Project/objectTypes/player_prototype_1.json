@@ -27,6 +27,12 @@
 			"type": "boolean",
 			"desc": "",
 			"sid": 204419798760992
+		},
+		{
+			"name": "PuzzleSequence",
+			"type": "number",
+			"desc": "",
+			"sid": 925711130303507
 		}
 	],
 	"behaviorTypes": [

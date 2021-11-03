@@ -18,17 +18,6 @@
 					"parameters": {
 						"layout": "Prototype_1_Combat"
 					}
-				},
-				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 832938622556423,
-					"parameters": {
-						"audio-file": "476545__mrthenoronha__platform-game-theme-loop",
-						"loop": "looping",
-						"volume": "0",
-						"tag-optional": "\"\""
-					}
 				}
 			],
 			"sid": 793478072126737
@@ -49,6 +38,17 @@
 					"sid": 621760661543348,
 					"parameters": {
 						"layout": "Prototype_2_Switches"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 657570577666950,
+					"parameters": {
+						"audio-file": "48941__chipfork71__thunder",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
@@ -75,10 +75,10 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 464878566354321,
+					"sid": 649402668802612,
 					"parameters": {
-						"audio-file": "476548__mrthenoronha__platform-game-theme-loop-4",
-						"loop": "looping",
+						"audio-file": "Test",
+						"loop": "not-looping",
 						"volume": "0",
 						"tag-optional": "\"\""
 					}

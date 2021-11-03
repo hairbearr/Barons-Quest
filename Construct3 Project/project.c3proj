@@ -16,8 +16,16 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Button",
-			"name": "Button",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Tilemap",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -47,17 +55,9 @@
 			"bundled": false
 		},
 		{
-			"type": "plugin",
-			"id": "Tilemap",
-			"name": "Tilemap",
-			"author": "Scirra",
-			"version": "r268",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Text",
-			"name": "Text",
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -88,14 +88,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "solid",
-			"name": "Solid",
-			"author": "Scirra",
-			"version": "r268",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "EightDir",
 			"name": "8 Direction",
 			"author": "Scirra",
@@ -117,49 +109,41 @@
 			"Mouse",
 			"Keyboard",
 			"Browser",
-			"Player_Prototype_1",
-			"TiM_Walls_Prototype_1",
-			"TiM_Background_Prototype_1",
-			"Txt_Tutorial"
+			"Chest",
+			"ColorPuzzle_Switch",
+			"ChestOverlay",
+			"DestructableBox"
 		],
 		"subfolders": [
 			{
 				"items": [
+					"TiM_Background_Prototype_1",
+					"TiM_Walls_Prototype_1",
 					"Enemy_Melee_Prototype_1",
-					"HurtBox_Prototype_1",
-					"PickUp_MeleeWeapon_Prototype_1",
-					"Chest",
-					"ChestOverlay",
-					"DestructableBox"
-				],
-				"subfolders": [],
-				"name": "Prototype_1_Combat"
-			},
-			{
-				"items": [
+					"Player_Prototype_1",
 					"Moveable_Boulder_Prototype_1",
+					"Switch_Prototype_1",
 					"Moveable_Door_Prototype_1",
-					"Switch_Prototype_1"
+					"HurtBox_Prototype_1",
+					"PickUp_MeleeWeapon_Prototype_1"
 				],
-				"subfolders": [],
-				"name": "Prototype_2_Switches"
-			},
-			{
-				"items": [
-					"ColorPuzzle_Switch"
+				"subfolders": [
+					{
+						"items": [
+							"Mana",
+							"Stone",
+							"Log",
+							"Tree_Bottom",
+							"Tree_Top",
+							"Butterfly",
+							"Grass_Texture",
+							"Tree_Z_Complete"
+						],
+						"subfolders": [],
+						"name": "Sprites"
+					}
 				],
-				"subfolders": [],
-				"name": "Prototype_3_Puzzle_Match"
-			},
-			{
-				"items": [
-					"Bu_Menu",
-					"Bu_Prototype_1_Combat",
-					"Bu_Prototype_2_Switches",
-					"Bu_Prototype_3_Puzzle_Match"
-				],
-				"subfolders": [],
-				"name": "Buttons"
+				"name": "Prototype_1"
 			}
 		]
 	},
@@ -171,19 +155,13 @@
 	},
 	"layouts": {
 		"items": [
-			"Menu",
-			"Prototype_1_Combat",
-			"Prototype_2_Switches",
-			"Prototype_3_Puzzle_Match"
+			"Prototype_1"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"ES_Prototype_1_Combat",
-			"ES_Prototypes_Menu",
-			"ES_Prototype_2_Switches",
-			"ES_Prototype_3_Puzzle_Match"
+			"ES_Prototype_1"
 		],
 		"subfolders": []
 	},
@@ -292,7 +270,7 @@
 		"authorEmail": "",
 		"authorWebsite": "",
 		"appId": "",
-		"pixelRounding": false,
+		"pixelRounding": true,
 		"useLoaderLayout": false,
 		"fullscreenMode": "letterbox-integer-scale",
 		"fullscreenQuality": "low",
@@ -326,12 +304,12 @@
 		"renderingMode": "auto",
 		"anisotropicFiltering": "auto",
 		"maxSpriteSheetSize": 2048,
-		"loaderStyle": "progress",
+		"loaderStyle": "splash",
 		"preloadSounds": true,
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https"
 	},
-	"viewportWidth": 641,
-	"viewportHeight": 360,
+	"viewportWidth": 854,
+	"viewportHeight": 480,
 	"firstLayout": null
 }

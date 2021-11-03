@@ -71,6 +71,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "LOS",
 			"name": "Line of sight",
@@ -128,7 +136,8 @@
 			"Player_Prototype_1",
 			"TiM_Walls_Prototype_1",
 			"TiM_Background_Prototype_1",
-			"Txt_Tutorial"
+			"Txt_Tutorial",
+			"Audio"
 		],
 		"subfolders": [
 			{
@@ -218,7 +227,18 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "48941__chipfork71__thunder.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 625486412479322
+				},
+				{
+					"name": "Test.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 843147883634463
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
@@ -351,7 +371,7 @@
 		"renderingMode": "auto",
 		"anisotropicFiltering": "auto",
 		"maxSpriteSheetSize": 2048,
-		"loaderStyle": "progress",
+		"loaderStyle": "splash",
 		"preloadSounds": true,
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https"

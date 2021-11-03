@@ -1,0 +1,235 @@
+{
+	"name": "ES_Prototype_2_Switches",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player_Prototype_1",
+					"sid": 446607773379888,
+					"parameters": {
+						"object": "Moveable_Boulder_Prototype_1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle",
+					"objectClass": "Moveable_Boulder_Prototype_1",
+					"sid": 747136538443191,
+					"parameters": {
+						"angle": "Player_Prototype_1.Angle"
+					}
+				},
+				{
+					"id": "move-forward",
+					"objectClass": "Moveable_Boulder_Prototype_1",
+					"sid": 514650860061626,
+					"parameters": {
+						"distance": "32"
+					}
+				}
+			],
+			"sid": 170249789769856
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player_Prototype_1",
+					"sid": 926845232543955,
+					"parameters": {
+						"object": "Switch_Prototype_1"
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Moveable_Boulder_Prototype_1",
+					"sid": 156888561740032,
+					"parameters": {
+						"object": "Switch_Prototype_1"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 562950685527032,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 171135985099451,
+							"parameters": {
+								"instance-variable": "SwitchOpen"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 923541474414969,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Switch_Prototype_1",
+									"sid": 463272306313822,
+									"parameters": {
+										"instance-variable": "SwitchNumber",
+										"comparison": 0,
+										"value": "Moveable_Door_Prototype_1.DoorNumber"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-instvar",
+									"objectClass": "Moveable_Door_Prototype_1",
+									"sid": 796892869859207,
+									"parameters": {
+										"instance-variable": "isOpen",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 161779878554086
+						}
+					]
+				}
+			],
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player_Prototype_1",
+					"sid": 875782066650740,
+					"parameters": {
+						"object": "Switch_Prototype_1"
+					},
+					"isInverted": true
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Moveable_Boulder_Prototype_1",
+					"sid": 994785582157479,
+					"parameters": {
+						"object": "Switch_Prototype_1"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [],
+			"sid": 263961407257356,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 859572866650691,
+							"parameters": {
+								"instance-variable": "SwitchOpen"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Switch_Prototype_1",
+							"sid": 832346240894215,
+							"parameters": {
+								"instance-variable": "SwitchNumber",
+								"comparison": 0,
+								"value": "Moveable_Door_Prototype_1.DoorNumber"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 530916616255963,
+							"parameters": {
+								"instance-variable": "isOpen",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 202185587987518
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "Moveable_Door_Prototype_1",
+					"sid": 410019427217560,
+					"parameters": {
+						"instance-variable": "isOpen"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 907168950142156,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 809666620549626
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 296461275170191,
+							"parameters": {
+								"animation": "\"Opening\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 127724218154695
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "Moveable_Door_Prototype_1",
+					"sid": 311496574319357,
+					"parameters": {
+						"instance-variable": "isOpen"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Moveable_Door_Prototype_1",
+					"sid": 494440764404908,
+					"parameters": {
+						"animation": "\"Closed\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 373803113236246
+		}
+	],
+	"sid": 309613532061298
+}

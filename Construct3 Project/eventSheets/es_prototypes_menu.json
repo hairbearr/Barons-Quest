@@ -1,0 +1,69 @@
+{
+	"name": "ES_Prototypes_Menu",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Bu_Prototype_1_Combat",
+					"sid": 596596070643657
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 373656409192645,
+					"parameters": {
+						"layout": "Prototype_1_Combat"
+					}
+				}
+			],
+			"sid": 793478072126737
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Bu_Prototype_2_Switches",
+					"sid": 229782000465056
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 621760661543348,
+					"parameters": {
+						"layout": "Prototype_2_Switches"
+					}
+				}
+			],
+			"sid": 740403574007005
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Bu_Prototype_3_Puzzle_Match",
+					"sid": 104797043057437
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 375274739481866,
+					"parameters": {
+						"layout": "Prototype_3_Puzzle_Match"
+					}
+				}
+			],
+			"sid": 635601282976675
+		}
+	],
+	"sid": 280991178973689
+}

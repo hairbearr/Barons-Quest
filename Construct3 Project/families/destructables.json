@@ -1,0 +1,11 @@
+{
+	"name": "Destructables",
+	"plugin-id": "Sprite",
+	"sid": 503642122025617,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"DestructableBox"
+	]
+}

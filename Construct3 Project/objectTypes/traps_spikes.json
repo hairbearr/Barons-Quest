@@ -1,0 +1,84 @@
+{
+	"name": "Traps_Spikes",
+	"plugin-id": "Sprite",
+	"sid": 531210175807311,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 24,
+						"height": 64,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 940607,
+						"collisionPoly": {
+							"points": [
+								0.16666666666666666,
+								0.375,
+								0.8333333333333334,
+								0.375,
+								0.8333333333333334,
+								0.625,
+								0.16666666666666666,
+								0.625
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 618510234398951,
+				"name": "Retracted",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 24,
+						"height": 64,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9462864,
+						"collisionPoly": {
+							"points": [
+								0.16666666666666666,
+								0.375,
+								0.8333333333333334,
+								0.375,
+								0.8333333333333334,
+								0.625,
+								0.16666666666666666,
+								0.625
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 116481205352282,
+				"name": "Exposed",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

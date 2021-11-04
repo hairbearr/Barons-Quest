@@ -1,0 +1,12 @@
+{
+	"name": "Collectable",
+	"plugin-id": "Sprite",
+	"sid": 149997077055982,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"Col_HealthUpgrade",
+		"Col_Gem"
+	]
+}

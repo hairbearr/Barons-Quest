@@ -1,0 +1,11 @@
+{
+	"name": "Chests",
+	"plugin-id": "Sprite",
+	"sid": 319095290775818,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"Chest"
+	]
+}

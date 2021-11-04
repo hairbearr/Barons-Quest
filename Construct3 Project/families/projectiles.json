@@ -1,0 +1,11 @@
+{
+	"name": "Projectiles",
+	"plugin-id": "Sprite",
+	"sid": 132645195389859,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"Proj_Arrow"
+	]
+}

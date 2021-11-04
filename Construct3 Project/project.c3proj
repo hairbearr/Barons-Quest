@@ -8,16 +8,16 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "Sprite",
-			"name": "Sprite",
+			"id": "Button",
+			"name": "Button",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
-			"id": "Button",
-			"name": "Button",
+			"id": "Sprite",
+			"name": "Sprite",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -32,24 +32,8 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Mouse",
-			"name": "Mouse",
-			"author": "Scirra",
-			"version": "r268",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Keyboard",
-			"name": "Keyboard",
-			"author": "Scirra",
-			"version": "r268",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Browser",
-			"name": "Browser",
+			"id": "Text",
+			"name": "Text",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -64,8 +48,24 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Text",
-			"name": "Text",
+			"id": "Browser",
+			"name": "Browser",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -121,44 +121,8 @@
 	],
 	"uniqueId": "urkcz5zusxa",
 	"objectTypes": {
-		"items": [
-			"Mouse",
-			"Keyboard",
-			"Browser",
-			"Player_Prototype_1",
-			"TiM_Walls_Prototype_1",
-			"TiM_Background_Prototype_1",
-			"Txt_Tutorial"
-		],
+		"items": [],
 		"subfolders": [
-			{
-				"items": [
-					"Enemy_Melee_Prototype_1",
-					"HurtBox_Prototype_1",
-					"PickUp_MeleeWeapon_Prototype_1",
-					"Chest",
-					"ChestOverlay",
-					"DestructableBox"
-				],
-				"subfolders": [],
-				"name": "Prototype_1_Combat"
-			},
-			{
-				"items": [
-					"Moveable_Boulder_Prototype_1",
-					"Moveable_Door_Prototype_1",
-					"Switch_Prototype_1"
-				],
-				"subfolders": [],
-				"name": "Prototype_2_Switches"
-			},
-			{
-				"items": [
-					"ColorPuzzle_Switch"
-				],
-				"subfolders": [],
-				"name": "Prototype_3_Puzzle_Match"
-			},
 			{
 				"items": [
 					"Bu_Menu",
@@ -185,13 +149,126 @@
 				],
 				"subfolders": [],
 				"name": "Sprites"
+			},
+			{
+				"items": [
+					"Col_Gem",
+					"Col_HealthUpgrade"
+				],
+				"subfolders": [],
+				"name": "Collectables"
+			},
+			{
+				"items": [
+					"Trap_Launcher",
+					"Traps_Spikes"
+				],
+				"subfolders": [],
+				"name": "Traps"
+			},
+			{
+				"items": [
+					"Proj_Arrow"
+				],
+				"subfolders": [],
+				"name": "Projectiles"
+			},
+			{
+				"items": [
+					"Enemy_Melee_Prototype_1"
+				],
+				"subfolders": [],
+				"name": "Enemies"
+			},
+			{
+				"items": [],
+				"subfolders": [
+					{
+						"items": [
+							"ColorPuzzle_Switch"
+						],
+						"subfolders": [],
+						"name": "Match Sequence"
+					},
+					{
+						"items": [
+							"Moveable_Boulder_Prototype_1",
+							"Switch_Prototype_1"
+						],
+						"subfolders": [],
+						"name": "Pressure Plate"
+					}
+				],
+				"name": "Puzzles"
+			},
+			{
+				"items": [
+					"Moveable_Door_Prototype_1"
+				],
+				"subfolders": [],
+				"name": "Doors"
+			},
+			{
+				"items": [
+					"Player_Prototype_1",
+					"HurtBox_Prototype_1"
+				],
+				"subfolders": [],
+				"name": "Player"
+			},
+			{
+				"items": [
+					"DestructableBox"
+				],
+				"subfolders": [],
+				"name": "Destructables"
+			},
+			{
+				"items": [
+					"Chest",
+					"ChestOverlay",
+					"PickUp_MeleeWeapon_Prototype_1"
+				],
+				"subfolders": [],
+				"name": "Chests"
+			},
+			{
+				"items": [
+					"Txt_Tutorial"
+				],
+				"subfolders": [],
+				"name": "Text"
+			},
+			{
+				"items": [
+					"TiM_Background_Prototype_1",
+					"TiM_Walls_Prototype_1"
+				],
+				"subfolders": [],
+				"name": "Tilemaps"
+			},
+			{
+				"items": [
+					"Browser",
+					"Keyboard",
+					"Mouse"
+				],
+				"subfolders": [],
+				"name": "Inputs"
 			}
 		]
 	},
 	"autosaveData": null,
 	"containers": [],
 	"families": {
-		"items": [],
+		"items": [
+			"Chests",
+			"Enemies",
+			"Collectable",
+			"Destructables",
+			"Projectiles",
+			"FloorTraps"
+		],
 		"subfolders": []
 	},
 	"layouts": {

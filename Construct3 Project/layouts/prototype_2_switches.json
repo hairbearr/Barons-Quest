@@ -264,6 +264,39 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 40,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"TimeBetweenSpikes": 0,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 496,
+						"y": 183,
+						"width": 24,
+						"height": 64,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 1.5707963267948966,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 384756790267588,

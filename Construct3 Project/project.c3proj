@@ -285,7 +285,8 @@
 			"ES_Prototype_1_Combat",
 			"ES_Prototypes_Menu",
 			"ES_Prototype_2_Switches",
-			"ES_Prototype_3_Puzzle_Match"
+			"ES_Prototype_3_Puzzle_Match",
+			"ES_Traps_Floor"
 		],
 		"subfolders": []
 	},

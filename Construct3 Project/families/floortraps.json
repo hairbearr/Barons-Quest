@@ -2,7 +2,14 @@
 	"name": "FloorTraps",
 	"plugin-id": "Sprite",
 	"sid": 330839475233814,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "DamageDone",
+			"type": "number",
+			"desc": "",
+			"sid": 622481676785387
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"members": [

@@ -5,34 +5,28 @@
 	"isGlobal": false,
 	"instanceVariables": [
 		{
-			"name": "isOpen",
-			"type": "boolean",
+			"name": "PuzzleCode",
+			"type": "string",
 			"desc": "",
-			"sid": 670223513366547
+			"sid": 831532546573560
 		},
 		{
-			"name": "DoorNumber",
+			"name": "SolutionCode",
+			"type": "string",
+			"desc": "",
+			"sid": 688952619563704
+		},
+		{
+			"name": "WhatPuzzle",
 			"type": "number",
 			"desc": "",
-			"sid": 625858395166096
+			"sid": 270173924732794
 		},
 		{
-			"name": "ColorPuzzleOpen",
+			"name": "Open",
 			"type": "boolean",
 			"desc": "",
-			"sid": 808923626068460
-		},
-		{
-			"name": "ChestOpen",
-			"type": "boolean",
-			"desc": "",
-			"sid": 275408709497855
-		},
-		{
-			"name": "SwitchOpen",
-			"type": "boolean",
-			"desc": "",
-			"sid": 413673600365042
+			"sid": 343709209066914
 		}
 	],
 	"behaviorTypes": [

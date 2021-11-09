@@ -22,6 +22,26 @@
 			"sid": 466480026879819
 		},
 		{
+			"eventType": "variable",
+			"name": "Puzzle",
+			"type": "string",
+			"initialValue": "BBGR",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 496470098589549
+		},
+		{
+			"eventType": "variable",
+			"name": "Solution",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 402545827659543
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -215,122 +235,67 @@
 							}
 						},
 						{
-							"id": "is-boolean-instance-variable-set",
+							"id": "compare-instance-variable",
 							"objectClass": "Moveable_Door_Prototype_1",
-							"sid": 781120176410429,
+							"sid": 350179846658881,
 							"parameters": {
-								"instance-variable": "isOpen"
+								"instance-variable": "WhatPuzzle",
+								"comparison": 0,
+								"value": "ColorPuzzle_Switch.WhatPuzzle"
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "ColorPuzzle_Switch",
+							"sid": 114084029246892,
+							"parameters": {
+								"instance-variable": "Pressed"
 							},
 							"isInverted": true
 						}
 					],
-					"actions": [],
-					"sid": 230480280558654,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-instance-variable",
-									"objectClass": "ColorPuzzle_Switch",
-									"sid": 172013173079478,
-									"parameters": {
-										"instance-variable": "PuzzlePosition",
-										"comparison": 0,
-										"value": "NextPuzzleObjectInSequence"
-									}
-								},
-								{
-									"id": "trigger-once-while-true",
-									"objectClass": "System",
-									"sid": 688283644541850
-								}
-							],
-							"actions": [
-								{
-									"id": "add-to-instvar",
-									"objectClass": "Player_Prototype_1",
-									"sid": 619087890505322,
-									"parameters": {
-										"instance-variable": "PuzzleSequence",
-										"value": "1"
-									}
-								}
-							],
-							"sid": 884318653811351
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-instance-variable",
-									"objectClass": "ColorPuzzle_Switch",
-									"sid": 234387806673438,
-									"parameters": {
-										"instance-variable": "PuzzlePosition",
-										"comparison": 1,
-										"value": "NextPuzzleObjectInSequence"
-									}
-								},
-								{
-									"id": "trigger-once-while-true",
-									"objectClass": "System",
-									"sid": 954955661997137
-								}
-							],
-							"actions": [
-								{
-									"id": "set-instvar-value",
-									"objectClass": "Player_Prototype_1",
-									"sid": 473270371229000,
-									"parameters": {
-										"instance-variable": "PuzzleSequence",
-										"value": "1"
-									}
-								}
-							],
-							"sid": 129462659863649
-						}
-					]
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-eventvar",
-							"objectClass": "System",
-							"sid": 135862304810119,
-							"parameters": {
-								"variable": "NextPuzzleObjectInSequence",
-								"comparison": 4,
-								"value": "TotalPuzzleObjects"
-							}
-						}
-					],
 					"actions": [
 						{
-							"id": "set-boolean-instvar",
+							"id": "set-instvar-value",
 							"objectClass": "Moveable_Door_Prototype_1",
-							"sid": 253626857682072,
+							"sid": 352037412309876,
 							"parameters": {
-								"instance-variable": "isOpen",
+								"instance-variable": "SolutionCode",
+								"value": "Moveable_Door_Prototype_1.SolutionCode&ColorPuzzle_Switch.Type"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "ColorPuzzle_Switch",
+							"sid": 620926555412138,
+							"parameters": {
+								"instance-variable": "Pressed",
 								"value": "true"
 							}
 						}
 					],
-					"sid": 999442059384888
+					"sid": 230480280558654
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "compare-eventvar",
-							"objectClass": "System",
-							"sid": 744880004058376,
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 438511146636398,
 							"parameters": {
-								"variable": "NextPuzzleObjectInSequence",
-								"comparison": 3,
-								"value": "TotalPuzzleObjects"
+								"instance-variable": "Open"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 182034221093555,
+							"parameters": {
+								"instance-variable": "SolutionCode",
+								"comparison": 0,
+								"value": "Moveable_Door_Prototype_1.PuzzleCode"
 							}
 						}
 					],
@@ -338,14 +303,67 @@
 						{
 							"id": "set-boolean-instvar",
 							"objectClass": "Moveable_Door_Prototype_1",
-							"sid": 639790433395069,
+							"sid": 853559921516282,
 							"parameters": {
-								"instance-variable": "isOpen",
-								"value": "false"
+								"instance-variable": "Open",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 769655821626180,
+							"parameters": {
+								"animation": "\"Opening\"",
+								"from": "beginning"
 							}
 						}
 					],
-					"sid": 968335719102684
+					"sid": 346029585388464
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 765013127697104,
+							"parameters": {
+								"instance-variable": "Open"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 505902603574372,
+							"parameters": {
+								"instance-variable": "SolutionCode",
+								"comparison": 1,
+								"value": "Moveable_Door_Prototype_1.PuzzleCode"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 232892421526323,
+							"parameters": {
+								"instance-variable": "Open",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 411681384876400,
+							"parameters": {
+								"animation": "\"Closed\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 402294920927069
 				}
 			],
 			"sid": 473933137265086
@@ -353,7 +371,7 @@
 		{
 			"eventType": "group",
 			"disabled": false,
-			"title": "Doors",
+			"title": "Pressure Plates",
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
@@ -362,68 +380,98 @@
 					"conditions": [
 						{
 							"id": "is-boolean-instance-variable-set",
-							"objectClass": "Moveable_Door_Prototype_1",
-							"sid": 370654333394575,
+							"objectClass": "ColorPuzzle_Switch",
+							"sid": 340868342786994,
 							"parameters": {
-								"instance-variable": "isOpen"
+								"instance-variable": "Pressed"
 							}
 						}
 					],
-					"actions": [],
-					"sid": 722283083454190,
-					"children": [
+					"actions": [
 						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "trigger-once-while-true",
-									"objectClass": "System",
-									"sid": 678594182766341
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "Moveable_Door_Prototype_1",
-									"sid": 882306766239695,
-									"parameters": {
-										"animation": "\"Opening\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 140981958987792
+							"id": "set-blend-mode",
+							"objectClass": "ColorPuzzle_Switch",
+							"sid": 431871362999206,
+							"parameters": {
+								"blend-mode": "destination-over"
+							}
 						}
-					]
+					],
+					"sid": 851238793291666
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
 							"id": "is-boolean-instance-variable-set",
-							"objectClass": "Moveable_Door_Prototype_1",
-							"sid": 334428438471304,
+							"objectClass": "ColorPuzzle_Switch",
+							"sid": 470218015242210,
 							"parameters": {
-								"instance-variable": "isOpen"
+								"instance-variable": "Pressed"
 							},
 							"isInverted": true
 						}
 					],
 					"actions": [
 						{
-							"id": "set-animation",
-							"objectClass": "Moveable_Door_Prototype_1",
-							"sid": 198452470854111,
+							"id": "set-blend-mode",
+							"objectClass": "ColorPuzzle_Switch",
+							"sid": 963083489558264,
 							"parameters": {
-								"animation": "\"Closed\"",
-								"from": "beginning"
+								"blend-mode": "normal"
 							}
 						}
 					],
-					"sid": 822823470179586
+					"sid": 179236192836380
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 543359470124162,
+							"parameters": {
+								"instance-variable": "SolutionCode",
+								"comparison": 1,
+								"value": "left(Moveable_Door_Prototype_1.PuzzleCode,len(Moveable_Door_Prototype_1.SolutionCode))"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "ColorPuzzle_Switch",
+							"sid": 755372035707550,
+							"parameters": {
+								"instance-variable": "WhatPuzzle",
+								"comparison": 0,
+								"value": "Moveable_Door_Prototype_1.WhatPuzzle"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "ColorPuzzle_Switch",
+							"sid": 678043333330697,
+							"parameters": {
+								"instance-variable": "Pressed",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Moveable_Door_Prototype_1",
+							"sid": 762889173942558,
+							"parameters": {
+								"instance-variable": "SolutionCode",
+								"value": "\"\""
+							}
+						}
+					],
+					"sid": 523614508279093
 				}
 			],
-			"sid": 586016499300134
+			"sid": 173349458089941
 		}
 	],
 	"sid": 693508415933579

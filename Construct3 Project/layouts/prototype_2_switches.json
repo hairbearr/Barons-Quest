@@ -16,11 +16,10 @@
 					},
 					"uid": 31,
 					"instanceVariables": {
-						"isOpen": false,
-						"DoorNumber": 0,
-						"ColorPuzzleOpen": false,
-						"ChestOpen": false,
-						"SwitchOpen": true
+						"PuzzleCode": "BBRG",
+						"SolutionCode": "",
+						"WhatPuzzle": 0,
+						"Open": false
 					},
 					"behaviors": {
 						"Solid": {

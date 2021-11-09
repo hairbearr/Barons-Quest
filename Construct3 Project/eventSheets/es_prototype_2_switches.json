@@ -38,16 +38,7 @@
 					"children": [
 						{
 							"eventType": "block",
-							"conditions": [
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "Moveable_Door_Prototype_1",
-									"sid": 120190590086705,
-									"parameters": {
-										"instance-variable": "isOpen"
-									}
-								}
-							],
+							"conditions": [],
 							"actions": [],
 							"sid": 368290399590610,
 							"children": [
@@ -77,17 +68,7 @@
 						},
 						{
 							"eventType": "block",
-							"conditions": [
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "Moveable_Door_Prototype_1",
-									"sid": 393748530584858,
-									"parameters": {
-										"instance-variable": "isOpen"
-									},
-									"isInverted": true
-								}
-							],
+							"conditions": [],
 							"actions": [
 								{
 									"id": "set-animation",
@@ -165,35 +146,6 @@
 							],
 							"actions": [],
 							"sid": 574022776167822,
-							"children": [
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "Moveable_Door_Prototype_1",
-											"sid": 534505487401421,
-											"parameters": {
-												"instance-variable": "DoorNumber",
-												"comparison": 0,
-												"value": "Switch_Prototype_1.SwitchNumber"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "set-boolean-instvar",
-											"objectClass": "Moveable_Door_Prototype_1",
-											"sid": 428494080149329,
-											"parameters": {
-												"instance-variable": "isOpen",
-												"value": "true"
-											}
-										}
-									],
-									"sid": 461316835836641
-								}
-							],
 							"isOrBlock": true
 						},
 						{
@@ -219,36 +171,7 @@
 								}
 							],
 							"actions": [],
-							"sid": 402823447511684,
-							"children": [
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "compare-instance-variable",
-											"objectClass": "Moveable_Door_Prototype_1",
-											"sid": 436398016830300,
-											"parameters": {
-												"instance-variable": "DoorNumber",
-												"comparison": 0,
-												"value": "Switch_Prototype_1.SwitchNumber"
-											}
-										}
-									],
-									"actions": [
-										{
-											"id": "set-boolean-instvar",
-											"objectClass": "Moveable_Door_Prototype_1",
-											"sid": 125215945910708,
-											"parameters": {
-												"instance-variable": "isOpen",
-												"value": "false"
-											}
-										}
-									],
-									"sid": 222896344426866
-								}
-							]
+							"sid": 402823447511684
 						}
 					],
 					"sid": 790574324205036

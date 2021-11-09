@@ -1,7 +1,7 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 26800,
-	"name": "Final Project Prototypes",
+	"name": "Final Project Group E",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
@@ -429,7 +429,7 @@
 		"renderingMode": "auto",
 		"anisotropicFiltering": "auto",
 		"maxSpriteSheetSize": 2048,
-		"loaderStyle": "progress",
+		"loaderStyle": "splash",
 		"preloadSounds": true,
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https"

@@ -54,48 +54,6 @@
 					}
 				},
 				{
-					"type": "Moveable_Door_Prototype_1",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Closed",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 29,
-					"instanceVariables": {
-						"isOpen": false,
-						"DoorNumber": 0,
-						"ColorPuzzleOpen": false,
-						"ChestOpen": false,
-						"SwitchOpen": true
-					},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 487.7415771484375,
-						"y": 106.51435089111328,
-						"width": 68.1732564485551,
-						"height": 13.997473529252176,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 4.71238898038469,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "TiM_Walls_Prototype_1",
 					"properties": {
 						"initially-visible": true,
@@ -151,6 +109,47 @@
 					}
 				},
 				{
+					"type": "Moveable_Door_Prototype_1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Closed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 29,
+					"instanceVariables": {
+						"PuzzleCode": "BRG",
+						"SolutionCode": "",
+						"WhatPuzzle": 0,
+						"Open": false
+					},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 487.7415771484375,
+						"y": 106.51435089111328,
+						"width": 68.1732564485551,
+						"height": 13.997473529252176,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 4.71238898038469,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "ColorPuzzle_Switch",
 					"properties": {
 						"initially-visible": true,
@@ -161,8 +160,9 @@
 					},
 					"uid": 30,
 					"instanceVariables": {
-						"Color": "",
-						"PuzzlePosition": 1
+						"Type": "B",
+						"Pressed": false,
+						"WhatPuzzle": 0
 					},
 					"behaviors": {},
 					"world": {
@@ -193,8 +193,9 @@
 					},
 					"uid": 34,
 					"instanceVariables": {
-						"Color": "",
-						"PuzzlePosition": 3
+						"Type": "R",
+						"Pressed": false,
+						"WhatPuzzle": 0
 					},
 					"behaviors": {},
 					"world": {
@@ -225,8 +226,9 @@
 					},
 					"uid": 35,
 					"instanceVariables": {
-						"Color": "",
-						"PuzzlePosition": 2
+						"Type": "G",
+						"Pressed": false,
+						"WhatPuzzle": 0
 					},
 					"behaviors": {},
 					"world": {

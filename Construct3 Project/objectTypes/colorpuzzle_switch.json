@@ -5,16 +5,22 @@
 	"isGlobal": false,
 	"instanceVariables": [
 		{
-			"name": "Color",
+			"name": "Type",
 			"type": "string",
 			"desc": "",
-			"sid": 398858067449357
+			"sid": 342796140056893
 		},
 		{
-			"name": "PuzzlePosition",
+			"name": "Pressed",
+			"type": "boolean",
+			"desc": "",
+			"sid": 523240740533210
+		},
+		{
+			"name": "WhatPuzzle",
 			"type": "number",
 			"desc": "",
-			"sid": 141787772044144
+			"sid": 254371276765863
 		}
 	],
 	"behaviorTypes": [],

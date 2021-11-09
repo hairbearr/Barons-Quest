@@ -282,11 +282,12 @@
 	},
 	"eventSheets": {
 		"items": [
-			"ES_Prototype_1_Combat",
-			"ES_Prototypes_Menu",
-			"ES_Prototype_2_Switches",
-			"ES_Prototype_3_Puzzle_Match",
-			"ES_Traps_Floor"
+			"ES_Menu",
+			"ES_Switches",
+			"ES_Puzzles",
+			"ES_Traps_Floor",
+			"ES_Main",
+			"ES_Combat"
 		],
 		"subfolders": []
 	},

@@ -16,6 +16,14 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Tilemap",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
@@ -34,14 +42,6 @@
 			"type": "plugin",
 			"id": "Text",
 			"name": "Text",
-			"author": "Scirra",
-			"version": "r268",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Tilemap",
-			"name": "Tilemap",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -136,18 +136,18 @@
 			{
 				"items": [
 					"Mana",
-					"Log",
-					"Stone",
-					"Tree_Bottom",
-					"Tree_Top",
-					"Tree_Z_Complete",
 					"Butterfly",
-					"Bush_Bottom",
-					"Bush_Top",
-					"Bush_Z_Complete",
 					"Texture_Grass"
 				],
-				"subfolders": [],
+				"subfolders": [
+					{
+						"items": [
+							"Tilemap_Forest"
+						],
+						"subfolders": [],
+						"name": "Tilemaps"
+					}
+				],
 				"name": "Sprites"
 			},
 			{

@@ -5,7 +5,7 @@
 			"eventType": "variable",
 			"name": "Puzzle",
 			"type": "string",
-			"initialValue": "BBGR",
+			"initialValue": "",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,

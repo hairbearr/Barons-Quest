@@ -7,6 +7,8 @@
 	"effectTypes": [],
 	"members": [
 		"Col_HealthUpgrade",
-		"Col_Gem"
+		"Col_Gem",
+		"Col_HealthRegen",
+		"UI_Health"
 	]
 }

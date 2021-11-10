@@ -6,7 +6,7 @@
 			"conditions": [
 				{
 					"id": "on-clicked",
-					"objectClass": "Bu_Prototype_1_Combat",
+					"objectClass": "Bu_PlayGame",
 					"sid": 596596070643657
 				}
 			],
@@ -27,42 +27,21 @@
 			"conditions": [
 				{
 					"id": "on-clicked",
-					"objectClass": "Bu_Prototype_2_Switches",
-					"sid": 229782000465056
+					"objectClass": "Bu_Menu",
+					"sid": 327954382795277
 				}
 			],
 			"actions": [
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 621760661543348,
+					"sid": 741300034106818,
 					"parameters": {
-						"layout": "Prototype_2_Switches"
+						"layout": "Menu"
 					}
 				}
 			],
-			"sid": 740403574007005
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-clicked",
-					"objectClass": "Bu_Prototype_3_Puzzle_Match",
-					"sid": 104797043057437
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 375274739481866,
-					"parameters": {
-						"layout": "Prototype_3_Puzzle_Match"
-					}
-				}
-			],
-			"sid": 635601282976675
+			"sid": 148781174929526
 		}
 	],
 	"sid": 280991178973689

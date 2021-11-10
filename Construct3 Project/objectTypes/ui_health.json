@@ -1,7 +1,7 @@
 {
-	"name": "HurtBox_Prototype_1",
+	"name": "UI_Health",
 	"plugin-id": "Sprite",
-	"sid": 376531616225836,
+	"sid": 930382401221854,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -13,29 +13,17 @@
 					{
 						"width": 16,
 						"height": 16,
-						"originX": 0.1875,
+						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6494631,
-						"collisionPoly": {
-							"points": [
-								0.18181812470937633,
-								0.2926136566984545,
-								0.9119317713013154,
-								0.2926136371230612,
-								0.9119319793073014,
-								0.6661931486805451,
-								0.18039768781475438,
-								0.6633522481978303
-							]
-						},
+						"imageSpriteId": 8959877,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 767205229486885,
+				"sid": 909676075244225,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

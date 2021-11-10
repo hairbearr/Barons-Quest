@@ -121,14 +121,16 @@
 	],
 	"uniqueId": "urkcz5zusxa",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"UI_Health",
+			"Exit",
+			"Win_Text"
+		],
 		"subfolders": [
 			{
 				"items": [
 					"Bu_Menu",
-					"Bu_Prototype_1_Combat",
-					"Bu_Prototype_2_Switches",
-					"Bu_Prototype_3_Puzzle_Match"
+					"Bu_PlayGame"
 				],
 				"subfolders": [],
 				"name": "Buttons"
@@ -153,7 +155,8 @@
 			{
 				"items": [
 					"Col_Gem",
-					"Col_HealthUpgrade"
+					"Col_HealthUpgrade",
+					"Col_HealthRegen"
 				],
 				"subfolders": [],
 				"name": "Collectables"
@@ -234,7 +237,8 @@
 			},
 			{
 				"items": [
-					"Txt_Tutorial"
+					"Txt_Tutorial",
+					"Txt_Health"
 				],
 				"subfolders": [],
 				"name": "Text"
@@ -275,8 +279,7 @@
 		"items": [
 			"Menu",
 			"Level One",
-			"Prototype_2_Switches",
-			"Prototype_3_Puzzle_Match"
+			"End Screen"
 		],
 		"subfolders": []
 	},
@@ -435,7 +438,7 @@
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https"
 	},
-	"viewportWidth": 641,
-	"viewportHeight": 360,
+	"viewportWidth": 480,
+	"viewportHeight": 270,
 	"firstLayout": null
 }

@@ -1,7 +1,7 @@
 {
-	"name": "HurtBox_Prototype_1",
+	"name": "Col_HealthRegen",
 	"plugin-id": "Sprite",
-	"sid": 376531616225836,
+	"sid": 768762052425833,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -13,29 +13,17 @@
 					{
 						"width": 16,
 						"height": 16,
-						"originX": 0.1875,
+						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6494631,
-						"collisionPoly": {
-							"points": [
-								0.18181812470937633,
-								0.2926136566984545,
-								0.9119317713013154,
-								0.2926136371230612,
-								0.9119319793073014,
-								0.6661931486805451,
-								0.18039768781475438,
-								0.6633522481978303
-							]
-						},
+						"imageSpriteId": 5428445,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 767205229486885,
+				"sid": 486426842720856,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

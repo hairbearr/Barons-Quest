@@ -27,16 +27,25 @@
 									}
 								}
 							],
-							"actions": [],
+							"actions": [
+								{
+									"id": "set-visible",
+									"objectClass": "Txt_Tutorial",
+									"sid": 562029951564054,
+									"parameters": {
+										"visibility": "visible"
+									}
+								}
+							],
 							"sid": 426941203796117,
 							"children": [
 								{
 									"eventType": "block",
 									"conditions": [
 										{
-											"id": "key-is-down",
+											"id": "on-key-pressed",
 											"objectClass": "Keyboard",
-											"sid": 530873072111272,
+											"sid": 376043521519619,
 											"parameters": {
 												"key": 69
 											}
@@ -86,6 +95,14 @@
 															"parameters": {
 																"collisions": "enabled"
 															}
+														},
+														{
+															"id": "set-visible",
+															"objectClass": "Txt_Tutorial",
+															"sid": 372061826114123,
+															"parameters": {
+																"visibility": "invisible"
+															}
 														}
 													],
 													"sid": 455978134435196
@@ -125,6 +142,56 @@
 								}
 							],
 							"sid": 118574387054941
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Player_Prototype_1",
+									"sid": 654240540951943,
+									"parameters": {
+										"object": "Col_HealthRegen"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "Col_HealthRegen",
+									"sid": 843272010356683
+								}
+							],
+							"sid": 947060232540676,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "Player_Prototype_1",
+											"sid": 501034539442531,
+											"parameters": {
+												"instance-variable": "Health",
+												"comparison": 2,
+												"value": "Player_Prototype_1.MaxHealth"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "add-to-instvar",
+											"objectClass": "Player_Prototype_1",
+											"sid": 771444682307936,
+											"parameters": {
+												"instance-variable": "Health",
+												"value": "1"
+											}
+										}
+									],
+									"sid": 963889700938254
+								}
+							]
 						}
 					],
 					"sid": 918816233688850
@@ -136,6 +203,29 @@
 					"description": "",
 					"isActiveOnStart": true,
 					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Player_Prototype_1",
+									"sid": 773340504707868,
+									"parameters": {
+										"instance-variable": "Health",
+										"comparison": 3,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "restart-layout",
+									"objectClass": "System",
+									"sid": 926998504570571
+								}
+							],
+							"sid": 951286706329039
+						},
 						{
 							"eventType": "block",
 							"conditions": [
@@ -367,47 +457,81 @@
 							}
 						},
 						{
-							"id": "wait-for-previous-actions",
-							"objectClass": "System",
-							"sid": 964056131617769
-						},
-						{
-							"id": "stop-flashing",
+							"id": "set-collisions-enabled",
 							"objectClass": "Enemy_Melee_Prototype_1",
-							"sid": 403417700245672,
-							"behaviorType": "Flash"
-						},
-						{
-							"id": "destroy",
-							"objectClass": "Enemy_Melee_Prototype_1",
-							"sid": 213069803802408
+							"sid": 565441731225097,
+							"parameters": {
+								"collisions": "disabled"
+							}
 						}
 					],
-					"sid": 414048227050134
+					"sid": 414048227050134,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-flash-ended",
+									"objectClass": "Enemy_Melee_Prototype_1",
+									"sid": 666827348679930,
+									"behaviorType": "Flash"
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "Enemy_Melee_Prototype_1",
+									"sid": 986070002509784
+								}
+							],
+							"sid": 890091130228838
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Enemy_Melee_Prototype_1",
+							"sid": 255049544192392,
+							"parameters": {
+								"object": "Player_Prototype_1"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 475430386787334,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 700310884701091,
+									"parameters": {
+										"interval-seconds": "1.0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "Player_Prototype_1",
+									"sid": 791268683763797,
+									"parameters": {
+										"instance-variable": "Health",
+										"value": "Enemy_Melee_Prototype_1.AttackPower_Melee"
+									}
+								}
+							],
+							"sid": 274380955837977
+						}
+					]
 				}
 			],
 			"sid": 581768486670151
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-clicked",
-					"objectClass": "Bu_Menu",
-					"sid": 197045472203202
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 101961087908698,
-					"parameters": {
-						"layout": "Menu"
-					}
-				}
-			],
-			"sid": 205337803045290
 		}
 	],
 	"sid": 674804497733104

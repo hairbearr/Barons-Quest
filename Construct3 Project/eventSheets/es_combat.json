@@ -25,14 +25,6 @@
 									"parameters": {
 										"object": "ChestOverlay"
 									}
-								},
-								{
-									"id": "key-is-down",
-									"objectClass": "Keyboard",
-									"sid": 817992370608536,
-									"parameters": {
-										"key": 69
-									}
 								}
 							],
 							"actions": [],
@@ -42,46 +34,63 @@
 									"eventType": "block",
 									"conditions": [
 										{
-											"id": "compare-instance-variable",
-											"objectClass": "ChestOverlay",
-											"sid": 345641534605454,
+											"id": "key-is-down",
+											"objectClass": "Keyboard",
+											"sid": 530873072111272,
 											"parameters": {
-												"instance-variable": "ChestNumber",
-												"comparison": 0,
-												"value": "Chest.ChestNumber"
+												"key": 69
 											}
 										}
 									],
 									"actions": [],
-									"sid": 191546354306562,
+									"sid": 253326789673155,
 									"children": [
 										{
 											"eventType": "block",
-											"conditions": [],
-											"actions": [
+											"conditions": [
 												{
-													"id": "destroy",
-													"objectClass": "Chest",
-													"sid": 412502667749697
-												},
-												{
-													"id": "set-visible",
-													"objectClass": "PickUp_MeleeWeapon_Prototype_1",
-													"sid": 537473637377387,
+													"id": "compare-instance-variable",
+													"objectClass": "ChestOverlay",
+													"sid": 220719345199252,
 													"parameters": {
-														"visibility": "visible"
-													}
-												},
-												{
-													"id": "set-collisions-enabled",
-													"objectClass": "PickUp_MeleeWeapon_Prototype_1",
-													"sid": 926651676217887,
-													"parameters": {
-														"collisions": "enabled"
+														"instance-variable": "ChestNumber",
+														"comparison": 0,
+														"value": "Chest.ChestNumber"
 													}
 												}
 											],
-											"sid": 677023825517346
+											"actions": [],
+											"sid": 715092067040780,
+											"children": [
+												{
+													"eventType": "block",
+													"conditions": [],
+													"actions": [
+														{
+															"id": "destroy",
+															"objectClass": "Chest",
+															"sid": 625720123856337
+														},
+														{
+															"id": "set-visible",
+															"objectClass": "PickUp_MeleeWeapon_Prototype_1",
+															"sid": 477363718631140,
+															"parameters": {
+																"visibility": "visible"
+															}
+														},
+														{
+															"id": "set-collisions-enabled",
+															"objectClass": "PickUp_MeleeWeapon_Prototype_1",
+															"sid": 697549583166957,
+															"parameters": {
+																"collisions": "enabled"
+															}
+														}
+													],
+													"sid": 455978134435196
+												}
+											]
 										}
 									]
 								}
@@ -291,116 +300,6 @@
 						}
 					],
 					"sid": 524228223389598
-				},
-				{
-					"eventType": "group",
-					"disabled": false,
-					"title": "Movements",
-					"description": "Player Controls",
-					"isActiveOnStart": true,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "key-is-down",
-									"objectClass": "Keyboard",
-									"sid": 907191533002440,
-									"parameters": {
-										"key": 87
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "simulate-control",
-									"objectClass": "Player_Prototype_1",
-									"sid": 245519429954869,
-									"behaviorType": "8Direction",
-									"parameters": {
-										"control": "up"
-									}
-								}
-							],
-							"sid": 723467487349565
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "key-is-down",
-									"objectClass": "Keyboard",
-									"sid": 151775562493562,
-									"parameters": {
-										"key": 65
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "simulate-control",
-									"objectClass": "Player_Prototype_1",
-									"sid": 535586842307275,
-									"behaviorType": "8Direction",
-									"parameters": {
-										"control": "left"
-									}
-								}
-							],
-							"sid": 608912241080905
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "key-is-down",
-									"objectClass": "Keyboard",
-									"sid": 214900102812816,
-									"parameters": {
-										"key": 83
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "simulate-control",
-									"objectClass": "Player_Prototype_1",
-									"sid": 611953417735382,
-									"behaviorType": "8Direction",
-									"parameters": {
-										"control": "down"
-									}
-								}
-							],
-							"sid": 628701818541958
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "key-is-down",
-									"objectClass": "Keyboard",
-									"sid": 745797843100490,
-									"parameters": {
-										"key": 68
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "simulate-control",
-									"objectClass": "Player_Prototype_1",
-									"sid": 170072758680409,
-									"behaviorType": "8Direction",
-									"parameters": {
-										"control": "right"
-									}
-								}
-							],
-							"sid": 405333938605423
-						}
-					],
-					"sid": 783789160157961
 				}
 			],
 			"sid": 629184071172992

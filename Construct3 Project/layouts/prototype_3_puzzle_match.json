@@ -407,8 +407,8 @@
 					"type": "Tilemap_Forest",
 					"properties": {
 						"initially-visible": true,
-						"tile-width": 32,
-						"tile-height": 32,
+						"tile-width": 16,
+						"tile-height": 16,
 						"tile-x-offset": 0,
 						"tile-y-offset": 0,
 						"tile-x-spacing": 0,
@@ -428,8 +428,8 @@
 							"max-height": 30,
 							"data": "1590x0"
 						},
-						"tile-width": 32,
-						"tile-height": 32,
+						"tile-width": 16,
+						"tile-height": 16,
 						"tile-x-offset": 0,
 						"tile-y-offset": 0,
 						"tile-x-spacing": 0,

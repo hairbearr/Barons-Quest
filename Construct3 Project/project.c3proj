@@ -274,7 +274,7 @@
 	"layouts": {
 		"items": [
 			"Menu",
-			"Prototype_1_Combat",
+			"Level One",
 			"Prototype_2_Switches",
 			"Prototype_3_Puzzle_Match"
 		],
@@ -285,7 +285,7 @@
 			"ES_Menu",
 			"ES_Switches",
 			"ES_Puzzles",
-			"ES_Traps_Floor",
+			"ES_Traps",
 			"ES_Main",
 			"ES_Combat"
 		],

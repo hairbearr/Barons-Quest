@@ -109,7 +109,7 @@
 					}
 				},
 				{
-					"type": "Moveable_Door_Prototype_1",
+					"type": "Moveable_Door",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Closed",
@@ -262,8 +262,7 @@
 						"isAttacking_Melee": false,
 						"Health": 0,
 						"AttackPower_Melee": 1,
-						"HasMeleeWeapon": false,
-						"PuzzleSequence": 1
+						"HasMeleeWeapon": false
 					},
 					"behaviors": {
 						"8Direction": {
@@ -442,5 +441,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "ES_Prototype_3_Puzzle_Match"
+	"eventSheet": "ES_Puzzles"
 }

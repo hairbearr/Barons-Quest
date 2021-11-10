@@ -54,7 +54,7 @@
 									"actions": [
 										{
 											"id": "set-animation",
-											"objectClass": "Moveable_Door_Prototype_1",
+											"objectClass": "Moveable_Door",
 											"sid": 595156167443707,
 											"parameters": {
 												"animation": "\"Opening\"",
@@ -72,7 +72,7 @@
 							"actions": [
 								{
 									"id": "set-animation",
-									"objectClass": "Moveable_Door_Prototype_1",
+									"objectClass": "Moveable_Door",
 									"sid": 348880508508940,
 									"parameters": {
 										"animation": "\"Closed\"",

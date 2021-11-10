@@ -122,8 +122,7 @@
 						"isAttacking_Melee": false,
 						"Health": 0,
 						"AttackPower_Melee": 1,
-						"HasMeleeWeapon": false,
-						"PuzzleSequence": 1
+						"HasMeleeWeapon": false
 					},
 					"behaviors": {
 						"8Direction": {
@@ -714,5 +713,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "ES_Prototype_1_Combat"
+	"eventSheet": "ES_Combat"
 }

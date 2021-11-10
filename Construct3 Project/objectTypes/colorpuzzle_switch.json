@@ -7,19 +7,19 @@
 		{
 			"name": "Type",
 			"type": "string",
-			"desc": "",
+			"desc": "Which Switch? Color/Pattern",
 			"sid": 342796140056893
 		},
 		{
 			"name": "Pressed",
 			"type": "boolean",
-			"desc": "",
+			"desc": "Is the switch pressed?",
 			"sid": 523240740533210
 		},
 		{
 			"name": "WhatPuzzle",
 			"type": "number",
-			"desc": "",
+			"desc": "What does completing this puzzle activate?",
 			"sid": 254371276765863
 		}
 	],

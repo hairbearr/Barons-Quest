@@ -1,5 +1,5 @@
 {
-	"name": "Moveable_Door_Prototype_1",
+	"name": "Moveable_Door",
 	"plugin-id": "Sprite",
 	"sid": 297131185057267,
 	"isGlobal": false,
@@ -7,25 +7,25 @@
 		{
 			"name": "PuzzleCode",
 			"type": "string",
-			"desc": "",
+			"desc": "The Sequence for the puzzle",
 			"sid": 831532546573560
 		},
 		{
 			"name": "SolutionCode",
 			"type": "string",
-			"desc": "",
+			"desc": "Your current progress on the puzzle",
 			"sid": 688952619563704
 		},
 		{
 			"name": "WhatPuzzle",
 			"type": "number",
-			"desc": "",
+			"desc": "Links this door to a specific puzzle",
 			"sid": 270173924732794
 		},
 		{
 			"name": "Open",
 			"type": "boolean",
-			"desc": "",
+			"desc": "Triggers the open animation",
 			"sid": 343709209066914
 		}
 	],

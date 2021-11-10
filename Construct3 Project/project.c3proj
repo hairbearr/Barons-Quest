@@ -203,7 +203,7 @@
 			},
 			{
 				"items": [
-					"Moveable_Door_Prototype_1"
+					"Moveable_Door"
 				],
 				"subfolders": [],
 				"name": "Doors"

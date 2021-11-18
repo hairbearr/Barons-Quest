@@ -1,0 +1,31 @@
+{
+	"name": "Activated_Traps",
+	"plugin-id": "Sprite",
+	"sid": 330839475233814,
+	"instanceVariables": [
+		{
+			"name": "DamageDone",
+			"type": "number",
+			"desc": "",
+			"sid": 622481676785387
+		},
+		{
+			"name": "WhatPuzzle",
+			"type": "number",
+			"desc": "",
+			"sid": 392636910043563
+		},
+		{
+			"name": "Activated",
+			"type": "boolean",
+			"desc": "",
+			"sid": 717071608199696
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"Traps_Spikes",
+		"Trap_Launcher"
+	]
+}

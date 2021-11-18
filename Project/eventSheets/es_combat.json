@@ -95,14 +95,6 @@
 															"parameters": {
 																"collisions": "enabled"
 															}
-														},
-														{
-															"id": "set-visible",
-															"objectClass": "Txt_Tutorial",
-															"sid": 372061826114123,
-															"parameters": {
-																"visibility": "invisible"
-															}
 														}
 													],
 													"sid": 455978134435196
@@ -192,6 +184,31 @@
 									"sid": 963889700938254
 								}
 							]
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-overlapping-another-object",
+									"objectClass": "Player_Prototype_1",
+									"sid": 104194498267759,
+									"parameters": {
+										"object": "ChestOverlay"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-visible",
+									"objectClass": "Txt_Tutorial",
+									"sid": 154708118514047,
+									"parameters": {
+										"visibility": "invisible"
+									}
+								}
+							],
+							"sid": 547370611947389
 						}
 					],
 					"sid": 918816233688850
@@ -230,9 +247,9 @@
 							"eventType": "block",
 							"conditions": [
 								{
-									"id": "on-key-pressed",
+									"id": "key-is-down",
 									"objectClass": "Keyboard",
-									"sid": 332593640980251,
+									"sid": 776783398080727,
 									"parameters": {
 										"key": 32
 									}

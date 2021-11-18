@@ -187,6 +187,46 @@
 				}
 			],
 			"sid": 553854644112337
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 576426787577315
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Camera",
+					"sid": 941924851438949,
+					"parameters": {
+						"x": "lerp(Self.X,Player_Prototype_1.X,0.1)",
+						"y": "lerp(Self.Y,Player_Prototype_1.Y,0.1)"
+					}
+				}
+			],
+			"sid": 661013052609345
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 707851281053236
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-global-variables",
+					"objectClass": "System",
+					"sid": 508780359808869
+				}
+			],
+			"sid": 670599443011451
 		}
 	],
 	"sid": 229087612727963

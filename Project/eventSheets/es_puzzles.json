@@ -22,6 +22,16 @@
 			"sid": 402545827659543
 		},
 		{
+			"eventType": "variable",
+			"name": "ChancesToSucceedPuzzle",
+			"type": "number",
+			"initialValue": "3",
+			"comment": "How Many Chances do you Get to beat the level",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 158071427587822
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -402,12 +412,179 @@
 								"instance-variable": "SolutionCode",
 								"value": "\"\""
 							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "ColorPuzzle_Switch",
+							"sid": 344677126745248,
+							"parameters": {
+								"instance-variable": "Correct",
+								"value": "false"
+							}
+						},
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 932909814627432,
+							"parameters": {
+								"variable": "ChancesToSucceedPuzzle",
+								"value": "1"
+							}
 						}
 					],
-					"sid": 523614508279093
+					"sid": 523614508279093,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Activated_Traps",
+									"sid": 221386167615154,
+									"parameters": {
+										"instance-variable": "WhatPuzzle",
+										"comparison": 0,
+										"value": "ColorPuzzle_Switch.WhatPuzzle"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-instvar",
+									"objectClass": "Activated_Traps",
+									"sid": 944091588964153,
+									"parameters": {
+										"instance-variable": "Activated",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 814528865891242,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-visible",
+											"objectClass": "Activated_Traps",
+											"sid": 635639022047360,
+											"isInverted": true
+										}
+									],
+									"actions": [
+										{
+											"id": "set-visible",
+											"objectClass": "Activated_Traps",
+											"sid": 563178846628090,
+											"parameters": {
+												"visibility": "visible"
+											}
+										}
+									],
+									"sid": 938401728592192
+								}
+							]
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "ColorPuzzle_Switch",
+							"sid": 986794804739012,
+							"parameters": {
+								"instance-variable": "Correct"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "shake",
+							"objectClass": "Camera",
+							"sid": 931764740941285,
+							"behaviorType": "ScrollTo",
+							"parameters": {
+								"magnitude": "10",
+								"duration": "1",
+								"mode": "reducing-magnitude"
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 836069293817428
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "ColorPuzzle_Switch",
+							"sid": 967954524754037,
+							"parameters": {
+								"instance-variable": "Correct",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 595857573959464
 				}
 			],
 			"sid": 173349458089941
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 369411485571569,
+					"parameters": {
+						"variable": "ChancesToSucceedPuzzle",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "shake",
+					"objectClass": "Camera",
+					"sid": 730723079827492,
+					"behaviorType": "ScrollTo",
+					"parameters": {
+						"magnitude": "20",
+						"duration": "2",
+						"mode": "constant-magnitude"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Player_Prototype_1",
+					"sid": 611303217785210,
+					"behaviorType": "8Direction",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 138439810635149,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 203837355964727,
+					"parameters": {
+						"layout": "Lose Screen"
+					}
+				}
+			],
+			"sid": 627957642311568
 		}
 	],
 	"sid": 693508415933579

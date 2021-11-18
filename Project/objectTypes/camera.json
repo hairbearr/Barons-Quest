@@ -1,14 +1,14 @@
 {
-	"name": "Trap_Launcher",
+	"name": "Camera",
 	"plugin-id": "Sprite",
-	"sid": 486977622549654,
+	"sid": 324197748222183,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Turret",
-			"name": "Turret",
-			"sid": 357650581812146
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 866424779257054
 		}
 	],
 	"effectTypes": [],
@@ -24,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5052461,
+						"imageSpriteId": 8253779,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 470225388219792,
+				"sid": 439075634793669,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

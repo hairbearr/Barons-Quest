@@ -9,19 +9,90 @@
 			"isActiveOnStart": true,
 			"children": [
 				{
-					"eventType": "block",
-					"conditions": [
+					"eventType": "group",
+					"disabled": false,
+					"title": "Launchers",
+					"description": "Shoots Arrows/Projectiles at the player when they've activated the trap",
+					"isActiveOnStart": true,
+					"children": [
 						{
-							"id": "is-overlapping-another-object",
-							"objectClass": "FloorTraps",
-							"sid": 487310051091398,
-							"parameters": {
-								"object": "Player_Prototype_1"
-							}
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Activated_Traps",
+									"sid": 356131652946388,
+									"parameters": {
+										"instance-variable": "Activated"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 960866998627590,
+							"disabled": true,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-shoot",
+											"objectClass": "Trap_Launcher",
+											"sid": 724015247025945,
+											"behaviorType": "Turret"
+										}
+									],
+									"actions": [
+										{
+											"id": "spawn-another-object",
+											"objectClass": "Trap_Launcher",
+											"sid": 271806593097983,
+											"parameters": {
+												"object": "Proj_Arrow",
+												"layer": "0",
+												"image-point": "0",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "set-speed",
+											"objectClass": "Proj_Arrow",
+											"sid": 520710761097616,
+											"behaviorType": "Bullet",
+											"parameters": {
+												"speed": "400"
+											}
+										}
+									],
+									"sid": 647182948524410,
+									"disabled": true
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "every-tick",
+											"objectClass": "System",
+											"sid": 768891712092415
+										}
+									],
+									"actions": [
+										{
+											"id": "acquire-target",
+											"objectClass": "Trap_Launcher",
+											"sid": 511246226886600,
+											"behaviorType": "Turret",
+											"parameters": {
+												"target": "Player_Prototype_1"
+											}
+										}
+									],
+									"sid": 905967960631146,
+									"disabled": true
+								}
+							]
 						}
 					],
-					"actions": [],
-					"sid": 935138548251258
+					"sid": 624747655203515
 				},
 				{
 					"eventType": "group",
@@ -34,124 +105,179 @@
 							"eventType": "block",
 							"conditions": [
 								{
-									"id": "is-animation-playing",
-									"objectClass": "Traps_Spikes",
-									"sid": 886086520180453,
-									"parameters": {
-										"animation": "\"Retracted\""
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-collisions-enabled",
-									"objectClass": "Traps_Spikes",
-									"sid": 460702688658091,
-									"parameters": {
-										"collisions": "disabled"
-									}
-								}
-							],
-							"sid": 895095577622532
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "is-animation-playing",
-									"objectClass": "Traps_Spikes",
-									"sid": 805718314656279,
-									"parameters": {
-										"animation": "\"Exposed\""
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-collisions-enabled",
-									"objectClass": "Traps_Spikes",
-									"sid": 916326512687890,
-									"parameters": {
-										"collisions": "enabled"
-									}
-								}
-							],
-							"sid": 841192113807070
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
 									"id": "is-boolean-instance-variable-set",
-									"objectClass": "Traps_Spikes",
-									"sid": 607705604993374,
+									"objectClass": "Activated_Traps",
+									"sid": 331904724374587,
 									"parameters": {
-										"instance-variable": "SpikesUp"
+										"instance-variable": "Activated"
 									}
 								}
 							],
-							"actions": [
+							"actions": [],
+							"sid": 714775333367770,
+							"children": [
 								{
-									"id": "set-animation",
-									"objectClass": "Traps_Spikes",
-									"sid": 674444682692943,
-									"parameters": {
-										"animation": "\"Exposed\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 166357154817340
-						},
-						{
-							"eventType": "block",
-							"conditions": [
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-animation-playing",
+											"objectClass": "Traps_Spikes",
+											"sid": 390750777848377,
+											"parameters": {
+												"animation": "\"Retracted\""
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-collisions-enabled",
+											"objectClass": "Traps_Spikes",
+											"sid": 977789200231397,
+											"parameters": {
+												"collisions": "disabled"
+											}
+										}
+									],
+									"sid": 260148880591135
+								},
 								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "Traps_Spikes",
-									"sid": 616658476767026,
-									"parameters": {
-										"instance-variable": "SpikesUp"
-									},
-									"isInverted": true
-								}
-							],
-							"actions": [
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-animation-playing",
+											"objectClass": "Traps_Spikes",
+											"sid": 380027923268006,
+											"parameters": {
+												"animation": "\"Exposed\""
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-collisions-enabled",
+											"objectClass": "Traps_Spikes",
+											"sid": 105530005063343,
+											"parameters": {
+												"collisions": "enabled"
+											}
+										}
+									],
+									"sid": 625586870782883
+								},
 								{
-									"id": "set-animation",
-									"objectClass": "Traps_Spikes",
-									"sid": 913542935396175,
-									"parameters": {
-										"animation": "\"Retracted\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 692092673599652
-						},
-						{
-							"eventType": "block",
-							"conditions": [
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-boolean-instance-variable-set",
+											"objectClass": "Traps_Spikes",
+											"sid": 347179950421552,
+											"parameters": {
+												"instance-variable": "SpikesUp"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-animation",
+											"objectClass": "Traps_Spikes",
+											"sid": 463405753799771,
+											"parameters": {
+												"animation": "\"Exposed\"",
+												"from": "beginning"
+											}
+										}
+									],
+									"sid": 150758888724029
+								},
 								{
-									"id": "every-x-seconds",
-									"objectClass": "System",
-									"sid": 566262312418609,
-									"parameters": {
-										"interval-seconds": "Traps_Spikes.TimeBetweenSpikes"
-									}
-								}
-							],
-							"actions": [
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-boolean-instance-variable-set",
+											"objectClass": "Traps_Spikes",
+											"sid": 859673330672054,
+											"parameters": {
+												"instance-variable": "SpikesUp"
+											},
+											"isInverted": true
+										}
+									],
+									"actions": [
+										{
+											"id": "set-animation",
+											"objectClass": "Traps_Spikes",
+											"sid": 647346065415034,
+											"parameters": {
+												"animation": "\"Retracted\"",
+												"from": "beginning"
+											}
+										}
+									],
+									"sid": 783877068162360
+								},
 								{
-									"id": "toggle-boolean-instvar",
-									"objectClass": "Traps_Spikes",
-									"sid": 318844487567580,
-									"parameters": {
-										"instance-variable": "SpikesUp"
-									}
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "every-x-seconds",
+											"objectClass": "System",
+											"sid": 716487996296065,
+											"parameters": {
+												"interval-seconds": "Traps_Spikes.TimeBetweenSpikes"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "toggle-boolean-instvar",
+											"objectClass": "Traps_Spikes",
+											"sid": 478225727930031,
+											"parameters": {
+												"instance-variable": "SpikesUp"
+											}
+										}
+									],
+									"sid": 940352548717717
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-overlapping-another-object",
+											"objectClass": "Player_Prototype_1",
+											"sid": 195153682919660,
+											"parameters": {
+												"object": "Traps_Spikes"
+											}
+										},
+										{
+											"id": "is-boolean-instance-variable-set",
+											"objectClass": "Traps_Spikes",
+											"sid": 901522889423473,
+											"parameters": {
+												"instance-variable": "SpikesUp"
+											}
+										},
+										{
+											"id": "trigger-once-while-true",
+											"objectClass": "System",
+											"sid": 575531827355513
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "Player_Prototype_1",
+											"sid": 994797934342167,
+											"parameters": {
+												"instance-variable": "Health",
+												"value": "Traps_Spikes.DamageDone"
+											}
+										}
+									],
+									"sid": 782299744176969
 								}
-							],
-							"sid": 360824679687663
+							]
 						}
 					],
 					"sid": 118788213795042

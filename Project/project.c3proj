@@ -72,6 +72,22 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Turret",
+			"name": "Turret",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "LOS",
 			"name": "Line of sight",
 			"author": "Scirra",
@@ -124,7 +140,9 @@
 		"items": [
 			"UI_Health",
 			"Exit",
-			"Win_Text"
+			"Win_Text",
+			"FloorColor",
+			"Camera"
 		],
 		"subfolders": [
 			{
@@ -271,7 +289,7 @@
 			"Collectable",
 			"Destructables",
 			"Projectiles",
-			"FloorTraps"
+			"Activated_Traps"
 		],
 		"subfolders": []
 	},
@@ -279,7 +297,8 @@
 		"items": [
 			"Menu",
 			"Level One",
-			"End Screen"
+			"End Screen",
+			"Lose Screen"
 		],
 		"subfolders": []
 	},

@@ -21,6 +21,18 @@
 			"type": "number",
 			"desc": "What does completing this puzzle activate?",
 			"sid": 254371276765863
+		},
+		{
+			"name": "Correct",
+			"type": "boolean",
+			"desc": "",
+			"sid": 901629693670323
+		},
+		{
+			"name": "TriesAllowed",
+			"type": "number",
+			"desc": "",
+			"sid": 536994336538766
 		}
 	],
 	"behaviorTypes": [],

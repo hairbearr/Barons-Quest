@@ -1,7 +1,7 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 26800,
-	"name": "Final Project Group E",
+	"name": "Baron's Quest",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
@@ -296,7 +296,7 @@
 	"layouts": {
 		"items": [
 			"Menu",
-			"Level One",
+			"Prototype Level One",
 			"End Screen",
 			"Lose Screen"
 		],

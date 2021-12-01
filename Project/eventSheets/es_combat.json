@@ -95,6 +95,11 @@
 															"parameters": {
 																"collisions": "enabled"
 															}
+														},
+														{
+															"id": "destroy",
+															"objectClass": "ChestOverlay",
+															"sid": 945741093630694
 														}
 													],
 													"sid": 455978134435196
@@ -546,6 +551,42 @@
 							"sid": 274380955837977
 						}
 					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Enemy_Melee_Prototype_1",
+							"sid": 890407790026340,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Player_Prototype_1",
+								"image-point": "0"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Enemy_Melee_Prototype_1",
+							"sid": 640128221870158,
+							"behaviorType": "MoveTo"
+						},
+						{
+							"id": "move-to-position",
+							"objectClass": "Enemy_Melee_Prototype_1",
+							"sid": 855117626432445,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "Enemy_Melee_Prototype_1.startPosX",
+								"y": "Enemy_Melee_Prototype_1.startPosY",
+								"mode": "direct"
+							}
+						}
+					],
+					"sid": 244714818068516
 				}
 			],
 			"sid": 581768486670151

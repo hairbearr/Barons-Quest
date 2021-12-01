@@ -627,7 +627,9 @@
 					"uid": 3,
 					"instanceVariables": {
 						"Health": 4,
-						"AttackPower_Melee": 1
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -645,7 +647,7 @@
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": true,
-								"stop-on-solids": false,
+								"stop-on-solids": true,
 								"enabled": true
 							}
 						},
@@ -688,7 +690,9 @@
 					"uid": 5,
 					"instanceVariables": {
 						"Health": 4,
-						"AttackPower_Melee": 1
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -749,7 +753,9 @@
 					"uid": 25,
 					"instanceVariables": {
 						"Health": 4,
-						"AttackPower_Melee": 1
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1090,7 +1096,9 @@
 					"uid": 49,
 					"instanceVariables": {
 						"Health": 4,
-						"AttackPower_Melee": 1
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1151,7 +1159,9 @@
 					"uid": 50,
 					"instanceVariables": {
 						"Health": 4,
-						"AttackPower_Melee": 1
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1169,7 +1179,7 @@
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": true,
-								"stop-on-solids": false,
+								"stop-on-solids": true,
 								"enabled": true
 							}
 						},
@@ -1212,7 +1222,9 @@
 					"uid": 51,
 					"instanceVariables": {
 						"Health": 4,
-						"AttackPower_Melee": 1
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1230,7 +1242,7 @@
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": true,
-								"stop-on-solids": false,
+								"stop-on-solids": true,
 								"enabled": true
 							}
 						},
@@ -1273,7 +1285,9 @@
 					"uid": 52,
 					"instanceVariables": {
 						"Health": 4,
-						"AttackPower_Melee": 1
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1291,7 +1305,7 @@
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": true,
-								"stop-on-solids": false,
+								"stop-on-solids": true,
 								"enabled": true
 							}
 						},
@@ -1334,7 +1348,9 @@
 					"uid": 53,
 					"instanceVariables": {
 						"Health": 4,
-						"AttackPower_Melee": 1
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1352,7 +1368,7 @@
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": true,
-								"stop-on-solids": false,
+								"stop-on-solids": true,
 								"enabled": true
 							}
 						},
@@ -1395,7 +1411,9 @@
 					"uid": 54,
 					"instanceVariables": {
 						"Health": 4,
-						"AttackPower_Melee": 1
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1413,7 +1431,7 @@
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": true,
-								"stop-on-solids": false,
+								"stop-on-solids": true,
 								"enabled": true
 							}
 						},
@@ -1456,7 +1474,9 @@
 					"uid": 55,
 					"instanceVariables": {
 						"Health": 4,
-						"AttackPower_Melee": 1
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1474,7 +1494,7 @@
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": true,
-								"stop-on-solids": false,
+								"stop-on-solids": true,
 								"enabled": true
 							}
 						},
@@ -1517,7 +1537,9 @@
 					"uid": 56,
 					"instanceVariables": {
 						"Health": 4,
-						"AttackPower_Melee": 1
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1535,7 +1557,7 @@
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": true,
-								"stop-on-solids": false,
+								"stop-on-solids": true,
 								"enabled": true
 							}
 						},
@@ -1578,7 +1600,9 @@
 					"uid": 57,
 					"instanceVariables": {
 						"Health": 4,
-						"AttackPower_Melee": 1
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1596,7 +1620,7 @@
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": true,
-								"stop-on-solids": false,
+								"stop-on-solids": true,
 								"enabled": true
 							}
 						},
@@ -1639,7 +1663,9 @@
 					"uid": 58,
 					"instanceVariables": {
 						"Health": 4,
-						"AttackPower_Melee": 1
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1657,7 +1683,7 @@
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": true,
-								"stop-on-solids": false,
+								"stop-on-solids": true,
 								"enabled": true
 							}
 						},
@@ -1700,7 +1726,9 @@
 					"uid": 59,
 					"instanceVariables": {
 						"Health": 4,
-						"AttackPower_Melee": 1
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1718,7 +1746,7 @@
 								"deceleration": 600,
 								"rotate-speed": 0,
 								"set-angle": true,
-								"stop-on-solids": false,
+								"stop-on-solids": true,
 								"enabled": true
 							}
 						},
@@ -2041,53 +2069,6 @@
 					}
 				},
 				{
-					"type": "Player_Prototype_1",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 17,
-					"instanceVariables": {
-						"isAttacking_Melee": false,
-						"Health": 10,
-						"AttackPower_Melee": 1,
-						"HasMeleeWeapon": false,
-						"MaxHealth": 10
-					},
-					"behaviors": {
-						"8Direction": {
-							"properties": {
-								"max-speed": 120,
-								"acceleration": 600,
-								"deceleration": 500,
-								"directions": "dir-4",
-								"set-angle": "interval-90",
-								"default-controls": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 78.19351954946549,
-						"y": 355.49914591895634,
-						"width": 16,
-						"height": 16,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 4.71238898038469,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Traps_Spikes",
 					"properties": {
 						"initially-visible": false,
@@ -2399,6 +2380,53 @@
 							1
 						],
 						"angle": 3.141592653589793,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Player_Prototype_1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 17,
+					"instanceVariables": {
+						"isAttacking_Melee": false,
+						"Health": 10,
+						"AttackPower_Melee": 1,
+						"HasMeleeWeapon": false,
+						"MaxHealth": 10
+					},
+					"behaviors": {
+						"8Direction": {
+							"properties": {
+								"max-speed": 120,
+								"acceleration": 600,
+								"deceleration": 500,
+								"directions": "dir-4",
+								"set-angle": "interval-90",
+								"default-controls": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 78.19351954946549,
+						"y": 355.49914591895634,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 4.71238898038469,
 						"zElevation": 0
 					}
 				}

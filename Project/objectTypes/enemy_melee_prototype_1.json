@@ -15,6 +15,18 @@
 			"type": "number",
 			"desc": "",
 			"sid": 895723049728904
+		},
+		{
+			"name": "startPosX",
+			"type": "number",
+			"desc": "",
+			"sid": 461813783652208
+		},
+		{
+			"name": "startPosY",
+			"type": "number",
+			"desc": "",
+			"sid": 447756369963695
 		}
 	],
 	"behaviorTypes": [

@@ -224,6 +224,24 @@
 					"id": "reset-global-variables",
 					"objectClass": "System",
 					"sid": 508780359808869
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Enemy_Melee_Prototype_1",
+					"sid": 870629364221460,
+					"parameters": {
+						"instance-variable": "startPosX",
+						"value": "Enemy_Melee_Prototype_1.X"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Enemy_Melee_Prototype_1",
+					"sid": 613478788669007,
+					"parameters": {
+						"instance-variable": "startPosY",
+						"value": "Enemy_Melee_Prototype_1.Y"
+					}
 				}
 			],
 			"sid": 670599443011451

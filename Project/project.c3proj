@@ -319,11 +319,53 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "234924__gordeszkakerek__pick-up-or-found-it-secret-item copy.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 142375395150410
+				},
+				{
+					"name": "364929__jofae__game-die.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 342566222290719
+				},
+				{
+					"name": "466272__proolsen__pressure-plate.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 630140325385455
+				},
+				{
+					"name": "527636__matrixxx__demonic-anger.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 702565922177070
+				},
+				{
+					"name": "ES_Door Close 24 - SFX Producer.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 363439540825453
+				},
+				{
+					"name": "ES_Door Open 8 - SFX Producer.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 499028159133591
+				},
+				{
+					"name": "ES_Tool Chest Drawer 6 - SFX Producer.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 765728882966432
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "gambado-cba.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 227887919459366
+				}
+			],
 			"subfolders": []
 		},
 		"video": {

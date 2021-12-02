@@ -318,6 +318,17 @@
 								"default-controls": false,
 								"enabled": true
 							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
 						}
 					},
 					"world": {
@@ -415,6 +426,17 @@
 							"properties": {
 								"enabled": false,
 								"tags": ""
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 0,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": false,
+								"step": false,
+								"enabled": true
 							}
 						}
 					},
@@ -2709,6 +2731,17 @@
 								"enabled": false,
 								"tags": ""
 							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 0,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": false,
+								"step": false,
+								"enabled": true
+							}
 						}
 					},
 					"world": {
@@ -2771,6 +2804,17 @@
 							"properties": {
 								"enabled": false,
 								"tags": ""
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 0,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": false,
+								"step": false,
+								"enabled": true
 							}
 						}
 					},

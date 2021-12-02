@@ -40,6 +40,11 @@
 			"behaviorId": "EightDir",
 			"name": "8Direction",
 			"sid": 690457550348923
+		},
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 304351334041988
 		}
 	],
 	"effectTypes": [],

@@ -325,9 +325,9 @@
 								{
 									"id": "wait",
 									"objectClass": "System",
-									"sid": 139112711001170,
+									"sid": 820984563346058,
 									"parameters": {
-										"seconds": "0.05"
+										"seconds": "0.01"
 									}
 								},
 								{
@@ -372,18 +372,72 @@
 								{
 									"id": "subtract-from-instvar",
 									"objectClass": "Enemy_Skeleton",
-									"sid": 656610535081610,
+									"sid": 219675060590473,
 									"parameters": {
 										"instance-variable": "Health",
 										"value": "Mana_Armored.AttackPower_Melee"
 									}
 								},
 								{
-									"id": "move-forward",
+									"id": "set-speed",
 									"objectClass": "Enemy_Skeleton",
-									"sid": 909132968481021,
+									"sid": 236882312389963,
+									"behaviorType": "Bullet",
 									"parameters": {
-										"distance": "-50"
+										"speed": "400"
+									}
+								},
+								{
+									"id": "set-speed",
+									"objectClass": "Mana_Armored",
+									"sid": 159180451395970,
+									"behaviorType": "Bullet",
+									"parameters": {
+										"speed": "200"
+									}
+								},
+								{
+									"id": "set-angle-of-motion",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 273376334460667,
+									"behaviorType": "Bullet",
+									"parameters": {
+										"angle": "angle(Mana_Armored.X, Mana_Armored.Y, Self.X, Self.Y)"
+									}
+								},
+								{
+									"id": "set-angle-of-motion",
+									"objectClass": "Mana_Armored",
+									"sid": 399506458339357,
+									"behaviorType": "Bullet",
+									"parameters": {
+										"angle": "-Self.Angle"
+									}
+								},
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 805803535973045,
+									"parameters": {
+										"seconds": "0.25"
+									}
+								},
+								{
+									"id": "set-speed",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 562450631485802,
+									"behaviorType": "Bullet",
+									"parameters": {
+										"speed": "0"
+									}
+								},
+								{
+									"id": "set-speed",
+									"objectClass": "Mana_Armored",
+									"sid": 401134740157638,
+									"behaviorType": "Bullet",
+									"parameters": {
+										"speed": "0"
 									}
 								}
 							],

@@ -1,0 +1,20 @@
+{
+	"name": "Texture_Catacombs",
+	"plugin-id": "TiledBg",
+	"sid": 140826419821844,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 109,
+		"height": 79,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 2335716,
+		"useCollisionPoly": true
+	}
+}

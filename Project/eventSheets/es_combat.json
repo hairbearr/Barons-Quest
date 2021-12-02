@@ -20,7 +20,7 @@
 							"conditions": [
 								{
 									"id": "is-overlapping-another-object",
-									"objectClass": "Player_Prototype_1",
+									"objectClass": "Mana_Armored",
 									"sid": 804095076840103,
 									"parameters": {
 										"object": "ChestOverlay"
@@ -115,7 +115,7 @@
 							"conditions": [
 								{
 									"id": "on-collision-with-another-object",
-									"objectClass": "Player_Prototype_1",
+									"objectClass": "Mana_Armored",
 									"sid": 281622980643945,
 									"parameters": {
 										"object": "PickUp_MeleeWeapon_Prototype_1"
@@ -130,7 +130,7 @@
 								},
 								{
 									"id": "set-boolean-instvar",
-									"objectClass": "Player_Prototype_1",
+									"objectClass": "Mana_Armored",
 									"sid": 364418110127702,
 									"parameters": {
 										"instance-variable": "HasMeleeWeapon",
@@ -145,7 +145,7 @@
 							"conditions": [
 								{
 									"id": "on-collision-with-another-object",
-									"objectClass": "Player_Prototype_1",
+									"objectClass": "Mana_Armored",
 									"sid": 654240540951943,
 									"parameters": {
 										"object": "Col_HealthRegen"
@@ -166,19 +166,19 @@
 									"conditions": [
 										{
 											"id": "compare-instance-variable",
-											"objectClass": "Player_Prototype_1",
+											"objectClass": "Mana_Armored",
 											"sid": 501034539442531,
 											"parameters": {
 												"instance-variable": "Health",
 												"comparison": 2,
-												"value": "Player_Prototype_1.MaxHealth"
+												"value": "Mana_Armored.MaxHealth"
 											}
 										}
 									],
 									"actions": [
 										{
 											"id": "add-to-instvar",
-											"objectClass": "Player_Prototype_1",
+											"objectClass": "Mana_Armored",
 											"sid": 771444682307936,
 											"parameters": {
 												"instance-variable": "Health",
@@ -195,7 +195,7 @@
 							"conditions": [
 								{
 									"id": "is-overlapping-another-object",
-									"objectClass": "Player_Prototype_1",
+									"objectClass": "Mana_Armored",
 									"sid": 104194498267759,
 									"parameters": {
 										"object": "ChestOverlay"
@@ -230,7 +230,7 @@
 							"conditions": [
 								{
 									"id": "compare-instance-variable",
-									"objectClass": "Player_Prototype_1",
+									"objectClass": "Mana_Armored",
 									"sid": 773340504707868,
 									"parameters": {
 										"instance-variable": "Health",
@@ -261,7 +261,7 @@
 								},
 								{
 									"id": "is-boolean-instance-variable-set",
-									"objectClass": "Player_Prototype_1",
+									"objectClass": "Mana_Armored",
 									"sid": 747642764518788,
 									"parameters": {
 										"instance-variable": "HasMeleeWeapon"
@@ -271,7 +271,7 @@
 							"actions": [
 								{
 									"id": "set-boolean-instvar",
-									"objectClass": "Player_Prototype_1",
+									"objectClass": "Mana_Armored",
 									"sid": 597872515684371,
 									"parameters": {
 										"instance-variable": "isAttacking_Melee",
@@ -286,7 +286,7 @@
 							"conditions": [
 								{
 									"id": "is-boolean-instance-variable-set",
-									"objectClass": "Player_Prototype_1",
+									"objectClass": "Mana_Armored",
 									"sid": 295965301549173,
 									"parameters": {
 										"instance-variable": "isAttacking_Melee"
@@ -296,7 +296,7 @@
 							"actions": [
 								{
 									"id": "set-animation",
-									"objectClass": "Player_Prototype_1",
+									"objectClass": "Mana_Armored",
 									"sid": 338202722707725,
 									"parameters": {
 										"animation": "\"SwingSword\"",
@@ -305,7 +305,7 @@
 								},
 								{
 									"id": "spawn-another-object",
-									"objectClass": "Player_Prototype_1",
+									"objectClass": "Mana_Armored",
 									"sid": 339833157155850,
 									"parameters": {
 										"object": "HurtBox_Prototype_1",
@@ -337,16 +337,16 @@
 								},
 								{
 									"id": "set-animation",
-									"objectClass": "Player_Prototype_1",
-									"sid": 701529117311725,
+									"objectClass": "Mana_Armored",
+									"sid": 333400419261778,
 									"parameters": {
-										"animation": "\"Animation 1\"",
+										"animation": "\"Idle\"",
 										"from": "beginning"
 									}
 								},
 								{
 									"id": "set-boolean-instvar",
-									"objectClass": "Player_Prototype_1",
+									"objectClass": "Mana_Armored",
 									"sid": 373751938698809,
 									"parameters": {
 										"instance-variable": "isAttacking_Melee",
@@ -364,23 +364,23 @@
 									"objectClass": "HurtBox_Prototype_1",
 									"sid": 331057245013456,
 									"parameters": {
-										"object": "Enemy_Melee_Prototype_1"
+										"object": "Enemy_Skeleton"
 									}
 								}
 							],
 							"actions": [
 								{
 									"id": "subtract-from-instvar",
-									"objectClass": "Enemy_Melee_Prototype_1",
+									"objectClass": "Enemy_Skeleton",
 									"sid": 656610535081610,
 									"parameters": {
 										"instance-variable": "Health",
-										"value": "Player_Prototype_1.AttackPower_Melee"
+										"value": "Mana_Armored.AttackPower_Melee"
 									}
 								},
 								{
 									"id": "move-forward",
-									"objectClass": "Enemy_Melee_Prototype_1",
+									"objectClass": "Enemy_Skeleton",
 									"sid": 909132968481021,
 									"parameters": {
 										"distance": "-50"
@@ -428,11 +428,11 @@
 					"conditions": [
 						{
 							"id": "has-los-to-object",
-							"objectClass": "Enemy_Melee_Prototype_1",
+							"objectClass": "Enemy_Skeleton",
 							"sid": 947286200196051,
 							"behaviorType": "LineOfSight",
 							"parameters": {
-								"object": "Player_Prototype_1",
+								"object": "Mana_Armored",
 								"image-point": "0"
 							}
 						}
@@ -440,11 +440,11 @@
 					"actions": [
 						{
 							"id": "move-to-object",
-							"objectClass": "Enemy_Melee_Prototype_1",
+							"objectClass": "Enemy_Skeleton",
 							"sid": 166765810518774,
 							"behaviorType": "MoveTo",
 							"parameters": {
-								"object": "Player_Prototype_1",
+								"object": "Mana_Armored",
 								"image-point": "0",
 								"mode": "direct"
 							}
@@ -457,7 +457,7 @@
 					"conditions": [
 						{
 							"id": "compare-instance-variable",
-							"objectClass": "Enemy_Melee_Prototype_1",
+							"objectClass": "Enemy_Skeleton",
 							"sid": 733890732077435,
 							"parameters": {
 								"instance-variable": "Health",
@@ -469,7 +469,7 @@
 					"actions": [
 						{
 							"id": "flash",
-							"objectClass": "Enemy_Melee_Prototype_1",
+							"objectClass": "Enemy_Skeleton",
 							"sid": 884813864590833,
 							"behaviorType": "Flash",
 							"parameters": {
@@ -480,7 +480,7 @@
 						},
 						{
 							"id": "set-collisions-enabled",
-							"objectClass": "Enemy_Melee_Prototype_1",
+							"objectClass": "Enemy_Skeleton",
 							"sid": 565441731225097,
 							"parameters": {
 								"collisions": "disabled"
@@ -494,7 +494,7 @@
 							"conditions": [
 								{
 									"id": "on-flash-ended",
-									"objectClass": "Enemy_Melee_Prototype_1",
+									"objectClass": "Enemy_Skeleton",
 									"sid": 666827348679930,
 									"behaviorType": "Flash"
 								}
@@ -502,7 +502,7 @@
 							"actions": [
 								{
 									"id": "destroy",
-									"objectClass": "Enemy_Melee_Prototype_1",
+									"objectClass": "Enemy_Skeleton",
 									"sid": 986070002509784
 								}
 							],
@@ -515,10 +515,10 @@
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "Enemy_Melee_Prototype_1",
+							"objectClass": "Enemy_Skeleton",
 							"sid": 255049544192392,
 							"parameters": {
-								"object": "Player_Prototype_1"
+								"object": "Mana_Armored"
 							}
 						}
 					],
@@ -540,11 +540,11 @@
 							"actions": [
 								{
 									"id": "subtract-from-instvar",
-									"objectClass": "Player_Prototype_1",
+									"objectClass": "Mana_Armored",
 									"sid": 791268683763797,
 									"parameters": {
 										"instance-variable": "Health",
-										"value": "Enemy_Melee_Prototype_1.AttackPower_Melee"
+										"value": "Enemy_Skeleton.AttackPower_Melee"
 									}
 								}
 							],
@@ -557,11 +557,11 @@
 					"conditions": [
 						{
 							"id": "has-los-to-object",
-							"objectClass": "Enemy_Melee_Prototype_1",
+							"objectClass": "Enemy_Skeleton",
 							"sid": 890407790026340,
 							"behaviorType": "LineOfSight",
 							"parameters": {
-								"object": "Player_Prototype_1",
+								"object": "Mana_Armored",
 								"image-point": "0"
 							},
 							"isInverted": true
@@ -570,23 +570,88 @@
 					"actions": [
 						{
 							"id": "stop",
-							"objectClass": "Enemy_Melee_Prototype_1",
+							"objectClass": "Enemy_Skeleton",
 							"sid": 640128221870158,
 							"behaviorType": "MoveTo"
 						},
 						{
 							"id": "move-to-position",
-							"objectClass": "Enemy_Melee_Prototype_1",
+							"objectClass": "Enemy_Skeleton",
 							"sid": 855117626432445,
 							"behaviorType": "MoveTo",
 							"parameters": {
-								"x": "Enemy_Melee_Prototype_1.startPosX",
-								"y": "Enemy_Melee_Prototype_1.startPosY",
+								"x": "Enemy_Skeleton.startPosX",
+								"y": "Enemy_Skeleton.startPosY",
 								"mode": "direct"
 							}
 						}
 					],
 					"sid": 244714818068516
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-moving",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 950400322031921,
+							"behaviorType": "MoveTo"
+						}
+					],
+					"actions": [],
+					"sid": 241964281881013,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-x",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 963352355499677,
+									"parameters": {
+										"comparison": 5,
+										"x-co-ordinate": "Mana_Armored.X"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-mirrored",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 314221218678542,
+									"parameters": {
+										"state": "mirrored"
+									}
+								}
+							],
+							"sid": 194949364762482
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-x",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 502515096446076,
+									"parameters": {
+										"comparison": 2,
+										"x-co-ordinate": "Mana_Armored.X"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-mirrored",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 758510236015296,
+									"parameters": {
+										"state": "not-mirrored"
+									}
+								}
+							],
+							"sid": 771321806068993
+						}
+					]
 				}
 			],
 			"sid": 581768486670151

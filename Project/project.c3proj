@@ -16,14 +16,6 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Tilemap",
-			"name": "Tilemap",
-			"author": "Scirra",
-			"version": "r268",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
@@ -32,16 +24,16 @@
 		},
 		{
 			"type": "plugin",
-			"id": "TiledBg",
-			"name": "Tiled Background",
+			"id": "Text",
+			"name": "Text",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
-			"id": "Text",
-			"name": "Text",
+			"id": "Tilemap",
+			"name": "Tilemap",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -66,6 +58,14 @@
 			"type": "plugin",
 			"id": "Mouse",
 			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -140,9 +140,16 @@
 		"items": [
 			"UI_Health",
 			"Exit",
-			"Win_Text",
 			"FloorColor",
-			"Camera"
+			"Camera",
+			"Bush_Bottom",
+			"Bush_Top",
+			"Bush",
+			"Log",
+			"Stone",
+			"Tree_Bottom",
+			"Tree_Top",
+			"Tree"
 		],
 		"subfolders": [
 			{
@@ -155,17 +162,18 @@
 			},
 			{
 				"items": [
-					"Mana",
-					"Butterfly",
-					"Texture_Grass"
+					"Butterfly"
 				],
 				"subfolders": [
 					{
 						"items": [
-							"Tilemap_Forest"
+							"Ash",
+							"Cobweb_1",
+							"WallTorch",
+							"Skull"
 						],
 						"subfolders": [],
-						"name": "Tilemaps"
+						"name": "Catacombs"
 					}
 				],
 				"name": "Sprites"
@@ -196,7 +204,7 @@
 			},
 			{
 				"items": [
-					"Enemy_Melee_Prototype_1"
+					"Enemy_Skeleton"
 				],
 				"subfolders": [],
 				"name": "Enemies"
@@ -206,33 +214,41 @@
 				"subfolders": [
 					{
 						"items": [
-							"ColorPuzzle_Switch"
-						],
-						"subfolders": [],
-						"name": "Match Sequence"
-					},
-					{
-						"items": [
 							"Moveable_Boulder_Prototype_1",
 							"Switch_Prototype_1"
 						],
 						"subfolders": [],
+						"name": "Switches"
+					},
+					{
+						"items": [
+							"ColorPuzzle_Switch"
+						],
+						"subfolders": [],
 						"name": "Pressure Plate"
+					},
+					{
+						"items": [
+							"Clues"
+						],
+						"subfolders": [],
+						"name": "Clues"
 					}
 				],
 				"name": "Puzzles"
 			},
 			{
 				"items": [
-					"Moveable_Door"
+					"Door"
 				],
 				"subfolders": [],
 				"name": "Doors"
 			},
 			{
 				"items": [
-					"Player_Prototype_1",
-					"HurtBox_Prototype_1"
+					"Mana_Armored",
+					"HurtBox_Prototype_1",
+					"Mana_Normal"
 				],
 				"subfolders": [],
 				"name": "Player"
@@ -256,7 +272,9 @@
 			{
 				"items": [
 					"Txt_Tutorial",
-					"Txt_Health"
+					"Txt_Health",
+					"Txt_Narrative",
+					"Txt_Win"
 				],
 				"subfolders": [],
 				"name": "Text"
@@ -264,7 +282,9 @@
 			{
 				"items": [
 					"TiM_Background_Prototype_1",
-					"TiM_Walls_Prototype_1"
+					"TiM_Walls_Prototype_1",
+					"Catacombs",
+					"Tilemap_Forest"
 				],
 				"subfolders": [],
 				"name": "Tilemaps"
@@ -277,6 +297,36 @@
 				],
 				"subfolders": [],
 				"name": "Inputs"
+			},
+			{
+				"items": [],
+				"subfolders": [
+					{
+						"items": [
+							"Catacomb_Wall_Down_Bit",
+							"Catacombs_Wall_Down",
+							"Catacombs_Wall_Left",
+							"Texture_Catacombs",
+							"Catacombs_Wall_Left_Corner",
+							"Catacombs_Wall_Right",
+							"Catacombs_Wall_Right_Corner",
+							"Catacombs_Wall_Up"
+						],
+						"subfolders": [],
+						"name": "Catacombs"
+					},
+					{
+						"items": [
+							"Texture_Grass",
+							"GrassWall_Down",
+							"GrassWall_Left",
+							"GrassWall_Up"
+						],
+						"subfolders": [],
+						"name": "Forest"
+					}
+				],
+				"name": "Tiled Backgrounds"
 			}
 		]
 	},
@@ -289,16 +339,21 @@
 			"Collectable",
 			"Destructables",
 			"Projectiles",
-			"Activated_Traps"
+			"Activated_Traps",
+			"Barriers",
+			"Barrier"
 		],
 		"subfolders": []
 	},
 	"layouts": {
 		"items": [
 			"Menu",
+			"Narrative_One",
+			"Narrative_Two",
 			"Prototype Level One",
 			"End Screen",
-			"Lose Screen"
+			"Lose Screen",
+			"Level One"
 		],
 		"subfolders": []
 	},
@@ -309,7 +364,9 @@
 			"ES_Puzzles",
 			"ES_Traps",
 			"ES_Main",
-			"ES_Combat"
+			"ES_Combat",
+			"ES_Narrative",
+			"ES_Narrative_Two"
 		],
 		"subfolders": []
 	},
@@ -460,7 +517,7 @@
 		"authorEmail": "",
 		"authorWebsite": "",
 		"appId": "",
-		"pixelRounding": true,
+		"pixelRounding": false,
 		"useLoaderLayout": false,
 		"fullscreenMode": "letterbox-integer-scale",
 		"fullscreenQuality": "high",
@@ -489,7 +546,7 @@
 		"scriptsType": "module",
 		"framerateMode": "vsync",
 		"compositingMode": "standard",
-		"sampling": "trilinear",
+		"sampling": "nearest",
 		"downscaling": "medium",
 		"renderingMode": "auto",
 		"anisotropicFiltering": "auto",
@@ -499,7 +556,7 @@
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https"
 	},
-	"viewportWidth": 480,
-	"viewportHeight": 270,
+	"viewportWidth": 769,
+	"viewportHeight": 432,
 	"firstLayout": "Menu"
 }

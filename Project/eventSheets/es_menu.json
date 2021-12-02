@@ -14,9 +14,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 373656409192645,
+					"sid": 645120335095392,
 					"parameters": {
-						"layout": "Prototype Level One"
+						"layout": "Narrative_One"
 					}
 				}
 			],

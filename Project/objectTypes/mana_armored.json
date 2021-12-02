@@ -1,0 +1,144 @@
+{
+	"name": "Mana_Armored",
+	"plugin-id": "Sprite",
+	"sid": 370411824440666,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "isAttacking_Melee",
+			"type": "boolean",
+			"desc": "",
+			"sid": 564854664445253
+		},
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "",
+			"sid": 697362707245031
+		},
+		{
+			"name": "AttackPower_Melee",
+			"type": "number",
+			"desc": "",
+			"sid": 522429368967385
+		},
+		{
+			"name": "HasMeleeWeapon",
+			"type": "boolean",
+			"desc": "",
+			"sid": 204419798760992
+		},
+		{
+			"name": "MaxHealth",
+			"type": "number",
+			"desc": "",
+			"sid": 349043583637306
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 690457550348923
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 16,
+						"height": 24,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8038931,
+						"collisionPoly": {
+							"points": [
+								0.3281250255351722,
+								0.17968746054578824,
+								0.5624998106197836,
+								0.08593749210915765,
+								0.7578125492076992,
+								0.16666666666666666,
+								0.8554687509313226,
+								0.4661458484941363,
+								0.8007812272587955,
+								0.9374998592066012,
+								0.300781197998333,
+								0.9453124229542217,
+								0.2773437253961504,
+								0.6249998542395474,
+								0.1874997377395573,
+								0.4661459359142839
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 585387158066091,
+				"name": "Idle",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 22,
+						"height": 24,
+						"originX": 0.36363636363636365,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3750379,
+						"collisionPoly": {
+							"points": [
+								0.18181818181818182,
+								0.16666666666666666,
+								0.36363636363636365,
+								0.08333333333333333,
+								0.5,
+								0.16666666666666666,
+								0.5909090909090909,
+								0.5,
+								0.5454545454545454,
+								0.8333333333333334,
+								0.36363636363636365,
+								0.8333333333333334,
+								0.22727272727272727,
+								0.75,
+								0.13636363636363635,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.6818181818181818,
+								"y": 0.5833333333333334
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 993391530423501,
+				"name": "SwingSword",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

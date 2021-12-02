@@ -74,7 +74,7 @@
 					"actions": [
 						{
 							"id": "simulate-control",
-							"objectClass": "Player_Prototype_1",
+							"objectClass": "Mana_Armored",
 							"sid": 368429839883313,
 							"behaviorType": "8Direction",
 							"parameters": {
@@ -99,7 +99,7 @@
 					"actions": [
 						{
 							"id": "simulate-control",
-							"objectClass": "Player_Prototype_1",
+							"objectClass": "Mana_Armored",
 							"sid": 342101847237700,
 							"behaviorType": "8Direction",
 							"parameters": {
@@ -124,7 +124,7 @@
 					"actions": [
 						{
 							"id": "simulate-control",
-							"objectClass": "Player_Prototype_1",
+							"objectClass": "Mana_Armored",
 							"sid": 670950024088069,
 							"behaviorType": "8Direction",
 							"parameters": {
@@ -149,7 +149,7 @@
 					"actions": [
 						{
 							"id": "simulate-control",
-							"objectClass": "Player_Prototype_1",
+							"objectClass": "Mana_Armored",
 							"sid": 887452408219035,
 							"behaviorType": "8Direction",
 							"parameters": {
@@ -174,7 +174,7 @@
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "Player_Prototype_1",
+							"objectClass": "Mana_Armored",
 							"sid": 973527928965830,
 							"parameters": {
 								"object": "ColorPuzzle_Switch"
@@ -182,7 +182,7 @@
 						},
 						{
 							"id": "compare-instance-variable",
-							"objectClass": "Moveable_Door",
+							"objectClass": "Door",
 							"sid": 350179846658881,
 							"parameters": {
 								"instance-variable": "WhatPuzzle",
@@ -203,11 +203,11 @@
 					"actions": [
 						{
 							"id": "set-instvar-value",
-							"objectClass": "Moveable_Door",
+							"objectClass": "Door",
 							"sid": 352037412309876,
 							"parameters": {
 								"instance-variable": "SolutionCode",
-								"value": "Moveable_Door.SolutionCode&ColorPuzzle_Switch.Type"
+								"value": "Door.SolutionCode&ColorPuzzle_Switch.Type"
 							}
 						},
 						{
@@ -227,7 +227,7 @@
 					"conditions": [
 						{
 							"id": "is-boolean-instance-variable-set",
-							"objectClass": "Moveable_Door",
+							"objectClass": "Door",
 							"sid": 438511146636398,
 							"parameters": {
 								"instance-variable": "Open"
@@ -236,19 +236,19 @@
 						},
 						{
 							"id": "compare-instance-variable",
-							"objectClass": "Moveable_Door",
+							"objectClass": "Door",
 							"sid": 182034221093555,
 							"parameters": {
 								"instance-variable": "SolutionCode",
 								"comparison": 0,
-								"value": "Moveable_Door.PuzzleCode"
+								"value": "Door.PuzzleCode"
 							}
 						}
 					],
 					"actions": [
 						{
 							"id": "set-boolean-instvar",
-							"objectClass": "Moveable_Door",
+							"objectClass": "Door",
 							"sid": 853559921516282,
 							"parameters": {
 								"instance-variable": "Open",
@@ -257,7 +257,7 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "Moveable_Door",
+							"objectClass": "Door",
 							"sid": 769655821626180,
 							"parameters": {
 								"animation": "\"Opening\"",
@@ -272,7 +272,7 @@
 					"conditions": [
 						{
 							"id": "is-boolean-instance-variable-set",
-							"objectClass": "Moveable_Door",
+							"objectClass": "Door",
 							"sid": 765013127697104,
 							"parameters": {
 								"instance-variable": "Open"
@@ -280,19 +280,19 @@
 						},
 						{
 							"id": "compare-instance-variable",
-							"objectClass": "Moveable_Door",
+							"objectClass": "Door",
 							"sid": 505902603574372,
 							"parameters": {
 								"instance-variable": "SolutionCode",
 								"comparison": 1,
-								"value": "Moveable_Door.PuzzleCode"
+								"value": "Door.PuzzleCode"
 							}
 						}
 					],
 					"actions": [
 						{
 							"id": "set-boolean-instvar",
-							"objectClass": "Moveable_Door",
+							"objectClass": "Door",
 							"sid": 232892421526323,
 							"parameters": {
 								"instance-variable": "Open",
@@ -301,7 +301,7 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "Moveable_Door",
+							"objectClass": "Door",
 							"sid": 411681384876400,
 							"parameters": {
 								"animation": "\"Closed\"",
@@ -335,11 +335,12 @@
 					],
 					"actions": [
 						{
-							"id": "set-blend-mode",
+							"id": "set-animation",
 							"objectClass": "ColorPuzzle_Switch",
-							"sid": 431871362999206,
+							"sid": 184727725591513,
 							"parameters": {
-								"blend-mode": "destination-over"
+								"animation": "ColorPuzzle_Switch.Type",
+								"from": "beginning"
 							}
 						}
 					],
@@ -375,12 +376,12 @@
 					"conditions": [
 						{
 							"id": "compare-instance-variable",
-							"objectClass": "Moveable_Door",
+							"objectClass": "Door",
 							"sid": 543359470124162,
 							"parameters": {
 								"instance-variable": "SolutionCode",
 								"comparison": 1,
-								"value": "left(Moveable_Door.PuzzleCode,len(Moveable_Door.SolutionCode))"
+								"value": "left(Door.PuzzleCode,len(Door.SolutionCode))"
 							}
 						},
 						{
@@ -390,7 +391,7 @@
 							"parameters": {
 								"instance-variable": "WhatPuzzle",
 								"comparison": 0,
-								"value": "Moveable_Door.WhatPuzzle"
+								"value": "Door.WhatPuzzle"
 							}
 						}
 					],
@@ -406,7 +407,7 @@
 						},
 						{
 							"id": "set-instvar-value",
-							"objectClass": "Moveable_Door",
+							"objectClass": "Door",
 							"sid": 762889173942558,
 							"parameters": {
 								"instance-variable": "SolutionCode",
@@ -560,7 +561,7 @@
 				},
 				{
 					"id": "set-enabled",
-					"objectClass": "Player_Prototype_1",
+					"objectClass": "Mana_Armored",
 					"sid": 611303217785210,
 					"behaviorType": "8Direction",
 					"parameters": {

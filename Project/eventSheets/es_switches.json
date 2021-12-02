@@ -54,7 +54,7 @@
 									"actions": [
 										{
 											"id": "set-animation",
-											"objectClass": "Moveable_Door",
+											"objectClass": "Door",
 											"sid": 595156167443707,
 											"parameters": {
 												"animation": "\"Opening\"",
@@ -72,7 +72,7 @@
 							"actions": [
 								{
 									"id": "set-animation",
-									"objectClass": "Moveable_Door",
+									"objectClass": "Door",
 									"sid": 348880508508940,
 									"parameters": {
 										"animation": "\"Closed\"",
@@ -97,7 +97,7 @@
 							"conditions": [
 								{
 									"id": "on-collision-with-another-object",
-									"objectClass": "Player_Prototype_1",
+									"objectClass": "Mana_Armored",
 									"sid": 442410464378015,
 									"parameters": {
 										"object": "Moveable_Boulder_Prototype_1"
@@ -110,7 +110,7 @@
 									"objectClass": "Moveable_Boulder_Prototype_1",
 									"sid": 479505134899009,
 									"parameters": {
-										"angle": "Player_Prototype_1.Angle"
+										"angle": "Mana_Armored.Angle"
 									}
 								},
 								{
@@ -129,7 +129,7 @@
 							"conditions": [
 								{
 									"id": "is-overlapping-another-object",
-									"objectClass": "Player_Prototype_1",
+									"objectClass": "Mana_Armored",
 									"sid": 904415104913934,
 									"parameters": {
 										"object": "Switch_Prototype_1"
@@ -153,7 +153,7 @@
 							"conditions": [
 								{
 									"id": "is-overlapping-another-object",
-									"objectClass": "Player_Prototype_1",
+									"objectClass": "Mana_Armored",
 									"sid": 347974131398259,
 									"parameters": {
 										"object": "Switch_Prototype_1"

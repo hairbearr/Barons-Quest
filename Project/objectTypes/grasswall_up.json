@@ -1,0 +1,20 @@
+{
+	"name": "GrassWall_Up",
+	"plugin-id": "TiledBg",
+	"sid": 975887793249859,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 255,
+		"height": 17,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 4409170,
+		"useCollisionPoly": true
+	}
+}

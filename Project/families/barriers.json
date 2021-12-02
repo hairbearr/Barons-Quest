@@ -1,0 +1,26 @@
+{
+	"name": "Barriers",
+	"plugin-id": "TiledBg",
+	"sid": 903324336312897,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 591805148451025
+		}
+	],
+	"effectTypes": [],
+	"members": [
+		"Catacombs_Wall_Down",
+		"Catacombs_Wall_Left",
+		"Catacombs_Wall_Left_Corner",
+		"Catacombs_Wall_Right",
+		"Catacombs_Wall_Right_Corner",
+		"Catacombs_Wall_Up",
+		"Catacomb_Wall_Down_Bit",
+		"GrassWall_Up",
+		"GrassWall_Down",
+		"GrassWall_Left"
+	]
+}

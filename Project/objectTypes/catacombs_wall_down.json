@@ -1,0 +1,20 @@
+{
+	"name": "Catacombs_Wall_Down",
+	"plugin-id": "TiledBg",
+	"sid": 584322493737095,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 99,
+		"height": 48,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 4416597,
+		"useCollisionPoly": true
+	}
+}

@@ -82,7 +82,7 @@
 											"sid": 511246226886600,
 											"behaviorType": "Turret",
 											"parameters": {
-												"target": "Player_Prototype_1"
+												"target": "Mana_Armored"
 											}
 										}
 									],
@@ -244,7 +244,7 @@
 									"conditions": [
 										{
 											"id": "is-overlapping-another-object",
-											"objectClass": "Player_Prototype_1",
+											"objectClass": "Mana_Armored",
 											"sid": 195153682919660,
 											"parameters": {
 												"object": "Traps_Spikes"
@@ -267,7 +267,7 @@
 									"actions": [
 										{
 											"id": "subtract-from-instvar",
-											"objectClass": "Player_Prototype_1",
+											"objectClass": "Mana_Armored",
 											"sid": 994797934342167,
 											"parameters": {
 												"instance-variable": "Health",

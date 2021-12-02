@@ -1,0 +1,53 @@
+{
+	"name": "Bush_Top",
+	"plugin-id": "Sprite",
+	"sid": 113009327727789,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 21,
+						"height": 13,
+						"originX": 0.47619047619047616,
+						"originY": 1.0769230769230769,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8457927,
+						"collisionPoly": {
+							"points": [
+								0.14285714285714285,
+								0.38461538461538464,
+								0.47619047619047616,
+								0.07692307692307693,
+								0.7142857142857143,
+								0.46153846153846156,
+								0.23809523809523808,
+								0.8461538461538461,
+								0.47619047619047616,
+								0.8461538461538461,
+								0.6666666666666666,
+								0.8461538461538461
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 917975324824794,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

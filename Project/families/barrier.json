@@ -1,0 +1,24 @@
+{
+	"name": "Barrier",
+	"plugin-id": "Sprite",
+	"sid": 982107960291314,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 846716769620876
+		}
+	],
+	"effectTypes": [],
+	"members": [
+		"Bush",
+		"Bush_Top",
+		"Bush_Bottom",
+		"Tree",
+		"Tree_Bottom",
+		"Stone",
+		"Tree_Top",
+		"Log"
+	]
+}

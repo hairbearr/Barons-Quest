@@ -1,0 +1,96 @@
+{
+	"name": "ES_Narrative_Two",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 510013016739984,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 962800477048367,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Txt_Narrative",
+							"sid": 254803191875029,
+							"parameters": {
+								"instance-variable": "Played"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Txt_Narrative",
+							"sid": 879681677991239,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "typewriter-text",
+							"objectClass": "Txt_Narrative",
+							"sid": 470839851869616,
+							"parameters": {
+								"text": "Txt_Narrative.Text",
+								"duration": "20"
+							}
+						},
+						{
+							"id": "wait-for-previous-actions",
+							"objectClass": "System",
+							"sid": 551337108636787
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Txt_Narrative",
+							"sid": 966091603220659,
+							"parameters": {
+								"instance-variable": "Played",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 681246334207806
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Txt_Narrative",
+							"sid": 121721389675573,
+							"parameters": {
+								"instance-variable": "Played"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-nextprevious-layout",
+							"objectClass": "System",
+							"sid": 861250340818301,
+							"parameters": {
+								"which": "next"
+							}
+						}
+					],
+					"sid": 386492296219068
+				}
+			]
+		}
+	],
+	"sid": 770884578215743
+}

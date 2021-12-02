@@ -35,7 +35,7 @@
 					"actions": [
 						{
 							"id": "simulate-control",
-							"objectClass": "Player_Prototype_1",
+							"objectClass": "Mana_Armored",
 							"sid": 245519429954869,
 							"behaviorType": "8Direction",
 							"parameters": {
@@ -60,11 +60,19 @@
 					"actions": [
 						{
 							"id": "simulate-control",
-							"objectClass": "Player_Prototype_1",
+							"objectClass": "Mana_Armored",
 							"sid": 535586842307275,
 							"behaviorType": "8Direction",
 							"parameters": {
 								"control": "left"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Mana_Armored",
+							"sid": 603308736257009,
+							"parameters": {
+								"state": "mirrored"
 							}
 						}
 					],
@@ -85,7 +93,7 @@
 					"actions": [
 						{
 							"id": "simulate-control",
-							"objectClass": "Player_Prototype_1",
+							"objectClass": "Mana_Armored",
 							"sid": 611953417735382,
 							"behaviorType": "8Direction",
 							"parameters": {
@@ -110,11 +118,19 @@
 					"actions": [
 						{
 							"id": "simulate-control",
-							"objectClass": "Player_Prototype_1",
+							"objectClass": "Mana_Armored",
 							"sid": 170072758680409,
 							"behaviorType": "8Direction",
 							"parameters": {
 								"control": "right"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Mana_Armored",
+							"sid": 135902826002564,
+							"parameters": {
+								"state": "not-mirrored"
 							}
 						}
 					],
@@ -152,7 +168,7 @@
 									"objectClass": "Txt_Health",
 									"sid": 962728068446346,
 									"parameters": {
-										"text": "\": \" &Player_Prototype_1.Health"
+										"text": "\": \" &Mana_Armored.Health"
 									}
 								}
 							],
@@ -169,7 +185,7 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Player_Prototype_1",
+					"objectClass": "Mana_Armored",
 					"sid": 713646328461958,
 					"parameters": {
 						"object": "Exit"
@@ -203,8 +219,8 @@
 					"objectClass": "Camera",
 					"sid": 941924851438949,
 					"parameters": {
-						"x": "lerp(Self.X,Player_Prototype_1.X,0.1)",
-						"y": "lerp(Self.Y,Player_Prototype_1.Y,0.1)"
+						"x": "lerp(Self.X,Mana_Armored.X,0.1)",
+						"y": "lerp(Self.Y,Mana_Armored.Y,0.1)"
 					}
 				}
 			],
@@ -227,20 +243,20 @@
 				},
 				{
 					"id": "set-instvar-value",
-					"objectClass": "Enemy_Melee_Prototype_1",
+					"objectClass": "Enemy_Skeleton",
 					"sid": 870629364221460,
 					"parameters": {
 						"instance-variable": "startPosX",
-						"value": "Enemy_Melee_Prototype_1.X"
+						"value": "Enemy_Skeleton.X"
 					}
 				},
 				{
 					"id": "set-instvar-value",
-					"objectClass": "Enemy_Melee_Prototype_1",
+					"objectClass": "Enemy_Skeleton",
 					"sid": 613478788669007,
 					"parameters": {
 						"instance-variable": "startPosY",
-						"value": "Enemy_Melee_Prototype_1.Y"
+						"value": "Enemy_Skeleton.Y"
 					}
 				}
 			],

@@ -1,0 +1,16 @@
+{
+	"name": "Txt_Narrative",
+	"plugin-id": "Text",
+	"sid": 752693697543830,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Played",
+			"type": "boolean",
+			"desc": "",
+			"sid": 708304621823336
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

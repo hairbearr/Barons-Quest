@@ -1,0 +1,57 @@
+{
+	"name": "Bush_Bottom",
+	"plugin-id": "Sprite",
+	"sid": 757881769581181,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 24,
+						"height": 17,
+						"originX": 0.5,
+						"originY": 0.17647058823529413,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6192178,
+						"collisionPoly": {
+							"points": [
+								0.5,
+								0.058823529411764705,
+								0.5,
+								0.058823529411764705,
+								0.4583333333333333,
+								0.058823529411764705,
+								0.875,
+								0.17647058823529413,
+								0.75,
+								0.6470588235294118,
+								0.5,
+								0.8235294117647058,
+								0.16666666666666666,
+								0.7058823529411765,
+								0.08333333333333333,
+								0.17647058823529413
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 652525183030688,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

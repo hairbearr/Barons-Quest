@@ -1,5 +1,5 @@
 {
-	"name": "Level One",
+	"name": "Forest 1_1",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -294,7 +294,7 @@
 					"type": "Mana_Armored",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "SwingSword",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -321,22 +321,22 @@
 						},
 						"Bullet": {
 							"properties": {
-								"speed": 400,
+								"speed": 0,
 								"acceleration": 0,
 								"gravity": 0,
 								"bounce-off-solids": false,
-								"set-angle": true,
+								"set-angle": false,
 								"step": false,
 								"enabled": true
 							}
 						}
 					},
 					"world": {
-						"x": 88.86285056803007,
-						"y": 485.83723741155575,
-						"width": 22,
+						"x": 102.05151153861814,
+						"y": 488.97741084846155,
+						"width": 16,
 						"height": 24,
-						"originX": 0.36363636363636365,
+						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
 							1,
@@ -367,8 +367,8 @@
 						}
 					},
 					"world": {
-						"x": 315.0006103515625,
-						"y": 122.58577728271484,
+						"x": 154.85235538300813,
+						"y": 502.54537169473326,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
@@ -2009,7 +2009,7 @@
 					"type": "ColorPuzzle_Switch",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Green",
+						"initial-animation": "GUnpressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -2044,7 +2044,7 @@
 					"type": "ColorPuzzle_Switch",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Red",
+						"initial-animation": "RUnpressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false

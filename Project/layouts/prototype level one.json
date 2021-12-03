@@ -571,7 +571,7 @@
 					"type": "ColorPuzzle_Switch",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Blue",
+						"initial-animation": "BUnpressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -606,7 +606,7 @@
 					"type": "ColorPuzzle_Switch",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Green",
+						"initial-animation": "GUnpressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -641,7 +641,7 @@
 					"type": "ColorPuzzle_Switch",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Red",
+						"initial-animation": "RUnpressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -676,7 +676,7 @@
 					"type": "ColorPuzzle_Switch",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Green",
+						"initial-animation": "GUnpressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -711,7 +711,7 @@
 					"type": "ColorPuzzle_Switch",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Green",
+						"initial-animation": "GUnpressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -746,7 +746,7 @@
 					"type": "ColorPuzzle_Switch",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Red",
+						"initial-animation": "RUnpressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -781,7 +781,7 @@
 					"type": "ColorPuzzle_Switch",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Blue",
+						"initial-animation": "BUnpressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -816,7 +816,7 @@
 					"type": "ColorPuzzle_Switch",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Green",
+						"initial-animation": "GUnpressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1887,7 +1887,7 @@
 					"type": "ColorPuzzle_Switch",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Blue",
+						"initial-animation": "BUnpressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1922,7 +1922,7 @@
 					"type": "ColorPuzzle_Switch",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Red",
+						"initial-animation": "RUnpressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1957,7 +1957,7 @@
 					"type": "ColorPuzzle_Switch",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Red",
+						"initial-animation": "RUnpressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1992,7 +1992,7 @@
 					"type": "ColorPuzzle_Switch",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Red",
+						"initial-animation": "RUnpressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -2027,7 +2027,7 @@
 					"type": "ColorPuzzle_Switch",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Green",
+						"initial-animation": "GUnpressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -2531,8 +2531,8 @@
 						}
 					},
 					"world": {
-						"x": 78.19351954946549,
-						"y": 355.49914591895634,
+						"x": 186.1732857290807,
+						"y": 617.2217005043775,
 						"width": 16,
 						"height": 24,
 						"originX": 0.5,

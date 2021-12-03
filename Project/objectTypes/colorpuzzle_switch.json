@@ -75,7 +75,7 @@
 					}
 				],
 				"sid": 322405753203270,
-				"name": "Red",
+				"name": "RUnpressed",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
@@ -118,7 +118,7 @@
 					}
 				],
 				"sid": 413528947562790,
-				"name": "Green",
+				"name": "GUnpressed",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
@@ -161,7 +161,7 @@
 					}
 				],
 				"sid": 199086251627139,
-				"name": "Blue",
+				"name": "BUnpressed",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

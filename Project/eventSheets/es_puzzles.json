@@ -218,6 +218,17 @@
 								"instance-variable": "Pressed",
 								"value": "true"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 390779057274341,
+							"parameters": {
+								"audio-file": "466272__proolsen__pressure-plate",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 230480280558654
@@ -246,6 +257,17 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 441341122931916,
+							"parameters": {
+								"audio-file": "ES_Door Open 8 - SFX Producer",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
+						},
 						{
 							"id": "set-boolean-instvar",
 							"objectClass": "Door",
@@ -290,6 +312,17 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 323441160072356,
+							"parameters": {
+								"audio-file": "ES_Door Close 24 - SFX Producer",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
+						},
 						{
 							"id": "set-boolean-instvar",
 							"objectClass": "Door",
@@ -361,11 +394,12 @@
 					],
 					"actions": [
 						{
-							"id": "set-blend-mode",
+							"id": "set-animation",
 							"objectClass": "ColorPuzzle_Switch",
-							"sid": 963083489558264,
+							"sid": 691169462079658,
 							"parameters": {
-								"blend-mode": "normal"
+								"animation": "ColorPuzzle_Switch.Type & \"Unpressed\"",
+								"from": "beginning"
 							}
 						}
 					],

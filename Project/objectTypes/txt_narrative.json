@@ -9,6 +9,12 @@
 			"type": "boolean",
 			"desc": "",
 			"sid": 708304621823336
+		},
+		{
+			"name": "TypewriterTime",
+			"type": "number",
+			"desc": "",
+			"sid": 746746770620517
 		}
 	],
 	"behaviorTypes": [],

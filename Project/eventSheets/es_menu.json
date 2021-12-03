@@ -42,6 +42,39 @@
 				}
 			],
 			"sid": 148781174929526
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 203206949992052
+				},
+				{
+					"id": "is-tag-playing",
+					"objectClass": "Audio",
+					"sid": 596287858434084,
+					"parameters": {
+						"tag": "\"Menu_Music\""
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 766097173537798,
+					"parameters": {
+						"audio-file": "gambado-cba",
+						"loop": "looping",
+						"volume": "-10",
+						"tag-optional": "\"Menu_Music\""
+					}
+				}
+			],
+			"sid": 741989150345542
 		}
 	],
 	"sid": 280991178973689

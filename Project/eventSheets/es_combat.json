@@ -100,6 +100,17 @@
 															"id": "destroy",
 															"objectClass": "ChestOverlay",
 															"sid": 945741093630694
+														},
+														{
+															"id": "play",
+															"objectClass": "Audio",
+															"sid": 329294989638016,
+															"parameters": {
+																"audio-file": "ES_Tool Chest Drawer 6 - SFX Producer",
+																"loop": "not-looping",
+																"volume": "0",
+																"tag-optional": "\"\""
+															}
 														}
 													],
 													"sid": 455978134435196
@@ -135,6 +146,17 @@
 									"parameters": {
 										"instance-variable": "HasMeleeWeapon",
 										"value": "true"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 319337533230696,
+									"parameters": {
+										"audio-file": "234924__gordeszkakerek__pick-up-or-found-it-secret-item copy",
+										"loop": "not-looping",
+										"volume": "0",
+										"tag-optional": "\"\""
 									}
 								}
 							],
@@ -183,6 +205,17 @@
 											"parameters": {
 												"instance-variable": "Health",
 												"value": "1"
+											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 673243331231843,
+											"parameters": {
+												"audio-file": "234924__gordeszkakerek__pick-up-or-found-it-secret-item copy",
+												"loop": "not-looping",
+												"volume": "0",
+												"tag-optional": "\"\""
 											}
 										}
 									],
@@ -379,6 +412,17 @@
 									}
 								},
 								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 566111376448199,
+									"parameters": {
+										"audio-file": "234924__gordeszkakerek__pick-up-or-found-it-secret-item copy",
+										"loop": "not-looping",
+										"volume": "0",
+										"tag-optional": "\"\""
+									}
+								},
+								{
 									"id": "set-speed",
 									"objectClass": "Enemy_Skeleton",
 									"sid": 236882312389963,
@@ -408,10 +452,10 @@
 								{
 									"id": "set-angle-of-motion",
 									"objectClass": "Mana_Armored",
-									"sid": 399506458339357,
+									"sid": 821677355181550,
 									"behaviorType": "Bullet",
 									"parameters": {
-										"angle": "-Self.Angle"
+										"angle": "angle(Enemy_Skeleton.X, Enemy_Skeleton.Y, Self.X, Self.Y)"
 									}
 								},
 								{
@@ -504,7 +548,33 @@
 							}
 						}
 					],
-					"sid": 504671798514503
+					"sid": 504671798514503,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "trigger-once-while-true",
+									"objectClass": "System",
+									"sid": 314274704006849
+								}
+							],
+							"actions": [
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 432206454656582,
+									"parameters": {
+										"audio-file": "527636__matrixxx__demonic-anger",
+										"loop": "not-looping",
+										"volume": "0",
+										"tag-optional": "\"\""
+									}
+								}
+							],
+							"sid": 817992254158769
+						}
+					]
 				},
 				{
 					"eventType": "block",

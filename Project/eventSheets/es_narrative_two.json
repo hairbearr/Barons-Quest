@@ -5,9 +5,48 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 376055100722169
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Txt_Narrative",
+					"sid": 596957518105777,
+					"parameters": {
+						"instance-variable": "Played",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Txt_Narrative",
+					"sid": 518916726390004,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "typewriter-text",
+					"objectClass": "Txt_Narrative",
+					"sid": 677613769031962,
+					"parameters": {
+						"text": "Txt_Narrative.Text",
+						"duration": "20"
+					}
+				}
+			],
+			"sid": 457821285845308
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-click",
 					"objectClass": "Mouse",
-					"sid": 510013016739984,
+					"sid": 749895602855077,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked"
@@ -15,55 +54,25 @@
 				}
 			],
 			"actions": [],
-			"sid": 962800477048367,
+			"sid": 305511587392252,
 			"children": [
 				{
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "is-boolean-instance-variable-set",
+							"id": "is-running-typewriter-text",
 							"objectClass": "Txt_Narrative",
-							"sid": 254803191875029,
-							"parameters": {
-								"instance-variable": "Played"
-							},
-							"isInverted": true
+							"sid": 771500939759243
 						}
 					],
 					"actions": [
 						{
-							"id": "set-visible",
+							"id": "typewriter-finish",
 							"objectClass": "Txt_Narrative",
-							"sid": 879681677991239,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "typewriter-text",
-							"objectClass": "Txt_Narrative",
-							"sid": 470839851869616,
-							"parameters": {
-								"text": "Txt_Narrative.Text",
-								"duration": "20"
-							}
-						},
-						{
-							"id": "wait-for-previous-actions",
-							"objectClass": "System",
-							"sid": 551337108636787
-						},
-						{
-							"id": "set-boolean-instvar",
-							"objectClass": "Txt_Narrative",
-							"sid": 966091603220659,
-							"parameters": {
-								"instance-variable": "Played",
-								"value": "true"
-							}
+							"sid": 942666333842734
 						}
 					],
-					"sid": 681246334207806
+					"sid": 467825288415582
 				},
 				{
 					"eventType": "block",
@@ -71,7 +80,7 @@
 						{
 							"id": "is-boolean-instance-variable-set",
 							"objectClass": "Txt_Narrative",
-							"sid": 121721389675573,
+							"sid": 642862784609981,
 							"parameters": {
 								"instance-variable": "Played"
 							}
@@ -81,15 +90,54 @@
 						{
 							"id": "go-to-nextprevious-layout",
 							"objectClass": "System",
-							"sid": 861250340818301,
+							"sid": 262475630731966,
 							"parameters": {
 								"which": "next"
 							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Txt_Narrative",
+							"sid": 193294990091806,
+							"parameters": {
+								"instance-variable": "Played",
+								"value": "false"
+							}
 						}
 					],
-					"sid": 386492296219068
+					"sid": 555136586127429
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-typewriter-text-finished",
+					"objectClass": "Txt_Narrative",
+					"sid": 355840788741139
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 388552230406546,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Txt_Narrative",
+					"sid": 748895489185212,
+					"parameters": {
+						"instance-variable": "Played",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 546810533134572
 		}
 	],
 	"sid": 770884578215743

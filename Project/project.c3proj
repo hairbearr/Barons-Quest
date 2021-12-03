@@ -64,6 +64,14 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
@@ -293,7 +301,8 @@
 				"items": [
 					"Browser",
 					"Keyboard",
-					"Mouse"
+					"Mouse",
+					"Audio"
 				],
 				"subfolders": [],
 				"name": "Inputs"
@@ -353,7 +362,7 @@
 			"Prototype Level One",
 			"End Screen",
 			"Lose Screen",
-			"Level One"
+			"Forest 1_1"
 		],
 		"subfolders": []
 	},

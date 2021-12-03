@@ -24,8 +24,8 @@
 					"world": {
 						"x": 0,
 						"y": 0,
-						"width": 480,
-						"height": 270,
+						"width": 769,
+						"height": 432,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -44,7 +44,7 @@
 						"text": "You are Mana, an adventurer tasked by King Baron to delve into the belly of Castle Moss and uncover the truth behind the disappearance of the angels, and the increased presence of the undead...",
 						"enable-bbcode": true,
 						"font": "Lucida Sans Typewriter",
-						"size": 8,
+						"size": 12,
 						"line-height": 0,
 						"bold": true,
 						"italic": true,
@@ -62,74 +62,17 @@
 					},
 					"uid": 84,
 					"instanceVariables": {
-						"Played": false
+						"Played": false,
+						"TypewriterTime": 20
 					},
 					"behaviors": {},
 					"world": {
-						"x": 0,
-						"y": 0,
-						"width": 480,
-						"height": 270,
+						"x": 9.950849947532816,
+						"y": 10.001637321615974,
+						"width": 749,
+						"height": 412,
 						"originX": 0,
 						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Ash",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 83,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 50.41940338973029,
-						"y": 228.34369565262068,
-						"width": 28,
-						"height": 12,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Cobweb_1",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Cobweb_1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 85,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 53.00149247769059,
-						"y": 32.6692142119507,
-						"width": 30,
-						"height": 30,
-						"originX": 0.5,
-						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -172,11 +115,11 @@
 	"sid": 572054809496027,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 480,
-	"height": 270,
+	"width": 769,
+	"height": 432,
 	"unboundedScrolling": false,
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "ES_Narrative_Two"
+	"eventSheet": "ES_Narrative"
 }

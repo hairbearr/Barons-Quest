@@ -1,9 +1,16 @@
 {
-	"name": "Tree",
+	"name": "Tooltip_Box",
 	"plugin-id": "Sprite",
-	"sid": 908831712356033,
+	"sid": 192407806567746,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "WhatTooltip",
+			"type": "number",
+			"desc": "",
+			"sid": 438695671901938
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
@@ -11,31 +18,19 @@
 			{
 				"frames": [
 					{
-						"width": 44,
-						"height": 59,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4274715,
-						"collisionPoly": {
-							"points": [
-								0.7272727272727273,
-								0.03389830508474576,
-								0.727272748421704,
-								0.847457627118644,
-								0.3409090909090909,
-								0.847457627118644,
-								0.3409090909090909,
-								0.03389830508474576
-							]
-						},
+						"imageSpriteId": 9124317,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 208158441941998,
+				"sid": 500985014620898,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

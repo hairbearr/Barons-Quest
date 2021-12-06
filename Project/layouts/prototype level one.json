@@ -74,7 +74,7 @@
 					}
 				},
 				{
-					"type": "Door",
+					"type": "Door_Vertical",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Closed",
@@ -115,7 +115,7 @@
 					}
 				},
 				{
-					"type": "Door",
+					"type": "Door_Vertical",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Closed",
@@ -156,7 +156,7 @@
 					}
 				},
 				{
-					"type": "Door",
+					"type": "Door_Vertical",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Closed",
@@ -197,7 +197,7 @@
 					}
 				},
 				{
-					"type": "Door",
+					"type": "Door_Vertical",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Closed",
@@ -313,10 +313,10 @@
 					"world": {
 						"x": 431.6062842213588,
 						"y": 96.1517821090402,
-						"width": 24,
-						"height": 64,
+						"width": 11,
+						"height": 7,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -348,10 +348,10 @@
 					"world": {
 						"x": 488.02044170831175,
 						"y": 179.83188971704953,
-						"width": 18.09976467342015,
-						"height": 48.266039129120394,
+						"width": 8.29572547531757,
+						"height": 5.279098029747543,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -366,7 +366,7 @@
 					"type": "Traps_Spikes",
 					"properties": {
 						"initially-visible": false,
-						"initial-animation": "Retracted",
+						"initial-animation": "Exposed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -381,12 +381,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 332.07037353515625,
-						"y": 95.4378433227539,
-						"width": 24,
-						"height": 64,
+						"x": 340,
+						"y": 112,
+						"width": 9,
+						"height": 9,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -471,7 +471,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 183.74380221032007,
-						"y": 648.8836103516242,
+						"y": 641.6057210788848,
 						"width": 11,
 						"height": 12,
 						"originX": 0.3090909090909091,
@@ -490,7 +490,7 @@
 					"type": "Chest",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Closed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -512,9 +512,9 @@
 						"x": 183.84971695563257,
 						"y": 646.8787967575904,
 						"width": 16,
-						"height": 16,
+						"height": 15,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -2195,10 +2195,10 @@
 					"world": {
 						"x": 505.1550205122304,
 						"y": 402.58143813451625,
-						"width": 18.09976467342015,
-						"height": 48.266039129120394,
+						"width": 8.29572547531757,
+						"height": 5.279098029747543,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -2230,10 +2230,10 @@
 					"world": {
 						"x": 183.15484363149002,
 						"y": 569.4946114417585,
-						"width": 24,
-						"height": 64,
+						"width": 11,
+						"height": 7,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -2265,10 +2265,10 @@
 					"world": {
 						"x": 182.09363990452528,
 						"y": 782.9965622663232,
-						"width": 24,
-						"height": 64,
+						"width": 11,
+						"height": 7,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -2300,10 +2300,10 @@
 					"world": {
 						"x": 1024.5055819775066,
 						"y": 387.2760406914468,
-						"width": 24,
-						"height": 64,
+						"width": 11,
+						"height": 7,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -2335,10 +2335,10 @@
 					"world": {
 						"x": 1024.5055819775066,
 						"y": 482.24646310306184,
-						"width": 24,
-						"height": 64,
+						"width": 11,
+						"height": 7,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -2370,10 +2370,10 @@
 					"world": {
 						"x": 1207.3457971571956,
 						"y": 638.4594511981797,
-						"width": 24,
-						"height": 64,
+						"width": 11,
+						"height": 7,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -2405,10 +2405,10 @@
 					"world": {
 						"x": 1146.1031718831555,
 						"y": 718.341102656624,
-						"width": 24,
-						"height": 64,
+						"width": 11,
+						"height": 7,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -2440,10 +2440,10 @@
 					"world": {
 						"x": 1253.4996216827963,
 						"y": 784.9091554704172,
-						"width": 24,
-						"height": 64,
+						"width": 11,
+						"height": 7,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -2475,10 +2475,10 @@
 					"world": {
 						"x": 1286.3398475637457,
 						"y": 345.56007244897364,
-						"width": 24,
-						"height": 64,
+						"width": 11,
+						"height": 7,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -3175,6 +3175,356 @@
 						"height": 11,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Exposed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 83,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 1,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 331,
+						"y": 106,
+						"width": 9,
+						"height": 9,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Exposed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 85,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 1,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 331,
+						"y": 73,
+						"width": 9,
+						"height": 9,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Exposed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 220,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 1,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 331,
+						"y": 128,
+						"width": 9,
+						"height": 9,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Exposed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 221,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 1,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 340,
+						"y": 123,
+						"width": 9,
+						"height": 9,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Exposed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 222,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 1,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 331,
+						"y": 117,
+						"width": 9,
+						"height": 9,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Exposed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 223,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 1,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 340,
+						"y": 101,
+						"width": 9,
+						"height": 9,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Exposed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 224,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 1,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 331,
+						"y": 95,
+						"width": 9,
+						"height": 9,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Exposed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 225,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 1,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 340,
+						"y": 90,
+						"width": 9,
+						"height": 9,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Exposed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 226,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 1,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 331,
+						"y": 84,
+						"width": 9,
+						"height": 9,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Exposed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 227,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 1,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 340,
+						"y": 79,
+						"width": 9,
+						"height": 9,
+						"originX": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,

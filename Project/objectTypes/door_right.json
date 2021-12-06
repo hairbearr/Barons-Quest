@@ -1,0 +1,115 @@
+{
+	"name": "Door_Right",
+	"plugin-id": "Sprite",
+	"sid": 349445080495897,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "PuzzleCode",
+			"type": "string",
+			"desc": "The Sequence for the puzzle",
+			"sid": 744519434528654
+		},
+		{
+			"name": "SolutionCode",
+			"type": "string",
+			"desc": "Your current progress on the puzzle",
+			"sid": 734795893841867
+		},
+		{
+			"name": "WhatPuzzle",
+			"type": "number",
+			"desc": "Links this door to a specific puzzle",
+			"sid": 488130289220292
+		},
+		{
+			"name": "Open",
+			"type": "boolean",
+			"desc": "Triggers the open animation",
+			"sid": 406001029697307
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 963325927816102
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 13,
+						"height": 23,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2372134,
+						"collisionPoly": {
+							"points": [
+								0.15974765974765975,
+								0.1221889055472264,
+								0.8402523402523402,
+								0.1221889055472264,
+								0.8402523402523402,
+								0.8778110944527736,
+								0.15974765974765975,
+								0.8778110944527736
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 507662389203498,
+				"name": "Closed",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 22,
+						"height": 21,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9071737,
+						"collisionPoly": {
+							"points": [
+								0.045454545454545456,
+								0.047619047619047616,
+								0.045454545454545456,
+								0.047619047619047616,
+								0.045454545454545456,
+								0.047619047619047616,
+								0.045454545454545456,
+								0.047619047619047616
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 746154022907337,
+				"name": "Open",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -32,6 +32,14 @@
 		},
 		{
 			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Tilemap",
 			"name": "Tilemap",
 			"author": "Scirra",
@@ -66,14 +74,6 @@
 			"type": "plugin",
 			"id": "Audio",
 			"name": "Audio",
-			"author": "Scirra",
-			"version": "r268",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "TiledBg",
-			"name": "Tiled Background",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -247,7 +247,9 @@
 			},
 			{
 				"items": [
-					"Door"
+					"Door_Vertical",
+					"Door_Left",
+					"Door_Right"
 				],
 				"subfolders": [],
 				"name": "Doors"
@@ -282,7 +284,10 @@
 					"Txt_Tutorial",
 					"Txt_Health",
 					"Txt_Narrative",
-					"Txt_Win"
+					"Txt_Win",
+					"Tooltip_Box",
+					"Txt_Tooltip",
+					"TooltipBackground"
 				],
 				"subfolders": [],
 				"name": "Text"
@@ -350,7 +355,8 @@
 			"Projectiles",
 			"Activated_Traps",
 			"Barriers",
-			"Barrier"
+			"Barrier",
+			"Doors"
 		],
 		"subfolders": []
 	},
@@ -359,10 +365,13 @@
 			"Menu",
 			"Narrative_One",
 			"Narrative_Two",
-			"Prototype Level One",
+			"Forest 1_1",
+			"Catacombs 1_1",
+			"Catacombs 1_2",
+			"Catacombs 1_3",
 			"End Screen",
 			"Lose Screen",
-			"Forest 1_1"
+			"Prototype Level One"
 		],
 		"subfolders": []
 	},
@@ -565,7 +574,7 @@
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https"
 	},
-	"viewportWidth": 769,
+	"viewportWidth": 745,
 	"viewportHeight": 432,
 	"firstLayout": "Menu"
 }

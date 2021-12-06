@@ -76,24 +76,31 @@
 													"conditions": [],
 													"actions": [
 														{
-															"id": "destroy",
-															"objectClass": "Chest",
-															"sid": 625720123856337
-														},
-														{
-															"id": "set-visible",
-															"objectClass": "PickUp_MeleeWeapon_Prototype_1",
-															"sid": 477363718631140,
+															"id": "play",
+															"objectClass": "Audio",
+															"sid": 566543135057160,
 															"parameters": {
-																"visibility": "visible"
+																"audio-file": "ES_Tool Chest Drawer 6 - SFX Producer",
+																"loop": "not-looping",
+																"volume": "0",
+																"tag-optional": "\"\""
 															}
 														},
 														{
-															"id": "set-collisions-enabled",
-															"objectClass": "PickUp_MeleeWeapon_Prototype_1",
-															"sid": 697549583166957,
+															"id": "set-animation",
+															"objectClass": "Chest",
+															"sid": 371289150251224,
 															"parameters": {
-																"collisions": "enabled"
+																"animation": "\"Open\"",
+																"from": "beginning"
+															}
+														},
+														{
+															"id": "wait",
+															"objectClass": "System",
+															"sid": 638698912465616,
+															"parameters": {
+																"seconds": "1.0"
 															}
 														},
 														{
@@ -102,14 +109,24 @@
 															"sid": 945741093630694
 														},
 														{
-															"id": "play",
-															"objectClass": "Audio",
-															"sid": 329294989638016,
+															"id": "destroy",
+															"objectClass": "Chest",
+															"sid": 370231896820925
+														},
+														{
+															"id": "set-visible",
+															"objectClass": "PickUp_MeleeWeapon_Prototype_1",
+															"sid": 170698477549102,
 															"parameters": {
-																"audio-file": "ES_Tool Chest Drawer 6 - SFX Producer",
-																"loop": "not-looping",
-																"volume": "0",
-																"tag-optional": "\"\""
+																"visibility": "visible"
+															}
+														},
+														{
+															"id": "set-collisions-enabled",
+															"objectClass": "PickUp_MeleeWeapon_Prototype_1",
+															"sid": 802211257485705,
+															"parameters": {
+																"collisions": "enabled"
 															}
 														}
 													],
@@ -310,9 +327,51 @@
 										"instance-variable": "isAttacking_Melee",
 										"value": "true"
 									}
+								},
+								{
+									"id": "set-position-to-another-object",
+									"objectClass": "HurtBox_Prototype_1",
+									"sid": 542181280146446,
+									"parameters": {
+										"object": "Mana_Armored",
+										"image-point-optional": "1"
+									}
 								}
 							],
 							"sid": 784577724072490
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-released",
+									"objectClass": "Keyboard",
+									"sid": 368613561653645,
+									"parameters": {
+										"key": 32
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Mana_Armored",
+									"sid": 793636586345863,
+									"parameters": {
+										"instance-variable": "HasMeleeWeapon"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-instvar",
+									"objectClass": "Mana_Armored",
+									"sid": 650464555551758,
+									"parameters": {
+										"instance-variable": "isAttacking_Melee",
+										"value": "false"
+									}
+								}
+							],
+							"sid": 216294433269993
 						},
 						{
 							"eventType": "block",
@@ -324,6 +383,11 @@
 									"parameters": {
 										"instance-variable": "isAttacking_Melee"
 									}
+								},
+								{
+									"id": "trigger-once-while-true",
+									"objectClass": "System",
+									"sid": 360231936327712
 								}
 							],
 							"actions": [
@@ -346,48 +410,45 @@
 										"image-point": "1",
 										"create-hierarchy": false
 									}
-								},
+								}
+							],
+							"sid": 377509992539447
+						},
+						{
+							"eventType": "block",
+							"conditions": [
 								{
-									"id": "set-visible",
-									"objectClass": "HurtBox_Prototype_1",
-									"sid": 189707593170491,
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Mana_Armored",
+									"sid": 823267588093690,
 									"parameters": {
-										"visibility": "invisible"
-									}
+										"instance-variable": "isAttacking_Melee"
+									},
+									"isInverted": true
 								},
 								{
-									"id": "wait",
+									"id": "trigger-once-while-true",
 									"objectClass": "System",
-									"sid": 820984563346058,
-									"parameters": {
-										"seconds": "0.01"
-									}
-								},
-								{
-									"id": "destroy",
-									"objectClass": "HurtBox_Prototype_1",
-									"sid": 991373356074780
-								},
+									"sid": 960213963717524
+								}
+							],
+							"actions": [
 								{
 									"id": "set-animation",
 									"objectClass": "Mana_Armored",
-									"sid": 333400419261778,
+									"sid": 105949427097643,
 									"parameters": {
 										"animation": "\"Idle\"",
 										"from": "beginning"
 									}
 								},
 								{
-									"id": "set-boolean-instvar",
-									"objectClass": "Mana_Armored",
-									"sid": 373751938698809,
-									"parameters": {
-										"instance-variable": "isAttacking_Melee",
-										"value": "false"
-									}
+									"id": "destroy",
+									"objectClass": "HurtBox_Prototype_1",
+									"sid": 857796427078965
 								}
 							],
-							"sid": 377509992539447
+							"sid": 239004189874525
 						},
 						{
 							"eventType": "block",

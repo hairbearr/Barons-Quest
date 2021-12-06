@@ -1,39 +1,39 @@
 {
-	"name": "Door",
+	"name": "Door_Left",
 	"plugin-id": "Sprite",
-	"sid": 297131185057267,
+	"sid": 878505600789155,
 	"isGlobal": false,
 	"instanceVariables": [
 		{
 			"name": "PuzzleCode",
 			"type": "string",
 			"desc": "The Sequence for the puzzle",
-			"sid": 831532546573560
+			"sid": 178344980173102
 		},
 		{
 			"name": "SolutionCode",
 			"type": "string",
 			"desc": "Your current progress on the puzzle",
-			"sid": 688952619563704
+			"sid": 760039862839878
 		},
 		{
 			"name": "WhatPuzzle",
 			"type": "number",
 			"desc": "Links this door to a specific puzzle",
-			"sid": 270173924732794
+			"sid": 685648748381068
 		},
 		{
 			"name": "Open",
 			"type": "boolean",
 			"desc": "Triggers the open animation",
-			"sid": 343709209066914
+			"sid": 738952635381538
 		}
 	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 418162283857894
+			"sid": 775083869396764
 		}
 	],
 	"effectTypes": [],
@@ -42,31 +42,31 @@
 			{
 				"frames": [
 					{
-						"width": 21,
-						"height": 29,
+						"width": 13,
+						"height": 23,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7300304,
+						"imageSpriteId": 3933905,
 						"collisionPoly": {
 							"points": [
-								0.0978835978835979,
-								0.08620689655172414,
-								0.9021164021164021,
-								0.08620689655172414,
-								0.9021164021164021,
-								0.9137931034482759,
-								0.0978835978835979,
-								0.9137931034482759
+								0.15974765974765975,
+								0.1221889055472264,
+								0.8402523402523402,
+								0.1221889055472264,
+								0.8402523402523402,
+								0.8778110944527736,
+								0.15974765974765975,
+								0.8778110944527736
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 597480114776387,
+				"sid": 422540328850683,
 				"name": "Closed",
 				"isLooping": false,
 				"isPingPong": false,
@@ -77,32 +77,32 @@
 			{
 				"frames": [
 					{
-						"width": 21,
-						"height": 29,
+						"width": 22,
+						"height": 21,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4587644,
+						"imageSpriteId": 914888,
 						"collisionPoly": {
 							"points": [
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
+								0.045454545454545456,
+								0.047619047619047616,
+								0.045454545454545456,
+								0.047619047619047616,
+								0.045454545454545456,
+								0.047619047619047616,
+								0.045454545454545456,
+								0.047619047619047616
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 163838445591210,
-				"name": "Opening",
+				"sid": 185858099733530,
+				"name": "Open",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

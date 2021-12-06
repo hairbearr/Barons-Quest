@@ -1,0 +1,16 @@
+{
+	"name": "Txt_Tooltip",
+	"plugin-id": "Text",
+	"sid": 185434901435614,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "WhatTooltip",
+			"type": "number",
+			"desc": "",
+			"sid": 781789163346205
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

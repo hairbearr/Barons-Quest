@@ -74,6 +74,14 @@
 							"parameters": {
 								"state": "mirrored"
 							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "HurtBox_Prototype_1",
+							"sid": 806179661281470,
+							"parameters": {
+								"state": "mirrored"
+							}
 						}
 					],
 					"sid": 608912241080905
@@ -129,6 +137,14 @@
 							"id": "set-mirrored",
 							"objectClass": "Mana_Armored",
 							"sid": 135902826002564,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "HurtBox_Prototype_1",
+							"sid": 708558356681932,
 							"parameters": {
 								"state": "not-mirrored"
 							}
@@ -194,11 +210,11 @@
 			],
 			"actions": [
 				{
-					"id": "go-to-layout",
+					"id": "go-to-nextprevious-layout",
 					"objectClass": "System",
-					"sid": 713882452155983,
+					"sid": 202652196086749,
 					"parameters": {
-						"layout": "End Screen"
+						"which": "next"
 					}
 				}
 			],
@@ -261,6 +277,111 @@
 				}
 			],
 			"sid": 670599443011451
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Mana_Armored",
+					"sid": 842624750763945,
+					"parameters": {
+						"object": "Tooltip_Box"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Txt_Tooltip",
+					"sid": 628774353923803,
+					"parameters": {
+						"instance-variable": "WhatTooltip",
+						"comparison": 0,
+						"value": "Tooltip_Box.WhatTooltip"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "TooltipBackground",
+					"sid": 245007597550376,
+					"parameters": {
+						"instance-variable": "WhatTooltip",
+						"comparison": 0,
+						"value": "Tooltip_Box.WhatTooltip"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Txt_Tooltip",
+					"sid": 723280988153555,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TooltipBackground",
+					"sid": 429692951959572,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 419723029651095
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Mana_Armored",
+					"sid": 496145273334066,
+					"parameters": {
+						"object": "Tooltip_Box"
+					},
+					"isInverted": true
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Txt_Tooltip",
+					"sid": 529216632639618,
+					"parameters": {
+						"instance-variable": "WhatTooltip",
+						"comparison": 0,
+						"value": "Tooltip_Box.WhatTooltip"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "TooltipBackground",
+					"sid": 975969057478725,
+					"parameters": {
+						"instance-variable": "WhatTooltip",
+						"comparison": 0,
+						"value": "Tooltip_Box.WhatTooltip"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Txt_Tooltip",
+					"sid": 652871126868565,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TooltipBackground",
+					"sid": 923553444281311,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 336269314286740
 		}
 	],
 	"sid": 229087612727963

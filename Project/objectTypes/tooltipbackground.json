@@ -1,0 +1,27 @@
+{
+	"name": "TooltipBackground",
+	"plugin-id": "TiledBg",
+	"sid": 324366866861098,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "WhatTooltip",
+			"type": "number",
+			"desc": "",
+			"sid": 391667853915986
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 69473,
+		"useCollisionPoly": true
+	}
+}

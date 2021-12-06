@@ -1,0 +1,115 @@
+{
+	"name": "Door_Vertical",
+	"plugin-id": "Sprite",
+	"sid": 297131185057267,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "PuzzleCode",
+			"type": "string",
+			"desc": "The Sequence for the puzzle",
+			"sid": 831532546573560
+		},
+		{
+			"name": "SolutionCode",
+			"type": "string",
+			"desc": "Your current progress on the puzzle",
+			"sid": 688952619563704
+		},
+		{
+			"name": "WhatPuzzle",
+			"type": "number",
+			"desc": "Links this door to a specific puzzle",
+			"sid": 270173924732794
+		},
+		{
+			"name": "Open",
+			"type": "boolean",
+			"desc": "Triggers the open animation",
+			"sid": 343709209066914
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 418162283857894
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 21,
+						"height": 29,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7300304,
+						"collisionPoly": {
+							"points": [
+								0.0978835978835979,
+								0.08620689655172414,
+								0.9021164021164021,
+								0.08620689655172414,
+								0.9021164021164021,
+								0.9137931034482759,
+								0.0978835978835979,
+								0.9137931034482759
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 597480114776387,
+				"name": "Closed",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 21,
+						"height": 29,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4587644,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0,
+								0,
+								0,
+								0,
+								0,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 163838445591210,
+				"name": "Open",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

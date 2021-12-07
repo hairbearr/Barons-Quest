@@ -74,14 +74,6 @@
 							"parameters": {
 								"state": "mirrored"
 							}
-						},
-						{
-							"id": "set-mirrored",
-							"objectClass": "HurtBox_Prototype_1",
-							"sid": 806179661281470,
-							"parameters": {
-								"state": "mirrored"
-							}
 						}
 					],
 					"sid": 608912241080905
@@ -137,14 +129,6 @@
 							"id": "set-mirrored",
 							"objectClass": "Mana_Armored",
 							"sid": 135902826002564,
-							"parameters": {
-								"state": "not-mirrored"
-							}
-						},
-						{
-							"id": "set-mirrored",
-							"objectClass": "HurtBox_Prototype_1",
-							"sid": 708558356681932,
 							"parameters": {
 								"state": "not-mirrored"
 							}

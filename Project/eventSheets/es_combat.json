@@ -410,6 +410,14 @@
 										"image-point": "1",
 										"create-hierarchy": false
 									}
+								},
+								{
+									"id": "set-collisions-enabled",
+									"objectClass": "HurtBox_Prototype_1",
+									"sid": 687901085540006,
+									"parameters": {
+										"collisions": "enabled"
+									}
 								}
 							],
 							"sid": 377509992539447
@@ -446,6 +454,14 @@
 									"id": "destroy",
 									"objectClass": "HurtBox_Prototype_1",
 									"sid": 857796427078965
+								},
+								{
+									"id": "set-collisions-enabled",
+									"objectClass": "HurtBox_Prototype_1",
+									"sid": 585228062475439,
+									"parameters": {
+										"collisions": "disabled"
+									}
 								}
 							],
 							"sid": 239004189874525
@@ -568,6 +584,54 @@
 								}
 							],
 							"sid": 489386197008752
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 706386354438728,
+									"parameters": {
+										"key": 65
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-mirrored",
+									"objectClass": "HurtBox_Prototype_1",
+									"sid": 975180278551005,
+									"parameters": {
+										"state": "mirrored"
+									}
+								}
+							],
+							"sid": 657532716210649
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 291448214835711,
+									"parameters": {
+										"key": 68
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-mirrored",
+									"objectClass": "HurtBox_Prototype_1",
+									"sid": 418283447542309,
+									"parameters": {
+										"state": "not-mirrored"
+									}
+								}
+							],
+							"sid": 940241516889439
 						}
 					],
 					"sid": 524228223389598

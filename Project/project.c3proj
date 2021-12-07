@@ -157,7 +157,9 @@
 			"Stone",
 			"Tree_Bottom",
 			"Tree_Top",
-			"Tree"
+			"Tree",
+			"UI_HealthBar",
+			"CatacombRoof"
 		],
 		"subfolders": [
 			{
@@ -574,7 +576,7 @@
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https"
 	},
-	"viewportWidth": 745,
-	"viewportHeight": 432,
+	"viewportWidth": 774,
+	"viewportHeight": 435,
 	"firstLayout": "Menu"
 }

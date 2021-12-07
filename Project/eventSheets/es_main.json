@@ -180,11 +180,12 @@
 							],
 							"actions": [
 								{
-									"id": "set-text",
-									"objectClass": "Txt_Health",
-									"sid": 962728068446346,
+									"id": "set-animation",
+									"objectClass": "UI_HealthBar",
+									"sid": 939645608428353,
 									"parameters": {
-										"text": "\": \" &Mana_Armored.Health"
+										"animation": "str(Mana_Armored.Health)",
+										"from": "beginning"
 									}
 								}
 							],

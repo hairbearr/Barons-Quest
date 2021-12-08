@@ -199,7 +199,7 @@
 						"x": 329.18505313012986,
 						"y": -21.517117806960037,
 						"width": 21,
-						"height": 29,
+						"height": 43,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -437,7 +437,7 @@
 					"type": "Enemy_Skeleton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -447,7 +447,8 @@
 						"Health": 4,
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
-						"startPosY": 0
+						"startPosY": 0,
+						"isAttacking": false
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -511,7 +512,7 @@
 					"type": "Enemy_Skeleton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -521,7 +522,8 @@
 						"Health": 4,
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
-						"startPosY": 0
+						"startPosY": 0,
+						"isAttacking": false
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -585,7 +587,7 @@
 					"type": "Enemy_Skeleton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -595,7 +597,8 @@
 						"Health": 4,
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
-						"startPosY": 0
+						"startPosY": 0,
+						"isAttacking": false
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -659,7 +662,7 @@
 					"type": "Enemy_Skeleton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -669,7 +672,8 @@
 						"Health": 4,
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
-						"startPosY": 0
+						"startPosY": 0,
+						"isAttacking": false
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -733,7 +737,7 @@
 					"type": "Enemy_Skeleton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -743,7 +747,8 @@
 						"Health": 4,
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
-						"startPosY": 0
+						"startPosY": 0,
+						"isAttacking": false
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -807,7 +812,7 @@
 					"type": "Enemy_Skeleton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -817,7 +822,8 @@
 						"Health": 4,
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
-						"startPosY": 0
+						"startPosY": 0,
+						"isAttacking": false
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -881,7 +887,7 @@
 					"type": "Enemy_Skeleton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -891,7 +897,8 @@
 						"Health": 4,
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
-						"startPosY": 0
+						"startPosY": 0,
+						"isAttacking": false
 					},
 					"behaviors": {
 						"LineOfSight": {

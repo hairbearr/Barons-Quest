@@ -54,9 +54,9 @@
 					"behaviors": {},
 					"world": {
 						"x": -381.70078243995897,
-						"y": 5,
+						"y": 3.280304708551313,
 						"width": 1760.7007824399589,
-						"height": 912,
+						"height": 913.7196952914487,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -859,6 +859,39 @@
 					}
 				},
 				{
+					"type": "CatacombRoof",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 377,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -383.06735780586195,
+						"y": -479.80323682918475,
+						"width": 1763.0997265117594,
+						"height": 485.36386732891754,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Exit",
 					"properties": {
 						"initially-visible": false,
@@ -875,46 +908,6 @@
 						"y": 17.746405167151565,
 						"width": 34.12502760005418,
 						"height": 35.12384595917793,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Catacomb_Wall_Down_Bit",
-					"properties": {
-						"initially-visible": true,
-						"origin": "center",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "clamp-to-edge",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 113,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 338.7274195809654,
-						"y": 5.445419841812974,
-						"width": 44.15448488072235,
-						"height": 22.55199530311667,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -952,9 +945,9 @@
 					},
 					"world": {
 						"x": -383.4369096769664,
-						"y": -4.752977,
+						"y": 0,
 						"width": 705.3269672295951,
-						"height": 47.71337956103384,
+						"height": 42.95439083862056,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -992,9 +985,9 @@
 					},
 					"world": {
 						"x": 340.157194479105,
-						"y": -4.752977,
+						"y": 0,
 						"width": 1039.120052907105,
-						"height": 47.71337956103384,
+						"height": 43,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -1091,9 +1084,9 @@
 					},
 					"world": {
 						"x": 330.7340110701472,
-						"y": 29.425967947670017,
+						"y": 21,
 						"width": 21,
-						"height": 29,
+						"height": 43,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1331,7 +1324,7 @@
 					"type": "Enemy_Skeleton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1341,7 +1334,8 @@
 						"Health": 4,
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
-						"startPosY": 0
+						"startPosY": 0,
+						"isAttacking": false
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1405,7 +1399,7 @@
 					"type": "Enemy_Skeleton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1415,7 +1409,8 @@
 						"Health": 4,
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
-						"startPosY": 0
+						"startPosY": 0,
+						"isAttacking": false
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1479,7 +1474,7 @@
 					"type": "Enemy_Skeleton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1489,7 +1484,8 @@
 						"Health": 4,
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
-						"startPosY": 0
+						"startPosY": 0,
+						"isAttacking": false
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1553,7 +1549,7 @@
 					"type": "Enemy_Skeleton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1563,7 +1559,8 @@
 						"Health": 4,
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
-						"startPosY": 0
+						"startPosY": 0,
+						"isAttacking": false
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1627,7 +1624,7 @@
 					"type": "Enemy_Skeleton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1637,7 +1634,8 @@
 						"Health": 4,
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
-						"startPosY": 0
+						"startPosY": 0,
+						"isAttacking": false
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1701,7 +1699,7 @@
 					"type": "Enemy_Skeleton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1711,7 +1709,8 @@
 						"Health": 4,
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
-						"startPosY": 0
+						"startPosY": 0,
+						"isAttacking": false
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1775,7 +1774,7 @@
 					"type": "Enemy_Skeleton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1785,7 +1784,8 @@
 						"Health": 4,
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
-						"startPosY": 0
+						"startPosY": 0,
+						"isAttacking": false
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -5944,39 +5944,6 @@
 						"height": 40.03696895041057,
 						"originX": 0.5,
 						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "CatacombRoof",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 377,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": -383.06735780586195,
-						"y": -479.80323682918475,
-						"width": 1763.0997265117594,
-						"height": 474.059297770895,
-						"originX": 0,
-						"originY": 0,
 						"color": [
 							1,
 							1,

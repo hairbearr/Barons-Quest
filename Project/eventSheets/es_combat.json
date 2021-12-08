@@ -771,7 +771,31 @@
 							}
 						}
 					],
-					"actions": [],
+					"actions": [
+						{
+							"id": "stop-animation",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 737056911416291
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 277970212139772,
+							"parameters": {
+								"instance-variable": "isAttacking",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 194056747457477,
+							"parameters": {
+								"animation": "\"Attack\"",
+								"from": "beginning"
+							}
+						}
+					],
 					"sid": 475430386787334,
 					"children": [
 						{
@@ -822,20 +846,48 @@
 							"objectClass": "Enemy_Skeleton",
 							"sid": 640128221870158,
 							"behaviorType": "MoveTo"
-						},
-						{
-							"id": "move-to-position",
-							"objectClass": "Enemy_Skeleton",
-							"sid": 855117626432445,
-							"behaviorType": "MoveTo",
-							"parameters": {
-								"x": "Enemy_Skeleton.startPosX",
-								"y": "Enemy_Skeleton.startPosY",
-								"mode": "direct"
-							}
 						}
 					],
-					"sid": 244714818068516
+					"sid": 244714818068516,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-x",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 651491335394175,
+									"parameters": {
+										"comparison": 1,
+										"x-co-ordinate": "Enemy_Skeleton.startPosX"
+									}
+								},
+								{
+									"id": "compare-y",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 195245010472856,
+									"parameters": {
+										"comparison": 1,
+										"y-co-ordinate": "Enemy_Skeleton.startPosY"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "move-to-position",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 859494853488435,
+									"behaviorType": "MoveTo",
+									"parameters": {
+										"x": "Enemy_Skeleton.startPosX",
+										"y": "Enemy_Skeleton.startPosY",
+										"mode": "direct"
+									}
+								}
+							],
+							"sid": 953423712048443
+						}
+					]
 				},
 				{
 					"eventType": "block",
@@ -847,7 +899,17 @@
 							"behaviorType": "MoveTo"
 						}
 					],
-					"actions": [],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 264168299039765,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "beginning"
+							}
+						}
+					],
 					"sid": 241964281881013,
 					"children": [
 						{
@@ -901,6 +963,39 @@
 							"sid": 771321806068993
 						}
 					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-moving",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 413777755310728,
+							"behaviorType": "MoveTo",
+							"isInverted": true
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 117730288995681,
+							"parameters": {
+								"instance-variable": "isAttacking"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 800683157650836,
+							"parameters": {
+								"animation": "\"Idle\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 939843534874477
 				}
 			],
 			"sid": 581768486670151

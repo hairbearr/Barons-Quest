@@ -1226,47 +1226,6 @@
 					}
 				},
 				{
-					"type": "Door_Vertical",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Closed",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 307,
-					"instanceVariables": {
-						"PuzzleCode": "BG",
-						"SolutionCode": "",
-						"WhatPuzzle": 1,
-						"Open": false
-					},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 436.8725401050385,
-						"y": -213.09364621827942,
-						"width": 21,
-						"height": 43,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Tooltip_Box",
 					"properties": {
 						"initially-visible": false,
@@ -1345,8 +1304,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 408.08671641657475,
-						"y": -82.9125654587317,
+						"x": 919,
+						"y": 195,
 						"width": 13,
 						"height": 13,
 						"originX": 0.5,
@@ -1380,8 +1339,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 438.0785820767604,
-						"y": -45.61644639349484,
+						"x": 1042,
+						"y": 125,
 						"width": 13,
 						"height": 13,
 						"originX": 0.5,
@@ -2033,8 +1992,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 463.27954001236697,
-						"y": -73.46144538091806,
+						"x": 960,
+						"y": 75,
 						"width": 13,
 						"height": 13,
 						"originX": 0.5,
@@ -3480,8 +3439,8 @@
 					},
 					"uid": 537,
 					"instanceVariables": {
-						"Health": 4,
-						"AttackPower_Melee": 1,
+						"Health": 5,
+						"AttackPower_Melee": 2,
 						"startPosX": 0,
 						"startPosY": 0,
 						"isAttacking": false
@@ -3535,9 +3494,9 @@
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
-							1,
-							1,
-							1,
+							0.996078431372549,
+							0.6823529411764706,
+							0.4235294117647059,
 							1
 						],
 						"angle": 0,
@@ -3780,8 +3739,8 @@
 					},
 					"uid": 541,
 					"instanceVariables": {
-						"Health": 4,
-						"AttackPower_Melee": 1,
+						"Health": 5,
+						"AttackPower_Melee": 2,
 						"startPosX": 0,
 						"startPosY": 0,
 						"isAttacking": false
@@ -3835,9 +3794,9 @@
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
-							1,
-							1,
-							1,
+							0.996078431372549,
+							0.6823529411764706,
+							0.4235294117647059,
 							1
 						],
 						"angle": 0,
@@ -3855,8 +3814,8 @@
 					},
 					"uid": 542,
 					"instanceVariables": {
-						"Health": 4,
-						"AttackPower_Melee": 1,
+						"Health": 5,
+						"AttackPower_Melee": 2,
 						"startPosX": 0,
 						"startPosY": 0,
 						"isAttacking": false
@@ -3910,9 +3869,9 @@
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
-							1,
-							1,
-							1,
+							0.996078431372549,
+							0.6823529411764706,
+							0.4235294117647059,
 							1
 						],
 						"angle": 0,
@@ -4216,8 +4175,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 492,
-						"y": -38,
+						"x": 1001,
+						"y": 195,
 						"width": 13,
 						"height": 13,
 						"originX": 0.5,
@@ -4251,8 +4210,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 516.7254528086203,
-						"y": -60.74739135143753,
+						"x": 878,
+						"y": 125,
 						"width": 13,
 						"height": 13,
 						"originX": 0.5,
@@ -4286,8 +4245,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 476,
-						"y": 543,
+						"x": 475,
+						"y": 650,
 						"width": 11,
 						"height": 7,
 						"originX": 0.5,
@@ -4321,8 +4280,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 488.9932362223158,
-						"y": 543,
+						"x": 489,
+						"y": 650,
 						"width": 11,
 						"height": 7,
 						"originX": 0.5,
@@ -4356,8 +4315,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 503.23256254827254,
-						"y": 543,
+						"x": 503,
+						"y": 650,
 						"width": 11,
 						"height": 7,
 						"originX": 0.5,
@@ -4391,8 +4350,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 516.7223791446157,
-						"y": 543,
+						"x": 517,
+						"y": 650,
 						"width": 11,
 						"height": 7,
 						"originX": 0.5,
@@ -4426,8 +4385,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 509.60274113972434,
-						"y": 535,
+						"x": 510,
+						"y": 642,
 						"width": 11,
 						"height": 7,
 						"originX": 0.5,
@@ -4461,8 +4420,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 496.86233364064657,
-						"y": 535,
+						"x": 496,
+						"y": 642,
 						"width": 11,
 						"height": 7,
 						"originX": 0.5,
@@ -4496,12 +4455,5687 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 483,
-						"y": 535,
+						"x": 482,
+						"y": 642,
 						"width": 11,
 						"height": 7,
 						"originX": 0.5,
 						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 557,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 475.5424660376393,
+						"y": 492.70021701342654,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 558,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 489.5424660376393,
+						"y": 492.70021701342654,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 559,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 503.5424660376393,
+						"y": 492.70021701342654,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 560,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 517.5424660376393,
+						"y": 492.70021701342654,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 561,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 510.5424660376393,
+						"y": 484.70021701342654,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 562,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 496.5424660376393,
+						"y": 484.70021701342654,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 563,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 482.5424660376393,
+						"y": 484.70021701342654,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 564,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 475,
+						"y": 602.2676500500388,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 565,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 489,
+						"y": 602.2676500500388,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 566,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 503,
+						"y": 602.2676500500388,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 567,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 517,
+						"y": 602.2676500500388,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 568,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 510,
+						"y": 594.2676500500388,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 569,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 496,
+						"y": 594.2676500500388,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 570,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 482,
+						"y": 594.2676500500388,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 571,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 474.4576067961466,
+						"y": 544.7718582617867,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 572,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 488.4576067961466,
+						"y": 544.7718582617867,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 573,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 502.4576067961466,
+						"y": 544.7718582617867,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 574,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 516.4576067961466,
+						"y": 544.7718582617867,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 575,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 509.4576067961466,
+						"y": 536.7718582617867,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 576,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 495.4576067961466,
+						"y": 536.7718582617867,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 577,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 481.4576067961466,
+						"y": 536.7718582617867,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 578,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 767.9031094811517,
+						"y": 356.0121314238112,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 579,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 781.9031094811517,
+						"y": 356.0121314238112,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 580,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 795.9031094811517,
+						"y": 356.0121314238112,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 581,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 809.9031094811517,
+						"y": 356.0121314238112,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 582,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 802.9031094811517,
+						"y": 348.0121314238112,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 583,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 788.9031094811517,
+						"y": 348.0121314238112,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 584,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 774.9031094811517,
+						"y": 348.0121314238112,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 585,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 768.9879687226444,
+						"y": 294.71945974946,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 586,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 782.9879687226444,
+						"y": 294.71945974946,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 587,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 796.9879687226444,
+						"y": 294.71945974946,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 588,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 810.9879687226444,
+						"y": 294.71945974946,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 589,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 803.9879687226444,
+						"y": 286.71945974946,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 590,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 789.9879687226444,
+						"y": 286.71945974946,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 591,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 775.9879687226444,
+						"y": 286.71945974946,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 592,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 768.4455026850051,
+						"y": 241.56297746805353,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 593,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 782.4455026850051,
+						"y": 241.56297746805353,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 594,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 796.4455026850051,
+						"y": 241.56297746805353,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 595,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 810.4455026850051,
+						"y": 241.56297746805353,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 596,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 803.4455026850051,
+						"y": 233.56297746805353,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 597,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 789.4455026850051,
+						"y": 233.56297746805353,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 598,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 775.4455026850051,
+						"y": 233.56297746805353,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 599,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 689.837215149347,
+						"y": 683.738566308375,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 600,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 703.837215149347,
+						"y": 683.738566308375,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 601,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 717.837215149347,
+						"y": 683.738566308375,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 602,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 731.837215149347,
+						"y": 683.738566308375,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 603,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 724.837215149347,
+						"y": 675.738566308375,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 604,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 710.837215149347,
+						"y": 675.738566308375,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 605,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 696.837215149347,
+						"y": 675.738566308375,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 606,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 689.837215149347,
+						"y": 700.0109815111574,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 607,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 703.837215149347,
+						"y": 700.0109815111574,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 608,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 717.837215149347,
+						"y": 700.0109815111574,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 609,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 731.837215149347,
+						"y": 700.0109815111574,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 610,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 724.837215149347,
+						"y": 692.0109815111574,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 611,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 710.837215149347,
+						"y": 692.0109815111574,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 612,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 696.837215149347,
+						"y": 692.0109815111574,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 613,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 690.9220743908397,
+						"y": 716.2833602970467,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 614,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 704.9220743908397,
+						"y": 716.2833602970467,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 615,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 718.9220743908397,
+						"y": 716.2833602970467,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 616,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 732.9220743908397,
+						"y": 716.2833602970467,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 617,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 725.9220743908397,
+						"y": 708.2833602970467,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 618,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 711.9220743908397,
+						"y": 708.2833602970467,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 619,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 697.9220743908397,
+						"y": 708.2833602970467,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 620,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 690.9220743908397,
+						"y": 731.4709162583364,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 621,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 704.9220743908397,
+						"y": 731.4709162583364,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 622,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 718.9220743908397,
+						"y": 731.4709162583364,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 623,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 732.9220743908397,
+						"y": 731.4709162583364,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 624,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 725.9220743908397,
+						"y": 723.4709162583364,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 625,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 711.9220743908397,
+						"y": 723.4709162583364,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 626,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 697.9220743908397,
+						"y": 723.4709162583364,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 627,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 691.4644675946931,
+						"y": 747.7433314611186,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 628,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 705.4644675946931,
+						"y": 747.7433314611186,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 629,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 719.4644675946931,
+						"y": 747.7433314611186,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 630,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 733.4644675946931,
+						"y": 747.7433314611186,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 631,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 726.4644675946931,
+						"y": 739.7433314611186,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 632,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 712.4644675946931,
+						"y": 739.7433314611186,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 633,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 698.4644675946931,
+						"y": 739.7433314611186,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 634,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 374.1641067816313,
+						"y": 682.3069462662792,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 635,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 388.1641067816313,
+						"y": 682.3069462662792,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 636,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 402.1641067816313,
+						"y": 682.3069462662792,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 637,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 416.1641067816313,
+						"y": 682.3069462662792,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 638,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 409.1641067816313,
+						"y": 674.3069462662792,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 639,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 395.1641067816313,
+						"y": 674.3069462662792,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 640,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 381.1641067816313,
+						"y": 674.3069462662792,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 641,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 374.1641067816313,
+						"y": 698.5793614690616,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 642,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 388.1641067816313,
+						"y": 698.5793614690616,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 643,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 402.1641067816313,
+						"y": 698.5793614690616,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 644,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 416.1641067816313,
+						"y": 698.5793614690616,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 645,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 409.1641067816313,
+						"y": 690.5793614690616,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 646,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 395.1641067816313,
+						"y": 690.5793614690616,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 647,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 381.1641067816313,
+						"y": 690.5793614690616,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 648,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 375.248966023124,
+						"y": 714.8517402549509,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 649,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 389.248966023124,
+						"y": 714.8517402549509,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 650,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 403.248966023124,
+						"y": 714.8517402549509,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 651,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 417.248966023124,
+						"y": 714.8517402549509,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 652,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 410.248966023124,
+						"y": 706.8517402549509,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 653,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 396.248966023124,
+						"y": 706.8517402549509,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 654,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 382.248966023124,
+						"y": 706.8517402549509,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 655,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 375.248966023124,
+						"y": 730.0392962162406,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 656,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 389.248966023124,
+						"y": 730.0392962162406,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 657,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 403.248966023124,
+						"y": 730.0392962162406,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 658,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 417.248966023124,
+						"y": 730.0392962162406,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 659,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 410.248966023124,
+						"y": 722.0392962162406,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 660,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 396.248966023124,
+						"y": 722.0392962162406,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 661,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 382.248966023124,
+						"y": 722.0392962162406,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 662,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 375.7913592269774,
+						"y": 746.3117114190228,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 663,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 389.7913592269774,
+						"y": 746.3117114190228,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 664,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 403.7913592269774,
+						"y": 746.3117114190228,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 665,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 417.7913592269774,
+						"y": 746.3117114190228,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 666,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 410.7913592269774,
+						"y": 738.3117114190228,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 667,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 396.7913592269774,
+						"y": 738.3117114190228,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 668,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 382.7913592269774,
+						"y": 738.3117114190228,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 669,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 672.6578227028783,
+						"y": 372.36028202293596,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 670,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 686.6578227028783,
+						"y": 372.36028202293596,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 671,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 700.6578227028783,
+						"y": 372.36028202293596,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 672,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 714.6578227028783,
+						"y": 372.36028202293596,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 673,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 707.6578227028783,
+						"y": 364.36028202293596,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 674,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 693.6578227028783,
+						"y": 364.36028202293596,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 675,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 679.6578227028783,
+						"y": 364.36028202293596,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 676,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 672.6578227028783,
+						"y": 388.6326972257184,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 677,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 686.6578227028783,
+						"y": 388.6326972257184,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 678,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 700.6578227028783,
+						"y": 388.6326972257184,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 679,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 714.6578227028783,
+						"y": 388.6326972257184,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 680,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 707.6578227028783,
+						"y": 380.6326972257184,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 681,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 693.6578227028783,
+						"y": 380.6326972257184,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 682,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 679.6578227028783,
+						"y": 380.6326972257184,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 683,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 673.742681944371,
+						"y": 404.90507601160766,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 684,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 687.742681944371,
+						"y": 404.90507601160766,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 685,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 701.742681944371,
+						"y": 404.90507601160766,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 686,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 715.742681944371,
+						"y": 404.90507601160766,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 687,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 708.742681944371,
+						"y": 396.90507601160766,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 688,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 694.742681944371,
+						"y": 396.90507601160766,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 689,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 680.742681944371,
+						"y": 396.90507601160766,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 690,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 673.742681944371,
+						"y": 420.0926319728974,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 691,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 687.742681944371,
+						"y": 420.0926319728974,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 692,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 701.742681944371,
+						"y": 420.0926319728974,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 693,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 715.742681944371,
+						"y": 420.0926319728974,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 694,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 708.742681944371,
+						"y": 412.0926319728974,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 695,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 694.742681944371,
+						"y": 412.0926319728974,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 696,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 680.742681944371,
+						"y": 412.0926319728974,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 697,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 224,
+						"y": 50,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 698,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 213,
+						"y": 50,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 702,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 202,
+						"y": 50,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 703,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 235,
+						"y": 50,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 704,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 185,
+						"y": 675,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 705,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 174,
+						"y": 675,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 706,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 163,
+						"y": 675,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 707,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 196,
+						"y": 675,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 708,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 484,
+						"y": 799,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 709,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 473,
+						"y": 799,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 710,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 462,
+						"y": 799,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 711,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 495,
+						"y": 799,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 712,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 1017,
+						"y": 798,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 713,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 1006,
+						"y": 798,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 714,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 995,
+						"y": 798,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 715,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 1028,
+						"y": 798,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 716,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 988,
+						"y": 467,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 717,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 977,
+						"y": 467,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 718,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 966,
+						"y": 467,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Traps_Spikes",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Retracted",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 719,
+					"instanceVariables": {
+						"DamageDone": 1,
+						"WhatPuzzle": 0,
+						"Activated": false,
+						"TimeBetweenSpikes": 1,
+						"SpikesUp": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 999,
+						"y": 467,
+						"width": 11,
+						"height": 7,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Enemy_Skeleton",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 307,
+					"instanceVariables": {
+						"Health": 4,
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0,
+						"isAttacking": false
+					},
+					"behaviors": {
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 150,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 80,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": false,
+								"stop-on-solids": true,
+								"enabled": true
+							}
+						},
+						"Flash": {
+							"properties": {}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": false,
+								"tags": ""
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 0,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": true,
+								"set-angle": false,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 220,
+						"y": 825,
+						"width": 10,
+						"height": 20,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,

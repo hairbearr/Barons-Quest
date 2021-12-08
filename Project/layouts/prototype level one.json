@@ -497,7 +497,6 @@
 					},
 					"uid": 13,
 					"instanceVariables": {
-						"OpenDoor": true,
 						"ChestNumber": 1
 					},
 					"behaviors": {
@@ -2082,7 +2081,9 @@
 						"live-preview": false
 					},
 					"uid": 65,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"ChestNumber": 0
+					},
 					"behaviors": {},
 					"world": {
 						"x": 648.2035033174307,
@@ -2111,7 +2112,9 @@
 						"live-preview": false
 					},
 					"uid": 66,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"ChestNumber": 0
+					},
 					"behaviors": {},
 					"world": {
 						"x": 907.6350122446022,
@@ -2140,7 +2143,9 @@
 						"live-preview": false
 					},
 					"uid": 67,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"ChestNumber": 0
+					},
 					"behaviors": {},
 					"world": {
 						"x": 1625,
@@ -2169,7 +2174,9 @@
 						"live-preview": false
 					},
 					"uid": 68,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"ChestNumber": 0
+					},
 					"behaviors": {},
 					"world": {
 						"x": 1054,

@@ -1,42 +1,11 @@
 {
-	"name": "Menu",
+	"name": "Controls",
 	"layers": [
 		{
 			"name": "Layer 0",
 			"overriden": 0,
-			"instances": [
-				{
-					"type": "Bu_PlayGame",
-					"properties": {
-						"type": "button",
-						"text": "Play Game",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
-					},
-					"uid": 22,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 343.5,
-						"y": 233,
-						"width": 87.42997197757758,
-						"height": 29.143323992525858,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				}
-			],
-			"sid": 155372276148278,
+			"instances": [],
+			"sid": 575120019343216,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -64,7 +33,7 @@
 			"global": false
 		}
 	],
-	"sid": 821874759254720,
+	"sid": 455444231546431,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 774,

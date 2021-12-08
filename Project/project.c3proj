@@ -159,7 +159,8 @@
 			"Tree_Top",
 			"Tree",
 			"UI_HealthBar",
-			"CatacombRoof"
+			"CatacombRoof",
+			"GameOver"
 		],
 		"subfolders": [
 			{
@@ -373,6 +374,8 @@
 			"Catacombs 1_3",
 			"End Screen",
 			"Lose Screen",
+			"Credits",
+			"Controls",
 			"Prototype Level One"
 		],
 		"subfolders": []

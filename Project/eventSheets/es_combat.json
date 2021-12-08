@@ -2,6 +2,16 @@
 	"name": "ES_Combat",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "PlayerHealth",
+			"type": "number",
+			"initialValue": "10",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 548489464958945
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Player",
@@ -27,16 +37,7 @@
 									}
 								}
 							],
-							"actions": [
-								{
-									"id": "set-visible",
-									"objectClass": "Txt_Tutorial",
-									"sid": 562029951564054,
-									"parameters": {
-										"visibility": "visible"
-									}
-								}
-							],
+							"actions": [],
 							"sid": 426941203796117,
 							"children": [
 								{
@@ -45,94 +46,157 @@
 										{
 											"id": "on-key-pressed",
 											"objectClass": "Keyboard",
-											"sid": 376043521519619,
+											"sid": 361112931803225,
 											"parameters": {
 												"key": 69
 											}
 										}
 									],
 									"actions": [],
-									"sid": 253326789673155,
+									"sid": 731542800426021,
 									"children": [
 										{
 											"eventType": "block",
 											"conditions": [
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "ChestOverlay",
-													"sid": 220719345199252,
+													"objectClass": "Chest",
+													"sid": 295573247304489,
 													"parameters": {
 														"instance-variable": "ChestNumber",
 														"comparison": 0,
-														"value": "Chest.ChestNumber"
+														"value": "ChestOverlay.ChestNumber"
+													}
+												},
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "Col_HealthRegen",
+													"sid": 674398422551019,
+													"parameters": {
+														"instance-variable": "ChestNumber",
+														"comparison": 0,
+														"value": "ChestOverlay.ChestNumber"
+													}
+												},
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "Tooltip_Box",
+													"sid": 410655976361834,
+													"parameters": {
+														"instance-variable": "WhatTooltip",
+														"comparison": 0,
+														"value": "ChestOverlay.ChestNumber"
+													}
+												},
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "TooltipBackground",
+													"sid": 537933291648968,
+													"parameters": {
+														"instance-variable": "WhatTooltip",
+														"comparison": 0,
+														"value": "ChestOverlay.ChestNumber"
+													}
+												},
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "Txt_Tooltip",
+													"sid": 517311549897457,
+													"parameters": {
+														"instance-variable": "WhatTooltip",
+														"comparison": 0,
+														"value": "ChestOverlay.ChestNumber"
 													}
 												}
 											],
-											"actions": [],
-											"sid": 715092067040780,
-											"children": [
+											"actions": [
 												{
-													"eventType": "block",
-													"conditions": [],
-													"actions": [
-														{
-															"id": "play",
-															"objectClass": "Audio",
-															"sid": 566543135057160,
-															"parameters": {
-																"audio-file": "ES_Tool Chest Drawer 6 - SFX Producer",
-																"loop": "not-looping",
-																"volume": "0",
-																"tag-optional": "\"\""
-															}
-														},
-														{
-															"id": "set-animation",
-															"objectClass": "Chest",
-															"sid": 371289150251224,
-															"parameters": {
-																"animation": "\"Open\"",
-																"from": "beginning"
-															}
-														},
-														{
-															"id": "wait",
-															"objectClass": "System",
-															"sid": 638698912465616,
-															"parameters": {
-																"seconds": "1.0"
-															}
-														},
-														{
-															"id": "destroy",
-															"objectClass": "ChestOverlay",
-															"sid": 945741093630694
-														},
-														{
-															"id": "destroy",
-															"objectClass": "Chest",
-															"sid": 370231896820925
-														},
-														{
-															"id": "set-visible",
-															"objectClass": "PickUp_MeleeWeapon_Prototype_1",
-															"sid": 170698477549102,
-															"parameters": {
-																"visibility": "visible"
-															}
-														},
-														{
-															"id": "set-collisions-enabled",
-															"objectClass": "PickUp_MeleeWeapon_Prototype_1",
-															"sid": 802211257485705,
-															"parameters": {
-																"collisions": "enabled"
-															}
-														}
-													],
-													"sid": 455978134435196
+													"id": "play",
+													"objectClass": "Audio",
+													"sid": 263251807584520,
+													"parameters": {
+														"audio-file": "ES_Tool Chest Drawer 6 - SFX Producer",
+														"loop": "not-looping",
+														"volume": "0",
+														"tag-optional": "\"\""
+													}
+												},
+												{
+													"id": "set-animation",
+													"objectClass": "Chest",
+													"sid": 480339063811524,
+													"parameters": {
+														"animation": "\"Open\"",
+														"from": "beginning"
+													}
+												},
+												{
+													"id": "wait",
+													"objectClass": "System",
+													"sid": 446880184381491,
+													"parameters": {
+														"seconds": "1.0"
+													}
+												},
+												{
+													"id": "destroy",
+													"objectClass": "ChestOverlay",
+													"sid": 560429248315480
+												},
+												{
+													"id": "destroy",
+													"objectClass": "Chest",
+													"sid": 228107024454244
+												},
+												{
+													"id": "set-visible",
+													"objectClass": "PickUp_MeleeWeapon_Prototype_1",
+													"sid": 290508271254121,
+													"parameters": {
+														"visibility": "visible"
+													}
+												},
+												{
+													"id": "set-collisions-enabled",
+													"objectClass": "PickUp_MeleeWeapon_Prototype_1",
+													"sid": 197852061292622,
+													"parameters": {
+														"collisions": "enabled"
+													}
+												},
+												{
+													"id": "set-visible",
+													"objectClass": "Col_HealthRegen",
+													"sid": 123000047511268,
+													"parameters": {
+														"visibility": "visible"
+													}
+												},
+												{
+													"id": "set-collisions-enabled",
+													"objectClass": "Col_HealthRegen",
+													"sid": 335474348429766,
+													"parameters": {
+														"collisions": "enabled"
+													}
+												},
+												{
+													"id": "destroy",
+													"objectClass": "Tooltip_Box",
+													"sid": 689707480350800
+												},
+												{
+													"id": "destroy",
+													"objectClass": "TooltipBackground",
+													"sid": 960985697971813
+												},
+												{
+													"id": "destroy",
+													"objectClass": "Txt_Tooltip",
+													"sid": 314493873824038
 												}
-											]
+											],
+											"sid": 888373994771670
 										}
 									]
 								}
@@ -204,11 +268,11 @@
 									"eventType": "block",
 									"conditions": [
 										{
-											"id": "compare-instance-variable",
-											"objectClass": "Mana_Armored",
-											"sid": 501034539442531,
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 868633247969078,
 											"parameters": {
-												"instance-variable": "Health",
+												"variable": "PlayerHealth",
 												"comparison": 2,
 												"value": "Mana_Armored.MaxHealth"
 											}
@@ -216,11 +280,11 @@
 									],
 									"actions": [
 										{
-											"id": "add-to-instvar",
-											"objectClass": "Mana_Armored",
-											"sid": 771444682307936,
+											"id": "add-to-eventvar",
+											"objectClass": "System",
+											"sid": 857359088333713,
 											"parameters": {
-												"instance-variable": "Health",
+												"variable": "PlayerHealth",
 												"value": "1"
 											}
 										},
@@ -251,13 +315,23 @@
 										"object": "ChestOverlay"
 									},
 									"isInverted": true
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Txt_Tooltip",
+									"sid": 206413483668048,
+									"parameters": {
+										"instance-variable": "WhatTooltip",
+										"comparison": 0,
+										"value": "ChestOverlay.ChestNumber"
+									}
 								}
 							],
 							"actions": [
 								{
 									"id": "set-visible",
-									"objectClass": "Txt_Tutorial",
-									"sid": 154708118514047,
+									"objectClass": "Txt_Tooltip",
+									"sid": 672425585892151,
 									"parameters": {
 										"visibility": "invisible"
 									}
@@ -279,11 +353,11 @@
 							"eventType": "block",
 							"conditions": [
 								{
-									"id": "compare-instance-variable",
-									"objectClass": "Mana_Armored",
-									"sid": 773340504707868,
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 765562729352754,
 									"parameters": {
-										"instance-variable": "Health",
+										"variable": "PlayerHealth",
 										"comparison": 3,
 										"value": "0"
 									}
@@ -679,6 +753,56 @@
 							"eventType": "block",
 							"conditions": [
 								{
+									"id": "compare-x",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 934673361874872,
+									"parameters": {
+										"comparison": 5,
+										"x-co-ordinate": "Mana_Armored.X"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-mirrored",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 794007430149235,
+									"parameters": {
+										"state": "mirrored"
+									}
+								}
+							],
+							"sid": 546219433156947
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-x",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 358951646722207,
+									"parameters": {
+										"comparison": 2,
+										"x-co-ordinate": "Mana_Armored.X"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-mirrored",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 900340031491362,
+									"parameters": {
+										"state": "not-mirrored"
+									}
+								}
+							],
+							"sid": 477133333341294
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
 									"id": "trigger-once-while-true",
 									"objectClass": "System",
 									"sid": 314274704006849
@@ -794,36 +918,53 @@
 								"animation": "\"Attack\"",
 								"from": "beginning"
 							}
+						},
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 235046933741461,
+							"parameters": {
+								"variable": "PlayerHealth",
+								"value": "Enemy_Skeleton.AttackPower_Melee"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Mana_Armored",
+							"sid": 906832155210634,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"speed": "150"
+							}
+						},
+						{
+							"id": "set-angle-of-motion",
+							"objectClass": "Mana_Armored",
+							"sid": 998716079418644,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"angle": "angle(Enemy_Skeleton.X, Enemy_Skeleton.Y, Self.X, Self.Y)"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 246157453336308,
+							"parameters": {
+								"seconds": "0.25"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Mana_Armored",
+							"sid": 808251337715819,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"speed": "0"
+							}
 						}
 					],
-					"sid": 475430386787334,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "every-x-seconds",
-									"objectClass": "System",
-									"sid": 700310884701091,
-									"parameters": {
-										"interval-seconds": "1.0"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "subtract-from-instvar",
-									"objectClass": "Mana_Armored",
-									"sid": 791268683763797,
-									"parameters": {
-										"instance-variable": "Health",
-										"value": "Enemy_Skeleton.AttackPower_Melee"
-									}
-								}
-							],
-							"sid": 274380955837977
-						}
-					]
+					"sid": 475430386787334
 				},
 				{
 					"eventType": "block",
@@ -897,6 +1038,15 @@
 							"objectClass": "Enemy_Skeleton",
 							"sid": 950400322031921,
 							"behaviorType": "MoveTo"
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 885611888088453,
+							"parameters": {
+								"instance-variable": "isAttacking"
+							},
+							"isInverted": true
 						}
 					],
 					"actions": [
@@ -910,59 +1060,7 @@
 							}
 						}
 					],
-					"sid": 241964281881013,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-x",
-									"objectClass": "Enemy_Skeleton",
-									"sid": 963352355499677,
-									"parameters": {
-										"comparison": 5,
-										"x-co-ordinate": "Mana_Armored.X"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-mirrored",
-									"objectClass": "Enemy_Skeleton",
-									"sid": 314221218678542,
-									"parameters": {
-										"state": "mirrored"
-									}
-								}
-							],
-							"sid": 194949364762482
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "compare-x",
-									"objectClass": "Enemy_Skeleton",
-									"sid": 502515096446076,
-									"parameters": {
-										"comparison": 2,
-										"x-co-ordinate": "Mana_Armored.X"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "set-mirrored",
-									"objectClass": "Enemy_Skeleton",
-									"sid": 758510236015296,
-									"parameters": {
-										"state": "not-mirrored"
-									}
-								}
-							],
-							"sid": 771321806068993
-						}
-					]
+					"sid": 241964281881013
 				},
 				{
 					"eventType": "block",
@@ -996,6 +1094,38 @@
 						}
 					],
 					"sid": 939843534874477
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-moving",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 152350464484051,
+							"behaviorType": "MoveTo",
+							"isInverted": true
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 226121143711911,
+							"parameters": {
+								"instance-variable": "isAttacking"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 635097463226034,
+							"parameters": {
+								"animation": "\"Attack\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 550093992482051
 				}
 			],
 			"sid": 581768486670151

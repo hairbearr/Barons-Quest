@@ -43,7 +43,41 @@
 							}
 						}
 					],
-					"sid": 723467487349565
+					"sid": 723467487349565,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-moving",
+									"objectClass": "Mana_Armored",
+									"sid": 583989986870839,
+									"behaviorType": "8Direction"
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Mana_Armored",
+									"sid": 974172387749815,
+									"parameters": {
+										"instance-variable": "isAttacking_Melee"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "Mana_Armored",
+									"sid": 898649770904979,
+									"parameters": {
+										"animation": "\"Walk Up\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 489624241932581
+						}
+					]
 				},
 				{
 					"eventType": "block",
@@ -76,7 +110,41 @@
 							}
 						}
 					],
-					"sid": 608912241080905
+					"sid": 608912241080905,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-moving",
+									"objectClass": "Mana_Armored",
+									"sid": 715498004028387,
+									"behaviorType": "8Direction"
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Mana_Armored",
+									"sid": 156771114257488,
+									"parameters": {
+										"instance-variable": "isAttacking_Melee"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "Mana_Armored",
+									"sid": 955132333766986,
+									"parameters": {
+										"animation": "\"Walk Side\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 612735174024638
+						}
+					]
 				},
 				{
 					"eventType": "block",
@@ -101,7 +169,41 @@
 							}
 						}
 					],
-					"sid": 628701818541958
+					"sid": 628701818541958,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-moving",
+									"objectClass": "Mana_Armored",
+									"sid": 860023421771211,
+									"behaviorType": "8Direction"
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Mana_Armored",
+									"sid": 577317927335173,
+									"parameters": {
+										"instance-variable": "isAttacking_Melee"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "Mana_Armored",
+									"sid": 954142964538833,
+									"parameters": {
+										"animation": "\"Walk Down\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 435097202555224
+						}
+					]
 				},
 				{
 					"eventType": "block",
@@ -134,7 +236,74 @@
 							}
 						}
 					],
-					"sid": 405333938605423
+					"sid": 405333938605423,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-moving",
+									"objectClass": "Mana_Armored",
+									"sid": 576609796006793,
+									"behaviorType": "8Direction"
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Mana_Armored",
+									"sid": 548228997815245,
+									"parameters": {
+										"instance-variable": "isAttacking_Melee"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "Mana_Armored",
+									"sid": 792739071843240,
+									"parameters": {
+										"animation": "\"Walk Side\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 726390226670237
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-moving",
+							"objectClass": "Mana_Armored",
+							"sid": 339150055752291,
+							"behaviorType": "8Direction",
+							"isInverted": true
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Mana_Armored",
+							"sid": 926715646332045,
+							"parameters": {
+								"instance-variable": "isAttacking_Melee"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Mana_Armored",
+							"sid": 123983577143365,
+							"parameters": {
+								"animation": "\"Idle\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 410648594033363
 				}
 			],
 			"sid": 783789160157961
@@ -166,9 +335,9 @@
 								{
 									"id": "set-animation",
 									"objectClass": "UI_HealthBar",
-									"sid": 939645608428353,
+									"sid": 172766523196622,
 									"parameters": {
-										"animation": "str(Mana_Armored.Health)",
+										"animation": "str(PlayerHealth)",
 										"from": "beginning"
 									}
 								}

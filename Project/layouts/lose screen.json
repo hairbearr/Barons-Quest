@@ -6,35 +6,26 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Txt_Win",
+					"type": "FloorColor",
 					"properties": {
-						"text": "You died. Continue?",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 12,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
 					},
-					"uid": 27,
+					"uid": 1521,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 156.5,
-						"y": 67,
-						"width": 167,
-						"height": 30,
+						"x": 0,
+						"y": 0,
+						"width": 774,
+						"height": 435,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -63,8 +54,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 186,
-						"y": 123,
+						"x": 333,
+						"y": 201,
 						"width": 108,
 						"height": 24,
 						"originX": 0,
@@ -75,6 +66,35 @@
 							1,
 							1
 						]
+					}
+				},
+				{
+					"type": "GameOver",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 27,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 387,
+						"y": 125,
+						"width": 264,
+						"height": 96,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],
@@ -109,8 +129,8 @@
 	"sid": 839581161451608,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 1708,
-	"height": 960,
+	"width": 774,
+	"height": 435,
 	"unboundedScrolling": false,
 	"vpX": 0.5,
 	"vpY": 0.5,

@@ -365,9 +365,12 @@
 							],
 							"actions": [
 								{
-									"id": "restart-layout",
+									"id": "go-to-layout",
 									"objectClass": "System",
-									"sid": 926998504570571
+									"sid": 294844127695240,
+									"parameters": {
+										"layout": "Lose Screen"
+									}
 								}
 							],
 							"sid": 951286706329039
@@ -981,14 +984,7 @@
 							"isInverted": true
 						}
 					],
-					"actions": [
-						{
-							"id": "stop",
-							"objectClass": "Enemy_Skeleton",
-							"sid": 640128221870158,
-							"behaviorType": "MoveTo"
-						}
-					],
+					"actions": [],
 					"sid": 244714818068516,
 					"children": [
 						{
@@ -1027,6 +1023,25 @@
 								}
 							],
 							"sid": 953423712048443
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "trigger-once-while-true",
+									"objectClass": "System",
+									"sid": 676330081465893
+								}
+							],
+							"actions": [
+								{
+									"id": "stop",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 106698106300108,
+									"behaviorType": "MoveTo"
+								}
+							],
+							"sid": 473045317619974
 						}
 					]
 				},
@@ -1126,6 +1141,71 @@
 						}
 					],
 					"sid": 550093992482051
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-moving",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 407880569720547,
+							"behaviorType": "MoveTo"
+						}
+					],
+					"actions": [],
+					"sid": 126267350590365,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-x",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 207436930035933,
+									"parameters": {
+										"comparison": 5,
+										"x-co-ordinate": "Enemy_Skeleton.MoveTo.TargetX"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-mirrored",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 631041056749674,
+									"parameters": {
+										"state": "mirrored"
+									}
+								}
+							],
+							"sid": 132275175361378
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-x",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 577434499706388,
+									"parameters": {
+										"comparison": 2,
+										"x-co-ordinate": "Enemy_Skeleton.MoveTo.TargetX"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-mirrored",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 396542447852663,
+									"parameters": {
+										"state": "not-mirrored"
+									}
+								}
+							],
+							"sid": 988445106212451
+						}
+					]
 				}
 			],
 			"sid": 581768486670151

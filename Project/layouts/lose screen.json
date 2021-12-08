@@ -42,7 +42,7 @@
 					"type": "Bu_Menu",
 					"properties": {
 						"type": "button",
-						"text": "Return to Menu",
+						"text": "Main Menu",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
@@ -55,7 +55,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 333,
-						"y": 201,
+						"y": 205,
 						"width": 108,
 						"height": 24,
 						"originX": 0,
@@ -95,6 +95,36 @@
 						],
 						"angle": 0,
 						"zElevation": 0
+					}
+				},
+				{
+					"type": "Bu_RestartLastLevel",
+					"properties": {
+						"type": "button",
+						"text": "Restart Level",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 2149,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 333,
+						"y": 231,
+						"width": 108,
+						"height": 24,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
 					}
 				}
 			],

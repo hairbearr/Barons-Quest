@@ -1331,8 +1331,8 @@
 					},
 					"uid": 118,
 					"instanceVariables": {
-						"Health": 4,
-						"AttackPower_Melee": 1,
+						"Health": 5,
+						"AttackPower_Melee": 2,
 						"startPosX": 0,
 						"startPosY": 0,
 						"isAttacking": false
@@ -1386,9 +1386,9 @@
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
-							1,
-							1,
-							1,
+							0.996078431372549,
+							0.6823529411764706,
+							0.4235294117647059,
 							1
 						],
 						"angle": 0,

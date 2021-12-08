@@ -84,9 +84,9 @@
 					},
 					"uid": 18,
 					"instanceVariables": {
-						"PuzzleCode": "G",
+						"PuzzleCode": "",
 						"SolutionCode": "",
-						"WhatPuzzle": 2,
+						"WhatPuzzle": 0,
 						"Open": false
 					},
 					"behaviors": {
@@ -125,9 +125,9 @@
 					},
 					"uid": 43,
 					"instanceVariables": {
-						"PuzzleCode": "GBR",
+						"PuzzleCode": "",
 						"SolutionCode": "",
-						"WhatPuzzle": 1,
+						"WhatPuzzle": 0,
 						"Open": false
 					},
 					"behaviors": {
@@ -166,9 +166,9 @@
 					},
 					"uid": 26,
 					"instanceVariables": {
-						"PuzzleCode": "GGRB",
+						"PuzzleCode": "",
 						"SolutionCode": "",
-						"WhatPuzzle": 3,
+						"WhatPuzzle": 0,
 						"Open": false
 					},
 					"behaviors": {
@@ -207,9 +207,9 @@
 					},
 					"uid": 45,
 					"instanceVariables": {
-						"PuzzleCode": "RGRRB",
+						"PuzzleCode": "",
 						"SolutionCode": "",
-						"WhatPuzzle": 4,
+						"WhatPuzzle": 0,
 						"Open": false
 					},
 					"behaviors": {

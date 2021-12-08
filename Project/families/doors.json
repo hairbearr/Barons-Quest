@@ -2,12 +2,37 @@
 	"name": "Doors",
 	"plugin-id": "Sprite",
 	"sid": 224448970685365,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "PuzzleCode",
+			"type": "string",
+			"desc": "The Sequence for the Puzzle",
+			"sid": 732082847965788
+		},
+		{
+			"name": "SolutionCode",
+			"type": "string",
+			"desc": "Your current progress on the puzzle",
+			"sid": 930433292749757
+		},
+		{
+			"name": "WhatPuzzle",
+			"type": "number",
+			"desc": "Links this door to a specific puzzle",
+			"sid": 975828903907919
+		},
+		{
+			"name": "Open",
+			"type": "boolean",
+			"desc": "Triggers the open Animation",
+			"sid": 318243486966447
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"members": [
-		"Door_Vertical",
 		"Door_Left",
+		"Door_Vertical",
 		"Door_Right"
 	]
 }

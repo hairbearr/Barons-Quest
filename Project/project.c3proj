@@ -166,7 +166,10 @@
 			{
 				"items": [
 					"Bu_Menu",
-					"Bu_PlayGame"
+					"Bu_PlayGame",
+					"Bu_RestartLastLevel",
+					"Bu_Credits",
+					"Bu_Controls"
 				],
 				"subfolders": [],
 				"name": "Buttons"

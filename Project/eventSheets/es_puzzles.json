@@ -182,8 +182,8 @@
 						},
 						{
 							"id": "compare-instance-variable",
-							"objectClass": "Door_Vertical",
-							"sid": 350179846658881,
+							"objectClass": "Doors",
+							"sid": 763356308904051,
 							"parameters": {
 								"instance-variable": "WhatPuzzle",
 								"comparison": 0,
@@ -203,11 +203,11 @@
 					"actions": [
 						{
 							"id": "set-instvar-value",
-							"objectClass": "Door_Vertical",
-							"sid": 352037412309876,
+							"objectClass": "Doors",
+							"sid": 141220193917086,
 							"parameters": {
 								"instance-variable": "SolutionCode",
-								"value": "Door_Vertical.SolutionCode&ColorPuzzle_Switch.Type"
+								"value": "Doors.SolutionCode&ColorPuzzle_Switch.Type"
 							}
 						},
 						{
@@ -238,8 +238,8 @@
 					"conditions": [
 						{
 							"id": "is-boolean-instance-variable-set",
-							"objectClass": "Door_Vertical",
-							"sid": 438511146636398,
+							"objectClass": "Doors",
+							"sid": 768856251245231,
 							"parameters": {
 								"instance-variable": "Open"
 							},
@@ -247,12 +247,12 @@
 						},
 						{
 							"id": "compare-instance-variable",
-							"objectClass": "Door_Vertical",
-							"sid": 182034221093555,
+							"objectClass": "Doors",
+							"sid": 456477464470651,
 							"parameters": {
 								"instance-variable": "SolutionCode",
 								"comparison": 0,
-								"value": "Door_Vertical.PuzzleCode"
+								"value": "Doors.PuzzleCode"
 							}
 						}
 					],
@@ -270,8 +270,8 @@
 						},
 						{
 							"id": "set-boolean-instvar",
-							"objectClass": "Door_Vertical",
-							"sid": 853559921516282,
+							"objectClass": "Doors",
+							"sid": 217058506145655,
 							"parameters": {
 								"instance-variable": "Open",
 								"value": "true"
@@ -279,8 +279,8 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "Door_Vertical",
-							"sid": 786806656283824,
+							"objectClass": "Doors",
+							"sid": 271344795033116,
 							"parameters": {
 								"animation": "\"Open\"",
 								"from": "beginning"
@@ -294,20 +294,20 @@
 					"conditions": [
 						{
 							"id": "is-boolean-instance-variable-set",
-							"objectClass": "Door_Vertical",
-							"sid": 765013127697104,
+							"objectClass": "Doors",
+							"sid": 610513307298300,
 							"parameters": {
 								"instance-variable": "Open"
 							}
 						},
 						{
 							"id": "compare-instance-variable",
-							"objectClass": "Door_Vertical",
-							"sid": 505902603574372,
+							"objectClass": "Doors",
+							"sid": 607336698161555,
 							"parameters": {
 								"instance-variable": "SolutionCode",
 								"comparison": 1,
-								"value": "Door_Vertical.PuzzleCode"
+								"value": "Doors.PuzzleCode"
 							}
 						}
 					],
@@ -325,8 +325,8 @@
 						},
 						{
 							"id": "set-boolean-instvar",
-							"objectClass": "Door_Vertical",
-							"sid": 232892421526323,
+							"objectClass": "Doors",
+							"sid": 202491008307820,
 							"parameters": {
 								"instance-variable": "Open",
 								"value": "false"
@@ -334,8 +334,8 @@
 						},
 						{
 							"id": "set-animation",
-							"objectClass": "Door_Vertical",
-							"sid": 411681384876400,
+							"objectClass": "Doors",
+							"sid": 135662189584984,
 							"parameters": {
 								"animation": "\"Closed\"",
 								"from": "beginning"
@@ -410,22 +410,22 @@
 					"conditions": [
 						{
 							"id": "compare-instance-variable",
-							"objectClass": "Door_Vertical",
-							"sid": 543359470124162,
+							"objectClass": "Doors",
+							"sid": 893021206126039,
 							"parameters": {
 								"instance-variable": "SolutionCode",
 								"comparison": 1,
-								"value": "left(Door_Vertical.PuzzleCode,len(Door_Vertical.SolutionCode))"
+								"value": "left(Doors.PuzzleCode,len(Doors.SolutionCode))"
 							}
 						},
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "ColorPuzzle_Switch",
-							"sid": 755372035707550,
+							"sid": 721459688695870,
 							"parameters": {
 								"instance-variable": "WhatPuzzle",
 								"comparison": 0,
-								"value": "Door_Vertical.WhatPuzzle"
+								"value": "Doors.WhatPuzzle"
 							}
 						}
 					],
@@ -441,8 +441,8 @@
 						},
 						{
 							"id": "set-instvar-value",
-							"objectClass": "Door_Vertical",
-							"sid": 762889173942558,
+							"objectClass": "Doors",
+							"sid": 927047611715159,
 							"parameters": {
 								"instance-variable": "SolutionCode",
 								"value": "\"\""

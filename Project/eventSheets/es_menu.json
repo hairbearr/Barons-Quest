@@ -75,6 +75,69 @@
 				}
 			],
 			"sid": 741989150345542
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Bu_RestartLastLevel",
+					"sid": 380167243416443
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 541013767140098,
+					"parameters": {
+						"which": "previous"
+					}
+				}
+			],
+			"sid": 196244152153514
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Bu_Credits",
+					"sid": 694518759633153
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 540653630449553,
+					"parameters": {
+						"layout": "Credits"
+					}
+				}
+			],
+			"sid": 634910229661347
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Bu_Controls",
+					"sid": 663633584336456
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 877960822934202,
+					"parameters": {
+						"layout": "Controls"
+					}
+				}
+			],
+			"sid": 751386921995402
 		}
 	],
 	"sid": 280991178973689

@@ -3,32 +3,7 @@
 	"plugin-id": "Sprite",
 	"sid": 878505600789155,
 	"isGlobal": false,
-	"instanceVariables": [
-		{
-			"name": "PuzzleCode",
-			"type": "string",
-			"desc": "The Sequence for the puzzle",
-			"sid": 178344980173102
-		},
-		{
-			"name": "SolutionCode",
-			"type": "string",
-			"desc": "Your current progress on the puzzle",
-			"sid": 760039862839878
-		},
-		{
-			"name": "WhatPuzzle",
-			"type": "number",
-			"desc": "Links this door to a specific puzzle",
-			"sid": 685648748381068
-		},
-		{
-			"name": "Open",
-			"type": "boolean",
-			"desc": "Triggers the open animation",
-			"sid": 738952635381538
-		}
-	],
+	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",

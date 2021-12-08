@@ -2,6 +2,16 @@
 	"name": "ES_Main",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "LastLevel",
+			"type": "string",
+			"initialValue": "Forest 1_1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 631997985425957
+		},
+		{
 			"eventType": "include",
 			"includeSheet": "ES_Puzzles"
 		},
@@ -427,6 +437,15 @@
 					"parameters": {
 						"instance-variable": "startPosY",
 						"value": "Enemy_Skeleton.Y"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 739529360031006,
+					"parameters": {
+						"variable": "LastLevel",
+						"value": "LayoutName"
 					}
 				}
 			],

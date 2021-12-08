@@ -87,11 +87,11 @@
 			],
 			"actions": [
 				{
-					"id": "go-to-nextprevious-layout",
+					"id": "go-to-layout-by-name",
 					"objectClass": "System",
-					"sid": 541013767140098,
+					"sid": 297007549813270,
 					"parameters": {
-						"which": "previous"
+						"layout": "LastLevel"
 					}
 				}
 			],

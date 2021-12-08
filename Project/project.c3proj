@@ -367,21 +367,33 @@
 		"subfolders": []
 	},
 	"layouts": {
-		"items": [
-			"Menu",
-			"Narrative_One",
-			"Narrative_Two",
-			"Forest 1_1",
-			"Catacombs 1_1",
-			"Catacombs 1_2",
-			"Catacombs 1_3",
-			"End Screen",
-			"Lose Screen",
-			"Credits",
-			"Controls",
-			"Prototype Level One"
-		],
-		"subfolders": []
+		"items": [],
+		"subfolders": [
+			{
+				"items": [
+					"Prototype Level One"
+				],
+				"subfolders": [],
+				"name": "Prototype"
+			},
+			{
+				"items": [
+					"Menu",
+					"Narrative_One",
+					"Narrative_Two",
+					"Forest 1_1",
+					"Catacombs 1_1",
+					"Catacombs 1_2",
+					"Catacombs 1_3",
+					"End Screen",
+					"Lose Screen",
+					"Credits",
+					"Controls"
+				],
+				"subfolders": [],
+				"name": "Game"
+			}
+		]
 	},
 	"eventSheets": {
 		"items": [

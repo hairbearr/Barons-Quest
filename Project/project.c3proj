@@ -416,39 +416,69 @@
 		"sound": {
 			"items": [
 				{
-					"name": "234924__gordeszkakerek__pick-up-or-found-it-secret-item copy.webm",
+					"name": "Pick Up Item.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 142375395150410
 				},
 				{
-					"name": "364929__jofae__game-die.webm",
+					"name": "Game Die.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 342566222290719
 				},
 				{
-					"name": "466272__proolsen__pressure-plate.webm",
+					"name": "Pressure Plate.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 630140325385455
 				},
 				{
-					"name": "527636__matrixxx__demonic-anger.webm",
+					"name": "Demon Yell.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 702565922177070
 				},
 				{
-					"name": "ES_Door Close 24 - SFX Producer.webm",
+					"name": "Door Close.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 363439540825453
 				},
 				{
-					"name": "ES_Door Open 8 - SFX Producer.webm",
+					"name": "Door Open.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 499028159133591
 				},
 				{
-					"name": "ES_Tool Chest Drawer 6 - SFX Producer.webm",
+					"name": "Open Chest.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 765728882966432
+				},
+				{
+					"name": "Spike Trap.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 421096851639193
+				},
+				{
+					"name": "Death.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 446426042738504
+				},
+				{
+					"name": "Earthquake.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 566746702011954
+				},
+				{
+					"name": "Skeleton Attack.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 954767274791397
+				},
+				{
+					"name": "Player Attack.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 621816192781842
+				},
+				{
+					"name": "collect-5.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 989448318681398
 				}
 			],
 			"subfolders": []
@@ -459,6 +489,21 @@
 					"name": "gambado-cba.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 227887919459366
+				},
+				{
+					"name": "ES_Night of the Drowned - Dream Cave.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 811718860864661
+				},
+				{
+					"name": "ES_Dungeon - Dream Cave.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 818358346896253
+				},
+				{
+					"name": "107 Dungeon.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 124189053840445
 				}
 			],
 			"subfolders": []

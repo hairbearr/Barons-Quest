@@ -235,6 +235,17 @@
 											"parameters": {
 												"instance-variable": "SpikesUp"
 											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 566708308451676,
+											"parameters": {
+												"audio-file": "Spike Trap",
+												"loop": "not-looping",
+												"volume": "-10",
+												"tag-optional": "\"\""
+											}
 										}
 									],
 									"sid": 940352548717717

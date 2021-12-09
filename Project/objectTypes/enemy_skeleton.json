@@ -33,6 +33,18 @@
 			"type": "boolean",
 			"desc": "",
 			"sid": 843408062627131
+		},
+		{
+			"name": "isDead",
+			"type": "boolean",
+			"desc": "",
+			"sid": 629577327340676
+		},
+		{
+			"name": "startHealth",
+			"type": "number",
+			"desc": "",
+			"sid": 376227013923602
 		}
 	],
 	"behaviorTypes": [
@@ -409,6 +421,49 @@
 				"repeatCount": 1,
 				"repeatTo": 0,
 				"speed": 6
+			},
+			{
+				"frames": [
+					{
+						"width": 30,
+						"height": 15,
+						"originX": 0.5,
+						"originY": 0.5333333333333333,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6884891,
+						"collisionPoly": {
+							"points": [
+								0.23333333333333334,
+								0.5333333333333333,
+								0.5,
+								0.2,
+								0.7666666666666667,
+								0.4666666666666667,
+								0.7666666666666667,
+								0.5333333333333333,
+								0.9,
+								0.8,
+								0.5,
+								0.6666666666666666,
+								0.03333333333333333,
+								0.8666666666666667,
+								0.2,
+								0.5333333333333333
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 257584836272026,
+				"name": "Death",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
 			}
 		],
 		"subfolders": []

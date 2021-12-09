@@ -224,7 +224,7 @@
 							"objectClass": "Audio",
 							"sid": 390779057274341,
 							"parameters": {
-								"audio-file": "466272__proolsen__pressure-plate",
+								"audio-file": "Pressure Plate",
 								"loop": "not-looping",
 								"volume": "-10",
 								"tag-optional": "\"\""
@@ -262,7 +262,7 @@
 							"objectClass": "Audio",
 							"sid": 441341122931916,
 							"parameters": {
-								"audio-file": "ES_Door Open 8 - SFX Producer",
+								"audio-file": "Door Open",
 								"loop": "not-looping",
 								"volume": "-10",
 								"tag-optional": "\"\""
@@ -284,6 +284,23 @@
 							"parameters": {
 								"animation": "\"Open\"",
 								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Doors",
+							"sid": 720666582530278,
+							"parameters": {
+								"collisions": "disabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Doors",
+							"sid": 608486648081151,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "disabled"
 							}
 						}
 					],
@@ -317,7 +334,7 @@
 							"objectClass": "Audio",
 							"sid": 323441160072356,
 							"parameters": {
-								"audio-file": "ES_Door Close 24 - SFX Producer",
+								"audio-file": "Door Close",
 								"loop": "not-looping",
 								"volume": "-10",
 								"tag-optional": "\"\""
@@ -339,6 +356,23 @@
 							"parameters": {
 								"animation": "\"Closed\"",
 								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Doors",
+							"sid": 512789231201608,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Doors",
+							"sid": 297929344162143,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "enabled"
 							}
 						}
 					],

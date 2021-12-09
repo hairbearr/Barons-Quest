@@ -12,6 +12,16 @@
 			"sid": 548489464958945
 		},
 		{
+			"eventType": "variable",
+			"name": "PlayerHealthAtStartOfLevel",
+			"type": "number",
+			"initialValue": "10",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 529624962390469
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Player",
@@ -115,7 +125,7 @@
 													"objectClass": "Audio",
 													"sid": 263251807584520,
 													"parameters": {
-														"audio-file": "ES_Tool Chest Drawer 6 - SFX Producer",
+														"audio-file": "Open Chest",
 														"loop": "not-looping",
 														"volume": "0",
 														"tag-optional": "\"\""
@@ -232,9 +242,9 @@
 								{
 									"id": "play",
 									"objectClass": "Audio",
-									"sid": 319337533230696,
+									"sid": 486491476927931,
 									"parameters": {
-										"audio-file": "234924__gordeszkakerek__pick-up-or-found-it-secret-item copy",
+										"audio-file": "collect-5",
 										"loop": "not-looping",
 										"volume": "0",
 										"tag-optional": "\"\""
@@ -291,9 +301,9 @@
 										{
 											"id": "play",
 											"objectClass": "Audio",
-											"sid": 673243331231843,
+											"sid": 300620296059342,
 											"parameters": {
-												"audio-file": "234924__gordeszkakerek__pick-up-or-found-it-secret-item copy",
+												"audio-file": "collect-5",
 												"loop": "not-looping",
 												"volume": "0",
 												"tag-optional": "\"\""
@@ -370,6 +380,15 @@
 									"sid": 294844127695240,
 									"parameters": {
 										"layout": "Lose Screen"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 740937869405461,
+									"parameters": {
+										"variable": "PlayerHealth",
+										"value": "PlayerHealthAtStartOfLevel"
 									}
 								}
 							],
@@ -568,11 +587,11 @@
 								{
 									"id": "play",
 									"objectClass": "Audio",
-									"sid": 566111376448199,
+									"sid": 487377962291343,
 									"parameters": {
-										"audio-file": "234924__gordeszkakerek__pick-up-or-found-it-secret-item copy",
+										"audio-file": "Player Attack",
 										"loop": "not-looping",
-										"volume": "0",
+										"volume": "-10",
 										"tag-optional": "\"\""
 									}
 								},
@@ -735,6 +754,15 @@
 								"object": "Mana_Armored",
 								"image-point": "0"
 							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 950813090180011,
+							"parameters": {
+								"instance-variable": "isDead"
+							},
+							"isInverted": true
 						}
 					],
 					"actions": [
@@ -801,30 +829,6 @@
 								}
 							],
 							"sid": 477133333341294
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "trigger-once-while-true",
-									"objectClass": "System",
-									"sid": 314274704006849
-								}
-							],
-							"actions": [
-								{
-									"id": "play",
-									"objectClass": "Audio",
-									"sid": 432206454656582,
-									"parameters": {
-										"audio-file": "527636__matrixxx__demonic-anger",
-										"loop": "not-looping",
-										"volume": "0",
-										"tag-optional": "\"\""
-									}
-								}
-							],
-							"sid": 817992254158769
 						}
 					]
 				},
@@ -844,14 +848,21 @@
 					],
 					"actions": [
 						{
-							"id": "flash",
+							"id": "set-enabled",
 							"objectClass": "Enemy_Skeleton",
-							"sid": 884813864590833,
-							"behaviorType": "Flash",
+							"sid": 986807024607324,
+							"behaviorType": "MoveTo",
 							"parameters": {
-								"on-time": "0.2",
-								"off-time": "0.2",
-								"duration": "1"
+								"enabled": false
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 616751235218988,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"speed": "0"
 							}
 						},
 						{
@@ -861,30 +872,36 @@
 							"parameters": {
 								"collisions": "disabled"
 							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 371164455914273,
+							"parameters": {
+								"instance-variable": "startPosX",
+								"value": "Enemy_Skeleton.X"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 294222134644715,
+							"parameters": {
+								"instance-variable": "startPosY",
+								"value": "Enemy_Skeleton.Y"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 378901252893852,
+							"parameters": {
+								"instance-variable": "isDead",
+								"value": "true"
+							}
 						}
 					],
-					"sid": 414048227050134,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "on-flash-ended",
-									"objectClass": "Enemy_Skeleton",
-									"sid": 666827348679930,
-									"behaviorType": "Flash"
-								}
-							],
-							"actions": [
-								{
-									"id": "destroy",
-									"objectClass": "Enemy_Skeleton",
-									"sid": 986070002509784
-								}
-							],
-							"sid": 890091130228838
-						}
-					]
+					"sid": 414048227050134
 				},
 				{
 					"eventType": "block",
@@ -1062,6 +1079,15 @@
 								"instance-variable": "isAttacking"
 							},
 							"isInverted": true
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 298116560894306,
+							"parameters": {
+								"instance-variable": "isDead"
+							},
+							"isInverted": true
 						}
 					],
 					"actions": [
@@ -1095,6 +1121,15 @@
 								"instance-variable": "isAttacking"
 							},
 							"isInverted": true
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 111013968371182,
+							"parameters": {
+								"instance-variable": "isDead"
+							},
+							"isInverted": true
 						}
 					],
 					"actions": [
@@ -1123,6 +1158,15 @@
 						{
 							"id": "is-boolean-instance-variable-set",
 							"objectClass": "Enemy_Skeleton",
+							"sid": 343304830801656,
+							"parameters": {
+								"instance-variable": "isDead"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Enemy_Skeleton",
 							"sid": 226121143711911,
 							"parameters": {
 								"instance-variable": "isAttacking"
@@ -1137,6 +1181,18 @@
 							"parameters": {
 								"animation": "\"Attack\"",
 								"from": "beginning"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 443016152149597,
+							"disabled": true,
+							"parameters": {
+								"audio-file": "Skeleton Attack",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -1204,6 +1260,98 @@
 								}
 							],
 							"sid": 988445106212451
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 434813759700303,
+							"parameters": {
+								"instance-variable": "isDead"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 156565265322490,
+							"parameters": {
+								"animation": "\"Death\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 720501576771914,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "Enemy_Skeleton.startHealth"
+							}
+						}
+					],
+					"sid": 713841692396524,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [],
+							"actions": [
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 594917338752240,
+									"parameters": {
+										"seconds": "60"
+									}
+								},
+								{
+									"id": "set-boolean-instvar",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 679283927292389,
+									"parameters": {
+										"instance-variable": "isDead",
+										"value": "false"
+									}
+								},
+								{
+									"id": "set-collisions-enabled",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 206704572931248,
+									"parameters": {
+										"collisions": "enabled"
+									}
+								},
+								{
+									"id": "set-enabled",
+									"objectClass": "Enemy_Skeleton",
+									"sid": 869706276724947,
+									"behaviorType": "MoveTo",
+									"parameters": {
+										"enabled": true
+									}
+								}
+							],
+							"sid": 990813759482616,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "trigger-once-while-true",
+											"objectClass": "System",
+											"sid": 648149610306271,
+											"disabled": true
+										}
+									],
+									"actions": [],
+									"sid": 263142489626148
+								}
+							]
 						}
 					]
 				}

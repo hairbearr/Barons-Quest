@@ -8,7 +8,7 @@
 				{
 					"type": "Txt_Win",
 					"properties": {
-						"text": "Use WASD to move\nUse Spacebar to attack",
+						"text": "Use WASD to move\nPress or Hold Spacebar to attack",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,

@@ -861,7 +861,9 @@
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
 						"startPosY": 0,
-						"isAttacking": false
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -936,7 +938,9 @@
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
 						"startPosY": 0,
-						"isAttacking": false
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1011,7 +1015,9 @@
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
 						"startPosY": 0,
-						"isAttacking": false
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1086,7 +1092,9 @@
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
 						"startPosY": 0,
-						"isAttacking": false
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1161,7 +1169,9 @@
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
 						"startPosY": 0,
-						"isAttacking": false
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1236,7 +1246,9 @@
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
 						"startPosY": 0,
-						"isAttacking": false
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1311,7 +1323,9 @@
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
 						"startPosY": 0,
-						"isAttacking": false
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1386,7 +1400,9 @@
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
 						"startPosY": 0,
-						"isAttacking": false
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1461,7 +1477,9 @@
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
 						"startPosY": 0,
-						"isAttacking": false
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1536,7 +1554,9 @@
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
 						"startPosY": 0,
-						"isAttacking": false
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1611,7 +1631,9 @@
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
 						"startPosY": 0,
-						"isAttacking": false
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1686,7 +1708,9 @@
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
 						"startPosY": 0,
-						"isAttacking": false
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1761,7 +1785,9 @@
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
 						"startPosY": 0,
-						"isAttacking": false
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
 					},
 					"behaviors": {
 						"LineOfSight": {
@@ -1836,7 +1862,9 @@
 						"AttackPower_Melee": 1,
 						"startPosX": 0,
 						"startPosY": 0,
-						"isAttacking": false
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
 					},
 					"behaviors": {
 						"LineOfSight": {

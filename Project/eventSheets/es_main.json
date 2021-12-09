@@ -12,6 +12,16 @@
 			"sid": 631997985425957
 		},
 		{
+			"eventType": "variable",
+			"name": "AudioPlaylist",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 298682406731899
+		},
+		{
 			"eventType": "include",
 			"includeSheet": "ES_Puzzles"
 		},
@@ -417,11 +427,6 @@
 			],
 			"actions": [
 				{
-					"id": "reset-global-variables",
-					"objectClass": "System",
-					"sid": 508780359808869
-				},
-				{
 					"id": "set-instvar-value",
 					"objectClass": "Enemy_Skeleton",
 					"sid": 870629364221460,
@@ -440,12 +445,39 @@
 					}
 				},
 				{
+					"id": "set-instvar-value",
+					"objectClass": "Enemy_Skeleton",
+					"sid": 158935554193261,
+					"parameters": {
+						"instance-variable": "startHealth",
+						"value": "Enemy_Skeleton.Health"
+					}
+				},
+				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
 					"sid": 739529360031006,
 					"parameters": {
 						"variable": "LastLevel",
 						"value": "LayoutName"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 518477174844068,
+					"parameters": {
+						"variable": "PlayerHealthAtStartOfLevel",
+						"value": "PlayerHealth"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 688574027725703,
+					"parameters": {
+						"variable": "AudioPlaylist",
+						"value": "round(random(1,3))"
 					}
 				}
 			],
@@ -555,6 +587,81 @@
 				}
 			],
 			"sid": 336269314286740
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-ended",
+					"objectClass": "Audio",
+					"sid": 243704379757665,
+					"parameters": {
+						"tag": "\"Menu_Music\""
+					}
+				}
+			],
+			"actions": [],
+			"sid": 630617786059187,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 172518039678163,
+							"parameters": {
+								"variable": "AudioPlaylist",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 212940273927262,
+							"parameters": {
+								"audio-file": "ES_Dungeon - Dream Cave",
+								"loop": "not-looping",
+								"volume": "-15",
+								"tag-optional": "\"Dungeon\""
+							}
+						}
+					],
+					"sid": 822371466230298
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 759312020480294,
+							"parameters": {
+								"variable": "AudioPlaylist",
+								"comparison": 0,
+								"value": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 279802032898857,
+							"parameters": {
+								"audio-file": "ES_Night of the Drowned - Dream Cave",
+								"loop": "not-looping",
+								"volume": "-15",
+								"tag-optional": "\"Drowned\""
+							}
+						}
+					],
+					"sid": 678463507929723
+				}
+			]
 		}
 	],
 	"sid": 229087612727963

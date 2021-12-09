@@ -28,7 +28,13 @@
 			"sid": 318243486966447
 		}
 	],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 104098545897950
+		}
+	],
 	"effectTypes": [],
 	"members": [
 		"Door_Left",

@@ -65,11 +65,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 766097173537798,
+					"sid": 434718344155002,
 					"parameters": {
-						"audio-file": "gambado-cba",
-						"loop": "looping",
-						"volume": "-10",
+						"audio-file": "107 Dungeon",
+						"loop": "not-looping",
+						"volume": "-15",
 						"tag-optional": "\"Menu_Music\""
 					}
 				}
@@ -138,6 +138,34 @@
 				}
 			],
 			"sid": 751386921995402
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-tag-playing",
+					"objectClass": "Audio",
+					"sid": 234168719487879,
+					"parameters": {
+						"tag": "\"Menu_Music\""
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 983897901243259,
+					"parameters": {
+						"audio-file": "107 Dungeon",
+						"loop": "not-looping",
+						"volume": "-15",
+						"tag-optional": "\"Menu_Music\""
+					}
+				}
+			],
+			"sid": 108405304179847
 		}
 	],
 	"sid": 280991178973689

@@ -237,13 +237,17 @@
 											}
 										},
 										{
-											"id": "play",
+											"id": "play-at-object",
 											"objectClass": "Audio",
-											"sid": 566708308451676,
+											"sid": 569466274100109,
 											"parameters": {
 												"audio-file": "Spike Trap",
 												"loop": "not-looping",
 												"volume": "-10",
+												"object": "Activated_Traps",
+												"inner-angle": "360",
+												"outer-angle": "360",
+												"outer-gain": "0",
 												"tag-optional": "\"\""
 											}
 										}

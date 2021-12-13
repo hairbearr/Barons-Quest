@@ -18,10 +18,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 331.94891943139174,
-						"y": 17.746405167151565,
+						"x": 910.303839231774,
+						"y": 7.938046878139218,
 						"width": 34.12502760005418,
-						"height": 35.12384595917793,
+						"height": 53.38768553182156,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -55,6 +55,46 @@
 						"y": 0,
 						"width": 1189.2396791636775,
 						"height": 960,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Catacombs_Wall_Right",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "clamp-to-edge",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 739,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 633.6713704762849,
+						"y": 42.944906647123325,
+						"width": 11,
+						"height": 388.8861043909862,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -299,8 +339,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1138.9856912766636,
-						"y": 665.2780399855034,
+						"x": 1070.2071084634358,
+						"y": 461.45318084676273,
 						"width": 23.848714,
 						"height": 54.767272,
 						"originX": 0.5,
@@ -2058,6 +2098,46 @@
 						"height": 7,
 						"originX": 0.5,
 						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Catacombs_Wall_Left",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "clamp-to-edge",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 738,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 753,
+						"y": 42.92255987067247,
+						"width": 11,
+						"height": 389.8326377459265,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -4737,1266 +4817,6 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 936,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 672.6578227028783,
-						"y": 372.36028202293596,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 937,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 686.6578227028783,
-						"y": 372.36028202293596,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 938,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 700.6578227028783,
-						"y": 372.36028202293596,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 939,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 714.6578227028783,
-						"y": 372.36028202293596,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 940,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 707.6578227028783,
-						"y": 364.36028202293596,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 941,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 693.6578227028783,
-						"y": 364.36028202293596,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 942,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 679.6578227028783,
-						"y": 364.36028202293596,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 943,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 672.6578227028783,
-						"y": 388.6326972257184,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 944,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 686.6578227028783,
-						"y": 388.6326972257184,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 945,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 700.6578227028783,
-						"y": 388.6326972257184,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 946,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 714.6578227028783,
-						"y": 388.6326972257184,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 947,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 707.6578227028783,
-						"y": 380.6326972257184,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 948,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 693.6578227028783,
-						"y": 380.6326972257184,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 949,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 679.6578227028783,
-						"y": 380.6326972257184,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 950,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 673.742681944371,
-						"y": 404.90507601160766,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 951,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 687.742681944371,
-						"y": 404.90507601160766,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 952,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 701.742681944371,
-						"y": 404.90507601160766,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 953,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 715.742681944371,
-						"y": 404.90507601160766,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 954,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 708.742681944371,
-						"y": 396.90507601160766,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 955,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 694.742681944371,
-						"y": 396.90507601160766,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 956,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 680.742681944371,
-						"y": 396.90507601160766,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 957,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 673.742681944371,
-						"y": 420.0926319728974,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 958,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 687.742681944371,
-						"y": 420.0926319728974,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 959,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 701.742681944371,
-						"y": 420.0926319728974,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 960,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 715.742681944371,
-						"y": 420.0926319728974,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 961,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 708.742681944371,
-						"y": 412.0926319728974,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 962,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 694.742681944371,
-						"y": 412.0926319728974,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 963,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 680.742681944371,
-						"y": 412.0926319728974,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 964,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 408,
-						"y": 364,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 965,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 397,
-						"y": 364,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 966,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 386,
-						"y": 364,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 967,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 419,
-						"y": 364,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 968,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 185,
-						"y": 675,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 969,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 174,
-						"y": 675,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 970,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 163,
-						"y": 675,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 971,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 196,
-						"y": 675,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
 					"uid": 972,
 					"instanceVariables": {
 						"DamageDone": 1,
@@ -6114,426 +4934,6 @@
 					"world": {
 						"x": 520,
 						"y": 772,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 976,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 1144.3583953381467,
-						"y": 673.6830673596398,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 977,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 1133.3583953381467,
-						"y": 673.6830673596398,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 978,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 1122.3583953381467,
-						"y": 673.6830673596398,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 979,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 1155.3583953381467,
-						"y": 673.6830673596398,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 980,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 1038.6031962251982,
-						"y": 49.52320646273,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 981,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 1027.6031962251982,
-						"y": 49.52320646273,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 982,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 1016.6031962251983,
-						"y": 49.52320646273,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 983,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 1049.6031962251982,
-						"y": 49.52320646273,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 828,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 724,
-						"y": 802,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 829,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 713,
-						"y": 802,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 830,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 702,
-						"y": 802,
-						"width": 11,
-						"height": 7,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Traps_Spikes",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Retracted",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 831,
-					"instanceVariables": {
-						"DamageDone": 1,
-						"WhatPuzzle": 0,
-						"Activated": false,
-						"TimeBetweenSpikes": 1,
-						"SpikesUp": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 735,
-						"y": 802,
 						"width": 11,
 						"height": 7,
 						"originX": 0.5,
@@ -6700,7 +5100,7 @@
 						"x": 645.6633544013611,
 						"y": -23.306146853369455,
 						"width": 107.46962141029985,
-						"height": 336.53507248723236,
+						"height": 460.0967526569863,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -6867,6 +5267,39 @@
 					}
 				},
 				{
+					"type": "CatacombRoof",
+					"properties": {
+						"initially-visible": true,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 943,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 181,
+						"y": 645,
+						"width": 11,
+						"height": 11,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Catacombs_Wall_Down",
 					"properties": {
 						"initially-visible": true,
@@ -6892,8 +5325,48 @@
 					"world": {
 						"x": 535.018955,
 						"y": 623.913351,
-						"width": 645.1010083141867,
+						"width": 247.27324054754536,
 						"height": 43,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Catacombs_Wall_Right",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "clamp-to-edge",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 736,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 816.36648,
+						"y": 234.84844607230588,
+						"width": 11,
+						"height": 188.6589562808029,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -6930,9 +5403,9 @@
 						}
 					},
 					"world": {
-						"x": 828.1671413283124,
+						"x": 812.5332492504544,
 						"y": 417.527594,
-						"width": 352.3162051585173,
+						"width": 367.9500972363752,
 						"height": 43,
 						"originX": 0,
 						"originY": 0,
@@ -7187,46 +5660,6 @@
 					}
 				},
 				{
-					"type": "Catacombs_Wall_Down",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1525,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 644.7930542952993,
-						"y": 313.333435,
-						"width": 111.07417743976703,
-						"height": 43,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Catacombs_Wall_Up",
 					"properties": {
 						"initially-visible": true,
@@ -7333,46 +5766,6 @@
 						"x": 826.2033827103435,
 						"y": 216.805683,
 						"width": 355.1286370106257,
-						"height": 14,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Catacombs_Wall_Up",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 780,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 524.2044389579507,
-						"y": 414.96169,
-						"width": 256.1407546483851,
 						"height": 14,
 						"originX": 0,
 						"originY": 0,
@@ -7611,49 +6004,9 @@
 					},
 					"world": {
 						"x": 778.260739,
-						"y": 431.9685165720717,
+						"y": 454.50110260166946,
 						"width": 11,
-						"height": 193.7978750598578,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Catacombs_Wall_Left",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "clamp-to-edge",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 738,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 753,
-						"y": 42.92255987067247,
-						"width": 11,
-						"height": 276.07744012932756,
+						"height": 171.26528903026002,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -7759,86 +6112,6 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 731,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 523.2125475628042,
-						"y": 420.8870947026275,
-						"width": 11,
-						"height": 211.57778407836383,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Catacombs_Wall_Right",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "clamp-to-edge",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 736,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 816.36648,
-						"y": 234.84844607230588,
-						"width": 11,
-						"height": 188.6589562808029,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Catacombs_Wall_Right",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "clamp-to-edge",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
 					"uid": 737,
 					"instanceVariables": {},
 					"behaviors": {
@@ -7854,46 +6127,6 @@
 						"y": 42.51647677318571,
 						"width": 11,
 						"height": 917.1942698735572,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Catacombs_Wall_Right",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "clamp-to-edge",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 739,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 633.6713704762849,
-						"y": 42.944906647123325,
-						"width": 11,
-						"height": 278.0728515403338,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -8067,11 +6300,11 @@
 					}
 				},
 				{
-					"type": "Catacombs_Wall_Left_Corner",
+					"type": "Catacombs_Wall_Right",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
-						"wrap-horizontal": "repeat",
+						"wrap-horizontal": "clamp-to-edge",
 						"wrap-vertical": "repeat",
 						"image-offset-x": 0,
 						"image-offset-y": 0,
@@ -8079,7 +6312,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 774,
+					"uid": 731,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -8090,10 +6323,10 @@
 						}
 					},
 					"world": {
-						"x": 633.2882192124789,
-						"y": 314.333435,
-						"width": 12,
-						"height": 42,
+						"x": 523.2125475628042,
+						"y": 420.8870947026275,
+						"width": 11,
+						"height": 211.57778407836383,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -8132,46 +6365,6 @@
 					"world": {
 						"x": 523.1371023446652,
 						"y": 624.913351,
-						"width": 12,
-						"height": 42,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Catacombs_Wall_Left_Corner",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 779,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 816.36648,
-						"y": 418.527594,
 						"width": 12,
 						"height": 42,
 						"originX": 0,
@@ -8627,11 +6820,11 @@
 					}
 				},
 				{
-					"type": "Catacombs_Wall_Right_Corner",
+					"type": "Catacombs_Wall_Up",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
-						"wrap-horizontal": "clamp-to-edge",
+						"wrap-horizontal": "repeat",
 						"wrap-vertical": "repeat",
 						"image-offset-x": 0,
 						"image-offset-y": 0,
@@ -8639,7 +6832,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 799,
+					"uid": 780,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -8650,10 +6843,10 @@
 						}
 					},
 					"world": {
-						"x": 776.2031105874338,
-						"y": 418.527594,
-						"width": 12,
-						"height": 42,
+						"x": 524.2044389579507,
+						"y": 414.96169,
+						"width": 112.97249865203645,
+						"height": 14,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -8692,46 +6885,6 @@
 					"world": {
 						"x": 559.5879731756235,
 						"y": 119.02240381042446,
-						"width": 12,
-						"height": 42,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Catacombs_Wall_Right_Corner",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "clamp-to-edge",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1526,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 752.0092648900139,
-						"y": 314.333435,
 						"width": 12,
 						"height": 42,
 						"originX": 0,
@@ -8881,6 +7034,68 @@
 					}
 				},
 				{
+					"type": "CatacombRoof",
+					"properties": {
+						"initially-visible": true,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 829,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 478.125299,
+						"y": 767.054735,
+						"width": 11,
+						"height": 11,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Cobweb_1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Cobweb_2",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1093,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 469.32297274494397,
+						"y": 769.8993701226331,
+						"width": 30,
+						"height": 30,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Clues",
 					"properties": {
 						"initially-visible": true,
@@ -8910,6 +7125,39 @@
 					}
 				},
 				{
+					"type": "CatacombRoof",
+					"properties": {
+						"initially-visible": true,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 828,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1070.579813,
+						"y": 439.858208,
+						"width": 11,
+						"height": 11,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Clues",
 					"properties": {
 						"initially-visible": true,
@@ -8922,8 +7170,41 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1139.3583953381467,
-						"y": 643.6830673596398,
+						"x": 1070.579812524919,
+						"y": 439.8582082208992,
+						"width": 11,
+						"height": 11,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "CatacombRoof",
+					"properties": {
+						"initially-visible": true,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 830,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1033.011917,
+						"y": 24.642477,
 						"width": 11,
 						"height": 11,
 						"originX": 0.5,
@@ -8968,6 +7249,39 @@
 					}
 				},
 				{
+					"type": "CatacombRoof",
+					"properties": {
+						"initially-visible": true,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 942,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 402,
+						"y": 338,
+						"width": 11,
+						"height": 11,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Clues",
 					"properties": {
 						"initially-visible": true,
@@ -8997,20 +7311,55 @@
 					}
 				},
 				{
-					"type": "Clues",
+					"type": "Tooltip_Box",
 					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Blue",
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 827,
+					"uid": 363,
+					"instanceVariables": {
+						"WhatTooltip": 11
+					},
+					"behaviors": {},
+					"world": {
+						"x": 985,
+						"y": 131,
+						"width": 104.08574718706264,
+						"height": 97.34793582129322,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "CatacombRoof",
+					"properties": {
+						"initially-visible": true,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 712,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 719,
-						"y": 772,
+						"x": 985,
+						"y": 131,
 						"width": 11,
 						"height": 11,
 						"originX": 0.5,
@@ -9131,6 +7480,66 @@
 					}
 				},
 				{
+					"type": "Clues",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Red",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 364,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 985,
+						"y": 131,
+						"width": 11,
+						"height": 11,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Tooltip_Box",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 371,
+					"instanceVariables": {
+						"WhatTooltip": 11
+					},
+					"behaviors": {},
+					"world": {
+						"x": 245,
+						"y": 478,
+						"width": 104.08574718706264,
+						"height": 97.34793582129322,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "ColorPuzzle_Switch",
 					"properties": {
 						"initially-visible": true,
@@ -9143,14 +7552,14 @@
 					"instanceVariables": {
 						"Type": "G",
 						"Pressed": false,
-						"WhatPuzzle": 0,
+						"WhatPuzzle": 1,
 						"Correct": true,
 						"TriesAllowed": 5
 					},
 					"behaviors": {},
 					"world": {
-						"x": 333.6169331323549,
-						"y": 934.1740502554836,
+						"x": 282.0178205721048,
+						"y": 493.95932517365,
 						"width": 13,
 						"height": 13,
 						"originX": 0.5,
@@ -9178,14 +7587,14 @@
 					"instanceVariables": {
 						"Type": "B",
 						"Pressed": false,
-						"WhatPuzzle": 0,
+						"WhatPuzzle": 1,
 						"Correct": true,
 						"TriesAllowed": 5
 					},
 					"behaviors": {},
 					"world": {
-						"x": 58.28057295131862,
-						"y": 364.6844262742919,
+						"x": 245,
+						"y": 444.16087865463055,
 						"width": 13,
 						"height": 13,
 						"originX": 0.5,
@@ -9213,14 +7622,119 @@
 					"instanceVariables": {
 						"Type": "B",
 						"Pressed": false,
+						"WhatPuzzle": 1,
+						"Correct": true,
+						"TriesAllowed": 5
+					},
+					"behaviors": {},
+					"world": {
+						"x": 205.68345887568645,
+						"y": 494.0766277289504,
+						"width": 13,
+						"height": 13,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ColorPuzzle_Switch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "GUnpressed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 938,
+					"instanceVariables": {
+						"Type": "G",
+						"Pressed": false,
 						"WhatPuzzle": 0,
 						"Correct": true,
 						"TriesAllowed": 5
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1170.4689672785926,
-						"y": 714.5901877107838,
+						"x": 282.017821,
+						"y": 493.959325,
+						"width": 13,
+						"height": 13,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ColorPuzzle_Switch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "BUnpressed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 939,
+					"instanceVariables": {
+						"Type": "B",
+						"Pressed": false,
+						"WhatPuzzle": 0,
+						"Correct": true,
+						"TriesAllowed": 5
+					},
+					"behaviors": {},
+					"world": {
+						"x": 245,
+						"y": 444.160879,
+						"width": 13,
+						"height": 13,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ColorPuzzle_Switch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "BUnpressed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 940,
+					"instanceVariables": {
+						"Type": "B",
+						"Pressed": false,
+						"WhatPuzzle": 0,
+						"Correct": true,
+						"TriesAllowed": 5
+					},
+					"behaviors": {},
+					"world": {
+						"x": 205.683459,
+						"y": 494.076628,
 						"width": 13,
 						"height": 13,
 						"originX": 0.5,
@@ -10304,9 +8818,9 @@
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
-							1,
-							0,
-							0,
+							0.8666666666666667,
+							0.6509803921568628,
+							0.6509803921568628,
 							1
 						],
 						"angle": 0,
@@ -10535,9 +9049,9 @@
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
-							1,
-							0,
-							0,
+							0.8666666666666667,
+							0.6509803921568628,
+							0.6509803921568628,
 							1
 						],
 						"angle": 0,
@@ -10615,83 +9129,6 @@
 							1,
 							1,
 							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Enemy_Skeleton",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1580,
-					"instanceVariables": {
-						"Health": 5,
-						"AttackPower_Melee": 2,
-						"startPosX": 0,
-						"startPosY": 0,
-						"isAttacking": false,
-						"isDead": false,
-						"startHealth": 0
-					},
-					"behaviors": {
-						"LineOfSight": {
-							"properties": {
-								"obstacles": "solids",
-								"range": 150,
-								"cone-of-view": 360,
-								"use-collision-cells": true
-							}
-						},
-						"MoveTo": {
-							"properties": {
-								"max-speed": 80,
-								"acceleration": 600,
-								"deceleration": 600,
-								"rotate-speed": 0,
-								"set-angle": false,
-								"stop-on-solids": true,
-								"enabled": true
-							}
-						},
-						"Flash": {
-							"properties": {}
-						},
-						"Solid": {
-							"properties": {
-								"enabled": false,
-								"tags": ""
-							}
-						},
-						"Bullet": {
-							"properties": {
-								"speed": 0,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": true,
-								"set-angle": false,
-								"step": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 242,
-						"y": 438,
-						"width": 10,
-						"height": 20,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							0.996078431372549,
-							0.6823529411764706,
-							0.4235294117647059,
 							1
 						],
 						"angle": 0,
@@ -10920,9 +9357,9 @@
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
-							1,
-							0,
-							0,
+							0.8666666666666667,
+							0.6509803921568628,
+							0.6509803921568628,
 							1
 						],
 						"angle": 0,
@@ -10997,9 +9434,9 @@
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
-							1,
-							0,
-							0,
+							0.8666666666666667,
+							0.6509803921568628,
+							0.6509803921568628,
 							1
 						],
 						"angle": 0,
@@ -11161,6 +9598,207 @@
 					}
 				},
 				{
+					"type": "Enemy_Skeleton",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1580,
+					"instanceVariables": {
+						"Health": 5,
+						"AttackPower_Melee": 2,
+						"startPosX": 0,
+						"startPosY": 0,
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
+					},
+					"behaviors": {
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 150,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 80,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": false,
+								"stop-on-solids": true,
+								"enabled": true
+							}
+						},
+						"Flash": {
+							"properties": {}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": false,
+								"tags": ""
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 0,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": true,
+								"set-angle": false,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 242.47878409873832,
+						"y": 385.57314118815316,
+						"width": 10,
+						"height": 20,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							0.996078431372549,
+							0.6823529411764706,
+							0.4235294117647059,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "CatacombRoof",
+					"properties": {
+						"initially-visible": true,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 941,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 245,
+						"y": 478,
+						"width": 11,
+						"height": 11,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Clues",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Red",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 372,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 245,
+						"y": 478,
+						"width": 11,
+						"height": 11,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "CatacombRoof",
+					"properties": {
+						"initially-visible": true,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 831,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 719,
+						"y": 772,
+						"width": 11,
+						"height": 11,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Clues",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Blue",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 827,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 719,
+						"y": 772,
+						"width": 11,
+						"height": 11,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Mana_Armored",
 					"properties": {
 						"initially-visible": true,
@@ -11183,7 +9821,7 @@
 								"max-speed": 120,
 								"acceleration": 600,
 								"deceleration": 500,
-								"directions": "dir-4",
+								"directions": "dir-8",
 								"set-angle": "no",
 								"default-controls": false,
 								"enabled": true
@@ -11622,9 +10260,9 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 157.46605094305116,
-						"y": 631.639085874339,
-						"width": 47.08680793117013,
+						"x": 135.12274491058065,
+						"y": 633.1487687143708,
+						"width": 92.37729313212388,
 						"height": 7.985654111613712,
 						"originX": 0,
 						"originY": 0,
@@ -11641,7 +10279,7 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "Narrative Clue One",
+						"text": "Narrative Blurb about Heaven's Point",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 4,
@@ -11666,9 +10304,9 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 157.466050783749,
-						"y": 631.6390861690835,
-						"width": 47.08680747884985,
+						"x": 135.1227447512785,
+						"y": 633.1487690091153,
+						"width": 92.3772926798036,
 						"height": 7.98565405679183,
 						"originX": 0,
 						"originY": 0,
@@ -11703,8 +10341,8 @@
 					"world": {
 						"x": 454.1285787644038,
 						"y": 753.880429435815,
-						"width": 48.732057378184024,
-						"height": 7.542770140747386,
+						"width": 99.07928,
+						"height": 7.542771,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -11720,7 +10358,7 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "Narrative Clue Four",
+						"text": "Narrative Blurb about Castle Moss",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 4,
@@ -11747,7 +10385,7 @@
 					"world": {
 						"x": 454.1285785964465,
 						"y": 753.8804298452053,
-						"width": 48.732057750402305,
+						"width": 99.07927997262465,
 						"height": 7.5427705549467525,
 						"originX": 0,
 						"originY": 0,
@@ -11780,9 +10418,9 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1111.3583953381467,
-						"y": 629.6830673596398,
-						"width": 57.613360071890156,
+						"x": 1003.9198543573848,
+						"y": 425.8582082208992,
+						"width": 96.27331823942427,
 						"height": 8.875007637312713,
 						"originX": 0,
 						"originY": 0,
@@ -11799,7 +10437,7 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "Narrative Clue Five",
+						"text": "Narrative Blurb about Heaven's Point",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 4,
@@ -11824,10 +10462,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1110.3583953381467,
-						"y": 629.6830673596398,
-						"width": 57.61335971641802,
-						"height": 8.875007340926345,
+						"x": 1003.9198541867722,
+						"y": 425.8582082208992,
+						"width": 96.27331788395213,
+						"height": 8.875008,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -11859,9 +10497,9 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1011.2666966920801,
-						"y": 6.788168191056105,
-						"width": 43.90288761583969,
+						"x": 984.457220672118,
+						"y": 9.022291192719617,
+						"width": 97.86555088678921,
 						"height": 11.067316658872045,
 						"originX": 0,
 						"originY": 0,
@@ -11878,7 +10516,7 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "Narrative Clue 6",
+						"text": "Narrative Blurb about Castle Bloodthorn",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 4,
@@ -11903,9 +10541,9 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1011.2666964611235,
-						"y": 6.788168073135267,
-						"width": 43.90288716351941,
+						"x": 984.4572204411613,
+						"y": 9.02229107479878,
+						"width": 97.86555043446893,
 						"height": 11.067316604050163,
 						"originX": 0,
 						"originY": 0,
@@ -11938,9 +10576,9 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 373.99229474761836,
-						"y": 324.0282322979232,
-						"width": 55.00236277657467,
+						"x": 357.2098873402109,
+						"y": 324.60693600162693,
+						"width": 89.72458499879701,
 						"height": 8.729776002227425,
 						"originX": 0,
 						"originY": 0,
@@ -11957,7 +10595,7 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "Narrative Clue Three",
+						"text": "Narrative Blurb about Castle Moss",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 4,
@@ -11982,9 +10620,9 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 373.99229474761836,
-						"y": 324.0282322979232,
-						"width": 55.00236232425439,
+						"x": 357.2098873402109,
+						"y": 324.60693600162693,
+						"width": 89.72458454647673,
 						"height": 8.729775947405543,
 						"originX": 0,
 						"originY": 0,
@@ -12019,8 +10657,8 @@
 					"world": {
 						"x": 695,
 						"y": 755,
-						"width": 47.873984614162396,
-						"height": 8.875007637312713,
+						"width": 96.273318,
+						"height": 8.875008,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -12036,7 +10674,7 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "Narrative Clue Two",
+						"text": "Narrative Blurb about Heaven's Point",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 4,
@@ -12063,7 +10701,7 @@
 					"world": {
 						"x": 695,
 						"y": 755,
-						"width": 47.873985,
+						"width": 96.273318,
 						"height": 8.875008,
 						"originX": 0,
 						"originY": 0,
@@ -12462,6 +11100,974 @@
 						"height": 8,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 365,
+					"instanceVariables": {
+						"WhatTooltip": 11
+					},
+					"behaviors": {},
+					"world": {
+						"x": 907,
+						"y": 57,
+						"width": 156.490475,
+						"height": 34.2860052273611,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "CASTLE MOSS HEAVEN'S POINT CASTLE BLOODTHORN",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 4,
+						"line-height": 0,
+						"bold": false,
+						"italic": true,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 366,
+					"instanceVariables": {
+						"WhatTooltip": 11
+					},
+					"behaviors": {},
+					"world": {
+						"x": 907,
+						"y": 57,
+						"width": 156.49047454767972,
+						"height": 34.28600517253922,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 373,
+					"instanceVariables": {
+						"WhatTooltip": 11
+					},
+					"behaviors": {},
+					"world": {
+						"x": 167,
+						"y": 404,
+						"width": 156.490475,
+						"height": 34.2860052273611,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "HEAVEN'S POINT HEAVEN'S POINT CASTLE MOSS",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 4,
+						"line-height": 0,
+						"bold": false,
+						"italic": true,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 374,
+					"instanceVariables": {
+						"WhatTooltip": 11
+					},
+					"behaviors": {},
+					"world": {
+						"x": 167,
+						"y": 404,
+						"width": 156.49047454767972,
+						"height": 34.28600517253922,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Catacombs_Wall_Up",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 774,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 753.0840107483751,
+						"y": 414.51300015817753,
+						"width": 33.122873256186324,
+						"height": 14,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Catacombs_Wall_Right_Corner",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "clamp-to-edge",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 936,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 777.2031105874338,
+						"y": 625.0959438973873,
+						"width": 12,
+						"height": 42,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Door_Vertical",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Closed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 779,
+					"instanceVariables": {
+						"PuzzleCode": "BBG",
+						"SolutionCode": "",
+						"WhatPuzzle": 1,
+						"Open": false
+					},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 803.0255764408083,
+						"y": 439.02950545680835,
+						"width": 21,
+						"height": 43,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Catacombs_Wall_Down",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 799,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 788.568127,
+						"y": 417.527594,
+						"width": 5.3469243033371185,
+						"height": 43,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Catacombs_Wall_Left_Corner",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 937,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 777.260739,
+						"y": 418.527594,
+						"width": 12,
+						"height": 42,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "WallTorch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1075,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 534.3296320233302,
+						"y": 337.9737600659245,
+						"width": 9,
+						"height": 18,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "WallTorch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1076,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 362.10212763292213,
+						"y": 22.854205329628428,
+						"width": 9,
+						"height": 18,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "WallTorch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1077,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 151.07611950621327,
+						"y": 23.8005102988065,
+						"width": 9,
+						"height": 18,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "WallTorch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1078,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 835.2546122219553,
+						"y": 442.06730667551193,
+						"width": 9,
+						"height": 18,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "WallTorch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1079,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 892.0329103726392,
+						"y": 23.8005102988065,
+						"width": 9,
+						"height": 18,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "WallTorch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1080,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 930.83141410894,
+						"y": 21.907900360450355,
+						"width": 9,
+						"height": 18,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "WallTorch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1081,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 535.2759369925083,
+						"y": 770.4351309803008,
+						"width": 9,
+						"height": 18,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "WallTorch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1082,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 778.4763140712713,
+						"y": 770.4351309803008,
+						"width": 9,
+						"height": 18,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "WallTorch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1083,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 854.1807116055165,
+						"y": 770.4351309803008,
+						"width": 9,
+						"height": 18,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "WallTorch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1084,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 452.00109970483845,
+						"y": 645.5228750487961,
+						"width": 9,
+						"height": 18,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "WallTorch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1085,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 545.685291653467,
+						"y": 645.5228750487961,
+						"width": 9,
+						"height": 18,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Cobweb_1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Cobweb_1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1086,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 766.1733768402181,
+						"y": 646.4678370642123,
+						"width": 30,
+						"height": 30,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Cobweb_1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Cobweb_1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1087,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1164.4241152623708,
+						"y": 440.1733537833938,
+						"width": 30,
+						"height": 30,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Cobweb_1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Cobweb_1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1088,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1168.3529887408963,
+						"y": 20.96025243751035,
+						"width": 30,
+						"height": 30,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Cobweb_1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Cobweb_2",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1089,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 773.7438165936426,
+						"y": 20.96025243751035,
+						"width": 30,
+						"height": 30,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Cobweb_1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Cobweb_1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1090,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 622.3350215251519,
+						"y": 21.90655740668842,
+						"width": 30,
+						"height": 30,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Cobweb_1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Cobweb_3",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1091,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 24.15543190159522,
+						"y": 335.7779222785872,
+						"width": 30,
+						"height": 30,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Cobweb_1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Cobweb_3",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1092,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 26.904532419822814,
+						"y": 646.4678370642123,
+						"width": 30,
+						"height": 30,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Cobweb_1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Cobweb_1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1094,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 697.1138197091833,
+						"y": 769.1590086860912,
+						"width": 30,
+						"height": 30,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Cobweb_1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Cobweb_1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1095,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1163.621463895006,
+						"y": 769.4874830573608,
+						"width": 30,
+						"height": 30,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Cobweb_1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Cobweb_1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1096,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 731.1600929806295,
+						"y": 770.4337880265389,
+						"width": 30,
+						"height": 30,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,

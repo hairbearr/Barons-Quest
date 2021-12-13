@@ -16,7 +16,7 @@
 					"objectClass": "System",
 					"sid": 645120335095392,
 					"parameters": {
-						"layout": "Narrative_One"
+						"layout": "Narrative 1_1"
 					}
 				}
 			],
@@ -50,31 +50,56 @@
 					"id": "on-start-of-layout",
 					"objectClass": "System",
 					"sid": 203206949992052
-				},
-				{
-					"id": "is-tag-playing",
-					"objectClass": "Audio",
-					"sid": 596287858434084,
-					"parameters": {
-						"tag": "\"Menu_Music\""
-					},
-					"isInverted": true
 				}
 			],
 			"actions": [
 				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 434718344155002,
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 748857018908046,
 					"parameters": {
-						"audio-file": "107 Dungeon",
-						"loop": "not-looping",
-						"volume": "-15",
-						"tag-optional": "\"Menu_Music\""
+						"variable": "ChancesToSucceedPuzzle",
+						"value": "3"
 					}
 				}
 			],
-			"sid": 741989150345542
+			"sid": 741989150345542,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-tag-playing",
+							"objectClass": "Audio",
+							"sid": 179585304297359,
+							"parameters": {
+								"tag": "\"Menu_Music\""
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-any-playing",
+							"objectClass": "Audio",
+							"sid": 648870440649482,
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 318209592016698,
+							"parameters": {
+								"audio-file": "107 Dungeon",
+								"loop": "not-looping",
+								"volume": "-15",
+								"tag-optional": "\"Menu_Music\""
+							}
+						}
+					],
+					"sid": 442565547444030
+				}
+			]
 		},
 		{
 			"eventType": "block",
@@ -149,6 +174,12 @@
 					"parameters": {
 						"tag": "\"Menu_Music\""
 					},
+					"isInverted": true
+				},
+				{
+					"id": "is-any-playing",
+					"objectClass": "Audio",
+					"sid": 167697846923288,
 					"isInverted": true
 				}
 			],

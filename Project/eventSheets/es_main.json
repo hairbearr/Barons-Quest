@@ -493,47 +493,100 @@
 					"parameters": {
 						"object": "Tooltip_Box"
 					}
-				},
-				{
-					"id": "compare-instance-variable",
-					"objectClass": "Txt_Tooltip",
-					"sid": 628774353923803,
-					"parameters": {
-						"instance-variable": "WhatTooltip",
-						"comparison": 0,
-						"value": "Tooltip_Box.WhatTooltip"
-					}
-				},
-				{
-					"id": "compare-instance-variable",
-					"objectClass": "TooltipBackground",
-					"sid": 245007597550376,
-					"parameters": {
-						"instance-variable": "WhatTooltip",
-						"comparison": 0,
-						"value": "Tooltip_Box.WhatTooltip"
-					}
 				}
 			],
-			"actions": [
+			"actions": [],
+			"sid": 419723029651095,
+			"children": [
 				{
-					"id": "set-visible",
-					"objectClass": "Txt_Tooltip",
-					"sid": 723280988153555,
-					"parameters": {
-						"visibility": "visible"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Txt_Tooltip",
+							"sid": 382068120303372,
+							"parameters": {
+								"instance-variable": "WhatTooltip",
+								"comparison": 0,
+								"value": "Tooltip_Box.WhatTooltip"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "TooltipBackground",
+							"sid": 900130654006490,
+							"parameters": {
+								"instance-variable": "WhatTooltip",
+								"comparison": 0,
+								"value": "Tooltip_Box.WhatTooltip"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Txt_Tooltip",
+							"sid": 895934077023159,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "TooltipBackground",
+							"sid": 270040983523594,
+							"parameters": {
+								"visibility": "visible"
+							}
+						}
+					],
+					"sid": 289645354288643
 				},
 				{
-					"id": "set-visible",
-					"objectClass": "TooltipBackground",
-					"sid": 429692951959572,
-					"parameters": {
-						"visibility": "visible"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Txt_Tooltip",
+							"sid": 330431835617928,
+							"parameters": {
+								"instance-variable": "WhatTooltip",
+								"comparison": 1,
+								"value": "Tooltip_Box.WhatTooltip"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "TooltipBackground",
+							"sid": 941727271477307,
+							"parameters": {
+								"instance-variable": "WhatTooltip",
+								"comparison": 1,
+								"value": "Tooltip_Box.WhatTooltip"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Txt_Tooltip",
+							"sid": 952308778530237,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "TooltipBackground",
+							"sid": 949199956612803,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 855725907880104
 				}
-			],
-			"sid": 419723029651095
+			]
 		},
 		{
 			"eventType": "block",
@@ -546,47 +599,100 @@
 						"object": "Tooltip_Box"
 					},
 					"isInverted": true
-				},
-				{
-					"id": "compare-instance-variable",
-					"objectClass": "Txt_Tooltip",
-					"sid": 529216632639618,
-					"parameters": {
-						"instance-variable": "WhatTooltip",
-						"comparison": 0,
-						"value": "Tooltip_Box.WhatTooltip"
-					}
-				},
-				{
-					"id": "compare-instance-variable",
-					"objectClass": "TooltipBackground",
-					"sid": 975969057478725,
-					"parameters": {
-						"instance-variable": "WhatTooltip",
-						"comparison": 0,
-						"value": "Tooltip_Box.WhatTooltip"
-					}
 				}
 			],
-			"actions": [
+			"actions": [],
+			"sid": 336269314286740,
+			"children": [
 				{
-					"id": "set-visible",
-					"objectClass": "Txt_Tooltip",
-					"sid": 652871126868565,
-					"parameters": {
-						"visibility": "invisible"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Txt_Tooltip",
+							"sid": 365558708872854,
+							"parameters": {
+								"instance-variable": "WhatTooltip",
+								"comparison": 0,
+								"value": "Tooltip_Box.WhatTooltip"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "TooltipBackground",
+							"sid": 960493995215769,
+							"parameters": {
+								"instance-variable": "WhatTooltip",
+								"comparison": 0,
+								"value": "Tooltip_Box.WhatTooltip"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Txt_Tooltip",
+							"sid": 698687669548090,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "TooltipBackground",
+							"sid": 507233846107344,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 917342050091770
 				},
 				{
-					"id": "set-visible",
-					"objectClass": "TooltipBackground",
-					"sid": 923553444281311,
-					"parameters": {
-						"visibility": "invisible"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Txt_Tooltip",
+							"sid": 521209819827257,
+							"parameters": {
+								"instance-variable": "WhatTooltip",
+								"comparison": 1,
+								"value": "Tooltip_Box.WhatTooltip"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "TooltipBackground",
+							"sid": 262752065097034,
+							"parameters": {
+								"instance-variable": "WhatTooltip",
+								"comparison": 1,
+								"value": "Tooltip_Box.WhatTooltip"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Txt_Tooltip",
+							"sid": 816245358898150,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "TooltipBackground",
+							"sid": 596029752959699,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 291978219891493
 				}
-			],
-			"sid": 336269314286740
+			]
 		},
 		{
 			"eventType": "block",
@@ -662,6 +768,348 @@
 					"sid": 678463507929723
 				}
 			]
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Collecting2",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Mana_Armored",
+							"sid": 554964192649440,
+							"parameters": {
+								"object": "ChestOverlay"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 135688396861149,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 945786289354805,
+									"parameters": {
+										"key": 69
+									}
+								}
+							],
+							"actions": [],
+							"sid": 120550170636312,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "Chest",
+											"sid": 755720467041150,
+											"parameters": {
+												"instance-variable": "ChestNumber",
+												"comparison": 0,
+												"value": "ChestOverlay.ChestNumber"
+											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "Col_HealthRegen",
+											"sid": 773519794882854,
+											"parameters": {
+												"instance-variable": "ChestNumber",
+												"comparison": 0,
+												"value": "ChestOverlay.ChestNumber"
+											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "Tooltip_Box",
+											"sid": 933733455982482,
+											"parameters": {
+												"instance-variable": "WhatTooltip",
+												"comparison": 0,
+												"value": "ChestOverlay.ChestNumber"
+											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "TooltipBackground",
+											"sid": 548639782085871,
+											"parameters": {
+												"instance-variable": "WhatTooltip",
+												"comparison": 0,
+												"value": "ChestOverlay.ChestNumber"
+											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "Txt_Tooltip",
+											"sid": 255215189334792,
+											"parameters": {
+												"instance-variable": "WhatTooltip",
+												"comparison": 0,
+												"value": "ChestOverlay.ChestNumber"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 796236597896946,
+											"parameters": {
+												"audio-file": "Open Chest",
+												"loop": "not-looping",
+												"volume": "0",
+												"tag-optional": "\"\""
+											}
+										},
+										{
+											"id": "set-animation",
+											"objectClass": "Chest",
+											"sid": 814324392629866,
+											"parameters": {
+												"animation": "\"Open\"",
+												"from": "beginning"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 626789044862452,
+											"parameters": {
+												"seconds": "1.0"
+											}
+										},
+										{
+											"id": "destroy",
+											"objectClass": "ChestOverlay",
+											"sid": 991449765340156
+										},
+										{
+											"id": "destroy",
+											"objectClass": "Chest",
+											"sid": 612988882637414
+										},
+										{
+											"id": "set-visible",
+											"objectClass": "PickUp_MeleeWeapon_Prototype_1",
+											"sid": 140107796402877,
+											"parameters": {
+												"visibility": "visible"
+											}
+										},
+										{
+											"id": "set-collisions-enabled",
+											"objectClass": "PickUp_MeleeWeapon_Prototype_1",
+											"sid": 866715776301083,
+											"parameters": {
+												"collisions": "enabled"
+											}
+										},
+										{
+											"id": "set-visible",
+											"objectClass": "Col_HealthRegen",
+											"sid": 693771385607914,
+											"parameters": {
+												"visibility": "visible"
+											}
+										},
+										{
+											"id": "set-collisions-enabled",
+											"objectClass": "Col_HealthRegen",
+											"sid": 591906110112121,
+											"parameters": {
+												"collisions": "enabled"
+											}
+										},
+										{
+											"id": "destroy",
+											"objectClass": "Tooltip_Box",
+											"sid": 132069405776189
+										},
+										{
+											"id": "destroy",
+											"objectClass": "TooltipBackground",
+											"sid": 666103012954020
+										},
+										{
+											"id": "destroy",
+											"objectClass": "Txt_Tooltip",
+											"sid": 889521508662229
+										}
+									],
+									"sid": 780504818474143
+								}
+							]
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Mana_Armored",
+							"sid": 985566342862963,
+							"parameters": {
+								"object": "PickUp_MeleeWeapon_Prototype_1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "PickUp_MeleeWeapon_Prototype_1",
+							"sid": 280125976763073
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Mana_Armored",
+							"sid": 560468279257279,
+							"parameters": {
+								"instance-variable": "HasMeleeWeapon",
+								"value": "true"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 580045436475306,
+							"parameters": {
+								"audio-file": "collect-5",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 878767388569210
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Mana_Armored",
+							"sid": 345048720888683,
+							"parameters": {
+								"object": "Col_HealthRegen"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Col_HealthRegen",
+							"sid": 392156324908799
+						}
+					],
+					"sid": 927585368369293,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 293086077161620,
+									"parameters": {
+										"variable": "PlayerHealth",
+										"comparison": 2,
+										"value": "Mana_Armored.MaxHealth"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 328820189571413,
+									"parameters": {
+										"variable": "PlayerHealth",
+										"value": "1"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 281106803503090,
+									"parameters": {
+										"audio-file": "collect-5",
+										"loop": "not-looping",
+										"volume": "0",
+										"tag-optional": "\"\""
+									}
+								}
+							],
+							"sid": 968187584404276
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Mana_Armored",
+							"sid": 330247038033272,
+							"parameters": {
+								"object": "ChestOverlay"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Txt_Tooltip",
+							"sid": 519048819554619,
+							"parameters": {
+								"instance-variable": "WhatTooltip",
+								"comparison": 0,
+								"value": "ChestOverlay.ChestNumber"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "TooltipBackground",
+							"sid": 442913948356229,
+							"parameters": {
+								"instance-variable": "WhatTooltip",
+								"comparison": 0,
+								"value": "ChestOverlay.ChestNumber"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Txt_Tooltip",
+							"sid": 687337925614401,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "TooltipBackground",
+							"sid": 103969562234243,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 324433075960103
+				}
+			],
+			"sid": 938971841715509
 		}
 	],
 	"sid": 229087612727963

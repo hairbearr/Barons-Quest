@@ -224,7 +224,9 @@
 				"name": "Enemies"
 			},
 			{
-				"items": [],
+				"items": [
+					"PuzzleUnlock"
+				],
 				"subfolders": [
 					{
 						"items": [
@@ -379,8 +381,9 @@
 			{
 				"items": [
 					"Menu",
-					"Narrative_One",
-					"Narrative_Two",
+					"Narrative 1_1",
+					"Narrative 1_2",
+					"Narrative 1_3",
 					"Forest 1_1",
 					"Catacombs 1_1",
 					"Catacombs 1_2",
@@ -403,8 +406,7 @@
 			"ES_Traps",
 			"ES_Main",
 			"ES_Combat",
-			"ES_Narrative",
-			"ES_Narrative_Two"
+			"ES_Narrative"
 		],
 		"subfolders": []
 	},
@@ -634,7 +636,7 @@
 		"renderingMode": "auto",
 		"anisotropicFiltering": "auto",
 		"maxSpriteSheetSize": 2048,
-		"loaderStyle": "progress",
+		"loaderStyle": "splash",
 		"preloadSounds": true,
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https"

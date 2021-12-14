@@ -10156,10 +10156,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 135.12274491058065,
-						"y": 633.1487687143708,
-						"width": 92.37729313212388,
-						"height": 7.985654111613712,
+						"x": 80.34660499612784,
+						"y": 608.0915983279721,
+						"width": 199.5986733902016,
+						"height": 31.29464981989156,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10175,7 +10175,7 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "Narrative Blurb about Heaven's Point",
+						"text": "There are 3 castes of angels that dwell inside the Penitent Tower: Seraphim, Dominions, and Archangels.",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 6,
@@ -10200,10 +10200,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 135.1227447512785,
-						"y": 633.1487690091153,
-						"width": 92.3772926798036,
-						"height": 7.98565405679183,
+						"x": 80.34660483682569,
+						"y": 608.0915986227166,
+						"width": 199.5986729378813,
+						"height": 31.29464976506968,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10314,10 +10314,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1003.9198543573848,
-						"y": 425.8582082208992,
-						"width": 96.27331823942427,
-						"height": 8.875007637312713,
+						"x": 992.1398842905974,
+						"y": 389.1590707051377,
+						"width": 156.3058580028612,
+						"height": 44.66799360947517,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10333,7 +10333,7 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "Narrative Blurb about Heaven's Point",
+						"text": "Dominions are the middle caste sent to Dissodia. They are the front line leaders of the angelic host.",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 6,
@@ -10358,10 +10358,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1003.9198541867722,
-						"y": 425.8582082208992,
-						"width": 96.27331788395213,
-						"height": 8.875008,
+						"x": 992.1398841199848,
+						"y": 389.1590707051377,
+						"width": 156.30585764738908,
+						"height": 44.667993972162456,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10473,9 +10473,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 287.28290021537765,
-						"y": 296.05341625898666,
+						"y": 301.8806651860561,
 						"width": 229.57855924846353,
-						"height": 36.70057085216075,
+						"height": 30.873321925091318,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10491,7 +10491,7 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "Castle Moss begged King Thornburg for help against Heaven's Point, but their plea fell on deaf ears, for he refused them outright ad the Dissodian Summit.",
+						"text": "Tal-Manath, the druidic lunar god was the consort of Thaea, goddess of life & harvest.",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 6,
@@ -10517,11 +10517,98 @@
 					"behaviors": {},
 					"world": {
 						"x": 287.28290021537765,
-						"y": 296.05341625898666,
+						"y": 301.8806651860561,
 						"width": 229.57855879614326,
-						"height": 36.70057079733887,
+						"height": 30.873321870269436,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "WallTorch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1082,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 778.4763140712713,
+						"y": 770.4351309803008,
+						"width": 9,
+						"height": 18,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Cobweb_1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Cobweb_1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1094,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 697.1138197091833,
+						"y": 769.1590086860912,
+						"width": 30,
+						"height": 30,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Cobweb_1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Cobweb_1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1096,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 731.1600929806295,
+						"y": 770.4337880265389,
+						"width": 30,
+						"height": 30,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -10551,10 +10638,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 695,
-						"y": 755,
-						"width": 96.273318,
-						"height": 8.875008,
+						"x": 630.9002618022361,
+						"y": 734.0219038625501,
+						"width": 173.19300383731672,
+						"height": 32.184003708277736,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10570,7 +10657,7 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "Narrative Blurb about Heaven's Point",
+						"text": "Seraphim are the lowest caste sent to Dissodia. They are the foot soldiers of the angels.",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 6,
@@ -10595,10 +10682,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 695,
-						"y": 755,
-						"width": 96.273318,
-						"height": 8.875008,
+						"x": 630.9002618022361,
+						"y": 734.0219038625501,
+						"width": 173.19300383731672,
+						"height": 32.184003708277736,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10630,10 +10717,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 974.5494624858297,
-						"y": 529.0419626016613,
-						"width": 22,
-						"height": 8,
+						"x": 966.7287602612175,
+						"y": 519.0883415885186,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10674,10 +10761,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 974.5494624858297,
-						"y": 529.0419626016613,
-						"width": 22,
-						"height": 8,
+						"x": 966.7287602612175,
+						"y": 519.0883415885186,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10709,10 +10796,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 5,
-						"y": 900,
-						"width": 22,
-						"height": 8,
+						"x": 10.687783436081588,
+						"y": 887.2024872688164,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10753,10 +10840,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 5,
-						"y": 900,
-						"width": 22,
-						"height": 8,
+						"x": 10.687783436081588,
+						"y": 887.2024872688164,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10790,8 +10877,8 @@
 					"world": {
 						"x": 497.6824026939988,
 						"y": 884.9644257068014,
-						"width": 22,
-						"height": 8,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10834,8 +10921,8 @@
 					"world": {
 						"x": 497.6824026939988,
 						"y": 884.9644257068014,
-						"width": 22,
-						"height": 8,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10867,10 +10954,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1095.4939721719297,
-						"y": 827.0838024710631,
-						"width": 22,
-						"height": 8,
+						"x": 1087.6732699473175,
+						"y": 808.598506303798,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10911,10 +10998,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1095.4939721719297,
-						"y": 827.0838024710631,
-						"width": 22,
-						"height": 8,
+						"x": 1087.6732699473175,
+						"y": 808.598506303798,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10946,10 +11033,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 39.82102802508007,
-						"y": 468.5696497582174,
-						"width": 22,
-						"height": 8,
+						"x": 32.00032580046789,
+						"y": 464.3038121811562,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10990,10 +11077,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 39.82102802508007,
-						"y": 468.5696497582174,
-						"width": 22,
-						"height": 8,
+						"x": 32.00032580046789,
+						"y": 464.3038121811562,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -11044,7 +11131,7 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "Castle Moss had somehow caught the elite angelic warriors of Heaven's Point off guard when the Druidic Moss-Knights infiltrated the Penitent Tower through guile, and trickery. It was said that the Bloodthorn Knights of Castle Thornburg aided them in secret.",
+						"text": "Castle Moss had somehow caught the elite angelic warriors of Heaven’s Point off guard when the Druidic Moss-Knights infiltrated the Penitent Tower. Rumor has it that the Bloodthorn Knights of Castle Thornburg aided them in secret.",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 6,
@@ -11123,7 +11210,7 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "When Heaven's Point decided to purge Dissodia of the Moss-Knights and their kin, they did so after the Dissodian Summit, although there were some angels who did not agree with this course of action. But they were left without a choice when the Moss-Knights attacked Heaven's Point first. It would be the beginning of the end for Castle Moss.",
+						"text": "When Heaven’s Point decided to pure Dissodia of the Moss-Knights and their kin, they did so after the Dissodian Summit. While there were some among the angelic ranks who disagreed with the order, they were left without a choice after the Incursion of Heaven’s Point. It would be the catalyst that started the downfall of Castle Moss.",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 6,
@@ -11577,35 +11664,6 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1082,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 778.4763140712713,
-						"y": 770.4351309803008,
-						"width": 9,
-						"height": 18,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "WallTorch",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
 					"uid": 1083,
 					"instanceVariables": {},
 					"behaviors": {},
@@ -11896,70 +11954,12 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1094,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 697.1138197091833,
-						"y": 769.1590086860912,
-						"width": 30,
-						"height": 30,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Cobweb_1",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Cobweb_1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
 					"uid": 1095,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 1163.621463895006,
 						"y": 769.4874830573608,
-						"width": 30,
-						"height": 30,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Cobweb_1",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Cobweb_1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1096,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 731.1600929806295,
-						"y": 770.4337880265389,
 						"width": 30,
 						"height": 30,
 						"originX": 0.5,

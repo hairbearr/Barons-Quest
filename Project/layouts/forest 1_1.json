@@ -127,9 +127,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 331.82202826150075,
-						"y": 129.5067146959617,
+						"y": 132.80617070850099,
 						"width": 100,
-						"height": 42.206553776801314,
+						"height": 80.00032264770576,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -2826,7 +2826,7 @@
 					"type": "Clues",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Blue",
+						"initial-animation": "Red",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -20702,8 +20702,8 @@
 						"italic": false,
 						"color": [
 							1,
-							1,
-							1,
+							0.9176470588235294,
+							0,
 							1
 						],
 						"horizontal-alignment": "center",
@@ -21275,8 +21275,8 @@
 						"italic": false,
 						"color": [
 							1,
-							1,
-							1,
+							0.9176470588235294,
+							0,
 							1
 						],
 						"horizontal-alignment": "center",
@@ -22234,8 +22234,8 @@
 						"italic": false,
 						"color": [
 							1,
-							1,
-							1,
+							0.9176470588235294,
+							0,
 							1
 						],
 						"horizontal-alignment": "center",
@@ -22378,9 +22378,9 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 285.880209547955,
-						"y": 369.29955641852695,
-						"width": 209.6406327296977,
+						"x": 247.96875380528425,
+						"y": 369.859272993264,
+						"width": 295.34181999343105,
 						"height": 75.26784946540113,
 						"originX": 0,
 						"originY": 0,
@@ -22397,7 +22397,7 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "There are pressure plates that, when pressed in the right sequence, will unlock a door. If you press them in the wrong sequence? You don't want to press them in the wrong sequence. Each pressure plate represents one of the three Kingdoms of Dissodia: Castle Baron, Heaven's Point, and Castle Moss.",
+						"text": "There are pressure plates that represents one of the three Kingdoms of Dissodia: Castle Baron, Heaven's Point, and Castle Moss.\nWhen pressed in the right order, they will solve a puzzle. When pressed in the wrong order, there will be consequences. Pressed the wrong pressure plate too many times, and the castle may collapse!",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 6,
@@ -22406,8 +22406,8 @@
 						"italic": false,
 						"color": [
 							1,
-							1,
-							1,
+							0.9176470588235294,
+							0,
 							1
 						],
 						"horizontal-alignment": "center",
@@ -22422,10 +22422,89 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 285.8802091911699,
-						"y": 369.2995562267984,
-						"width": 209.64063310191597,
+						"x": 247.96875344849914,
+						"y": 369.8592728015355,
+						"width": 295.34182036564937,
 						"height": 75.26784987960049,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 310,
+					"instanceVariables": {
+						"WhatTooltip": 5
+					},
+					"behaviors": {},
+					"world": {
+						"x": 190.9828802345648,
+						"y": 158.68790660184396,
+						"width": 279.4324766571411,
+						"height": 33.18004493679733,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "Use the clues near the pressure plates in order to solve the puzzle, and progress through the levels!",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							0.9176470588235294,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 311,
+					"instanceVariables": {
+						"WhatTooltip": 5
+					},
+					"behaviors": {},
+					"world": {
+						"x": 190.9828802345648,
+						"y": 158.68790660184396,
+						"width": 279.43247630166894,
+						"height": 33.18004511440411,
 						"originX": 0,
 						"originY": 0,
 						"color": [

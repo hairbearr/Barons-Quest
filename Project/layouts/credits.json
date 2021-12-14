@@ -4,11 +4,12 @@
 		{
 			"name": "Layer 0",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "Txt_Win",
 					"properties": {
-						"text": "Credits:\n\nHarry Brock:\nRoz Cabrera:\nEdmund Charles:",
+						"text": "Credits:\n\nHarry Brock: Game Designer, Level Designer, Narrative Designer, Programmer\nRoz Cabrera: Art Designer\nEdmund Charles: Sound Designer\nVincent Maldonado: Story Contributor",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,

@@ -22,6 +22,16 @@
 			"sid": 298682406731899
 		},
 		{
+			"eventType": "variable",
+			"name": "isPaused",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 866690164998032
+		},
+		{
 			"eventType": "include",
 			"includeSheet": "ES_Puzzles"
 		},
@@ -120,14 +130,6 @@
 							"parameters": {
 								"control": "left"
 							}
-						},
-						{
-							"id": "set-mirrored",
-							"objectClass": "Mana_Armored",
-							"sid": 603308736257009,
-							"parameters": {
-								"state": "mirrored"
-							}
 						}
 					],
 					"sid": 608912241080905,
@@ -163,6 +165,31 @@
 								}
 							],
 							"sid": 612735174024638
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 943380398617162,
+									"parameters": {
+										"variable": "isPaused"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-mirrored",
+									"objectClass": "Mana_Armored",
+									"sid": 183657311143266,
+									"parameters": {
+										"state": "mirrored"
+									}
+								}
+							],
+							"sid": 175518921518440
 						}
 					]
 				},
@@ -246,14 +273,6 @@
 							"parameters": {
 								"control": "right"
 							}
-						},
-						{
-							"id": "set-mirrored",
-							"objectClass": "Mana_Armored",
-							"sid": 135902826002564,
-							"parameters": {
-								"state": "not-mirrored"
-							}
 						}
 					],
 					"sid": 405333938605423,
@@ -289,6 +308,31 @@
 								}
 							],
 							"sid": 726390226670237
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 818965210546336,
+									"parameters": {
+										"variable": "isPaused"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-mirrored",
+									"objectClass": "Mana_Armored",
+									"sid": 201264339046266,
+									"parameters": {
+										"state": "not-mirrored"
+									}
+								}
+							],
+							"sid": 668507807865967
 						}
 					]
 				},
@@ -335,6 +379,134 @@
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Pause",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 528006139164990,
+									"parameters": {
+										"key": 80
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "toggle-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 426182671103954,
+									"parameters": {
+										"variable": "isPaused"
+									}
+								}
+							],
+							"sid": 550373461301330
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 840312840200406,
+									"parameters": {
+										"key": 82
+									}
+								},
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 111387798143679,
+									"parameters": {
+										"variable": "isPaused"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "reload",
+									"objectClass": "Browser",
+									"sid": 846738755638440
+								}
+							],
+							"sid": 287838536450461
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 436248003725564,
+									"parameters": {
+										"variable": "isPaused"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-time-scale",
+									"objectClass": "System",
+									"sid": 605409812413599,
+									"parameters": {
+										"time-scale": "1"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "Txt_Paused",
+									"sid": 853281445132628,
+									"parameters": {
+										"visibility": "invisible"
+									}
+								}
+							],
+							"sid": 178652901530824
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 720100268240309,
+									"parameters": {
+										"variable": "isPaused"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-time-scale",
+									"objectClass": "System",
+									"sid": 212093024906539,
+									"parameters": {
+										"time-scale": "0"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "Txt_Paused",
+									"sid": 377476169046749,
+									"parameters": {
+										"visibility": "visible"
+									}
+								}
+							],
+							"sid": 995185649548874
+						}
+					],
+					"sid": 167630005116573
+				},
 				{
 					"eventType": "group",
 					"disabled": false,
@@ -478,6 +650,17 @@
 					"parameters": {
 						"variable": "AudioPlaylist",
 						"value": "round(random(1,3))"
+					}
+				},
+				{
+					"id": "shake",
+					"objectClass": "Camera",
+					"sid": 576544730180126,
+					"behaviorType": "ScrollTo",
+					"parameters": {
+						"magnitude": "0",
+						"duration": "0",
+						"mode": "constant-magnitude"
 					}
 				}
 			],

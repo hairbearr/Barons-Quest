@@ -235,21 +235,6 @@
 											"parameters": {
 												"instance-variable": "SpikesUp"
 											}
-										},
-										{
-											"id": "play-at-object",
-											"objectClass": "Audio",
-											"sid": 569466274100109,
-											"parameters": {
-												"audio-file": "Spike Trap",
-												"loop": "not-looping",
-												"volume": "-10",
-												"object": "Activated_Traps",
-												"inner-angle": "360",
-												"outer-angle": "360",
-												"outer-gain": "0",
-												"tag-optional": "\"\""
-											}
 										}
 									],
 									"sid": 940352548717717
@@ -281,12 +266,27 @@
 									],
 									"actions": [
 										{
-											"id": "subtract-from-instvar",
-											"objectClass": "Mana_Armored",
-											"sid": 994797934342167,
+											"id": "subtract-from-eventvar",
+											"objectClass": "System",
+											"sid": 730247020026136,
 											"parameters": {
-												"instance-variable": "Health",
+												"variable": "PlayerHealth",
 												"value": "Traps_Spikes.DamageDone"
+											}
+										},
+										{
+											"id": "play-at-object",
+											"objectClass": "Audio",
+											"sid": 734715667222270,
+											"parameters": {
+												"audio-file": "Spike Trap",
+												"loop": "not-looping",
+												"volume": "-10",
+												"object": "Activated_Traps",
+												"inner-angle": "360",
+												"outer-angle": "360",
+												"outer-gain": "0",
+												"tag-optional": "\"\""
 											}
 										}
 									],

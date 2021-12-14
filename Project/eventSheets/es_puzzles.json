@@ -351,6 +351,11 @@
 								"comparison": 0,
 								"value": "Doors.WhatPuzzle"
 							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 672674398342951
 						}
 					],
 					"actions": [
@@ -529,9 +534,9 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 138439810635149,
+					"sid": 164974147137498,
 					"parameters": {
-						"seconds": "2"
+						"seconds": "2.5"
 					}
 				},
 				{

@@ -4,11 +4,12 @@
 		{
 			"name": "Layer 0",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "Txt_Win",
 					"properties": {
-						"text": "Use WASD to move\nPress or Hold Spacebar to attack",
+						"text": "Use WASD to move\nPress or Hold SPACEBAR to attack\nPress P to Pause & Unpause",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,

@@ -122,9 +122,17 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 100114247569882,
+					"sid": 637712305424663,
 					"parameters": {
-						"seconds": "2"
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Txt_ClickToContinue",
+					"sid": 636202351682276,
+					"parameters": {
+						"visibility": "visible"
 					}
 				},
 				{

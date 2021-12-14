@@ -4,6 +4,7 @@
 		{
 			"name": "Layer 0",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "Exit",
@@ -6974,7 +6975,7 @@
 					},
 					"uid": 724,
 					"instanceVariables": {
-						"PuzzleCode": "BBGGBR",
+						"PuzzleCode": "GBR",
 						"SolutionCode": "",
 						"WhatPuzzle": 0,
 						"Open": false
@@ -7630,111 +7631,6 @@
 					"world": {
 						"x": 205.68345887568645,
 						"y": 494.0766277289504,
-						"width": 13,
-						"height": 13,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "ColorPuzzle_Switch",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "GUnpressed",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 938,
-					"instanceVariables": {
-						"Type": "G",
-						"Pressed": false,
-						"WhatPuzzle": 0,
-						"Correct": true,
-						"TriesAllowed": 5
-					},
-					"behaviors": {},
-					"world": {
-						"x": 282.017821,
-						"y": 493.959325,
-						"width": 13,
-						"height": 13,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "ColorPuzzle_Switch",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "BUnpressed",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 939,
-					"instanceVariables": {
-						"Type": "B",
-						"Pressed": false,
-						"WhatPuzzle": 0,
-						"Correct": true,
-						"TriesAllowed": 5
-					},
-					"behaviors": {},
-					"world": {
-						"x": 245,
-						"y": 444.160879,
-						"width": 13,
-						"height": 13,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "ColorPuzzle_Switch",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "BUnpressed",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 940,
-					"instanceVariables": {
-						"Type": "B",
-						"Pressed": false,
-						"WhatPuzzle": 0,
-						"Correct": true,
-						"TriesAllowed": 5
-					},
-					"behaviors": {},
-					"world": {
-						"x": 205.683459,
-						"y": 494.076628,
 						"width": 13,
 						"height": 13,
 						"originX": 0.5,
@@ -10282,10 +10178,10 @@
 						"text": "Narrative Blurb about Heaven's Point",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10339,10 +10235,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 454.1285787644038,
-						"y": 753.880429435815,
-						"width": 99.07928,
-						"height": 7.542771,
+						"x": 380.1225173906219,
+						"y": 722.4132852296401,
+						"width": 195.81161218935262,
+						"height": 39.00991520617491,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10358,13 +10254,13 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "Narrative Blurb about Castle Moss",
+						"text": "Castle Moss was ruled by the Council of Three: a Consular of War, a Consular of Law, and a Consular of Life.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10383,10 +10279,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 454.1285785964465,
-						"y": 753.8804298452053,
-						"width": 99.07927997262465,
-						"height": 7.5427705549467525,
+						"x": 380.1225172226646,
+						"y": 722.4132856390304,
+						"width": 195.81161216197728,
+						"height": 39.009914761121664,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10440,10 +10336,10 @@
 						"text": "Narrative Blurb about Heaven's Point",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10497,10 +10393,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 984.457220672118,
-						"y": 9.022291192719617,
-						"width": 97.86555088678921,
-						"height": 11.067316658872045,
+						"x": 943.9275334493241,
+						"y": -17.667990636925072,
+						"width": 177.68926413655987,
+						"height": 37.01620177102659,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10516,13 +10412,13 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "Narrative Blurb about Castle Bloodthorn",
+						"text": "The Bloodthorn Knights were the elite guard of King Thornburg. Ruthless, and loyal, they carried out their king's will with efficiency.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10541,10 +10437,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 984.4572204411613,
-						"y": 9.02229107479878,
-						"width": 97.86555043446893,
-						"height": 11.067316604050163,
+						"x": 943.9275332183674,
+						"y": -17.66799075484591,
+						"width": 177.6892636842396,
+						"height": 37.016201716204705,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10576,10 +10472,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 357.2098873402109,
-						"y": 324.60693600162693,
-						"width": 89.72458499879701,
-						"height": 8.729776002227425,
+						"x": 287.28290021537765,
+						"y": 296.05341625898666,
+						"width": 229.57855924846353,
+						"height": 36.70057085216075,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10595,13 +10491,13 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "Narrative Blurb about Castle Moss",
+						"text": "Castle Moss begged King Thornburg for help against Heaven's Point, but their plea fell on deaf ears, for he refused them outright ad the Dissodian Summit.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10620,10 +10516,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 357.2098873402109,
-						"y": 324.60693600162693,
-						"width": 89.72458454647673,
-						"height": 8.729775947405543,
+						"x": 287.28290021537765,
+						"y": 296.05341625898666,
+						"width": 229.57855879614326,
+						"height": 36.70057079733887,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10677,10 +10573,10 @@
 						"text": "Narrative Blurb about Heaven's Point",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10756,10 +10652,10 @@
 						"text": "Press E",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10835,10 +10731,10 @@
 						"text": "Press E",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10914,10 +10810,10 @@
 						"text": "Press E",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10993,10 +10889,10 @@
 						"text": "Press E",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -11072,10 +10968,10 @@
 						"text": "Press E",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -11129,10 +11025,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 907,
-						"y": 57,
-						"width": 156.490475,
-						"height": 34.2860052273611,
+						"x": 825.7063357280578,
+						"y": 44.39065948834906,
+						"width": 321.95633585387105,
+						"height": 49.77387804899888,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -11148,13 +11044,13 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "CASTLE MOSS HEAVEN'S POINT CASTLE BLOODTHORN",
+						"text": "Castle Moss had somehow caught the elite angelic warriors of Heaven's Point off guard when the Druidic Moss-Knights infiltrated the Penitent Tower through guile, and trickery. It was said that the Bloodthorn Knights of Castle Thornburg aided them in secret.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -11173,10 +11069,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 907,
-						"y": 57,
-						"width": 156.49047454767972,
-						"height": 34.28600517253922,
+						"x": 825.7063357280578,
+						"y": 44.39065948834906,
+						"width": 321.95633540155075,
+						"height": 49.773877994177,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -11208,10 +11104,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 167,
-						"y": 404,
-						"width": 156.490475,
-						"height": 34.2860052273611,
+						"x": 88.79831939872815,
+						"y": 376.9615649783978,
+						"width": 311.0291165458815,
+						"height": 60.1589904635494,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -11227,13 +11123,13 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "HEAVEN'S POINT HEAVEN'S POINT CASTLE MOSS",
+						"text": "When Heaven's Point decided to purge Dissodia of the Moss-Knights and their kin, they did so after the Dissodian Summit, although there were some angels who did not agree with this course of action. But they were left without a choice when the Moss-Knights attacked Heaven's Point first. It would be the beginning of the end for Castle Moss.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -11252,10 +11148,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 167,
-						"y": 404,
-						"width": 156.49047454767972,
-						"height": 34.28600517253922,
+						"x": 88.79831939872815,
+						"y": 376.9615649783978,
+						"width": 311.02911609356124,
+						"height": 60.15899040872752,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -12109,6 +12005,7 @@
 		{
 			"name": "UI",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "UI_HealthBar",
@@ -12129,6 +12026,48 @@
 						"height": 33.599999999999994,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Paused",
+					"properties": {
+						"text": "- PAUSED -\nPRESS R TO GO TO MAIN MENU",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							1,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 1140,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 258.77169537253974,
+						"y": 195.1606786959121,
+						"width": 256.45657336835524,
+						"height": 44.67870907577239,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,

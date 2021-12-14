@@ -4,6 +4,7 @@
 		{
 			"name": "Layer 0",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "Texture_Catacombs",
@@ -661,9 +662,9 @@
 					},
 					"world": {
 						"x": 816.36648,
-						"y": 234.84844607230588,
+						"y": 228.7089106774996,
 						"width": 11,
-						"height": 188.6589562808029,
+						"height": 194.79849167560917,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -774,9 +775,9 @@
 					},
 					"world": {
 						"x": 753,
-						"y": 42.92255987067247,
+						"y": 36.92255987067247,
 						"width": 11,
-						"height": 276.07744012932756,
+						"height": 294.5766427648474,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -1263,76 +1264,6 @@
 					}
 				},
 				{
-					"type": "ColorPuzzle_Switch",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "GUnpressed",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 310,
-					"instanceVariables": {
-						"Type": "G",
-						"Pressed": false,
-						"WhatPuzzle": 0,
-						"Correct": true,
-						"TriesAllowed": 5
-					},
-					"behaviors": {},
-					"world": {
-						"x": 156.72727272727272,
-						"y": 782.6363636363637,
-						"width": 13,
-						"height": 13,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "ColorPuzzle_Switch",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "BUnpressed",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 311,
-					"instanceVariables": {
-						"Type": "B",
-						"Pressed": false,
-						"WhatPuzzle": 0,
-						"Correct": true,
-						"TriesAllowed": 5
-					},
-					"behaviors": {},
-					"world": {
-						"x": 121.18181818181819,
-						"y": 835.8181818181819,
-						"width": 13,
-						"height": 13,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Camera",
 					"properties": {
 						"initially-visible": false,
@@ -1510,10 +1441,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 104.61858559685612,
-						"y": 618.2170490456524,
-						"width": 156.490475,
-						"height": 20.382115,
+						"x": 61.49666752741723,
+						"y": 608.6116928880049,
+						"width": 238.0151587847718,
+						"height": 30.396209717547322,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -1719,7 +1650,7 @@
 					},
 					"uid": 496,
 					"instanceVariables": {
-						"PuzzleCode": "GBGGBR",
+						"PuzzleCode": "GBR",
 						"SolutionCode": "",
 						"WhatPuzzle": 0,
 						"Open": false
@@ -1773,9 +1704,9 @@
 						}
 					},
 					"world": {
-						"x": 826.2033827103435,
+						"x": 816.4149457394075,
 						"y": 216.805683,
-						"width": 355.1286370106257,
+						"width": 364.9170739815617,
 						"height": 14,
 						"originX": 0,
 						"originY": 0,
@@ -2629,41 +2560,6 @@
 						"y": 336.86368613350413,
 						"width": 11,
 						"height": 11,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "ColorPuzzle_Switch",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "GUnpressed",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 276,
-					"instanceVariables": {
-						"Type": "G",
-						"Pressed": false,
-						"WhatPuzzle": 0,
-						"Correct": true,
-						"TriesAllowed": 5
-					},
-					"behaviors": {},
-					"world": {
-						"x": 189.18181818181813,
-						"y": 837.2727272727273,
-						"width": 13,
-						"height": 13,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -9867,10 +9763,10 @@
 						"text": "Heaven's Point never hid their disgust of the inhabitants of Castle Moss, and their barbaric ways.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -9889,10 +9785,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 104.618586,
-						"y": 618.217049,
-						"width": 156.49047454767972,
-						"height": 20.382114945178117,
+						"x": 61.4966679305611,
+						"y": 608.6116928423525,
+						"width": 238.01515833245153,
+						"height": 30.39620966272544,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -9924,10 +9820,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 439.375018,
-						"y": 743.224421,
-						"width": 121.45415362761922,
-						"height": 20.571319561767147,
+						"x": 408.05203333499475,
+						"y": 722.5030619139195,
+						"width": 139.28416028308368,
+						"height": 38.401326217231706,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -9946,10 +9842,10 @@
 						"text": "Castle Moss was once a sanctuary, where the Moss-Knights venerated only nature.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -9968,10 +9864,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 439.3750179083649,
-						"y": 743.224421132646,
-						"width": 121.4541539998375,
-						"height": 20.571319975966514,
+						"x": 408.05203324335963,
+						"y": 722.5030620465654,
+						"width": 139.28416065530195,
+						"height": 38.401326631431075,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10062,9 +9958,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 923.8110530015279,
-						"y": 742.4874283392751,
+						"y": 729.9582344732729,
 						"width": 175.86990212348405,
-						"height": 20.533311210442555,
+						"height": 33.06250507644473,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10083,10 +9979,10 @@
 						"text": "Until recently, Castle Baron was known as Castle Thornburg, after the former ruler of the castle.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10106,9 +10002,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 923.8110530015279,
-						"y": 742.4874283392751,
+						"y": 729.9582344732729,
 						"width": 175.8699017680119,
-						"height": 20.533310914056187,
+						"height": 33.06250478005836,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10199,9 +10095,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 896.886425778606,
-						"y": 406.8642835650593,
+						"y": 382.7696799765937,
 						"width": 171.42801146179596,
-						"height": 30.860685353797123,
+						"height": 54.95528894226271,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10220,10 +10116,10 @@
 						"text": "Thaea, the goddess of fertility and harvests, was the mother of all the woodland creatures, and the mother of the other gods worshipped by the Druids of Castle Moss.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10243,9 +10139,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 896.8864254786025,
-						"y": 406.86428339480227,
+						"y": 382.7696798063367,
 						"width": 171.42801100947568,
-						"height": 30.86068529897524,
+						"height": 54.95528888744083,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10335,10 +10231,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 153.10097829013716,
-						"y": 310.08073517915653,
+						"x": 151.443379,
+						"y": 292.9250523644046,
 						"width": 156.490475,
-						"height": 20.382115,
+						"height": 38.366611635595405,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10357,10 +10253,10 @@
 						"text": "Wielding the power of elemental magic, the Druids of Castle Moss lived in harmony with nature, worshiping multiple deities.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10380,9 +10276,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 151.44337853397883,
-						"y": 310.9095494282487,
+						"y": 292.9250527926533,
 						"width": 156.49047454767972,
-						"height": 20.382114945178117,
+						"height": 38.36661158077352,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10414,10 +10310,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 846.2423438797005,
-						"y": 804.0780214441234,
-						"width": 22,
-						"height": 8,
+						"x": 839.4419560893659,
+						"y": 800.9045071419673,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10436,10 +10332,10 @@
 						"text": "Press E",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10458,10 +10354,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 846.2423438797005,
-						"y": 804.0780214441234,
-						"width": 22,
-						"height": 8,
+						"x": 839.4419560893659,
+						"y": 800.9045071419673,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10493,10 +10389,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 173.85109384037344,
-						"y": 533.6889650180312,
-						"width": 22,
-						"height": 8,
+						"x": 167.0242894903082,
+						"y": 527.2637373944403,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10515,10 +10411,10 @@
 						"text": "Press E",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10537,10 +10433,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 173.85109384037344,
-						"y": 533.6889650180312,
-						"width": 22,
-						"height": 8,
+						"x": 167.0242894903082,
+						"y": 527.2637373944403,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10572,10 +10468,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 134.45666416681547,
-						"y": 883.7621759504768,
-						"width": 22,
-						"height": 8,
+						"x": 127.62985981675024,
+						"y": 879.7464086857326,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10594,10 +10490,10 @@
 						"text": "Press E",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10616,10 +10512,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 134.45666416681547,
-						"y": 883.7621759504768,
-						"width": 22,
-						"height": 8,
+						"x": 127.62985981675024,
+						"y": 879.7464086857326,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10652,9 +10548,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 77.87610932315062,
-						"y": 740.8631033590314,
+						"y": 722.6538005154911,
 						"width": 156.490475,
-						"height": 34.2860052273611,
+						"height": 52.49530807090139,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10673,10 +10569,10 @@
 						"text": "Castle Moss outnumbered Heaven's Point two to one, but it did not matter, for Castle Moss didn't have the angelic power behind them.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10696,9 +10592,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 77.87610954447631,
-						"y": 740.8631029497425,
+						"y": 722.6538001062022,
 						"width": 156.49047454767972,
-						"height": 34.28600517253922,
+						"height": 52.495308016079505,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10730,10 +10626,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 910.0025331276285,
-						"y": 58.80557288078266,
-						"width": 156.490475,
-						"height": 34.2860052273611,
+						"x": 879.5361081222591,
+						"y": 27.01971442997544,
+						"width": 218.54677924269498,
+						"height": 67.06101099312608,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10749,13 +10645,13 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "Castle Moss begged King Thornburg for help against Heaven's Point, but their plea fell on deaf ears, for Castle Thornburg wanted nothing to do with this war.",
+						"text": "A moot was called, and representatives from Castle Moss, Heaven's Point, and Castle Thornburg were to attend at the summit of the Penitent Tower. It was here that the Angels ordered the Moss-Knights to give up their druidic ways, or perish. This was called the Dissodian Summit.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10774,10 +10670,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 910.0025331276285,
-						"y": 58.80557288078266,
-						"width": 156.49047454767972,
-						"height": 34.28600517253922,
+						"x": 879.5361081222591,
+						"y": 27.01971442997544,
+						"width": 218.5467787903747,
+						"height": 67.0610109383042,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -11967,10 +11863,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 677.6659991727456,
-						"y": 509.24875474387454,
-						"width": 22,
-						"height": 8,
+						"x": 670.8391948226804,
+						"y": 506.0361409320791,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -11989,10 +11885,10 @@
 						"text": "Press E",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -12011,10 +11907,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 677.6659991727456,
-						"y": 509.24875474387454,
-						"width": 22,
-						"height": 8,
+						"x": 670.8391948226804,
+						"y": 506.0361409320791,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -12177,10 +12073,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1133.1808029553683,
-						"y": 573.0925618882106,
-						"width": 22,
-						"height": 8,
+						"x": 1125.9524218788285,
+						"y": 569.8799480764152,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -12199,10 +12095,10 @@
 						"text": "Press E",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -12221,10 +12117,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1133.1808029553683,
-						"y": 573.0925618882106,
-						"width": 22,
-						"height": 8,
+						"x": 1125.9524218788285,
+						"y": 569.8799480764152,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -12268,6 +12164,7 @@
 		{
 			"name": "UI",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "UI_HealthBar",
@@ -12288,6 +12185,48 @@
 						"height": 33.599999999999994,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Paused",
+					"properties": {
+						"text": "- PAUSED -\nPRESS R TO GO TO MAIN MENU",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							1,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 1139,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 259,
+						"y": 195,
+						"width": 256.45657336835524,
+						"height": 44.67870907577239,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,

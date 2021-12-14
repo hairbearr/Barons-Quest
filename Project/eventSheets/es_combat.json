@@ -520,6 +520,11 @@
 								"comparison": 3,
 								"value": "0"
 							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 457271995862306
 						}
 					],
 					"actions": [
@@ -575,6 +580,58 @@
 								"instance-variable": "isDead",
 								"value": "true"
 							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 936952261073456,
+							"parameters": {
+								"animation": "\"Death\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 648347118247856,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "Enemy_Skeleton.startHealth"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 426154872610016,
+							"parameters": {
+								"seconds": "60"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 963764183759120,
+							"parameters": {
+								"instance-variable": "isDead",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 300261749199480,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 431349109068287,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"enabled": true
+							}
 						}
 					],
 					"sid": 414048227050134
@@ -622,6 +679,17 @@
 							"parameters": {
 								"variable": "PlayerHealth",
 								"value": "Enemy_Skeleton.AttackPower_Melee"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 869707881903886,
+							"parameters": {
+								"audio-file": "Skeleton Attack",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						},
 						{
@@ -858,18 +926,6 @@
 								"animation": "\"Attack\"",
 								"from": "beginning"
 							}
-						},
-						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 443016152149597,
-							"disabled": true,
-							"parameters": {
-								"audio-file": "Skeleton Attack",
-								"loop": "not-looping",
-								"volume": "-10",
-								"tag-optional": "\"\""
-							}
 						}
 					],
 					"sid": 550093992482051
@@ -951,85 +1007,8 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "Enemy_Skeleton",
-							"sid": 156565265322490,
-							"parameters": {
-								"animation": "\"Death\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "set-instvar-value",
-							"objectClass": "Enemy_Skeleton",
-							"sid": 720501576771914,
-							"parameters": {
-								"instance-variable": "Health",
-								"value": "Enemy_Skeleton.startHealth"
-							}
-						}
-					],
-					"sid": 713841692396524,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [],
-							"actions": [
-								{
-									"id": "wait",
-									"objectClass": "System",
-									"sid": 594917338752240,
-									"parameters": {
-										"seconds": "60"
-									}
-								},
-								{
-									"id": "set-boolean-instvar",
-									"objectClass": "Enemy_Skeleton",
-									"sid": 679283927292389,
-									"parameters": {
-										"instance-variable": "isDead",
-										"value": "false"
-									}
-								},
-								{
-									"id": "set-collisions-enabled",
-									"objectClass": "Enemy_Skeleton",
-									"sid": 206704572931248,
-									"parameters": {
-										"collisions": "enabled"
-									}
-								},
-								{
-									"id": "set-enabled",
-									"objectClass": "Enemy_Skeleton",
-									"sid": 869706276724947,
-									"behaviorType": "MoveTo",
-									"parameters": {
-										"enabled": true
-									}
-								}
-							],
-							"sid": 990813759482616,
-							"children": [
-								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "trigger-once-while-true",
-											"objectClass": "System",
-											"sid": 648149610306271,
-											"disabled": true
-										}
-									],
-									"actions": [],
-									"sid": 263142489626148
-								}
-							]
-						}
-					]
+					"actions": [],
+					"sid": 713841692396524
 				}
 			],
 			"sid": 581768486670151

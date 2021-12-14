@@ -4,6 +4,7 @@
 		{
 			"name": "Layer 0",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "Texture_Grass",
@@ -58,9 +59,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 10.001098,
-						"y": 156.99963400000001,
+						"y": 107.49963400000001,
 						"width": 749,
-						"height": 142,
+						"height": 220,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -76,7 +77,7 @@
 				{
 					"type": "Txt_Narrative",
 					"properties": {
-						"text": "The CASTLE OF BARON was not always named as such. It is currently named after it’s current ruler, the dwarven KING-OF-WAR BARON. As the only inhabited castle left, it was up to KING BARON, and his warriors to protect the people of DISSODIA from an increasing influx of monsters.\n\nYou are MANA, an adventurer tasked by KING BARON to delve into the belly of CASTLE MOSS and uncover the truth behind the disappearance of the angels, and the increased presence of the undead...",
+						"text": "The CASTLE OF BARON was not always named as such. It is currently named after its current ruler, the dwarven KING-OF-WAR BARON. As the only inhabited castle left, it was up to KING BARON and his warriors to protect the people of DISSODIA from an increasing influx of monsters.\n\nYou are MANA, an adventurer tasked by KING BARON to delve into the belly of CASTLE MOSS and uncover the truth behind the disappearance of the angels, and the increased presence of the undead...",
 						"enable-bbcode": true,
 						"font": "Lucida Sans Typewriter",
 						"size": 12,
@@ -103,9 +104,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 10.001097935232451,
-						"y": 156.99963438990426,
+						"y": 107.49963438990426,
 						"width": 749,
-						"height": 142,
+						"height": 220,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -456,6 +457,48 @@
 						"height": 2,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_ClickToContinue",
+					"properties": {
+						"text": "Click anywhere to continue...",
+						"enable-bbcode": true,
+						"font": "Lucida Sans Typewriter",
+						"size": 12,
+						"line-height": 0,
+						"bold": true,
+						"italic": true,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 1143,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 286.97368900000004,
+						"y": 399.532902,
+						"width": 200,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,

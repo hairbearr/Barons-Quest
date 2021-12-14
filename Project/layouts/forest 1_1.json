@@ -4,6 +4,7 @@
 		{
 			"name": "Layer 0",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
 				{
 					"type": "Texture_Grass",
@@ -2084,6 +2085,41 @@
 					}
 				},
 				{
+					"type": "ColorPuzzle_Switch",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "RUnpressed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 206,
+					"instanceVariables": {
+						"Type": "R",
+						"Pressed": false,
+						"WhatPuzzle": 99,
+						"Correct": true,
+						"TriesAllowed": 5
+					},
+					"behaviors": {},
+					"world": {
+						"x": 331.5,
+						"y": 147,
+						"width": 13,
+						"height": 13,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Mana_Armored",
 					"properties": {
 						"initially-visible": true,
@@ -2834,9 +2870,9 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 262.08121246858013,
-						"y": 123.47242088015196,
-						"width": 137.77758960508328,
+						"x": 247.15543714225822,
+						"y": 123.2392056406782,
+						"width": 165.99663358141066,
 						"height": 12.456188990269641,
 						"originX": 0,
 						"originY": 0,
@@ -2856,10 +2892,10 @@
 						"text": "Heaven's Point stands tall above Castle Moss.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -2878,9 +2914,9 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 262.08121246858013,
-						"y": 123.47242088015196,
-						"width": 137.77758924961114,
+						"x": 247.15543714225822,
+						"y": 123.2392056406782,
+						"width": 165.99663322593852,
 						"height": 12.456189167876413,
 						"originX": 0,
 						"originY": 0,
@@ -6135,41 +6171,6 @@
 					}
 				},
 				{
-					"type": "ColorPuzzle_Switch",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "RUnpressed",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 206,
-					"instanceVariables": {
-						"Type": "R",
-						"Pressed": false,
-						"WhatPuzzle": 99,
-						"Correct": true,
-						"TriesAllowed": 5
-					},
-					"behaviors": {},
-					"world": {
-						"x": 331.5,
-						"y": 147,
-						"width": 13,
-						"height": 13,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "CatacombRoof",
 					"properties": {
 						"initially-visible": true,
@@ -6281,10 +6282,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 763.8804590403079,
-						"y": -4.261694429398503,
-						"width": 100.03968048645231,
-						"height": 20.566107157466675,
+						"x": 739.392858895561,
+						"y": -10.791721134664343,
+						"width": 150.180956973315,
+						"height": 27.329349102206294,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -6303,10 +6304,10 @@
 						"text": "Castle Moss' Moss-Knights stand alone against the armies of Heaven.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -6325,10 +6326,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 763.8804587176057,
-						"y": -4.261694644413602,
-						"width": 100.03968013098017,
-						"height": 20.566106861080307,
+						"x": 739.3928585728588,
+						"y": -10.791721349679442,
+						"width": 150.18095661784287,
+						"height": 27.329348805819926,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -6360,10 +6361,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 10.23887,
-						"y": 1.142194,
-						"width": 168.24261175213684,
-						"height": 20.382115,
+						"x": -7.2522729605335226,
+						"y": -21.712899468430454,
+						"width": 185.73375471267036,
+						"height": 41.837917031587764,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -6382,10 +6383,10 @@
 						"text": "No one knows what lies within the bowels of the Penitent Tower, as only the angelic warriors of Heaven's Point are allowed within.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -6404,10 +6405,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 10.238869971160781,
-						"y": 1.1421944742596608,
-						"width": 168.24261129981656,
-						"height": 20.382114945178117,
+						"x": -7.252272989372742,
+						"y": -21.712898994170793,
+						"width": 185.73375426035008,
+						"height": 41.83791697676588,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10196,10 +10197,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 89.07753081945589,
-						"y": 456.91680308883485,
-						"width": 22.47561491915144,
-						"height": 7.425585340015733,
+						"x": 82.69240773893227,
+						"y": 451.658466434286,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10218,10 +10219,10 @@
 						"text": "Press E",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10240,10 +10241,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 89.07753081945589,
-						"y": 456.91680308883485,
-						"width": 22.4756145636793,
-						"height": 7.425585517622505,
+						"x": 82.69240773893227,
+						"y": 451.658466434286,
+						"width": 35.768883,
+						"height": 11.856675,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10375,10 +10376,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 691.8953028619119,
-						"y": 35.07476239492655,
-						"width": 22.47561491915144,
-						"height": 7.425585340015733,
+						"x": 685.1320609171722,
+						"y": 27.61187473176558,
+						"width": 35.76888356915697,
+						"height": 11.856674890017562,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -10397,10 +10398,10 @@
 						"text": "Press E",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -10419,10 +10420,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 691.8953028619119,
-						"y": 35.07476239492655,
-						"width": 22.4756145636793,
-						"height": 7.425585517622505,
+						"x": 685.1320609171722,
+						"y": 27.61187473176558,
+						"width": 35.76888321368483,
+						"height": 11.856675067624334,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -20367,85 +20368,6 @@
 					}
 				},
 				{
-					"type": "TooltipBackground",
-					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 274,
-					"instanceVariables": {
-						"WhatTooltip": 7
-					},
-					"behaviors": {},
-					"world": {
-						"x": 760.3418763460066,
-						"y": 413.92702854953814,
-						"width": 115.31588099039351,
-						"height": 31.894804182858984,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "Keep an eye out for CASTLE SIGILS, like the Sigil of CASTLE BARON. They may unravel the mysteries of Castle Moss.",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 4,
-						"line-height": 0,
-						"bold": false,
-						"italic": true,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 269,
-					"instanceVariables": {
-						"WhatTooltip": 7
-					},
-					"behaviors": {},
-					"world": {
-						"x": 760.3418759892215,
-						"y": 413.9270283578096,
-						"width": 115.31588136261178,
-						"height": 31.894804597058354,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Bush_Top",
 					"properties": {
 						"initially-visible": true,
@@ -20723,6 +20645,85 @@
 						"height": 37,
 						"originX": 0.5,
 						"originY": 0.7972972972972973,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 274,
+					"instanceVariables": {
+						"WhatTooltip": 7
+					},
+					"behaviors": {},
+					"world": {
+						"x": 743.5503791038946,
+						"y": 406.697356125851,
+						"width": 148.19922975619653,
+						"height": 39.12447660654612,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "Keep an eye out for CASTLE SIGILS, like the Sigil of CASTLE BARON. They may unravel the mysteries of Castle Moss.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 269,
+					"instanceVariables": {
+						"WhatTooltip": 7
+					},
+					"behaviors": {},
+					"world": {
+						"x": 743.5503787471094,
+						"y": 406.69735593412247,
+						"width": 148.1992301284148,
+						"height": 39.12447702074549,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -21246,10 +21247,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 604.6654731862261,
-						"y": 423.66459078645755,
-						"width": 90.75802088389645,
-						"height": 20.97134374016769,
+						"x": 590.6596129544337,
+						"y": 402.427375458357,
+						"width": 118.09203843303959,
+						"height": 42.66036101122926,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -21265,13 +21266,13 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "BEWARE: Undead. Be sure to HOLD your weapon in front of you!",
+						"text": "BEWARE: Undead. Be sure to HOLD SPACEBAR to hold your weapon in front of you!",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -21290,10 +21291,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 604.665472829441,
-						"y": 423.664590594729,
-						"width": 90.75802125611472,
-						"height": 20.97134415436706,
+						"x": 590.6596125976486,
+						"y": 402.4273752666285,
+						"width": 118.09203880525786,
+						"height": 42.66036142542863,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -22206,9 +22207,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 429.12913234042,
-						"y": 413.9919814162799,
+						"y": 390.90367270837567,
 						"width": 187.28423326424723,
-						"height": 30.713926673629366,
+						"height": 53.802235381533585,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -22227,10 +22228,10 @@
 						"text": "There are treasure chests littered around, and inside Castle Moss. Within the chests you'll find items to help you on your adventure, such as the Red Hearts of Dissodia, which have restorative properties.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -22250,9 +22251,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 429.1291319836349,
-						"y": 413.99198122455135,
+						"y": 390.90367251664713,
 						"width": 187.2842336364655,
-						"height": 30.713927087828736,
+						"height": 53.802235795732955,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -22378,9 +22379,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 285.880209547955,
-						"y": 411.74437956663246,
+						"y": 369.29955641852695,
 						"width": 209.6406327296977,
-						"height": 32.82302631729561,
+						"height": 75.26784946540113,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -22396,13 +22397,13 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "There are pressure plates that, when pressed in the right sequence, will unlock a door. Each pressure plate represents one of the three Kingdoms of Dissodia: Castle Baron, Heaven's Point, and Castle Moss.",
+						"text": "There are pressure plates that, when pressed in the right sequence, will unlock a door. If you press them in the wrong sequence? You don't want to press them in the wrong sequence. Each pressure plate represents one of the three Kingdoms of Dissodia: Castle Baron, Heaven's Point, and Castle Moss.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 4,
+						"size": 6,
 						"line-height": 0,
 						"bold": false,
-						"italic": true,
+						"italic": false,
 						"color": [
 							1,
 							1,
@@ -22422,9 +22423,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 285.8802091911699,
-						"y": 411.74437937490393,
+						"y": 369.2995562267984,
 						"width": 209.64063310191597,
-						"height": 32.82302673149498,
+						"height": 75.26784987960049,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -22468,7 +22469,50 @@
 		{
 			"name": "UI",
 			"overriden": 0,
+			"subLayers": [],
 			"instances": [
+				{
+					"type": "Txt_Paused",
+					"properties": {
+						"text": "- PAUSED -\nPRESS R TO GO TO MAIN MENU",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							1,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 1137,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 258.77174211685957,
+						"y": 195.1606490303059,
+						"width": 256.45657336835524,
+						"height": 44.67870907577239,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
 				{
 					"type": "UI_HealthBar",
 					"properties": {

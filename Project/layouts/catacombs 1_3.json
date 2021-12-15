@@ -83,8 +83,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 186.25978887311538,
-						"y": 47.80632407255308,
+						"x": 1102.0012173054076,
+						"y": 37.58775019305111,
 						"width": 23.848714,
 						"height": 54.767272,
 						"originX": 0.5,
@@ -145,8 +145,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 133.41813574707245,
-						"y": 364.0826489343268,
+						"x": 526.3851665270332,
+						"y": 43.76354664460817,
 						"width": 23.8487136890883,
 						"height": 54.7672721034329,
 						"originX": 0.5,
@@ -176,8 +176,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 57.590064266372565,
-						"y": 363.5251933407424,
+						"x": 209.52943851876472,
+						"y": 166.2584776295496,
 						"width": 23.8487136890883,
 						"height": 54.7672721034329,
 						"originX": 0.5,
@@ -331,8 +331,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1032.416980505669,
-						"y": 45.720081691670316,
+						"x": 266.2980417489844,
+						"y": 43.10633119307296,
 						"width": 23.848714,
 						"height": 54.767272,
 						"originX": 0.5,
@@ -424,8 +424,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1138.9856912766636,
-						"y": 665.2780399855034,
+						"x": 237.9078275080284,
+						"y": 359.7653963273451,
 						"width": 23.848714,
 						"height": 54.767272,
 						"originX": 0.5,
@@ -875,17 +875,265 @@
 					}
 				},
 				{
-					"type": "Col_HealthRegen",
+					"type": "ChestOverlay",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
+					"uid": 719,
+					"instanceVariables": {
+						"ChestNumber": 29
+					},
+					"behaviors": {},
+					"world": {
+						"x": 121.63452576479224,
+						"y": 257.8318540013615,
+						"width": 45,
+						"height": 45,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ChestOverlay",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1154,
+					"instanceVariables": {
+						"ChestNumber": 27
+					},
+					"behaviors": {},
+					"world": {
+						"x": 131.36209767189365,
+						"y": 184.5106307685364,
+						"width": 45,
+						"height": 45,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Tooltip_Box",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1159,
+					"instanceVariables": {
+						"WhatTooltip": 27
+					},
+					"behaviors": {},
+					"world": {
+						"x": 131.16165060670025,
+						"y": 183.90315052950612,
+						"width": 45,
+						"height": 45,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ChestOverlay",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1150,
+					"instanceVariables": {
+						"ChestNumber": 28
+					},
+					"behaviors": {},
+					"world": {
+						"x": 85.03698508917664,
+						"y": 211.84482570923592,
+						"width": 45,
+						"height": 45,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ChestOverlay",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1031,
+					"instanceVariables": {
+						"ChestNumber": 30
+					},
+					"behaviors": {},
+					"world": {
+						"x": 59.27447365186195,
+						"y": 258.4013163959594,
+						"width": 45,
+						"height": 45,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Tooltip_Box",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1161,
+					"instanceVariables": {
+						"WhatTooltip": 30
+					},
+					"behaviors": {},
+					"world": {
+						"x": 59.15597812176786,
+						"y": 257.64580195596096,
+						"width": 45,
+						"height": 45,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ChestOverlay",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1146,
+					"instanceVariables": {
+						"ChestNumber": 26
+					},
+					"behaviors": {},
+					"world": {
+						"x": 38.470138,
+						"y": 183.429429,
+						"width": 45,
+						"height": 45,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Tooltip_Box",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1158,
+					"instanceVariables": {
+						"WhatTooltip": 26
+					},
+					"behaviors": {},
+					"world": {
+						"x": 38.470138,
+						"y": 183.429429,
+						"width": 45,
+						"height": 45,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Col_HealthRegen",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": false,
+						"live-preview": false
+					},
 					"uid": 1059,
 					"instanceVariables": {
-						"ChestNumber": 22
+						"ChestNumber": 27
 					},
 					"behaviors": {},
 					"world": {
@@ -916,12 +1164,12 @@
 					},
 					"uid": 1060,
 					"instanceVariables": {
-						"ChestNumber": 22
+						"ChestNumber": 26
 					},
 					"behaviors": {},
 					"world": {
 						"x": 38.47013834936685,
-						"y": 183.4294286512564,
+						"y": 176.4294286512564,
 						"width": 17,
 						"height": 15,
 						"originX": 0.5,
@@ -937,22 +1185,53 @@
 					}
 				},
 				{
-					"type": "Col_HealthRegen",
+					"type": "Tooltip_Box",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1160,
+					"instanceVariables": {
+						"WhatTooltip": 28
+					},
+					"behaviors": {},
+					"world": {
+						"x": 85.0527550681032,
+						"y": 211.3789992408619,
+						"width": 45,
+						"height": 45,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Col_HealthRegen",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": false,
 						"live-preview": false
 					},
 					"uid": 1061,
 					"instanceVariables": {
-						"ChestNumber": 22
+						"ChestNumber": 28
 					},
 					"behaviors": {},
 					"world": {
-						"x": 85.8445843714123,
-						"y": 182.20867979439498,
+						"x": 85.036985,
+						"y": 211.844826,
 						"width": 17,
 						"height": 15,
 						"originX": 0.5,
@@ -970,20 +1249,20 @@
 				{
 					"type": "Col_HealthRegen",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
-						"enable-collisions": true,
+						"enable-collisions": false,
 						"live-preview": false
 					},
 					"uid": 1062,
 					"instanceVariables": {
-						"ChestNumber": 22
+						"ChestNumber": 30
 					},
 					"behaviors": {},
 					"world": {
-						"x": 62.13991431678076,
-						"y": 219.42765859654602,
+						"x": 59.86206473838914,
+						"y": 258.15110142920366,
 						"width": 17,
 						"height": 15,
 						"originX": 0.5,
@@ -999,22 +1278,53 @@
 					}
 				},
 				{
-					"type": "Col_HealthRegen",
+					"type": "Tooltip_Box",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 1063,
+					"uid": 1162,
 					"instanceVariables": {
-						"ChestNumber": 22
+						"WhatTooltip": 29
 					},
 					"behaviors": {},
 					"world": {
-						"x": 108.94008235776656,
-						"y": 219.17604478987406,
+						"x": 121.84512719307959,
+						"y": 258.27743066196916,
+						"width": 45,
+						"height": 45,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Col_HealthRegen",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": false,
+						"live-preview": false
+					},
+					"uid": 1063,
+					"instanceVariables": {
+						"ChestNumber": 29
+					},
+					"behaviors": {},
+					"world": {
+						"x": 121.61062063756997,
+						"y": 258.32658441848014,
 						"width": 17,
 						"height": 15,
 						"originX": 0.5,
@@ -7698,8 +8008,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 80.30595514123672,
-						"y": 217.3602848809172,
+						"x": 54.11068498973304,
+						"y": 218.3568440714635,
 						"width": 11,
 						"height": 7,
 						"originX": 0.5,
@@ -7733,8 +8043,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 87.30595514123672,
-						"y": 209.3602848809172,
+						"x": 66.8053089357121,
+						"y": 216.47856481339102,
 						"width": 11,
 						"height": 7,
 						"originX": 0.5,
@@ -7803,8 +8113,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 80.30595514123672,
-						"y": 232.5478408422069,
+						"x": 58.95111534381523,
+						"y": 230.98181925706265,
 						"width": 11,
 						"height": 7,
 						"originX": 0.5,
@@ -7838,8 +8148,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 94.30595514123672,
-						"y": 232.5478408422069,
+						"x": 123.91799966032784,
+						"y": 217.74181858266135,
 						"width": 11,
 						"height": 7,
 						"originX": 0.5,
@@ -7873,8 +8183,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 87.30595514123672,
-						"y": 224.5478408422069,
+						"x": 46.162297131538,
+						"y": 225.11730323680482,
 						"width": 11,
 						"height": 7,
 						"originX": 0.5,
@@ -11810,88 +12120,6 @@
 					}
 				},
 				{
-					"type": "Door_Vertical",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Closed",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1650,
-					"instanceVariables": {
-						"PuzzleCode": "RG",
-						"SolutionCode": "",
-						"WhatPuzzle": 1,
-						"Open": false
-					},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 92.59701508052899,
-						"y": 334.833435,
-						"width": 21,
-						"height": 43,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Door_Vertical",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Closed",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1651,
-					"instanceVariables": {
-						"PuzzleCode": "BGR",
-						"SolutionCode": "",
-						"WhatPuzzle": 0,
-						"Open": false
-					},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 488.64936447195146,
-						"y": 644.840786,
-						"width": 21,
-						"height": 43,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "CatacombRoof",
 					"properties": {
 						"initially-visible": true,
@@ -14618,8 +14846,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 57.345134602750065,
-						"y": 340.442237134188,
+						"x": 209.28450885514224,
+						"y": 143.1755214229952,
 						"width": 11,
 						"height": 11,
 						"originX": 0.5,
@@ -14651,8 +14879,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1139.358395,
-						"y": 643.683067,
+						"x": 238.28053123136476,
+						"y": 338.1704233418418,
 						"width": 11,
 						"height": 11,
 						"originX": 0.5,
@@ -14684,8 +14912,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1033.011917,
-						"y": 24.642477,
+						"x": 266.89297824331544,
+						"y": 22.028726501402645,
 						"width": 11,
 						"height": 11,
 						"originX": 0.5,
@@ -14783,8 +15011,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 133.17320608344994,
-						"y": 340.9996927277724,
+						"x": 526.1402368634107,
+						"y": 20.68059043805377,
 						"width": 11,
 						"height": 11,
 						"originX": 0.5,
@@ -14816,8 +15044,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 186.259789,
-						"y": 26.806324,
+						"x": 1102.0012174322922,
+						"y": 16.587750120498026,
 						"width": 11,
 						"height": 11,
 						"originX": 0.5,
@@ -15039,8 +15267,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 57.34513458313438,
-						"y": 340.4422372127597,
+						"x": 209.28450883552654,
+						"y": 143.1755215015669,
 						"width": 11,
 						"height": 11,
 						"originX": 0.5,
@@ -15068,8 +15296,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1139.3583953381467,
-						"y": 643.6830673596398,
+						"x": 238.28053156951148,
+						"y": 338.1704237014816,
 						"width": 11,
 						"height": 11,
 						"originX": 0.5,
@@ -15097,8 +15325,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1033.0119169283457,
-						"y": 24.642476587334613,
+						"x": 266.8929781716611,
+						"y": 22.02872608873726,
 						"width": 11,
 						"height": 11,
 						"originX": 0.5,
@@ -15499,8 +15727,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 133.17320606383427,
-						"y": 340.9996928063441,
+						"x": 526.140236843795,
+						"y": 20.68059051662547,
 						"width": 11,
 						"height": 11,
 						"originX": 0.5,
@@ -15528,8 +15756,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 186.25978887311538,
-						"y": 26.806324072553082,
+						"x": 1102.0012173054076,
+						"y": 16.587750193051107,
 						"width": 11,
 						"height": 11,
 						"originX": 0.5,
@@ -15913,6 +16141,196 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
+					"uid": 938,
+					"instanceVariables": {
+						"ChestNumber": 29
+					},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 121.63756155604706,
+						"y": 265.2852850425854,
+						"width": 16,
+						"height": 15,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Chest",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Closed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1032,
+					"instanceVariables": {
+						"ChestNumber": 30
+					},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 59.419875041766275,
+						"y": 265.14291944393585,
+						"width": 16,
+						"height": 15,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Chest",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Closed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1147,
+					"instanceVariables": {
+						"ChestNumber": 26
+					},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 38.470138,
+						"y": 183.429429,
+						"width": 16,
+						"height": 15,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Chest",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Closed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1151,
+					"instanceVariables": {
+						"ChestNumber": 28
+					},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 85.18238647908095,
+						"y": 219.58298794775874,
+						"width": 16,
+						"height": 15,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Chest",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Closed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1155,
+					"instanceVariables": {
+						"ChestNumber": 27
+					},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 129.65674627935476,
+						"y": 189.68621223136867,
+						"width": 16,
+						"height": 15,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Chest",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Closed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
 					"uid": 1871,
 					"instanceVariables": {
 						"ChestNumber": 21
@@ -16133,46 +16551,6 @@
 					}
 				},
 				{
-					"type": "Catacomb_Wall_Down_Bit",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1865,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": false,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 274.06467954266117,
-						"y": 747.2582288571163,
-						"width": 38.19009432633021,
-						"height": 16,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "WallTorch",
 					"properties": {
 						"initially-visible": true,
@@ -16272,8 +16650,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1047.285343932644,
-						"y": 20.890089629212465,
+						"x": 952.1740024388181,
+						"y": 19.318001340058284,
 						"width": 9,
 						"height": 18,
 						"originX": 0.5,
@@ -16872,35 +17250,6 @@
 					"type": "Cobweb_1",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Cobweb_4",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 1121,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 321.6998561400659,
-						"y": 772.409830417119,
-						"width": 30,
-						"height": 30,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Cobweb_1",
-					"properties": {
-						"initially-visible": true,
 						"initial-animation": "Cobweb_3",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -17320,6 +17669,622 @@
 						"y": 143.0782803670202,
 						"width": 30,
 						"height": 30,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Enemy_Skeleton",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1173,
+					"instanceVariables": {
+						"Health": 4,
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0,
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
+					},
+					"behaviors": {
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 150,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 80,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": false,
+								"stop-on-solids": true,
+								"enabled": true
+							}
+						},
+						"Flash": {
+							"properties": {}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": false,
+								"tags": ""
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 0,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": true,
+								"set-angle": false,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 1149,
+						"y": 434,
+						"width": 10,
+						"height": 20,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Enemy_Skeleton",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1174,
+					"instanceVariables": {
+						"Health": 4,
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0,
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
+					},
+					"behaviors": {
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 150,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 80,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": false,
+								"stop-on-solids": true,
+								"enabled": true
+							}
+						},
+						"Flash": {
+							"properties": {}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": false,
+								"tags": ""
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 0,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": true,
+								"set-angle": false,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 988,
+						"y": 107,
+						"width": 10,
+						"height": 20,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Enemy_Skeleton",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1175,
+					"instanceVariables": {
+						"Health": 4,
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0,
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
+					},
+					"behaviors": {
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 150,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 80,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": false,
+								"stop-on-solids": true,
+								"enabled": true
+							}
+						},
+						"Flash": {
+							"properties": {}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": false,
+								"tags": ""
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 0,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": true,
+								"set-angle": false,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 904,
+						"y": 183,
+						"width": 10,
+						"height": 20,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Enemy_Skeleton",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1176,
+					"instanceVariables": {
+						"Health": 4,
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0,
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
+					},
+					"behaviors": {
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 150,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 80,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": false,
+								"stop-on-solids": true,
+								"enabled": true
+							}
+						},
+						"Flash": {
+							"properties": {}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": false,
+								"tags": ""
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 0,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": true,
+								"set-angle": false,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 390,
+						"y": 549,
+						"width": 10,
+						"height": 20,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Enemy_Skeleton",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1177,
+					"instanceVariables": {
+						"Health": 4,
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0,
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
+					},
+					"behaviors": {
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 150,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 80,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": false,
+								"stop-on-solids": true,
+								"enabled": true
+							}
+						},
+						"Flash": {
+							"properties": {}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": false,
+								"tags": ""
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 0,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": true,
+								"set-angle": false,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 441,
+						"y": 427,
+						"width": 10,
+						"height": 20,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Enemy_Skeleton",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1195,
+					"instanceVariables": {
+						"Health": 4,
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0,
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
+					},
+					"behaviors": {
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 150,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 80,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": false,
+								"stop-on-solids": true,
+								"enabled": true
+							}
+						},
+						"Flash": {
+							"properties": {}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": false,
+								"tags": ""
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 0,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": true,
+								"set-angle": false,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 572,
+						"y": 691,
+						"width": 10,
+						"height": 20,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Enemy_Skeleton",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1198,
+					"instanceVariables": {
+						"Health": 4,
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0,
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
+					},
+					"behaviors": {
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 150,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 80,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": false,
+								"stop-on-solids": true,
+								"enabled": true
+							}
+						},
+						"Flash": {
+							"properties": {}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": false,
+								"tags": ""
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 0,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": true,
+								"set-angle": false,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 329,
+						"y": 704,
+						"width": 10,
+						"height": 20,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Enemy_Skeleton",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1199,
+					"instanceVariables": {
+						"Health": 4,
+						"AttackPower_Melee": 1,
+						"startPosX": 0,
+						"startPosY": 0,
+						"isAttacking": false,
+						"isDead": false,
+						"startHealth": 0
+					},
+					"behaviors": {
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 150,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 80,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": false,
+								"stop-on-solids": true,
+								"enabled": true
+							}
+						},
+						"Flash": {
+							"properties": {}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": false,
+								"tags": ""
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 0,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": true,
+								"set-angle": false,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 133,
+						"y": 82,
+						"width": 10,
+						"height": 20,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -19797,6 +20762,1981 @@
 					}
 				},
 				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1876,
+					"instanceVariables": {
+						"WhatTooltip": 0
+					},
+					"behaviors": {},
+					"world": {
+						"x": 181.25526575275543,
+						"y": 614.2464482418728,
+						"width": 300.477858,
+						"height": 51.553629,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1878,
+					"instanceVariables": {
+						"WhatTooltip": 3
+					},
+					"behaviors": {},
+					"world": {
+						"x": 209.62261091718514,
+						"y": 117.74408007684349,
+						"width": 179.887971,
+						"height": 43.243509,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1880,
+					"instanceVariables": {
+						"WhatTooltip": 2
+					},
+					"behaviors": {},
+					"world": {
+						"x": 238.58993725047748,
+						"y": 312.34607977847713,
+						"width": 179.887971,
+						"height": 43.243509,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1882,
+					"instanceVariables": {
+						"WhatTooltip": 10
+					},
+					"behaviors": {},
+					"world": {
+						"x": 267.5693227604212,
+						"y": -12.489745317326694,
+						"width": 213.408531,
+						"height": 58.834467,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1886,
+					"instanceVariables": {
+						"WhatTooltip": 1
+					},
+					"behaviors": {},
+					"world": {
+						"x": 719.5674191319504,
+						"y": 749.7391620612647,
+						"width": 179.887971,
+						"height": 32.329838,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1888,
+					"instanceVariables": {
+						"WhatTooltip": 25
+					},
+					"behaviors": {},
+					"world": {
+						"x": 812.99363302485,
+						"y": 575.1411491440855,
+						"width": 39.768883,
+						"height": 15.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1890,
+					"instanceVariables": {
+						"WhatTooltip": 21
+					},
+					"behaviors": {},
+					"world": {
+						"x": 283.4993716696097,
+						"y": 858.0336658187922,
+						"width": 39.768883,
+						"height": 15.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1892,
+					"instanceVariables": {
+						"WhatTooltip": 23
+					},
+					"behaviors": {},
+					"world": {
+						"x": 1152.7586889731244,
+						"y": 42.04436779777457,
+						"width": 39.768883,
+						"height": 15.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1894,
+					"instanceVariables": {
+						"WhatTooltip": 24
+					},
+					"behaviors": {},
+					"world": {
+						"x": 1105.9030908790066,
+						"y": 818.4887474810479,
+						"width": 39.768883,
+						"height": 15.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1884,
+					"instanceVariables": {
+						"WhatTooltip": 5
+					},
+					"behaviors": {},
+					"world": {
+						"x": 401.17488638371793,
+						"y": 311.9502831301333,
+						"width": 211.793753,
+						"height": 43.132145,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1631,
+					"instanceVariables": {
+						"WhatTooltip": 4
+					},
+					"behaviors": {},
+					"world": {
+						"x": 525.8623908890789,
+						"y": -12.678922422869718,
+						"width": 257.953068,
+						"height": 51.782184,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1652,
+					"instanceVariables": {
+						"WhatTooltip": 7
+					},
+					"behaviors": {},
+					"world": {
+						"x": 1101.466240338761,
+						"y": -9.744054019668809,
+						"width": 213.408531,
+						"height": 44.023056,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1763,
+					"instanceVariables": {
+						"WhatTooltip": 8
+					},
+					"behaviors": {},
+					"world": {
+						"x": 735.6378183410777,
+						"y": 307.4658777314197,
+						"width": 197.038025,
+						"height": 47.141249,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1788,
+					"instanceVariables": {
+						"WhatTooltip": 9
+					},
+					"behaviors": {},
+					"world": {
+						"x": 833.9228999586414,
+						"y": -10.592158456293554,
+						"width": 197.038025,
+						"height": 54.936728,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1814,
+					"instanceVariables": {
+						"WhatTooltip": 6
+					},
+					"behaviors": {},
+					"world": {
+						"x": 455.8416175266511,
+						"y": 120.62327161895091,
+						"width": 209.510792,
+						"height": 43.243509,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 717,
+					"instanceVariables": {
+						"WhatTooltip": 20
+					},
+					"behaviors": {},
+					"world": {
+						"x": 768.0585483041318,
+						"y": 858.2440575866726,
+						"width": 39.768883,
+						"height": 15.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": true,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1050,
+					"instanceVariables": {
+						"WhatTooltip": 13
+					},
+					"behaviors": {},
+					"world": {
+						"x": 1001.4814076132706,
+						"y": 268.47979275405385,
+						"width": 264.003301,
+						"height": 64.19474,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							0.6995454711913998
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": true,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1051,
+					"instanceVariables": {
+						"WhatTooltip": 11
+					},
+					"behaviors": {},
+					"world": {
+						"x": 91.83337544719242,
+						"y": 475.08518110988143,
+						"width": 194.767765,
+						"height": 54.621799,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							0.6995454711913998
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": true,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1052,
+					"instanceVariables": {
+						"WhatTooltip": 12
+					},
+					"behaviors": {},
+					"world": {
+						"x": 64.52064696031906,
+						"y": 793.3024582969917,
+						"width": 259.692899,
+						"height": 77.260079,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							0.6995454711913998
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1072,
+					"instanceVariables": {
+						"WhatTooltip": 22
+					},
+					"behaviors": {},
+					"world": {
+						"x": 361.88744565452777,
+						"y": 166.384317502227,
+						"width": 39.768883,
+						"height": 15.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 939,
+					"instanceVariables": {
+						"WhatTooltip": 29
+					},
+					"behaviors": {},
+					"world": {
+						"x": 121.99207568957294,
+						"y": 235.18457818741282,
+						"width": 39.768883,
+						"height": 15.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1144,
+					"instanceVariables": {
+						"WhatTooltip": 30
+					},
+					"behaviors": {},
+					"world": {
+						"x": 59.98964175450478,
+						"y": 233.37002915349916,
+						"width": 39.768883,
+						"height": 15.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1148,
+					"instanceVariables": {
+						"WhatTooltip": 26
+					},
+					"behaviors": {},
+					"world": {
+						"x": 38.17483167726639,
+						"y": 152.3383783552661,
+						"width": 39.768883,
+						"height": 15.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1152,
+					"instanceVariables": {
+						"WhatTooltip": 28
+					},
+					"behaviors": {},
+					"world": {
+						"x": 85.01118262904946,
+						"y": 189.62464669123574,
+						"width": 39.768883,
+						"height": 15.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1156,
+					"instanceVariables": {
+						"WhatTooltip": 27
+					},
+					"behaviors": {},
+					"world": {
+						"x": 128.94869208023806,
+						"y": 158.40283617595978,
+						"width": 39.768883,
+						"height": 15.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "The priests who worshipped Bal’aan were called the Withered. They practiced death magic in order to ferry souls to the goddess of death.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1885,
+					"instanceVariables": {
+						"WhatTooltip": 5
+					},
+					"behaviors": {},
+					"world": {
+						"x": 401.17488638371793,
+						"y": 311.9502831301333,
+						"width": 207.79375307179797,
+						"height": 39.13214451451877,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "While not being able to truly defeat the angels, with the help of the Withered Hand, the Bloodthorn Knights were able to banish them from Dissodia, locking them in within their angelic plane of existence.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1632,
+					"instanceVariables": {
+						"WhatTooltip": 4
+					},
+					"behaviors": {},
+					"world": {
+						"x": 525.8623907211216,
+						"y": -12.678922013479436,
+						"width": 253.95306766592728,
+						"height": 47.78218426387322,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "Until the last, the Druidic Council of Three were unaware of Bal’aan’s true plan. If they did, they would have not gone along with it. Their ignorance cost them dearly.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1653,
+					"instanceVariables": {
+						"WhatTooltip": 7
+					},
+					"behaviors": {},
+					"world": {
+						"x": 1101.466240338761,
+						"y": -9.744054019668809,
+						"width": 209.40853088946423,
+						"height": 40.02305641392119,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "With each godly death, their powerful souls were shepherded into the care of Bal’aan, strengthening her, and her cultists.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1778,
+					"instanceVariables": {
+						"WhatTooltip": 8
+					},
+					"behaviors": {},
+					"world": {
+						"x": 735.6378183410777,
+						"y": 307.4658777314197,
+						"width": 193.038025,
+						"height": 43.141248880227394,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "When all the woodland gods but Bal’aan and Thaea were destroyed, they came up with a plan, only to be enacted in the event of either one’s death.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1796,
+					"instanceVariables": {
+						"WhatTooltip": 9
+					},
+					"behaviors": {},
+					"world": {
+						"x": 833.9228999586414,
+						"y": -10.592158456293554,
+						"width": 193.03802506349984,
+						"height": 50.93672767965895,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "The Withered Hand were a small, secret sect of the Withered devoted to the unholy teachings of Bal’aan. They grew strong, as the other druidic gods perished.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1816,
+					"instanceVariables": {
+						"WhatTooltip": 6
+					},
+					"behaviors": {},
+					"world": {
+						"x": 455.8416175266511,
+						"y": 120.62327161895091,
+						"width": 205.51079165513602,
+						"height": 39.243509,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "Press E",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 718,
+					"instanceVariables": {
+						"WhatTooltip": 20
+					},
+					"behaviors": {},
+					"world": {
+						"x": 768.0585483041318,
+						"y": 858.2440575866726,
+						"width": 35.768883,
+						"height": 11.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "When Castle Thornburg's King, and the goddess Thaea were betrayed by the Archangel Barthran, Castle Moss turned to the last of their woodland gods for help against Heaven's Point, Bal'aan. Risking all in order to survive... at a price.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1053,
+					"instanceVariables": {
+						"WhatTooltip": 13
+					},
+					"behaviors": {},
+					"world": {
+						"x": 1001.4814078212537,
+						"y": 268.4797926022009,
+						"width": 260.00330085951714,
+						"height": 60.1947404497309,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "Prior to the Assault on the Penitent Tower, Bronn Talstead, the leader of Castle Thornburg’s Bloodthorn Knights, met with the Druidic Council of Castle Moss.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1054,
+					"instanceVariables": {
+						"WhatTooltip": 11
+					},
+					"behaviors": {},
+					"world": {
+						"x": 91.83337552981138,
+						"y": 475.08518070957007,
+						"width": 190.76776515843605,
+						"height": 50.62179912008575,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "One by one, Heaven’s Point hunted down and eradicated the demi-gods worshipped by the people of Castle Moss for their assault on the Penitent Tower. A representative from Castle Thornburg was summoned to the Tower to answer for the rumors of their involvement. King Thornburg chose to plead his case to the Archangels himself.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1055,
+					"instanceVariables": {
+						"WhatTooltip": 12
+					},
+					"behaviors": {},
+					"world": {
+						"x": 64.52064721623722,
+						"y": 793.3024583586384,
+						"width": 255.69289901142133,
+						"height": 73.26007867865663,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "Press E",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1073,
+					"instanceVariables": {
+						"WhatTooltip": 22
+					},
+					"behaviors": {},
+					"world": {
+						"x": 361.88744565452777,
+						"y": 166.384317502227,
+						"width": 35.768883,
+						"height": 11.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "The Archangels were Heaven’s chosen leaders on Dissodia. Led by Barthran, this small sect of the most powerful, and arrogant of angels ruled over the Penitent Tower, demanding respect from all living beings.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1877,
+					"instanceVariables": {
+						"WhatTooltip": 0
+					},
+					"behaviors": {},
+					"world": {
+						"x": 181.2552655934533,
+						"y": 614.2464485366173,
+						"width": 296.4778582221239,
+						"height": 47.553628863166935,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "While most of the Withered practiced small forms of death magic, some close to Bal'aan dove into even darker magics, like necromancy.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1879,
+					"instanceVariables": {
+						"WhatTooltip": 3
+					},
+					"behaviors": {},
+					"world": {
+						"x": 209.62261074922785,
+						"y": 117.74408048623377,
+						"width": 175.887971,
+						"height": 39.243509,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "With King Thornburg’s death at the hands of Barthran, Bronn and his knights set out to stop the archangels once and for all.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1881,
+					"instanceVariables": {
+						"WhatTooltip": 2
+					},
+					"behaviors": {},
+					"world": {
+						"x": 237.58993725047748,
+						"y": 312.34607977847713,
+						"width": 175.887971,
+						"height": 39.243509,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "Enchanted to secrecy by Bal’aan, Bronn and the Bloodthorns ruled over Castle Thornburg for twenty years until the Dwarf King-Of-War Baron bested him in single combat, winning the kingdom.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1883,
+					"instanceVariables": {
+						"WhatTooltip": 10
+					},
+					"behaviors": {},
+					"world": {
+						"x": 267.56932252946456,
+						"y": -12.489745435247535,
+						"width": 209.40853121502266,
+						"height": 54.834467239545276,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "The druidic trickster goddess of death, Bal’aan, rivaled only her sister, Thaea, in power.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1887,
+					"instanceVariables": {
+						"WhatTooltip": 1
+					},
+					"behaviors": {},
+					"world": {
+						"x": 719.5674191319504,
+						"y": 749.7391620612647,
+						"width": 175.887971,
+						"height": 28.329838,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "Press E",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1889,
+					"instanceVariables": {
+						"WhatTooltip": 25
+					},
+					"behaviors": {},
+					"world": {
+						"x": 812.99363302485,
+						"y": 575.1411491440855,
+						"width": 35.768883,
+						"height": 11.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "Press E",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1891,
+					"instanceVariables": {
+						"WhatTooltip": 21
+					},
+					"behaviors": {},
+					"world": {
+						"x": 283.4993716696097,
+						"y": 858.0336658187922,
+						"width": 35.768883,
+						"height": 11.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "Press E",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1893,
+					"instanceVariables": {
+						"WhatTooltip": 23
+					},
+					"behaviors": {},
+					"world": {
+						"x": 1152.7586889731244,
+						"y": 42.04436779777457,
+						"width": 35.768883,
+						"height": 11.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "Press E",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1895,
+					"instanceVariables": {
+						"WhatTooltip": 24
+					},
+					"behaviors": {},
+					"world": {
+						"x": 1105.9030908790066,
+						"y": 818.4887474810479,
+						"width": 35.768883,
+						"height": 11.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "Press E",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 940,
+					"instanceVariables": {
+						"WhatTooltip": 29
+					},
+					"behaviors": {},
+					"world": {
+						"x": 121.99207568957294,
+						"y": 235.18457818741282,
+						"width": 35.768883,
+						"height": 11.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "Press E",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1145,
+					"instanceVariables": {
+						"WhatTooltip": 30
+					},
+					"behaviors": {},
+					"world": {
+						"x": 59.98964175450478,
+						"y": 233.37002915349916,
+						"width": 35.768883,
+						"height": 11.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "Press E",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1149,
+					"instanceVariables": {
+						"WhatTooltip": 26
+					},
+					"behaviors": {},
+					"world": {
+						"x": 38.17483167726639,
+						"y": 152.3383783552661,
+						"width": 35.768883,
+						"height": 11.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "Press E",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1153,
+					"instanceVariables": {
+						"WhatTooltip": 28
+					},
+					"behaviors": {},
+					"world": {
+						"x": 85.01118262904946,
+						"y": 189.62464669123574,
+						"width": 35.768883,
+						"height": 11.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "Press E",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1157,
+					"instanceVariables": {
+						"WhatTooltip": 27
+					},
+					"behaviors": {},
+					"world": {
+						"x": 128.94869208023806,
+						"y": 158.40283617595978,
+						"width": 35.768883,
+						"height": 11.856675,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Mana_Armored",
 					"properties": {
 						"initially-visible": true,
@@ -19855,30 +22795,36 @@
 					}
 				},
 				{
-					"type": "TooltipBackground",
+					"type": "Door_Vertical",
 					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
+						"initially-visible": true,
+						"initial-animation": "Closed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
-					"uid": 1876,
+					"uid": 1650,
 					"instanceVariables": {
-						"WhatTooltip": 0
+						"PuzzleCode": "RG",
+						"SolutionCode": "",
+						"WhatPuzzle": 1,
+						"Open": false
 					},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
-						"x": 157.46605094305116,
-						"y": 631.639085874339,
-						"width": 47.08680793117013,
-						"height": 7.985654111613712,
-						"originX": 0,
-						"originY": 0,
+						"x": 92.59701508052899,
+						"y": 334.833435,
+						"width": 21,
+						"height": 43,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -19890,30 +22836,36 @@
 					}
 				},
 				{
-					"type": "TooltipBackground",
+					"type": "Door_Vertical",
 					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
+						"initially-visible": true,
+						"initial-animation": "Closed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
-					"uid": 1878,
+					"uid": 1651,
 					"instanceVariables": {
-						"WhatTooltip": 3
+						"PuzzleCode": "BGR",
+						"SolutionCode": "",
+						"WhatPuzzle": 0,
+						"Open": false
 					},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
-						"x": 33.34841412315046,
-						"y": 327.267931259117,
-						"width": 48.732057378184024,
-						"height": 7.542770140747386,
-						"originX": 0,
-						"originY": 0,
+						"x": 488.64936447195146,
+						"y": 644.840786,
+						"width": 21,
+						"height": 43,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -19925,497 +22877,7 @@
 					}
 				},
 				{
-					"type": "TooltipBackground",
-					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1880,
-					"instanceVariables": {
-						"WhatTooltip": 2
-					},
-					"behaviors": {},
-					"world": {
-						"x": 1111.3583953381467,
-						"y": 629.6830673596398,
-						"width": 57.613360071890156,
-						"height": 8.875007637312713,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TooltipBackground",
-					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1882,
-					"instanceVariables": {
-						"WhatTooltip": 10
-					},
-					"behaviors": {},
-					"world": {
-						"x": 1011.2666966920801,
-						"y": 6.788168191056105,
-						"width": 43.90288761583969,
-						"height": 11.067316658872045,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TooltipBackground",
-					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1886,
-					"instanceVariables": {
-						"WhatTooltip": 1
-					},
-					"behaviors": {},
-					"world": {
-						"x": 695,
-						"y": 755,
-						"width": 47.873984614162396,
-						"height": 8.875007637312713,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TooltipBackground",
-					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1888,
-					"instanceVariables": {
-						"WhatTooltip": 25
-					},
-					"behaviors": {},
-					"world": {
-						"x": 795.3521953368036,
-						"y": 576.7449162066353,
-						"width": 35.768883,
-						"height": 11.856675,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TooltipBackground",
-					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1890,
-					"instanceVariables": {
-						"WhatTooltip": 21
-					},
-					"behaviors": {},
-					"world": {
-						"x": 266.1483230590046,
-						"y": 857.6866448465802,
-						"width": 35.768883,
-						"height": 11.856675,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TooltipBackground",
-					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1892,
-					"instanceVariables": {
-						"WhatTooltip": 23
-					},
-					"behaviors": {},
-					"world": {
-						"x": 1135.1172512850778,
-						"y": 45.572655335383885,
-						"width": 35.768883,
-						"height": 11.856675,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TooltipBackground",
-					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1894,
-					"instanceVariables": {
-						"WhatTooltip": 24
-					},
-					"behaviors": {},
-					"world": {
-						"x": 1088.2838239752957,
-						"y": 817.1269311519017,
-						"width": 35.768883,
-						"height": 11.856675,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TooltipBackground",
-					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1884,
-					"instanceVariables": {
-						"WhatTooltip": 5
-					},
-					"behaviors": {},
-					"world": {
-						"x": 373.99229474761836,
-						"y": 324.0282322979232,
-						"width": 55.00236277657467,
-						"height": 8.729776002227425,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TooltipBackground",
-					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1631,
-					"instanceVariables": {
-						"WhatTooltip": 4
-					},
-					"behaviors": {},
-					"world": {
-						"x": 109.17648560385035,
-						"y": 327.8253868527014,
-						"width": 48.732057378184024,
-						"height": 7.542770140747386,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TooltipBackground",
-					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1652,
-					"instanceVariables": {
-						"WhatTooltip": 7
-					},
-					"behaviors": {},
-					"world": {
-						"x": 98.17121240477212,
-						"y": -19.015544033165952,
-						"width": 175.88797112676218,
-						"height": 37.68441273281127,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TooltipBackground",
-					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1763,
-					"instanceVariables": {
-						"WhatTooltip": 8
-					},
-					"behaviors": {},
-					"world": {
-						"x": 707.691257429586,
-						"y": 322.47610986922797,
-						"width": 55.00236277657467,
-						"height": 8.729776002227425,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TooltipBackground",
-					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1788,
-					"instanceVariables": {
-						"WhatTooltip": 9
-					},
-					"behaviors": {},
-					"world": {
-						"x": 805.472873309087,
-						"y": 7.4022516136382706,
-						"width": 55.00236277657467,
-						"height": 8.729776002227425,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TooltipBackground",
-					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1814,
-					"instanceVariables": {
-						"WhatTooltip": 6
-					},
-					"behaviors": {},
-					"world": {
-						"x": 428.3154204698486,
-						"y": 133.12139387629,
-						"width": 55.00236277657467,
-						"height": 8.729776002227425,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TooltipBackground",
-					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 717,
-					"instanceVariables": {
-						"WhatTooltip": 20
-					},
-					"behaviors": {},
-					"world": {
-						"x": 748.278352888042,
-						"y": 858.2440575866726,
-						"width": 35.768883,
-						"height": 11.856675,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TooltipBackground",
+					"type": "Catacomb_Wall_Down_Bit",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -20427,1003 +22889,52 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 1050,
-					"instanceVariables": {
-						"WhatTooltip": 13
+					"uid": 1865,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": false,
+								"tags": ""
+							}
+						}
 					},
-					"behaviors": {},
 					"world": {
-						"x": 872.8592891967861,
-						"y": 227.74410936529193,
-						"width": 260.003301,
-						"height": 60.19474,
+						"x": 274.06467954266117,
+						"y": 747.2582288571163,
+						"width": 38.19009432633021,
+						"height": 16,
 						"originX": 0,
 						"originY": 0,
 						"color": [
 							1,
 							1,
 							1,
-							0.6995454711913998
+							1
 						],
 						"angle": 0,
 						"zElevation": 0
 					}
 				},
 				{
-					"type": "TooltipBackground",
+					"type": "Cobweb_1",
 					"properties": {
 						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
+						"initial-animation": "Cobweb_4",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
-					"uid": 1051,
-					"instanceVariables": {
-						"WhatTooltip": 11
-					},
+					"uid": 1121,
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -1.6669852398369187,
-						"y": 457.52157744491456,
-						"width": 190.76776503286771,
-						"height": 50.621798717982074,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							0.6995454711913998
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TooltipBackground",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1052,
-					"instanceVariables": {
-						"WhatTooltip": 12
-					},
-					"behaviors": {},
-					"world": {
-						"x": -55.84169580254192,
-						"y": 742.6779536156167,
-						"width": 255.69289874472415,
-						"height": 73.26007889405474,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							0.6995454711913998
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TooltipBackground",
-					"properties": {
-						"initially-visible": false,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 1072,
-					"instanceVariables": {
-						"WhatTooltip": 22
-					},
-					"behaviors": {},
-					"world": {
-						"x": 342.84948954011384,
-						"y": 164.93839678467657,
-						"width": 35.768883,
-						"height": 11.856675,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "Narrative Clue 3.2",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1885,
-					"instanceVariables": {
-						"WhatTooltip": 5
-					},
-					"behaviors": {},
-					"world": {
-						"x": 373.99229474761836,
-						"y": 324.0282322979232,
-						"width": 55.00236232425439,
-						"height": 8.729775947405543,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "Narrative Clue 2.1",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1632,
-					"instanceVariables": {
-						"WhatTooltip": 4
-					},
-					"behaviors": {},
-					"world": {
-						"x": 109.17648543589306,
-						"y": 327.8253872620917,
-						"width": 48.732057750402305,
-						"height": 7.5427705549467525,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "The druidic trickster goddess of death, Bal'aan, rivaled only Thaea in power, and her worshippers practiced unholy magic: Necromancy.",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1653,
-					"instanceVariables": {
-						"WhatTooltip": 7
-					},
-					"behaviors": {},
-					"world": {
-						"x": 98.17121240477212,
-						"y": -19.015544033165952,
-						"width": 175.8879706744419,
-						"height": 37.684412677989386,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "Narrative Clue 3.4",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1778,
-					"instanceVariables": {
-						"WhatTooltip": 8
-					},
-					"behaviors": {},
-					"world": {
-						"x": 707.691257429586,
-						"y": 322.47610986922797,
-						"width": 55.00236232425439,
-						"height": 8.729775947405543,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "Narrative Clue 3.6",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1796,
-					"instanceVariables": {
-						"WhatTooltip": 9
-					},
-					"behaviors": {},
-					"world": {
-						"x": 805.472873309087,
-						"y": 7.4022516136382706,
-						"width": 55.00236232425439,
-						"height": 8.729775947405543,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "Narrative Clue 3.1",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1816,
-					"instanceVariables": {
-						"WhatTooltip": 6
-					},
-					"behaviors": {},
-					"world": {
-						"x": 428.3154204698486,
-						"y": 133.12139387629,
-						"width": 55.00236232425439,
-						"height": 8.729775947405543,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "Press E",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 718,
-					"instanceVariables": {
-						"WhatTooltip": 20
-					},
-					"behaviors": {},
-					"world": {
-						"x": 748.278352888042,
-						"y": 858.2440575866726,
-						"width": 35.768883,
-						"height": 11.856675,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "When Castle Thornburg's King, and the goddess Thaea were murdered by the Archangel Barthran, Castle Moss turned to the last of their woodland gods for help against Heaven's Point, Bal'aan. Risking all in order to survive.",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1053,
-					"instanceVariables": {
-						"WhatTooltip": 13
-					},
-					"behaviors": {},
-					"world": {
-						"x": 872.8592894047692,
-						"y": 227.744109213439,
-						"width": 260.00330085951714,
-						"height": 60.1947404497309,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "Prior to the Assault on the Penitent Tower, Bronn Talstead, the leader of Castle Thornburg’s Bloodthorn Knights, met with the Druidic Council of Castle Moss.",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1054,
-					"instanceVariables": {
-						"WhatTooltip": 11
-					},
-					"behaviors": {},
-					"world": {
-						"x": -1.6669851572179581,
-						"y": 457.5215770446032,
-						"width": 190.76776515843605,
-						"height": 50.62179912008575,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "One by one, Heaven’s Point hunted down and eradicated the demi-gods worshipped by the people of Castle Moss for their assault on the Penitent Tower. A representative from Castle Thornburg was summoned to the Tower to answer for the rumors of their involvement. King Thornburg chose to plead his case to the Archangels himself.",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1055,
-					"instanceVariables": {
-						"WhatTooltip": 12
-					},
-					"behaviors": {},
-					"world": {
-						"x": -55.841695546623754,
-						"y": 742.6779536772634,
-						"width": 255.69289901142133,
-						"height": 73.26007867865663,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "Press E",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1073,
-					"instanceVariables": {
-						"WhatTooltip": 22
-					},
-					"behaviors": {},
-					"world": {
-						"x": 342.84948954011384,
-						"y": 164.93839678467657,
-						"width": 35.768883,
-						"height": 11.856675,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "Narrative Clue 1.1",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1877,
-					"instanceVariables": {
-						"WhatTooltip": 0
-					},
-					"behaviors": {},
-					"world": {
-						"x": 157.466050783749,
-						"y": 631.6390861690835,
-						"width": 47.08680747884985,
-						"height": 7.98565405679183,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "Narrative Clue 2.2",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1879,
-					"instanceVariables": {
-						"WhatTooltip": 3
-					},
-					"behaviors": {},
-					"world": {
-						"x": 33.348413955193166,
-						"y": 327.2679316685073,
-						"width": 48.732057750402305,
-						"height": 7.5427705549467525,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "Narrative Clue 1.3",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1881,
-					"instanceVariables": {
-						"WhatTooltip": 2
-					},
-					"behaviors": {},
-					"world": {
-						"x": 1110.3583953381467,
-						"y": 629.6830673596398,
-						"width": 57.61335971641802,
-						"height": 8.875007340926345,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "Narrative Clue 3.5",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1883,
-					"instanceVariables": {
-						"WhatTooltip": 10
-					},
-					"behaviors": {},
-					"world": {
-						"x": 1011.2666964611235,
-						"y": 6.788168073135267,
-						"width": 43.90288716351941,
-						"height": 11.067316604050163,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "Narrative Clue 1.2",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1887,
-					"instanceVariables": {
-						"WhatTooltip": 1
-					},
-					"behaviors": {},
-					"world": {
-						"x": 695,
-						"y": 755,
-						"width": 47.873985,
-						"height": 8.875008,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "Press E",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1889,
-					"instanceVariables": {
-						"WhatTooltip": 25
-					},
-					"behaviors": {},
-					"world": {
-						"x": 795.3521953368036,
-						"y": 576.7449162066353,
-						"width": 35.768883,
-						"height": 11.856675,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "Press E",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1891,
-					"instanceVariables": {
-						"WhatTooltip": 21
-					},
-					"behaviors": {},
-					"world": {
-						"x": 266.1483230590046,
-						"y": 857.6866448465802,
-						"width": 35.768883,
-						"height": 11.856675,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "Press E",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1893,
-					"instanceVariables": {
-						"WhatTooltip": 23
-					},
-					"behaviors": {},
-					"world": {
-						"x": 1135.1172512850778,
-						"y": 45.572655335383885,
-						"width": 35.768883,
-						"height": 11.856675,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Txt_Tooltip",
-					"properties": {
-						"text": "Press E",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 6,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 1895,
-					"instanceVariables": {
-						"WhatTooltip": 24
-					},
-					"behaviors": {},
-					"world": {
-						"x": 1088.2838239752957,
-						"y": 817.1269311519017,
-						"width": 35.768883,
-						"height": 11.856675,
-						"originX": 0,
-						"originY": 0,
+						"x": 321.6998561400659,
+						"y": 772.409830417119,
+						"width": 30,
+						"height": 30,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,

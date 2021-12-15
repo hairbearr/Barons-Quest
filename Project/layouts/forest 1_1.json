@@ -1931,6 +1931,37 @@
 					}
 				},
 				{
+					"type": "Tooltip_Box",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 980,
+					"instanceVariables": {
+						"WhatTooltip": 8
+					},
+					"behaviors": {},
+					"world": {
+						"x": 231.84700224540552,
+						"y": 511.1791910360068,
+						"width": 92.09874341377247,
+						"height": 66.19158706392886,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Enemy_Skeleton",
 					"properties": {
 						"initially-visible": true,
@@ -1991,8 +2022,8 @@
 						}
 					},
 					"world": {
-						"x": 524.130917965335,
-						"y": 496.72972086155744,
+						"x": 418.51824849495085,
+						"y": 492.03894331286654,
 						"width": 10,
 						"height": 20,
 						"originX": 0.5,
@@ -2855,7 +2886,7 @@
 					"type": "TooltipBackground",
 					"properties": {
 						"initially-visible": false,
-						"origin": "top-left",
+						"origin": "center",
 						"wrap-horizontal": "repeat",
 						"wrap-vertical": "repeat",
 						"image-offset-x": 0,
@@ -2870,12 +2901,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 247.15543714225822,
-						"y": 123.2392056406782,
-						"width": 165.99663358141066,
-						"height": 12.456188990269641,
-						"originX": 0,
-						"originY": 0,
+						"x": 330.5936859625184,
+						"y": 102.9434153871014,
+						"width": 169.996634,
+						"height": 16.456189000000002,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -2906,7 +2937,7 @@
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": false,
-						"origin": "top-left"
+						"origin": "center"
 					},
 					"uid": 236,
 					"instanceVariables": {
@@ -2914,12 +2945,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 247.15543714225822,
-						"y": 123.2392056406782,
-						"width": 165.99663322593852,
+						"x": 330.5936859625184,
+						"y": 102.9434153871014,
+						"width": 165.996634,
 						"height": 12.456189167876413,
-						"originX": 0,
-						"originY": 0,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -6267,7 +6298,7 @@
 					"type": "TooltipBackground",
 					"properties": {
 						"initially-visible": false,
-						"origin": "top-left",
+						"origin": "center",
 						"wrap-horizontal": "repeat",
 						"wrap-vertical": "repeat",
 						"image-offset-x": 0,
@@ -6282,12 +6313,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 739.392858895561,
-						"y": -10.791721134664343,
-						"width": 150.180956973315,
-						"height": 27.329349102206294,
-						"originX": 0,
-						"originY": 0,
+						"x": 813.3251139913489,
+						"y": -1.5501892476908523,
+						"width": 154.180957,
+						"height": 31.329349,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -6318,7 +6349,7 @@
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": false,
-						"origin": "top-left"
+						"origin": "center"
 					},
 					"uid": 267,
 					"instanceVariables": {
@@ -6326,12 +6357,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 739.3928585728588,
-						"y": -10.791721349679442,
+						"x": 813.3251136686467,
+						"y": -1.5501894627059514,
 						"width": 150.18095661784287,
 						"height": 27.329348805819926,
-						"originX": 0,
-						"originY": 0,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -6346,7 +6377,7 @@
 					"type": "TooltipBackground",
 					"properties": {
 						"initially-visible": false,
-						"origin": "top-left",
+						"origin": "center",
 						"wrap-horizontal": "repeat",
 						"wrap-vertical": "repeat",
 						"image-offset-x": 0,
@@ -6361,12 +6392,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": -7.2522729605335226,
-						"y": -21.712899468430454,
-						"width": 185.73375471267036,
-						"height": 41.837917031587764,
-						"originX": 0,
-						"originY": 0,
+						"x": 85.77009903502686,
+						"y": -4.2359689722948595,
+						"width": 189.733755,
+						"height": 45.837917,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -6397,7 +6428,7 @@
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": false,
-						"origin": "top-left"
+						"origin": "center"
 					},
 					"uid": 270,
 					"instanceVariables": {
@@ -6405,12 +6436,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": -7.252272989372742,
-						"y": -21.712898994170793,
+						"x": 85.77009900618764,
+						"y": -4.235968498035199,
 						"width": 185.73375426035008,
 						"height": 41.83791697676588,
-						"originX": 0,
-						"originY": 0,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -10182,7 +10213,7 @@
 					"type": "TooltipBackground",
 					"properties": {
 						"initially-visible": false,
-						"origin": "top-left",
+						"origin": "center",
 						"wrap-horizontal": "repeat",
 						"wrap-vertical": "repeat",
 						"image-offset-x": 0,
@@ -10197,12 +10228,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 82.69240773893227,
-						"y": 451.658466434286,
-						"width": 35.768883,
-						"height": 11.856675,
-						"originX": 0,
-						"originY": 0,
+						"x": 100.89542509206186,
+						"y": 453.7588145904163,
+						"width": 39.768883,
+						"height": 15.856675,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -10233,7 +10264,7 @@
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": false,
-						"origin": "top-left"
+						"origin": "center"
 					},
 					"uid": 837,
 					"instanceVariables": {
@@ -10241,12 +10272,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 82.69240773893227,
-						"y": 451.658466434286,
+						"x": 100.89542509206186,
+						"y": 453.7588145904163,
 						"width": 35.768883,
 						"height": 11.856675,
-						"originX": 0,
-						"originY": 0,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -10361,7 +10392,7 @@
 					"type": "TooltipBackground",
 					"properties": {
 						"initially-visible": false,
-						"origin": "top-left",
+						"origin": "center",
 						"wrap-horizontal": "repeat",
 						"wrap-vertical": "repeat",
 						"image-offset-x": 0,
@@ -10376,12 +10407,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 685.1320609171722,
-						"y": 27.61187473176558,
-						"width": 35.76888356915697,
-						"height": 11.856674890017562,
-						"originX": 0,
-						"originY": 0,
+						"x": 703.2300608624952,
+						"y": 33.00276833250011,
+						"width": 39.768883,
+						"height": 15.856675,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -10412,7 +10443,7 @@
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": false,
-						"origin": "top-left"
+						"origin": "center"
 					},
 					"uid": 842,
 					"instanceVariables": {
@@ -10420,12 +10451,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 685.1320609171722,
-						"y": 27.61187473176558,
+						"x": 703.2300608624952,
+						"y": 33.00276833250011,
 						"width": 35.76888321368483,
 						"height": 11.856675067624334,
-						"originX": 0,
-						"originY": 0,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -10452,9 +10483,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 648.7740619160907,
-						"y": 485.48321967780265,
+						"y": 503.7737515374376,
 						"width": 92.09874341377247,
-						"height": 66.19158706392886,
+						"height": 77.35843809402172,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -20659,7 +20690,7 @@
 					"type": "TooltipBackground",
 					"properties": {
 						"initially-visible": false,
-						"origin": "top-left",
+						"origin": "center",
 						"wrap-horizontal": "repeat",
 						"wrap-vertical": "repeat",
 						"image-offset-x": 0,
@@ -20674,12 +20705,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 743.5503791038946,
-						"y": 406.697356125851,
-						"width": 148.19922975619653,
-						"height": 39.12447660654612,
-						"originX": 0,
-						"originY": 0,
+						"x": 819.0958206033193,
+						"y": 420.22788296156887,
+						"width": 152.19923,
+						"height": 43.124477,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -20710,7 +20741,7 @@
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": false,
-						"origin": "top-left"
+						"origin": "center"
 					},
 					"uid": 269,
 					"instanceVariables": {
@@ -20718,12 +20749,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 743.5503787471094,
-						"y": 406.69735593412247,
+						"x": 819.0958202465342,
+						"y": 420.22788276984033,
 						"width": 148.1992301284148,
 						"height": 39.12447702074549,
-						"originX": 0,
-						"originY": 0,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -21232,7 +21263,7 @@
 					"type": "TooltipBackground",
 					"properties": {
 						"initially-visible": false,
-						"origin": "top-left",
+						"origin": "center",
 						"wrap-horizontal": "repeat",
 						"wrap-vertical": "repeat",
 						"image-offset-x": 0,
@@ -21247,12 +21278,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 590.6596129544337,
-						"y": 402.427375458357,
-						"width": 118.09203843303959,
-						"height": 42.66036101122926,
-						"originX": 0,
-						"originY": 0,
+						"x": 649.291895909211,
+						"y": 420.46807790598075,
+						"width": 122.092038,
+						"height": 46.660361,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -21283,7 +21314,7 @@
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": false,
-						"origin": "top-left"
+						"origin": "center"
 					},
 					"uid": 2164,
 					"instanceVariables": {
@@ -21291,12 +21322,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 590.6596125976486,
-						"y": 402.4273752666285,
+						"x": 649.2918955524259,
+						"y": 420.4680777142522,
 						"width": 118.09203880525786,
 						"height": 42.66036142542863,
-						"originX": 0,
-						"originY": 0,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -21359,40 +21390,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 818.135439720163,
-						"y": 494.71731462272487,
+						"y": 507.6169528816253,
 						"width": 90.53596271893085,
-						"height": 54.767272,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tooltip_Box",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 980,
-					"instanceVariables": {
-						"WhatTooltip": 8
-					},
-					"behaviors": {},
-					"world": {
-						"x": 521.187813711686,
-						"y": 485.55319324108666,
-						"width": 92.09874341377247,
-						"height": 66.19158706392886,
+						"height": 80.56654851780087,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -21818,8 +21818,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 522.3120485070024,
-						"y": 449.02660835751215,
+						"x": 232.97123704072192,
+						"y": 474.65260615243227,
 						"width": 11,
 						"height": 11,
 						"originX": 0.5,
@@ -21847,8 +21847,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 522.3120488561497,
-						"y": 449.0266084842988,
+						"x": 232.9712373898692,
+						"y": 474.6526062792189,
 						"width": 11,
 						"height": 11,
 						"originX": 0.5,
@@ -22191,7 +22191,7 @@
 					"type": "TooltipBackground",
 					"properties": {
 						"initially-visible": false,
-						"origin": "top-left",
+						"origin": "center",
 						"wrap-horizontal": "repeat",
 						"wrap-vertical": "repeat",
 						"image-offset-x": 0,
@@ -22206,12 +22206,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 429.12913234042,
-						"y": 390.90367270837567,
-						"width": 187.28423326424723,
-						"height": 53.802235381533585,
-						"originX": 0,
-						"originY": 0,
+						"x": 233.23356253117782,
+						"y": 443.4349562975373,
+						"width": 191.284233,
+						"height": 57.802235,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -22242,7 +22242,7 @@
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": false,
-						"origin": "top-left"
+						"origin": "center"
 					},
 					"uid": 1024,
 					"instanceVariables": {
@@ -22250,12 +22250,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 429.1291319836349,
-						"y": 390.90367251664713,
+						"x": 233.233563,
+						"y": 443.434956,
 						"width": 187.2842336364655,
 						"height": 53.802235795732955,
-						"originX": 0,
-						"originY": 0,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -22281,8 +22281,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 394.8490783243322,
-						"y": 485.83651096383875,
+						"x": 447.9647828447122,
+						"y": 311.5797259583816,
 						"width": 92.09874341377247,
 						"height": 66.19158706392886,
 						"originX": 0.5,
@@ -22314,8 +22314,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 395.9733131196486,
-						"y": 449.30992608026423,
+						"x": 449.0890176400286,
+						"y": 275.05314107480706,
 						"width": 11,
 						"height": 11,
 						"originX": 0.5,
@@ -22343,8 +22343,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 395.9733134687959,
-						"y": 449.30992620705086,
+						"x": 449.0890179891759,
+						"y": 275.0531412015937,
 						"width": 11,
 						"height": 11,
 						"originX": 0.5,
@@ -22363,7 +22363,7 @@
 					"type": "TooltipBackground",
 					"properties": {
 						"initially-visible": false,
-						"origin": "top-left",
+						"origin": "center",
 						"wrap-horizontal": "repeat",
 						"wrap-vertical": "repeat",
 						"image-offset-x": 0,
@@ -22378,12 +22378,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 247.96875380528425,
-						"y": 369.859272993264,
-						"width": 295.34181999343105,
-						"height": 75.26784946540113,
-						"originX": 0,
-						"originY": 0,
+						"x": 448.79270961558433,
+						"y": 229.42880507710154,
+						"width": 299.34182,
+						"height": 79.267849,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -22414,7 +22414,7 @@
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": false,
-						"origin": "top-left"
+						"origin": "center"
 					},
 					"uid": 1030,
 					"instanceVariables": {
@@ -22422,12 +22422,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 247.96875344849914,
-						"y": 369.8592728015355,
+						"x": 448.7927092587992,
+						"y": 229.428804885373,
 						"width": 295.34182036564937,
 						"height": 75.26784987960049,
-						"originX": 0,
-						"originY": 0,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -22442,7 +22442,7 @@
 					"type": "TooltipBackground",
 					"properties": {
 						"initially-visible": false,
-						"origin": "top-left",
+						"origin": "center",
 						"wrap-horizontal": "repeat",
 						"wrap-vertical": "repeat",
 						"image-offset-x": 0,
@@ -22457,12 +22457,12 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 190.9828802345648,
-						"y": 158.68790660184396,
-						"width": 279.4324766571411,
-						"height": 33.18004493679733,
-						"originX": 0,
-						"originY": 0,
+						"x": 331.36209615513764,
+						"y": 181.23878466137373,
+						"width": 283.432477,
+						"height": 37.180045,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -22493,7 +22493,7 @@
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": false,
-						"origin": "top-left"
+						"origin": "center"
 					},
 					"uid": 311,
 					"instanceVariables": {
@@ -22501,12 +22501,184 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 190.9828802345648,
-						"y": 158.68790660184396,
-						"width": 279.43247630166894,
+						"x": 331.36209615513764,
+						"y": 181.23878466137373,
+						"width": 279.432477,
 						"height": 33.18004511440411,
-						"originX": 0,
-						"originY": 0,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Tooltip_Box",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1168,
+					"instanceVariables": {
+						"WhatTooltip": 15
+					},
+					"behaviors": {},
+					"world": {
+						"x": 69.007527453433,
+						"y": 166.6763566089242,
+						"width": 92.09874341377247,
+						"height": 66.19158706392886,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "CatacombRoof",
+					"properties": {
+						"initially-visible": true,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1169,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 70.1317622487494,
+						"y": 130.1497717253497,
+						"width": 11,
+						"height": 11,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Clues",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Red",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1170,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 70.13176259789668,
+						"y": 130.14977185213633,
+						"width": 11,
+						"height": 11,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TooltipBackground",
+					"properties": {
+						"initially-visible": false,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1171,
+					"instanceVariables": {
+						"WhatTooltip": 15
+					},
+					"behaviors": {},
+					"world": {
+						"x": 69.66680517793574,
+						"y": 98.24314622750543,
+						"width": 263.139455,
+						"height": 51.314125,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Txt_Tooltip",
+					"properties": {
+						"text": "Watch out for different colored skeletons! The white skeletons are the weakest, but as you delve deeper into the catacombs beneath Castle Moss, you'll encounter more powerful skeletons, of different colors.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							0.9176470588235294,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "center"
+					},
+					"uid": 1172,
+					"instanceVariables": {
+						"WhatTooltip": 15
+					},
+					"behaviors": {},
+					"world": {
+						"x": 69.66680482115063,
+						"y": 98.2431460357769,
+						"width": 259.13945578362114,
+						"height": 47.31412532892047,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,

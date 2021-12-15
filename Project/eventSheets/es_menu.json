@@ -197,6 +197,27 @@
 				}
 			],
 			"sid": 108405304179847
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Bu_Sound_Credits",
+					"sid": 827136549715918
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 736224410658484,
+					"parameters": {
+						"layout": "Sound Effect Credits"
+					}
+				}
+			],
+			"sid": 763524981940292
 		}
 	],
 	"sid": 280991178973689

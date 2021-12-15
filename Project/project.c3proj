@@ -171,7 +171,8 @@
 					"Bu_PlayGame",
 					"Bu_RestartLastLevel",
 					"Bu_Credits",
-					"Bu_Controls"
+					"Bu_Controls",
+					"Bu_Sound_Credits"
 				],
 				"subfolders": [],
 				"name": "Buttons"
@@ -268,7 +269,8 @@
 				"items": [
 					"Mana_Armored",
 					"HurtBox_Prototype_1",
-					"Mana_Normal"
+					"Mana_Normal",
+					"Mana_Armored_Prop"
 				],
 				"subfolders": [],
 				"name": "Player"
@@ -390,10 +392,14 @@
 					"Catacombs 1_1",
 					"Catacombs 1_2",
 					"Catacombs 1_3",
+					"Narrative 1_4",
+					"Narrative 1_5",
+					"Narrative 1_6",
 					"End Screen",
 					"Lose Screen",
 					"Credits",
-					"Controls"
+					"Controls",
+					"Sound Effect Credits"
 				],
 				"subfolders": [],
 				"name": "Game"
@@ -517,7 +523,13 @@
 			"subfolders": []
 		},
 		"font": {
-			"items": [],
+			"items": [
+				{
+					"name": "Dungeon Crawler CB.ttf",
+					"type": "application/font-sfnt",
+					"sid": 891175538150674
+				}
+			],
 			"subfolders": []
 		},
 		"icon": {
@@ -639,7 +651,7 @@
 		"renderingMode": "auto",
 		"anisotropicFiltering": "auto",
 		"maxSpriteSheetSize": 2048,
-		"loaderStyle": "splash",
+		"loaderStyle": "progress",
 		"preloadSounds": true,
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https"

@@ -98,10 +98,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 109.89657752507031,
-						"y": 90.941625,
-						"width": 566.0602211188589,
-						"height": 104.39788602645564,
+						"x": 55.38654784298279,
+						"y": 56.941625,
+						"width": 663.2268877855263,
+						"height": 170.3978860264562,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -140,10 +140,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 109.89657752507031,
-						"y": 90.94162542169704,
-						"width": 566.0602211188589,
-						"height": 104.39788602645564,
+						"x": 55.38654784298279,
+						"y": 56.94162542169704,
+						"width": 663.2268877855263,
+						"height": 170.3978860264562,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -2072,5 +2072,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "orthographic",
-	"eventSheet": "ES_Menu"
+	"eventSheet": "ES_Menu2"
 }

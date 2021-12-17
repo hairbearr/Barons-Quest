@@ -123,8 +123,8 @@
 					"world": {
 						"x": 387.0000078858489,
 						"y": 218.83815595426776,
-						"width": 627.2072976193173,
-						"height": 95.67632218139823,
+						"width": 692.4381066894656,
+						"height": 138.5144654513462,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -165,8 +165,8 @@
 					"world": {
 						"x": 387.0000346181452,
 						"y": 218.83814755456888,
-						"width": 623.2072976193173,
-						"height": 91.67632218139823,
+						"width": 688.4381066894656,
+						"height": 134.5144654513462,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -199,18 +199,18 @@
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "center"
 					},
 					"uid": 1487,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 41.031051,
-						"y": 89.725005,
+						"x": 387.00001625240117,
+						"y": 125.26219508264471,
 						"width": 691.9379075208515,
 						"height": 58.11102376204579,
-						"originX": 0,
-						"originY": 0,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -241,18 +241,18 @@
 						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"origin": "center"
 					},
 					"uid": 1372,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 41.031050656115326,
-						"y": 89.7250046710218,
+						"x": 387.0000159085165,
+						"y": 125.2621947536665,
 						"width": 691.9379075208515,
 						"height": 58.11102376204579,
-						"originX": 0,
-						"originY": 0,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -1467,7 +1467,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 109,
-						"y": 263,
+						"y": 303,
 						"width": 28,
 						"height": 12,
 						"originX": 0.5,
@@ -1496,7 +1496,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 110,
-						"y": 260,
+						"y": 300,
 						"width": 11,
 						"height": 11,
 						"originX": 0.5,
@@ -1747,7 +1747,7 @@
 					},
 					"world": {
 						"x": 597,
-						"y": 277,
+						"y": 307,
 						"width": 10,
 						"height": 20,
 						"originX": 0.5,

@@ -1,0 +1,233 @@
+{
+	"name": "ES_Menu2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Bu_PlayGame",
+					"sid": 329710315664705
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 100615337160148,
+					"parameters": {
+						"layout": "Narrative 1_1"
+					}
+				}
+			],
+			"sid": 694904446583434
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Bu_Menu",
+					"sid": 606968816383109
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 138720516718277,
+					"parameters": {
+						"layout": "Menu"
+					}
+				}
+			],
+			"sid": 424301241006116
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 880866136075948
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 543290954482310,
+					"parameters": {
+						"variable": "ChancesToSucceedPuzzle",
+						"value": "3"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 983806634718829,
+					"parameters": {
+						"variable": "PlayerHealth",
+						"value": "10"
+					}
+				}
+			],
+			"sid": 692816992062631,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-tag-playing",
+							"objectClass": "Audio",
+							"sid": 302816493777458,
+							"parameters": {
+								"tag": "\"Menu_Music\""
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-any-playing",
+							"objectClass": "Audio",
+							"sid": 443594986676608,
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 651649863771667,
+							"parameters": {
+								"audio-file": "107 Dungeon",
+								"loop": "not-looping",
+								"volume": "-15",
+								"tag-optional": "\"Menu_Music\""
+							}
+						}
+					],
+					"sid": 310986044425471
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Bu_RestartLastLevel",
+					"sid": 725313492527018
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 708814326941291,
+					"parameters": {
+						"layout": "LastLevel"
+					}
+				}
+			],
+			"sid": 695497394327970
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Bu_Credits",
+					"sid": 430789834063596
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 814654771941795,
+					"parameters": {
+						"layout": "Credits"
+					}
+				}
+			],
+			"sid": 974800783386447
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Bu_Controls",
+					"sid": 289786326135569
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 595644827856289,
+					"parameters": {
+						"layout": "Controls"
+					}
+				}
+			],
+			"sid": 235622570114048
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-tag-playing",
+					"objectClass": "Audio",
+					"sid": 300699430363323,
+					"parameters": {
+						"tag": "\"Menu_Music\""
+					},
+					"isInverted": true
+				},
+				{
+					"id": "is-any-playing",
+					"objectClass": "Audio",
+					"sid": 551007817278172,
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 847012768313565,
+					"parameters": {
+						"audio-file": "107 Dungeon",
+						"loop": "not-looping",
+						"volume": "-15",
+						"tag-optional": "\"Menu_Music\""
+					}
+				}
+			],
+			"sid": 688113364221828
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Bu_Sound_Credits",
+					"sid": 512161136345158
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 624272825412630,
+					"parameters": {
+						"layout": "Sound Effect Credits"
+					}
+				}
+			],
+			"sid": 654335537381912
+		}
+	],
+	"sid": 165105511357895
+}

@@ -2116,41 +2116,6 @@
 					}
 				},
 				{
-					"type": "ColorPuzzle_Switch",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "RUnpressed",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 206,
-					"instanceVariables": {
-						"Type": "R",
-						"Pressed": false,
-						"WhatPuzzle": 99,
-						"Correct": true,
-						"TriesAllowed": 5
-					},
-					"behaviors": {},
-					"world": {
-						"x": 331.5,
-						"y": 147,
-						"width": 13,
-						"height": 13,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Mana_Armored",
 					"properties": {
 						"initially-visible": true,
@@ -2857,7 +2822,7 @@
 					"type": "Clues",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Red",
+						"initial-animation": "Generic",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -2903,8 +2868,8 @@
 					"world": {
 						"x": 330.5936859625184,
 						"y": 102.9434153871014,
-						"width": 169.996634,
-						"height": 16.456189000000002,
+						"width": 187.0365956547818,
+						"height": 26.56464082910788,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -2947,8 +2912,8 @@
 					"world": {
 						"x": 330.5936859625184,
 						"y": 102.9434153871014,
-						"width": 165.996634,
-						"height": 12.456189167876413,
+						"width": 183.0365956547818,
+						"height": 22.56464099698429,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -6238,7 +6203,7 @@
 					"type": "Clues",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Red",
+						"initial-animation": "Tooltip",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -6315,8 +6280,8 @@
 					"world": {
 						"x": 813.3251139913489,
 						"y": -1.5501892476908523,
-						"width": 154.180957,
-						"height": 31.329349,
+						"width": 169.441735657517,
+						"height": 38.34105811291317,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -6359,8 +6324,8 @@
 					"world": {
 						"x": 813.3251136686467,
 						"y": -1.5501894627059514,
-						"width": 150.18095661784287,
-						"height": 27.329348805819926,
+						"width": 165.44173527535986,
+						"height": 34.34105791873309,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -6394,8 +6359,8 @@
 					"world": {
 						"x": 85.77009903502686,
 						"y": -4.2359689722948595,
-						"width": 189.733755,
-						"height": 45.837917,
+						"width": 225.96614316076287,
+						"height": 58.46435529844768,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -6438,8 +6403,8 @@
 					"world": {
 						"x": 85.77009900618764,
 						"y": -4.235968498035199,
-						"width": 185.73375426035008,
-						"height": 41.83791697676588,
+						"width": 221.96614242111295,
+						"height": 54.46435527521356,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -10230,8 +10195,8 @@
 					"world": {
 						"x": 100.89542509206186,
 						"y": 453.7588145904163,
-						"width": 39.768883,
-						"height": 15.856675,
+						"width": 54,
+						"height": 25,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -10274,8 +10239,8 @@
 					"world": {
 						"x": 100.89542509206186,
 						"y": 453.7588145904163,
-						"width": 35.768883,
-						"height": 11.856675,
+						"width": 50,
+						"height": 21,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -10409,8 +10374,8 @@
 					"world": {
 						"x": 703.2300608624952,
 						"y": 33.00276833250011,
-						"width": 39.768883,
-						"height": 15.856675,
+						"width": 54,
+						"height": 25,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -10453,8 +10418,8 @@
 					"world": {
 						"x": 703.2300608624952,
 						"y": 33.00276833250011,
-						"width": 35.76888321368483,
-						"height": 11.856675067624334,
+						"width": 50,
+						"height": 21,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -20705,10 +20670,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 819.0958206033193,
-						"y": 420.22788296156887,
-						"width": 152.19923,
-						"height": 43.124477,
+						"x": 821.244404,
+						"y": 411.944023,
+						"width": 214.955935,
+						"height": 59.692196,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -20749,10 +20714,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 819.0958202465342,
-						"y": 420.22788276984033,
-						"width": 148.1992301284148,
-						"height": 39.12447702074549,
+						"x": 821.2444036287279,
+						"y": 411.9440230319617,
+						"width": 210.9559353487519,
+						"height": 55.69219649650279,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -20946,7 +20911,7 @@
 					"type": "Clues",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Red",
+						"initial-animation": "Tooltip",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -21279,9 +21244,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 649.291895909211,
-						"y": 420.46807790598075,
-						"width": 122.092038,
-						"height": 46.660361,
+						"y": 410.46807790598075,
+						"width": 171.91431131471018,
+						"height": 65.19888130314806,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -21323,9 +21288,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 649.2918955524259,
-						"y": 420.4680777142522,
-						"width": 118.09203880525786,
-						"height": 42.66036142542863,
+						"y": 410.4680777142522,
+						"width": 167.91431211996803,
+						"height": 61.198881728576694,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -21838,7 +21803,7 @@
 					"type": "Clues",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Red",
+						"initial-animation": "Tooltip",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -22207,9 +22172,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 233.23356253117782,
-						"y": 443.4349562975373,
-						"width": 191.284233,
-						"height": 57.802235,
+						"y": 432.4349562975373,
+						"width": 229.54510285341462,
+						"height": 71.53690622943088,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -22251,9 +22216,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 233.233563,
-						"y": 443.434956,
-						"width": 187.2842336364655,
-						"height": 53.802235795732955,
+						"y": 432.434956,
+						"width": 225.54510348988012,
+						"height": 67.53690702516384,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -22334,7 +22299,7 @@
 					"type": "Clues",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Red",
+						"initial-animation": "Tooltip",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -22379,9 +22344,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 448.79270961558433,
-						"y": 229.42880507710154,
-						"width": 299.34182,
-						"height": 79.267849,
+						"y": 216.42880507710154,
+						"width": 340.63171667337326,
+						"height": 105.07403442085824,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -22397,7 +22362,7 @@
 				{
 					"type": "Txt_Tooltip",
 					"properties": {
-						"text": "There are pressure plates that represents one of the three Kingdoms of Dissodia: Castle Baron, Heaven's Point, and Castle Moss.\nWhen pressed in the right order, they will solve a puzzle. When pressed in the wrong order, there will be consequences. Pressed the wrong pressure plate too many times, and the castle may collapse!",
+						"text": "There are pressure plates that represents one of the three Kingdoms of Dissodia: Castle Baron, Heaven's Point, and Castle Moss.\nWhen pressed in the right order, they will solve a puzzle. When pressed in the wrong order, there will be consequences. Press the wrong pressure plate too many times, and the castle may collapse!",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 6,
@@ -22423,9 +22388,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 448.7927092587992,
-						"y": 229.428804885373,
-						"width": 295.34182036564937,
-						"height": 75.26784987960049,
+						"y": 216.428804885373,
+						"width": 336.63171703902265,
+						"height": 101.07403530045873,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -22459,8 +22424,8 @@
 					"world": {
 						"x": 331.36209615513764,
 						"y": 181.23878466137373,
-						"width": 283.432477,
-						"height": 37.180045,
+						"width": 299.17952345734665,
+						"height": 45.30755284895309,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -22503,8 +22468,8 @@
 					"world": {
 						"x": 331.36209615513764,
 						"y": 181.23878466137373,
-						"width": 279.432477,
-						"height": 33.18004511440411,
+						"width": 295.17952345734665,
+						"height": 41.307552963357196,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -22585,7 +22550,7 @@
 					"type": "Clues",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Red",
+						"initial-animation": "Tooltip",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -22630,9 +22595,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 69.66680517793574,
-						"y": 98.24314622750543,
-						"width": 263.139455,
-						"height": 51.314125,
+						"y": 82.39266135874209,
+						"width": 313.9291807085105,
+						"height": 85.06031859156064,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -22674,9 +22639,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 69.66680482115063,
-						"y": 98.2431460357769,
-						"width": 259.13945578362114,
-						"height": 47.31412532892047,
+						"y": 82.39266116701356,
+						"width": 309.92918149213165,
+						"height": 81.06031892048112,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

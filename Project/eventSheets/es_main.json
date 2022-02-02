@@ -579,10 +579,20 @@
 				{
 					"id": "set-position",
 					"objectClass": "Camera",
-					"sid": 941924851438949,
+					"sid": 141767366994442,
 					"parameters": {
-						"x": "lerp(Self.X,Mana_Armored.X,0.1)",
-						"y": "lerp(Self.Y,Mana_Armored.Y,0.1)"
+						"x": "lerp(Self.X,Mana_Armored.X,0.055)",
+						"y": "lerp(Self.Y,Mana_Armored.Y,0.055)"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Camera",
+					"sid": 138004084762756,
+					"disabled": true,
+					"parameters": {
+						"x": "Mana_Armored.X",
+						"y": "Mana_Armored.Y"
 					}
 				}
 			],
@@ -661,6 +671,33 @@
 						"magnitude": "0",
 						"duration": "0",
 						"mode": "constant-magnitude"
+					}
+				},
+				{
+					"id": "add-obstacle",
+					"objectClass": "Enemy_Skeleton",
+					"sid": 417428439228701,
+					"behaviorType": "LineOfSight",
+					"parameters": {
+						"obstacle": "Barrier"
+					}
+				},
+				{
+					"id": "add-obstacle",
+					"objectClass": "Enemy_Skeleton",
+					"sid": 512695600212808,
+					"behaviorType": "LineOfSight",
+					"parameters": {
+						"obstacle": "Trees"
+					}
+				},
+				{
+					"id": "add-obstacle",
+					"objectClass": "Enemy_Skeleton",
+					"sid": 586615609755596,
+					"behaviorType": "LineOfSight",
+					"parameters": {
+						"obstacle": "Chests"
 					}
 				}
 			],

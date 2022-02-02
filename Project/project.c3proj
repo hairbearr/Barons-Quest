@@ -368,7 +368,8 @@
 			"Activated_Traps",
 			"Barriers",
 			"Barrier",
-			"Doors"
+			"Doors",
+			"Trees"
 		],
 		"subfolders": []
 	},
@@ -619,7 +620,7 @@
 		"appId": "",
 		"pixelRounding": false,
 		"useLoaderLayout": false,
-		"fullscreenMode": "letterbox-integer-scale",
+		"fullscreenMode": "letterbox-scale",
 		"fullscreenQuality": "high",
 		"viewportFit": "auto",
 		"backgroundColor": [
@@ -649,7 +650,7 @@
 		"compositingMode": "standard",
 		"sampling": "nearest",
 		"downscaling": "medium",
-		"renderingMode": "auto",
+		"renderingMode": "2d",
 		"anisotropicFiltering": "auto",
 		"maxSpriteSheetSize": 2048,
 		"loaderStyle": "progress",

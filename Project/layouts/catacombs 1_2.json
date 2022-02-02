@@ -7667,7 +7667,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -7744,7 +7744,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -7821,7 +7821,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -7898,7 +7898,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -7975,7 +7975,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -8052,7 +8052,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -8129,7 +8129,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -8206,7 +8206,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -8283,7 +8283,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -8360,7 +8360,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -8437,7 +8437,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -8514,7 +8514,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -8591,7 +8591,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -8668,7 +8668,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -8745,7 +8745,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -8822,7 +8822,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -8899,7 +8899,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -8976,7 +8976,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -9053,7 +9053,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -9130,7 +9130,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -9207,7 +9207,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -9284,7 +9284,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -9361,7 +9361,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -9438,7 +9438,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -9515,7 +9515,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true

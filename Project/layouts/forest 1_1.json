@@ -1567,7 +1567,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -1589,7 +1589,7 @@
 						},
 						"Solid": {
 							"properties": {
-								"enabled": false,
+								"enabled": true,
 								"tags": ""
 							}
 						},
@@ -1644,7 +1644,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -1666,7 +1666,7 @@
 						},
 						"Solid": {
 							"properties": {
-								"enabled": false,
+								"enabled": true,
 								"tags": ""
 							}
 						},
@@ -1721,7 +1721,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -1743,7 +1743,7 @@
 						},
 						"Solid": {
 							"properties": {
-								"enabled": false,
+								"enabled": true,
 								"tags": ""
 							}
 						},
@@ -1798,7 +1798,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -1820,7 +1820,7 @@
 						},
 						"Solid": {
 							"properties": {
-								"enabled": false,
+								"enabled": true,
 								"tags": ""
 							}
 						},
@@ -1837,8 +1837,8 @@
 						}
 					},
 					"world": {
-						"x": 138.42571946288592,
-						"y": 350.3676513986417,
+						"x": 133,
+						"y": 357,
 						"width": 10,
 						"height": 20,
 						"originX": 0.5,
@@ -1875,7 +1875,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -1897,7 +1897,7 @@
 						},
 						"Solid": {
 							"properties": {
-								"enabled": false,
+								"enabled": true,
 								"tags": ""
 							}
 						},
@@ -1983,7 +1983,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -2005,7 +2005,7 @@
 						},
 						"Solid": {
 							"properties": {
-								"enabled": false,
+								"enabled": true,
 								"tags": ""
 							}
 						},
@@ -2060,7 +2060,7 @@
 					"behaviors": {
 						"LineOfSight": {
 							"properties": {
-								"obstacles": "solids",
+								"obstacles": "custom",
 								"range": 150,
 								"cone-of-view": 360,
 								"use-collision-cells": true
@@ -2082,7 +2082,7 @@
 						},
 						"Solid": {
 							"properties": {
-								"enabled": false,
+								"enabled": true,
 								"tags": ""
 							}
 						},

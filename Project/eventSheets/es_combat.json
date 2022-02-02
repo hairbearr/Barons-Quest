@@ -51,6 +51,33 @@
 							],
 							"actions": [
 								{
+									"id": "set-time-scale",
+									"objectClass": "System",
+									"sid": 755888807951234,
+									"parameters": {
+										"time-scale": "0"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 862943216583978,
+									"parameters": {
+										"audio-file": "Game Die",
+										"loop": "not-looping",
+										"volume": "-10",
+										"tag-optional": "\"\""
+									}
+								},
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 933956076682459,
+									"parameters": {
+										"seconds": "1"
+									}
+								},
+								{
 									"id": "go-to-layout",
 									"objectClass": "System",
 									"sid": 294844127695240,
@@ -133,6 +160,14 @@
 								}
 							],
 							"actions": [
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 123410034985872,
+									"parameters": {
+										"seconds": "0.5"
+									}
+								},
 								{
 									"id": "set-boolean-instvar",
 									"objectClass": "Mana_Armored",
@@ -999,16 +1034,52 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "is-boolean-instance-variable-set",
+							"id": "on-collision-with-another-object",
 							"objectClass": "Enemy_Skeleton",
-							"sid": 434813759700303,
+							"sid": 401111044543553,
 							"parameters": {
-								"instance-variable": "isDead"
+								"object": "Chests"
+							}
+						},
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 511016186238001,
+							"parameters": {
+								"object": "Trees"
 							}
 						}
 					],
-					"actions": [],
-					"sid": 713841692396524
+					"actions": [
+						{
+							"id": "set-speed",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 216093601535185,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"speed": "100"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 394134657502888,
+							"parameters": {
+								"seconds": "0.2"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Enemy_Skeleton",
+							"sid": 220437315286140,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"speed": "0"
+							}
+						}
+					],
+					"sid": 484319427404391,
+					"isOrBlock": true
 				}
 			],
 			"sid": 581768486670151
